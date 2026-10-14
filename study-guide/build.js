@@ -1,11 +1,15 @@
 // Builds the study guide: concatenates src/*.html, injects SVG maps, prints a PDF.
-// Usage: node build.js            -> guide.html + History_Midsem_Study_Guide.pdf
+// Usage: node build.js            -> History_Midsem_Study_Guide.{html,pdf}
+//        node build.js --lite     -> History_Midsem_Exam_Essentials.{html,pdf}
 const fs = require('fs');
 const path = require('path');
 
-const SRC = path.join(__dirname, 'src');
-const OUT_HTML = path.join(__dirname, 'History_Midsem_Study_Guide.html');
-const OUT_PDF = path.join(__dirname, 'History_Midsem_Study_Guide.pdf');
+// --lite builds the short "Exam Essentials" edition from src-lite/.
+const LITE = process.argv.includes('--lite');
+const SRC = path.join(__dirname, LITE ? 'src-lite' : 'src');
+const OUT_BASE = LITE ? 'History_Midsem_Exam_Essentials' : 'History_Midsem_Study_Guide';
+const OUT_HTML = path.join(__dirname, OUT_BASE + '.html');
+const OUT_PDF = path.join(__dirname, OUT_BASE + '.pdf');
 
 // ---------- Map projection (simple equirectangular) ----------
 const LON0 = 28, LAT0 = 46, K = 8; // x = (lon-28)*8, y = (46-lat)*8
@@ -227,7 +231,8 @@ function build() {
   const files = fs.readdirSync(SRC).filter(f => f.endsWith('.html')).sort();
   let body = files.map(f => fs.readFileSync(path.join(SRC, f), 'utf8')).join('\n');
   body = body.replace(/<!--MAP:([a-z_0-9]+)-->/g, (_, id) => mapSVG(id));
-  const css = fs.readFileSync(path.join(__dirname, 'style.css'), 'utf8');
+  let css = fs.readFileSync(path.join(__dirname, 'style.css'), 'utf8');
+  if (LITE) css += '\n' + fs.readFileSync(path.join(__dirname, 'style-lite.css'), 'utf8');
   const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>World &amp; Indian History — Mid-term Study Guide</title><style>${css}</style></head><body>${body}</body></html>`;
   fs.writeFileSync(OUT_HTML, html);
   return html;
@@ -241,7 +246,7 @@ async function pdf() {
   await page.pdf({
     path: OUT_PDF, format: 'A4', printBackground: true,
     displayHeaderFooter: true,
-    headerTemplate: '<div style="font-family:Inter,sans-serif;font-size:7px;color:#8a93a3;width:100%;padding:0 15mm;display:flex;justify-content:space-between"><span>BMS-01 · World &amp; Indian History · Mid-term Study Guide</span><span>Sessions 1–4, 6–11</span></div>',
+    headerTemplate: `<div style="font-family:Inter,sans-serif;font-size:7px;color:#8a93a3;width:100%;padding:0 15mm;display:flex;justify-content:space-between"><span>BMS-01 · World &amp; Indian History · ${LITE ? 'Exam Essentials (simple version)' : 'Mid-term Study Guide'}</span><span>Sessions 1–4, 6–11</span></div>`,
     footerTemplate: '<div style="font-family:Inter,sans-serif;font-size:7.5px;color:#8a93a3;width:100%;text-align:center">Page <span class="pageNumber"></span> of <span class="totalPages"></span></div>',
     margin: { top: '16mm', bottom: '16mm', left: '14mm', right: '14mm' },
   });

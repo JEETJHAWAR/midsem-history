@@ -1,0 +1,1289 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>World &amp; Indian History — Mid-term Study Guide</title><style>:root {
+  --ink:#1c2230; --muted:#5a6375; --line:#d8dce4; --paper:#ffffff;
+  --hi:#b42318; --hi-bg:#fff3f1;
+  --mid:#1f5fae; --mid-bg:#f0f5fd;
+  --lo:#6b7280; --lo-bg:#f4f4f3;
+  --sum:#11734a; --sum-bg:#edf9f2;
+  --ex:#6a3d9e; --ex-bg:#f5effc;
+  --gold:#9a5b00; --gold-bg:#fff8e8;
+  --teal:#0f6e74; --teal-bg:#eaf7f7;
+}
+* { box-sizing: border-box; }
+html, body { background: var(--paper); }
+body {
+  font-family: "Bitstream Charter", "Caladea", "Liberation Serif", Georgia, serif;
+  font-size: 10.4pt; line-height: 1.47; color: var(--ink); margin: 0;
+  -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+h1, h2, h3, h4, h5, .badge, th, .node, .tl-date, figcaption, .kicker, .pill, .toc, .chip, .legend text, .map text {
+  font-family: Inter, "DejaVu Sans", Arial, sans-serif;
+}
+p { margin: 0 0 6px; }
+ul, ol { margin: 2px 0 7px 0; padding-left: 18px; }
+li { margin: 1.5px 0; }
+strong { color: #0f1626; }
+em { color: #26324a; }
+a { color: var(--mid); text-decoration: none; }
+
+/* ---------- page structure ---------- */
+.page-break { break-before: page; }
+section.session { break-before: page; }
+.avoid { break-inside: avoid; }
+@media screen { body { max-width: 900px; margin: 0 auto; padding: 24px 18px 80px; } }
+
+/* ---------- cover ---------- */
+.cover { min-height: 255mm; display: flex; flex-direction: column; justify-content: space-between; padding: 6mm 2mm; }
+.cover .top { border-top: 6px solid #1c2230; padding-top: 10mm; }
+.cover .kicker { font-size: 10pt; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.cover h1 { font-size: 34pt; line-height: 1.05; margin: 6mm 0 3mm; font-weight: 800; letter-spacing: -.01em; }
+.cover h1 span { color: var(--hi); }
+.cover .sub { font-size: 13pt; color: #35405a; max-width: 150mm; }
+.cover .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; margin-top: 8mm; }
+.cover .card { border: 1px solid var(--line); border-radius: 6px; padding: 4mm; background: #fafbfc; }
+.cover .card h4 { margin: 0 0 2mm; font-size: 9.5pt; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.cover .foot { font-family: Inter, sans-serif; font-size: 8.5pt; color: var(--muted); border-top: 1px solid var(--line); padding-top: 3mm; }
+
+/* ---------- headings ---------- */
+h2.front { font-size: 19pt; margin: 0 0 3mm; padding-bottom: 2mm; border-bottom: 3px solid var(--ink); }
+.session-head { display: flex; gap: 5mm; align-items: stretch; margin-bottom: 4mm; border-bottom: 3px solid var(--ink); padding-bottom: 3mm; }
+.session-num { font-family: Inter, sans-serif; font-weight: 800; font-size: 30pt; line-height: 1; background: var(--ink); color: #fff; padding: 3mm 4mm; border-radius: 4px; min-width: 22mm; text-align: center; }
+.session-num small { display: block; font-size: 7pt; letter-spacing: .15em; font-weight: 600; opacity: .8; margin-bottom: 1mm; }
+.session-title h1 { font-size: 19pt; line-height: 1.12; margin: 0 0 1.5mm; font-weight: 800; }
+.session-title .readings { font-family: Inter, sans-serif; font-size: 8.4pt; color: var(--muted); line-height: 1.4; }
+h2 { font-size: 13.5pt; margin: 6mm 0 2mm; padding-bottom: 1mm; border-bottom: 1.5px solid var(--line); break-after: avoid; }
+h3 { font-size: 11.3pt; margin: 4.5mm 0 1.5mm; break-after: avoid; color: #142036; }
+h4 { font-size: 10pt; margin: 3mm 0 1mm; break-after: avoid; color: #2b3650; }
+h2 .badge, h3 .badge { vertical-align: middle; margin-left: 2mm; }
+
+/* ---------- priority badges ---------- */
+.badge { display: inline-block; font-size: 7.2pt; font-weight: 700; letter-spacing: .04em; padding: .6mm 1.8mm; border-radius: 10px; text-transform: uppercase; white-space: nowrap; }
+.b-hi { background: var(--hi); color: #fff; }
+.b-mid { background: var(--mid); color: #fff; }
+.b-lo { background: #9aa1ad; color: #fff; }
+.b-skip { background: #fff; color: var(--lo); border: 1px dashed var(--lo); }
+
+/* ---------- boxes ---------- */
+.box { border-radius: 5px; padding: 2.8mm 3.6mm; margin: 3mm 0; border-left: 4px solid; break-inside: avoid; }
+.box > .box-title { font-family: Inter, sans-serif; font-weight: 700; font-size: 8.6pt; text-transform: uppercase; letter-spacing: .07em; margin-bottom: 1.2mm; display: block; }
+.box p:last-child, .box ul:last-child, .box ol:last-child { margin-bottom: 0; }
+.why { background: var(--gold-bg); border-color: var(--gold); } .why > .box-title { color: var(--gold); }
+.key { background: var(--hi-bg); border-color: var(--hi); } .key > .box-title { color: var(--hi); }
+.support { background: var(--mid-bg); border-color: var(--mid); } .support > .box-title { color: var(--mid); }
+.low { background: var(--lo-bg); border-color: #a3a9b4; } .low > .box-title { color: var(--lo); }
+.summary { background: var(--sum-bg); border-color: var(--sum); } .summary > .box-title { color: var(--sum); }
+.exam { background: var(--ex-bg); border-color: var(--ex); } .exam > .box-title { color: var(--ex); }
+.simple { background: var(--teal-bg); border-color: var(--teal); } .simple > .box-title { color: var(--teal); }
+.quote { border-left: 3px solid #b8bfcc; padding: 1mm 0 1mm 3.5mm; margin: 2.5mm 0; color: #303a50; font-style: italic; break-inside: avoid; }
+.quote cite { display: block; font-style: normal; font-family: Inter, sans-serif; font-size: 8pt; color: var(--muted); margin-top: .8mm; }
+.connect { font-family: Inter, sans-serif; font-size: 8.6pt; background: #f6f7f9; border: 1px dashed #c3c8d2; border-radius: 5px; padding: 2mm 3mm; margin: 3mm 0; break-inside: avoid; }
+.connect b { color: var(--teal); }
+
+/* ---------- tables ---------- */
+table { width: 100%; border-collapse: collapse; margin: 2.5mm 0 3.5mm; font-size: 9.2pt; break-inside: auto; }
+tr { break-inside: avoid; }
+th { background: #263049; color: #fff; text-align: left; font-weight: 600; font-size: 8.4pt; padding: 1.6mm 2mm; vertical-align: bottom; }
+td { border-bottom: 1px solid var(--line); padding: 1.5mm 2mm; vertical-align: top; }
+tbody tr:nth-child(even) td { background: #f8f9fb; }
+td.rowh { font-family: Inter, sans-serif; font-weight: 600; font-size: 8.6pt; color: #1e2a44; background: #eef1f6 !important; width: 22%; }
+table.compact td, table.compact th { padding: 1mm 1.6mm; font-size: 8.7pt; }
+
+/* ---------- flow diagrams ---------- */
+.flow { display: flex; align-items: stretch; gap: 0; margin: 3mm 0; break-inside: avoid; flex-wrap: nowrap; }
+.flow .node { flex: 1; border: 1.5px solid #34405a; border-radius: 5px; padding: 2mm 2.4mm; font-size: 8.3pt; line-height: 1.32; background: #fff; text-align: center; display: flex; flex-direction: column; justify-content: center; }
+.flow .node b { display: block; font-size: 9pt; margin-bottom: .6mm; color: #0f1626; }
+.flow .arrow { flex: 0 0 7mm; display: flex; align-items: center; justify-content: center; font-size: 14pt; color: #5a6375; font-family: Inter, sans-serif; }
+.flow .node.n1 { background: #fff8e8; border-color: #b7791f; }
+.flow .node.n2 { background: #f0f5fd; border-color: #1f5fae; }
+.flow .node.n3 { background: #edf9f2; border-color: #11734a; }
+.flow .node.n4 { background: #f5effc; border-color: #6a3d9e; }
+.flow .node.n5 { background: #fff3f1; border-color: #b42318; }
+.vflow { display: flex; flex-direction: column; align-items: stretch; margin: 3mm auto; max-width: 150mm; break-inside: avoid; }
+.vflow .node { border: 1.5px solid #34405a; border-radius: 5px; padding: 1.8mm 3mm; font-size: 8.6pt; background: #fff; font-family: Inter, sans-serif; text-align: center; }
+.vflow .arrow { text-align: center; color: #5a6375; font-size: 12pt; line-height: 1.1; }
+
+/* ---------- concept grid ---------- */
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; margin: 3mm 0; }
+.grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 3mm; margin: 3mm 0; }
+.grid2 > div, .grid3 > div { break-inside: avoid; }
+.card { border: 1px solid var(--line); border-radius: 5px; padding: 2.4mm 3mm; background: #fff; font-size: 9.3pt; }
+.card h4 { margin: 0 0 1mm; font-size: 9.4pt; }
+.card.c1 { border-top: 3px solid #b7791f; } .card.c2 { border-top: 3px solid #1f5fae; } .card.c3 { border-top: 3px solid #11734a; } .card.c4 { border-top: 3px solid #6a3d9e; } .card.c5 { border-top: 3px solid #b42318; } .card.c6 { border-top: 3px solid #0f6e74; }
+
+/* ---------- timeline ---------- */
+.timeline { position: relative; margin: 3mm 0 4mm 0; padding-left: 26mm; break-inside: auto; }
+.timeline:before { content: ""; position: absolute; left: 22mm; top: 1mm; bottom: 1mm; width: 2px; background: #c3c9d4; }
+.tl { position: relative; margin: 0 0 2mm; break-inside: avoid; font-size: 9.2pt; }
+.tl .tl-date { position: absolute; left: -26mm; width: 20mm; text-align: right; font-weight: 700; font-size: 8.2pt; color: #263049; top: .3mm; }
+.tl:before { content: ""; position: absolute; left: -5.2mm; top: 1.4mm; width: 7px; height: 7px; border-radius: 50%; background: #263049; }
+.tl.hi:before { background: var(--hi); } .tl.hi .tl-date { color: var(--hi); }
+
+/* ---------- maps ---------- */
+figure { margin: 3mm 0; break-inside: avoid; }
+figcaption { font-size: 7.8pt; color: var(--muted); margin-top: 1mm; text-align: center; }
+svg.map { width: 100%; height: auto; display: block; border: 1px solid #c9d2de; border-radius: 4px; }
+.map .sea-bg { fill: #e8f1f8; }
+.map .land-fill { fill: #f4efe4; stroke: #b9ae95; stroke-width: .8; }
+.map .sea-name { font-size: 9px; fill: #7f9bb5; letter-spacing: .2em; font-weight: 600; }
+.map .sea-name.small { font-size: 6.5px; letter-spacing: .1em; }
+.map .pt { fill: #1c2230; stroke: #fff; stroke-width: 1; }
+.map .pt-port { fill: #c2410c; }
+.map .pt-eng { fill: #1d4ed8; }
+.map .pt-label { font-size: 7.6px; fill: #1c2230; font-weight: 600; paint-order: stroke; stroke: #ffffffd0; stroke-width: 2.4px; }
+.map .route { fill: none; stroke-width: 2.1; stroke-linejoin: round; stroke-linecap: round; opacity: .9; }
+.map .route.land { stroke: #a16207; stroke-dasharray: 6 3; }
+.map .route.sea { stroke: #1f5fae; }
+.map .route.south { stroke: #11734a; stroke-dasharray: 2 3; stroke-width: 2.4; }
+.map .route.gold { stroke: #b42318; }
+.map .route.faxian { stroke: #b42318; }
+.map .route.xuanzang { stroke: #a16207; stroke-dasharray: 6 3; }
+.map .route.xuanzang2 { stroke: #c08a2f; stroke-dasharray: 2 3; }
+.map .route.yijing { stroke: #1f5fae; }
+.map .route.atisa { stroke: #6a3d9e; stroke-dasharray: 5 2; }
+.map line.sw { stroke: #0f6e74; stroke-width: 2.4; }
+.map line.ne { stroke: #9a5b00; stroke-width: 2.4; stroke-dasharray: 4 2; }
+.map .ah-sw { fill: #0f6e74; } .map .ah-ne { fill: #9a5b00; }
+.map .legend rect { fill: #ffffffe8; stroke: #c9d2de; }
+.map .legend text { font-size: 8px; fill: #1c2230; }
+
+/* ---------- misc ---------- */
+.toc { columns: 2; column-gap: 8mm; font-size: 9.3pt; }
+.toc div { break-inside: avoid; margin-bottom: 1.6mm; }
+.toc b { color: var(--hi); }
+.chip { display: inline-block; font-size: 7.6pt; border: 1px solid #c3c9d4; border-radius: 9px; padding: .2mm 1.8mm; margin: .4mm .6mm .4mm 0; color: #34405a; background: #fff; }
+.mcq ol { padding-left: 16px; }
+.mcq li { margin-bottom: 2mm; break-inside: avoid; }
+.mcq .opts { font-size: 9pt; color: #34405a; }
+.answers { font-family: Inter, sans-serif; font-size: 8.4pt; columns: 2; }
+.small { font-size: 8.8pt; }
+.muted { color: var(--muted); }
+.two-col { columns: 2; column-gap: 7mm; }
+.two-col > * { break-inside: avoid; }
+dl.terms { margin: 2mm 0; }
+dl.terms dt { font-family: Inter, sans-serif; font-weight: 700; font-size: 9pt; color: #142036; margin-top: 1.6mm; }
+dl.terms dd { margin: 0 0 0 4mm; font-size: 9.3pt; }
+.legend-row { display: flex; flex-wrap: wrap; gap: 2mm; align-items: center; font-family: Inter, sans-serif; font-size: 8.4pt; margin: 2mm 0; }
+.hl { background: #fff1a8; padding: 0 .6mm; }
+
+.grid2.tl-cols > div { break-inside: auto; }
+.grid2.tl-cols { display: block; columns: 2; column-gap: 6mm; }
+.grid2.tl-cols > .timeline { break-inside: auto; margin-top: 0; }
+
+ol.mcq{columns:2;column-gap:26px;padding-left:22px;font-size:0.93em}
+ol.mcq li{break-inside:avoid;margin-bottom:7px}
+
+/* ---------- Exam Essentials (simple edition) ---------- */
+body { font-size: 11pt; line-height: 1.5; }
+h2 { font-size: 14pt; }
+.session-title h1 { font-size: 20pt; }
+
+/* the one-sentence takeaway at the top of each session */
+.oneline { font-family: Inter, sans-serif; font-size: 12.5pt; font-weight: 700; line-height: 1.35;
+  background: var(--ink); color: #fff; border-radius: 6px; padding: 3.5mm 4.5mm; margin: 2mm 0 4mm; break-inside: avoid; }
+.oneline small { display: block; font-size: 7.5pt; letter-spacing: .14em; text-transform: uppercase; opacity: .7; margin-bottom: 1mm; font-weight: 600; }
+
+/* idea cards: keyword -> plain meaning -> example */
+.ideas { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; margin: 2mm 0 3mm; }
+.ideas.one { grid-template-columns: 1fr; }
+.idea { border: 1px solid var(--line); border-top: 4px solid var(--mid); border-radius: 5px; padding: 2.6mm 3.2mm; break-inside: avoid; background: #fff; }
+.idea h4 { margin: 0 0 1mm; font-size: 10.5pt; color: var(--mid); }
+.idea p { margin: 0 0 1.2mm; }
+.idea.red { border-top-color: var(--hi); } .idea.red h4 { color: var(--hi); }
+.idea.green { border-top-color: var(--sum); } .idea.green h4 { color: var(--sum); }
+.idea.gold { border-top-color: var(--gold); } .idea.gold h4 { color: var(--gold); }
+.idea.purple { border-top-color: var(--ex); } .idea.purple h4 { color: var(--ex); }
+.idea.teal { border-top-color: var(--teal); } .idea.teal h4 { color: var(--teal); }
+
+/* example tag */
+.eg { display: block; background: var(--gold-bg); border-radius: 4px; padding: 1.4mm 2.4mm; margin-top: 1.2mm; font-size: 10pt; }
+.eg::before { content: "e.g. "; font-family: Inter, sans-serif; font-weight: 800; color: var(--gold); font-size: 8.5pt; letter-spacing: .04em; }
+.like { display: block; background: var(--teal-bg); border-radius: 4px; padding: 1.4mm 2.4mm; margin-top: 1.2mm; font-size: 10pt; }
+.like::before { content: "Think of it like: "; font-family: Inter, sans-serif; font-weight: 800; color: var(--teal); font-size: 8.5pt; }
+
+/* ready-to-write answer */
+.answer { border: 2px solid var(--ex); border-radius: 6px; padding: 3mm 4mm; margin: 4mm 0; background: #fcfaff; break-inside: avoid; }
+.answer > .box-title { font-family: Inter, sans-serif; font-weight: 800; font-size: 8.8pt; text-transform: uppercase; letter-spacing: .07em; color: var(--ex); display: block; margin-bottom: 1.5mm; }
+.answer .q { font-family: Inter, sans-serif; font-weight: 700; font-size: 10pt; margin-bottom: 1.5mm; color: #2b2142; }
+.answer p { margin-bottom: 1.6mm; }
+
+/* names to drop + dates strip */
+.names { display: flex; flex-wrap: wrap; gap: 1.6mm; margin: 2mm 0 3mm; }
+.names span { font-family: Inter, sans-serif; font-size: 8.6pt; background: #f1f3f7; border: 1px solid var(--line); border-radius: 12px; padding: .8mm 2.6mm; }
+.names span b { color: var(--hi); }
+.dates { display: grid; grid-template-columns: auto 1fr; gap: 1mm 3mm; font-size: 10pt; margin: 2mm 0 3mm; break-inside: avoid; }
+.dates b:nth-child(odd) { font-family: Inter, sans-serif; color: var(--hi); white-space: nowrap; }
+
+/* comparison "vs" boxes */
+.vs { display: grid; grid-template-columns: 1fr auto 1fr; gap: 2.5mm; align-items: stretch; margin: 3mm 0; break-inside: avoid; }
+.vs .side { border-radius: 6px; padding: 2.8mm 3.4mm; }
+.vs .side h4 { margin: 0 0 1mm; font-size: 10.5pt; }
+.vs .a { background: var(--mid-bg); border: 1px solid #c9daf3; } .vs .a h4 { color: var(--mid); }
+.vs .b { background: var(--hi-bg); border: 1px solid #f3cfc9; } .vs .b h4 { color: var(--hi); }
+.vs .mid { align-self: center; font-family: Inter, sans-serif; font-weight: 800; color: var(--muted); font-size: 12pt; }
+
+/* simple picture/diagram frame */
+.pic { border: 1px solid var(--line); border-radius: 6px; padding: 3mm; margin: 3mm 0; background: #fafbfc; break-inside: avoid; }
+.pic .cap { font-family: Inter, sans-serif; font-size: 8pt; color: var(--muted); text-align: center; margin-top: 1.5mm; }
+.pic svg { display: block; width: 100%; height: auto; }
+.pic svg text { font-family: Inter, sans-serif; }
+
+/* skip note */
+.skipnote { font-family: Inter, sans-serif; font-size: 8.4pt; color: var(--muted); border: 1px dashed #c3c8d2; border-radius: 5px; padding: 1.6mm 2.6mm; margin: 2mm 0; }
+.skipnote b { color: #4b5363; }
+
+.tight li { margin: .6mm 0; }
+.mapfig svg { max-height: 120mm; }
+</style></head><body><div class="cover" style="min-height:auto">
+  <div class="top">
+    <div class="kicker">BMS-01 · World &amp; Indian History · Mid-term</div>
+    <h1>History Midsem: <span>Exam Essentials</span></h1>
+    <div class="sub">The short, simple version. Only what you can actually use in exam answers, explained in plain words with an example for every idea. Sessions 1–4 and 6–11 (Session 5 is not in the syllabus).</div>
+  </div>
+</div>
+
+<h2>How to use this guide (read in 1 minute)</h2>
+<div class="ideas">
+<div class="idea red"><h4>Each session has the same 5 parts</h4>
+<ol class="tight">
+<li><b>In one line</b>: the whole session in one sentence. If you remember nothing else, remember this.</li>
+<li><b>Picture it</b>: a diagram or map.</li>
+<li><b>Key ideas</b>: <b>keyword</b> → what it means in simple words → an <b>e.g.</b></li>
+<li><b>Names &amp; dates</b>: only the ones worth writing in an answer.</li>
+<li><b>Write it like this</b>: a ready model answer you can adapt.</li>
+</ol></div>
+<div class="idea green"><h4>The exam (Lecture 16)</h4>
+<ul class="tight">
+<li><b>Part A</b>: 10 MCQs × ½ mark = <b>5</b></li>
+<li><b>Part B</b>: answer 3 of 5 short questions × 10 = <b>30</b></li>
+<li><b>Part C</b>: 1 essay out of 2–3 × 15 = <b>15</b></li>
+<li>Total <b>50 marks</b>, 2 hours, closed book.</li>
+</ul>
+<p><b>The professor wants:</b> paragraphs (not bullet points), the <b>name of the scholar</b>, at least one <b>example</b> (a place, person or date), and a short <b>critical point</b> ("but…").</p></div>
+</div>
+
+<div class="box key"><span class="box-title">The 4-step formula for every answer</span>
+<b>1. Say what the scholar argues</b> in one line ("Hobsbawm argues that…"). <b>2. Explain 2–3 points</b>, each with an example. <b>3. Add one "but"</b> (a limitation or criticism). <b>4. End with one line</b> linking to the big course idea (e.g. "this shows that India was connected long before Europe arrived").
+</div>
+
+<h2>The whole course on one page</h2>
+<div class="pic">
+<svg viewBox="0 0 760 330" xmlns="http://www.w3.org/2000/svg">
+  <defs><marker id="ar0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5a6375"/></marker></defs>
+  <g font-size="12">
+  <rect x="10" y="10" width="230" height="92" rx="8" fill="#fff3f1" stroke="#b42318"/>
+  <text x="125" y="32" text-anchor="middle" font-weight="800" fill="#b42318">PART A · HOW DO WE KNOW?</text>
+  <text x="22" y="54">S1 Why study history? (Hobsbawm)</text>
+  <text x="22" y="72">S2 Methods &amp; sources (Lange, Backerra)</text>
+  <text x="22" y="90">S3 Global vs regional scale (Hall)</text>
+  <rect x="265" y="10" width="230" height="92" rx="8" fill="#f0f5fd" stroke="#1f5fae"/>
+  <text x="380" y="32" text-anchor="middle" font-weight="800" fill="#1f5fae">PART B · WHO WROTE IT?</text>
+  <text x="277" y="54">S4 Schools of Indian history:</text>
+  <text x="277" y="72">Orientalist → Colonial → Nationalist</text>
+  <text x="277" y="90">→ Marxist → Cambridge → Subaltern</text>
+  <rect x="520" y="10" width="230" height="92" rx="8" fill="#fff8e8" stroke="#9a5b00"/>
+  <text x="635" y="32" text-anchor="middle" font-weight="800" fill="#9a5b00">PART C · OUTSIDERS' EYES</text>
+  <text x="532" y="54">S6 Foreign travellers:</text>
+  <text x="532" y="72">Chinese monks (Faxian, Xuanzang,</text>
+  <text x="532" y="90">Yijing) + Arab al-Shahrastani</text>
+  <line x1="380" y1="104" x2="380" y2="130" stroke="#5a6375" stroke-width="2" marker-end="url(#ar0)"/>
+  <rect x="10" y="134" width="740" height="118" rx="8" fill="#edf9f2" stroke="#11734a"/>
+  <text x="380" y="156" text-anchor="middle" font-weight="800" fill="#11734a">PART D · HOW WAS INDIA CONNECTED TO THE WORLD?</text>
+  <rect x="22" y="168" width="170" height="74" rx="6" fill="#fff" stroke="#11734a"/>
+  <text x="107" y="188" text-anchor="middle" font-weight="700">S7 By SEA</text><text x="107" y="206" text-anchor="middle">Baghdad → India → China</text><text x="107" y="224" text-anchor="middle">(Bernstein)</text>
+  <rect x="202" y="168" width="170" height="74" rx="6" fill="#fff" stroke="#11734a"/>
+  <text x="287" y="188" text-anchor="middle" font-weight="700">S8 By LAND</text><text x="287" y="206" text-anchor="middle">Silk Roads</text><text x="287" y="224" text-anchor="middle">(Hansen, Bhattacharya)</text>
+  <rect x="382" y="168" width="170" height="74" rx="6" fill="#fff" stroke="#11734a"/>
+  <text x="467" y="188" text-anchor="middle" font-weight="700">S9 BUDDHISM by sea</text><text x="467" y="206" text-anchor="middle">monks on merchant ships</text><text x="467" y="224" text-anchor="middle">(Tansen Sen)</text>
+  <rect x="562" y="168" width="176" height="74" rx="6" fill="#fff" stroke="#11734a"/>
+  <text x="650" y="188" text-anchor="middle" font-weight="700">S10 RELIGIONS travel</text><text x="650" y="206" text-anchor="middle">India ↔ SE Asia ↔ China</text><text x="650" y="224" text-anchor="middle">(Madan, Guy, H.P. Ray)</text>
+  <line x1="380" y1="254" x2="380" y2="276" stroke="#5a6375" stroke-width="2" marker-end="url(#ar0)"/>
+  <rect x="160" y="280" width="440" height="44" rx="8" fill="#1c2230"/>
+  <text x="380" y="300" text-anchor="middle" font-weight="800" fill="#fff">S11 BIG PICTURE: the Indian Ocean as one connected space</text>
+  <text x="380" y="317" text-anchor="middle" fill="#cfd5e0">(Chaudhuri, Tirthankar Roy) · Europe joined an already-connected world</text>
+  </g>
+</svg>
+<div class="cap">Read top to bottom: first how history is done, then who wrote India's history, then how India was linked to Asia.</div>
+</div>
+
+<div class="box summary"><span class="box-title">Five ideas that appear again and again (use them in any essay)</span>
+<ol class="tight">
+<li><b>People use the past for present needs</b> (Hobsbawm). <span class="eg">Nationalists praised ancient India; China's Belt and Road uses the old "Silk Road" name.</span></li>
+<li><b>Every source has a point of view, so check it against other sources.</b> <span class="eg">al-Shahrastani never visited India, so trust al-Biruni more.</span></li>
+<li><b>The scale you choose changes the story.</b> <span class="eg">Vasco da Gama looks different from Indian, Indian Ocean and world viewpoints.</span></li>
+<li><b>Asia was connected long before Europeans came.</b> <span class="eg">Arab, Gujarati and Tamil merchants traded from Africa to China.</span></li>
+<li><b>Religion travelled with traders and changed on the way.</b> <span class="eg">Buddhist monks sailed on merchant ships to China.</span></li>
+</ol>
+</div>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>1</div>
+  <div class="session-title"><h1>Why Study History?</h1>
+  <div class="readings">Hobsbawm, "The Social Function of the Past" (1972) + <i>On History</i> ch. 3 (via the PPT)</div></div>
+</div>
+
+<div class="oneline"><small>In one line</small>Every society uses its past. The question is not <i>whether</i> it does, but <i>how</i>: as a pattern to copy, a model to choose from, or a process that leads to today.</div>
+
+<p><b>Who:</b> <b>Eric Hobsbawm</b>, a British Marxist historian. Key quote: <i>"The past is a permanent dimension of human consciousness."</i> In simple words, no person or society can escape its past; we live inside it "as fish do in water".</p>
+
+<h2>Picture it: three ways a society uses its past</h2>
+<div class="pic">
+<svg viewBox="0 0 760 175" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5a6375"/></marker></defs>
+<g font-size="12">
+<rect x="10" y="10" width="225" height="155" rx="8" fill="#f0f5fd" stroke="#1f5fae"/>
+<text x="122" y="34" text-anchor="middle" font-weight="800" fill="#1f5fae" font-size="14">1. PATTERN</text>
+<text x="122" y="56" text-anchor="middle">Traditional societies</text>
+<text x="122" y="80" text-anchor="middle">Copy the past automatically</text>
+<text x="122" y="104" text-anchor="middle" font-style="italic">"This is how it has</text>
+<text x="122" y="120" text-anchor="middle" font-style="italic">always been done"</text>
+<text x="122" y="148" text-anchor="middle" fill="#5a6375">e.g. village customs</text>
+<line x1="240" y1="88" x2="262" y2="88" stroke="#5a6375" stroke-width="2" marker-end="url(#a1)"/>
+<rect x="267" y="10" width="225" height="155" rx="8" fill="#fff8e8" stroke="#9a5b00"/>
+<text x="380" y="34" text-anchor="middle" font-weight="800" fill="#9a5b00" font-size="14">2. MODEL</text>
+<text x="380" y="56" text-anchor="middle">Change speeds up</text>
+<text x="380" y="80" text-anchor="middle">Past is chosen on purpose</text>
+<text x="380" y="104" text-anchor="middle" font-style="italic">"Let us go back to the</text>
+<text x="380" y="120" text-anchor="middle" font-style="italic">ways of our ancestors"</text>
+<text x="380" y="148" text-anchor="middle" fill="#5a6375">e.g. Zapata in Mexico</text>
+<line x1="497" y1="88" x2="519" y2="88" stroke="#5a6375" stroke-width="2" marker-end="url(#a1)"/>
+<rect x="524" y="10" width="225" height="155" rx="8" fill="#edf9f2" stroke="#11734a"/>
+<text x="637" y="34" text-anchor="middle" font-weight="800" fill="#11734a" font-size="14">3. PROCESS</text>
+<text x="637" y="56" text-anchor="middle">Modern societies</text>
+<text x="637" y="80" text-anchor="middle">"New" = better (progress)</text>
+<text x="637" y="104" text-anchor="middle" font-style="italic">"Look how far we have</text>
+<text x="637" y="120" text-anchor="middle" font-style="italic">come"</text>
+<text x="637" y="148" text-anchor="middle" fill="#5a6375">e.g. "modernisation" talk</text>
+</g></svg>
+<div class="cap">The faster a society changes, the more it moves from left to right.</div>
+</div>
+
+<h2>Key ideas</h2>
+<div class="ideas">
+<div class="idea"><h4>1. Past as PATTERN</h4>
+<p>In traditional societies, each generation <b>copies</b> the last one. Custom is law.</p>
+<p><b>But they are not frozen.</b> Hobsbawm calls "static traditional society" a <b>myth</b>. Change happens quietly, hidden inside old forms.</p>
+<span class="eg">Nomads who traded camels started trading lorries and saw it as the same old business. The new thing was fitted into the old pattern.</span></div>
+
+<div class="idea gold"><h4>2. Past as MODEL</h4>
+<p>When change becomes too fast, people can no longer copy the past automatically. So they <b>pick parts of it</b> and say "let's return to that".</p>
+<p><b>Key point:</b> loud calls to "go back" show that the old way has <b>already broken</b>.</p>
+<span class="eg"><b>Zapata (Mexico):</b> peasants of Morelos fought to restore their old village lands. They could not truly go back, and their fight turned into a <b>revolution</b> that created a new Mexico.</span></div>
+
+<div class="idea red"><h4>3. Restoration: effective vs symbolic</h4>
+<p><b>Effective</b> = trying to bring back the real old practices. <b>Symbolic</b> = bringing back only the <b>feeling or symbol</b> of the past.</p>
+<span class="eg">Effective: "bring back old-time religion" (everyone in church). Symbolic: <b>rebuilding Warsaw's old town</b> after WWII, or pulling down the Stalin statue in Prague.</span></div>
+
+<div class="idea purple"><h4>4. Invented (fabricated) past</h4>
+<p>If the past is very old, it becomes a <b>story used for today's goals</b>. It can be partly made up but still powerful. <b>Nationalism</b> is the best example: nations "get their history wrong" (Renan).</p>
+<span class="eg">The new country "Ghana" took the name of an old empire from a different place. Indian nationalists praised a "golden age" (Session 4).</span></div>
+
+<div class="idea green"><h4>5. Past as PROCESS (modern societies)</h4>
+<p>Modern people like change ("new" = "better"). The past still matters, now as the <b>story of how we got here</b> (development, progress).</p>
+<p>Paradox: <b>the more things change, the more we need history</b> to understand change.</p>
+<span class="eg">People accept new technology (phones, bicycles) easily but resist social change (family, morals).</span></div>
+
+<div class="idea teal"><h4>6. Genealogy (finding ancestors)</h4>
+<p>New groups want <b>heroic ancestors</b> to look legitimate.</p>
+<span class="eg">Revolutionaries claiming Spartacus as an ancestor; schoolbooks teaching national heroes like Joan of Arc.</span></div>
+</div>
+
+<div class="vs">
+<div class="side a"><h4>What history CAN do (<i>On History</i>)</h4>Show where today's institutions came from; separate what is really new from what is old; expose invented traditions. It <b>explains how the present was made</b>.</div>
+<div class="mid">vs</div>
+<div class="side b"><h4>What history CANNOT do</h4>Predict the future exactly; give ready-made lessons or a political programme. "History ceases to be of use at the very moment when we need it most."</div>
+</div>
+
+<div class="names"><span><b>Hobsbawm</b> · <i>Past &amp; Present</i>, 1972</span><span>Zapata (Mexico)</span><span>Warsaw = symbolic restoration</span><span>"myth of vulgar social science"</span></div>
+
+<div class="answer"><span class="box-title">Write it like this (10 marks)</span>
+<div class="q">Q. Explain Hobsbawm's idea of the past as pattern, model and process.</div>
+<p>Hobsbawm (1972) argues that "the past is a permanent dimension of human consciousness": every society uses its past, but in different ways depending on how fast it changes.</p>
+<p>In <b>traditional societies</b> the past is a <b>pattern</b>: people copy inherited customs. Yet these societies are not static. Change is quietly absorbed, as when nomads treated lorries as just another form of their camel trade.</p>
+<p>When change speeds up, the past becomes a <b>model</b>, chosen on purpose. Calls for "restoration" show that continuity has already broken. Zapata's peasants tried to restore their old lands but ended up making a revolution. Restoration can be effective or only <b>symbolic</b>, like rebuilding Warsaw after WWII.</p>
+<p>In <b>modern societies</b> the past becomes a <b>process</b>, the story of progress that explains the present.</p>
+<p><b>But</b> the past is often selected or even invented for present needs, as in nationalism. History cannot predict the future, but it helps us understand how the present was made.</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>2</div>
+  <div class="session-title"><h1>Historical Methods &amp; Sources</h1>
+  <div class="readings">Matthew Lange, <i>Comparative-Historical Methods</i> (2013), ch. 1 · Charlotte Backerra, "Source criticism for cultural history" (2024)</div></div>
+</div>
+
+<div class="oneline"><small>In one line</small>Historians work like detectives: they <b>collect</b> sources, <b>check</b> whether they can be trusted, <b>interpret</b> what they mean, and <b>explain</b> why things happened, often by <b>comparing</b> cases.</div>
+
+<h2>Picture it: how a historian works</h2>
+<div class="flow">
+  <div class="node n1"><b>1. Heuristics</b><br>Find sources<br><small>"What survives?"</small></div>
+  <div class="arrow">→</div>
+  <div class="node n2"><b>2. Criticism</b><br>Check them<br><small>"Is it genuine? Is it biased?"</small></div>
+  <div class="arrow">→</div>
+  <div class="node n3"><b>3. Interpretation</b><br>Understand meaning<br><small>"What did it mean then?"</small></div>
+  <div class="arrow">→</div>
+  <div class="node n4"><b>4. Synthesis / Presentation</b><br>Write the story<br><small>"How does it all fit?"</small></div>
+</div>
+<p class="small" style="text-align:center">These are <b>Droysen's 4 steps</b> (1868): heuristic → source analysis → interpretation → presentation.</p>
+
+<h2>Key ideas</h2>
+<div class="ideas">
+<div class="idea"><h4>Source vs evidence</h4>
+<p>A <b>source</b> is anything left from the past. It becomes <b>evidence</b> only when a historian uses it, after checking it, to answer a question.</p>
+<span class="eg">An old coin is a source; when you use it to prove that a king ruled in 300 CE, it becomes evidence.</span></div>
+
+<div class="idea"><h4>Primary / secondary / tertiary</h4>
+<p><b>Primary</b> = made at the time. <b>Secondary</b> = later analysis. <b>Tertiary</b> = summaries.</p>
+<span class="eg">Primary: Xuanzang's travel diary, an inscription. Secondary: a historian's book about Xuanzang. Tertiary: an encyclopedia entry.</span></div>
+
+<div class="idea red"><h4>Source criticism</h4>
+<p><b>External:</b> is it genuine (paper, ink, handwriting)? <b>Internal:</b> who wrote it, for whom, when, why?</p>
+<span class="eg">James Mill (S4) never visited India and trusted hostile reports, which is a failure of source criticism.</span></div>
+
+<div class="idea gold"><h4>Common mistakes to avoid</h4>
+<p><b>Anachronism</b> = judging the past by today's ideas. <b>Whig history / teleology</b> = telling the past as a straight march towards today.</p>
+<span class="eg">Calling an ancient king "anti-democratic" judges him by modern values.</span></div>
+</div>
+
+<h3>Lange: comparative-historical analysis (CHA) <span class="badge b-hi">Must know</span></h3>
+<p><b>What it is:</b> explaining big social changes (revolutions, states, nationalism, capitalism) by <b>combining two things</b>:</p>
+<div class="vs">
+<div class="side a"><h4>Within-case (the "historical")</h4>Look <b>deep inside one case</b> over time and trace step by step how A led to B (<b>process tracing</b>).<span class="eg">How exactly did the French monarchy collapse?</span></div>
+<div class="mid">+</div>
+<div class="side b"><h4>Comparison (the "comparative")</h4>Look <b>across several cases</b> to find what they share and where they differ.<span class="eg">Compare the French, Russian and Chinese revolutions.</span></div>
+</div>
+<div class="ideas">
+<div class="idea green"><h4>Its 4 defining elements</h4>
+<ol class="tight"><li>Within-case methods</li><li>Comparative methods</li><li>Believes real causes <b>can</b> be found (social-science outlook)</li><li>Studies <b>big units</b>: states, classes, economies (Tilly: "big structures, large processes, huge comparisons")</li></ol></div>
+<div class="idea teal"><h4>Two kinds of explanation</h4>
+<p><b>Ideographic</b> = explains <b>one unique</b> case. <b>Nomothetic</b> = finds <b>general laws</b> for many cases. CHA sits <b>in between</b>.</p>
+<span class="eg">Bendix (<i>Kings or People</i>): every country's path was unique (ideographic). Skocpol: revolutions happen when the state breaks down <b>and</b> peasants can rise up (more general).</span></div>
+</div>
+
+<h3>Backerra: source criticism for cultural history <span class="badge b-hi">Must know</span></h3>
+<p><b>Argument:</b> the basic method (Ranke and Droysen) is about 150 years old and still works. But <b>cultural historians ask new questions</b>: not just "what happened?" but <b>"what did it mean?"</b> They read <b>symbols, ceremony, language, space and emotions</b>. The last step, <b>presentation</b>, is still not thought about enough.</p>
+<div class="pic">
+<svg viewBox="0 0 760 150" xmlns="http://www.w3.org/2000/svg"><g font-size="12">
+<rect x="10" y="10" width="240" height="130" rx="8" fill="#fff" stroke="#9aa1ad"/>
+<text x="130" y="32" text-anchor="middle" font-weight="800">A diplomat's letter (1730s)</text>
+<rect x="40" y="44" width="180" height="84" fill="#fdfbf4" stroke="#c8b98a"/>
+<line x1="80" y1="60" x2="200" y2="60" stroke="#999"/><line x1="80" y1="72" x2="200" y2="72" stroke="#999"/><line x1="80" y1="84" x2="200" y2="84" stroke="#999"/><line x1="80" y1="96" x2="180" y2="96" stroke="#999"/>
+<text x="60" y="120" font-size="9" fill="#9a5b00">wide margin</text>
+<text x="275" y="40" font-weight="800" fill="#1f5fae">Old (political) question:</text>
+<text x="275" y="58">"Who said what to whom, and when?"</text>
+<text x="275" y="88" font-weight="800" fill="#b42318">New (cultural) questions:</text>
+<text x="275" y="106">• Wider margin = higher-ranking reader (hierarchy)</text>
+<text x="275" y="122">• Italian / French / Latin chosen to show status</text>
+<text x="275" y="138">• Complaining of "cold" = negotiations were frozen</text>
+</g></svg>
+<div class="cap">Backerra's example: the same letter answers different questions depending on what you ask.</div>
+</div>
+
+<div class="names"><span><b>Droysen</b> 4 steps (1868)</span><span><b>Ranke</b>: archives, source criticism</span><span><b>Lange</b>: CHA</span><span><b>Backerra</b>: cultural history</span><span>Skocpol / Bendix</span></div>
+
+<div class="answer"><span class="box-title">Write it like this (10 marks)</span>
+<div class="q">Q. "Lange shows how historians explain; Backerra shows how they know." Discuss.</div>
+<p>Historical method is both a science of evidence and an art of interpretation, and the two readings cover each side.</p>
+<p><b>Lange</b> explains how historians build <b>causal explanations</b> through comparative-historical analysis. It combines deep within-case study (process tracing) with comparison across cases, and focuses on big units like states and classes. For example, Skocpol compared revolutions and found they needed both a weak state and peasants able to revolt. CHA sits between unique (ideographic) and general (nomothetic) explanation.</p>
+<p><b>Backerra</b> explains how historians decide whether evidence can be <b>trusted</b>, through source criticism (Droysen's heuristic, analysis, interpretation, presentation). She shows that cultural historians use the same method but ask new questions about meaning: in diplomatic letters, wide margins showed rank, and the choice of language showed status.</p>
+<p><b>But</b> both have limits. Comparison can over-generalise, and presentation is still neglected. Together they form the full workflow: find sources → check them → compare → explain.</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>3</div>
+  <div class="session-title"><h1>Global vs Regional History (Scale)</h1>
+  <div class="readings">Thomas Hall (ed.), <i>Comparing Globalizations</i>, chs. 1 &amp; 8 + Lecture 3</div></div>
+</div>
+
+<div class="oneline"><small>In one line</small><b>Global</b> history asks how places are <b>connected</b>; <b>regional</b> history asks how a place <b>works inside</b>. Good history uses <b>both</b>, because the scale you choose changes the story.</div>
+
+<h2>Picture it: zooming in and out</h2>
+<div class="pic">
+<svg viewBox="0 0 760 190" xmlns="http://www.w3.org/2000/svg"><g font-size="12">
+<circle cx="380" cy="100" r="88" fill="#edf9f2" stroke="#11734a"/>
+<circle cx="380" cy="112" r="58" fill="#fff8e8" stroke="#9a5b00"/>
+<circle cx="380" cy="125" r="30" fill="#f0f5fd" stroke="#1f5fae"/>
+<text x="380" y="30" text-anchor="middle" font-weight="800" fill="#11734a">GLOBE</text>
+<text x="380" y="70" text-anchor="middle" font-weight="800" fill="#9a5b00">REGION</text>
+<text x="380" y="129" text-anchor="middle" font-weight="800" fill="#1f5fae">NATION/LOCAL</text>
+<text x="20" y="60" font-weight="700" fill="#11734a">Global history</text>
+<text x="20" y="78">• connections, trade, movement</text>
+<text x="20" y="96">• risk: too abstract</text>
+<text x="20" y="114">e.g. the world economy</text>
+<text x="525" y="60" font-weight="700" fill="#1f5fae">Regional history</text>
+<text x="525" y="78">• depth, local life, diversity</text>
+<text x="525" y="96">• risk: too isolated</text>
+<text x="525" y="114">e.g. Bengal, Gujarat</text>
+</g></svg>
+<div class="cap">The same event looks different at each ring. No single scale is enough.</div>
+</div>
+
+<h2>Key ideas</h2>
+<div class="ideas">
+<div class="idea red"><h4>Wallerstein's "world-system"</h4>
+<p>From the 1500s the world economy became one system with a <b>core</b> (rich, skilled production), a <b>semi-periphery</b> and a <b>periphery</b> (raw materials, cheap labour).</p>
+<p>"A world-system is not the system of the world": it is a system that is <b>a world in itself</b>, often smaller than the whole globe.</p>
+<span class="eg">Europe as core, colonies as periphery. (He put South Asia in the semi-periphery; critics like Bayly called this Eurocentric.)</span></div>
+
+<div class="idea"><h4>Hall: MULTIPLE globalizations</h4>
+<p>There was <b>not one</b> globalization that began recently. There were <b>many</b>, with <b>deep histories</b> going back thousands of years.</p>
+<p>Why care? "How can one tell what is new if one does not know what is old?"</p>
+<span class="eg">Trade across the Indian Ocean (S7) was a globalization 1,000 years before the internet.</span></div>
+
+<div class="idea gold"><h4>The big debate: one system or many?</h4>
+<p><b>Frank</b>: ONE world system growing for 5,000 years. <b>Chase-Dunn &amp; Hall</b>: MANY world-systems at different times and places.</p>
+<span class="like">One family tree vs many separate families that sometimes intermarry.</span></div>
+
+<div class="idea green"><h4>Comparison depends on purpose</h4>
+<p>You can compare apples and oranges <b>if you are talking about fruit</b>. What you compare depends on your question.</p>
+<span class="eg">Compare the British and American empires to ask whether America is "exceptional" (Julian Go says it is not).</span></div>
+
+<div class="idea teal"><h4>Nation borders mislead (Hall ch. 8)</h4>
+<p>"India", "China" or "Bangladesh" did not exist in their modern form in the past. So think in <b>nation, region and globe</b>.</p>
+<span class="eg">Bengal's history spans today's India and Bangladesh (S8).</span></div>
+
+<div class="idea purple"><h4>Why India is the perfect test case</h4>
+<p>India has <b>many regions inside it</b> and <b>links outside</b> (Africa, Arabia, Southeast Asia). The Indian Ocean is where regional and global meet.</p></div>
+</div>
+
+<h3>Example to memorise: Vasco da Gama (1498) at 3 scales</h3>
+<table>
+<tr><th style="width:20%">Scale</th><th>How his arrival at Calicut looks</th></tr>
+<tr><td class="rowh">National</td><td>The start of Europeans in India, which later led to colonial rule</td></tr>
+<tr><td class="rowh">Regional</td><td>Just a <b>new player</b> in an ocean already full of Gujarati, Arab and Chetti merchants (a Gujarati pilot even guided him)</td></tr>
+<tr><td class="rowh">Global</td><td>A new sea route around Africa (the Cape) that bypassed the old Red Sea and Venetian route</td></tr>
+</table>
+<p><b>Lesson:</b> Europe <b>changed</b> an already-connected world; it did not <b>create</b> connection.</p>
+
+<div class="names"><span><b>Wallerstein</b>: core/periphery</span><span><b>Hall</b>: multiple globalizations</span><span><b>Frank</b>: one system</span><span><b>Chase-Dunn &amp; Hall</b>: many systems</span></div>
+
+<div class="answer"><span class="box-title">Write it like this (10 marks)</span>
+<div class="q">Q. Why should global and regional history be read together? Use India as an example.</div>
+<p>Global history studies how places are <b>connected</b> (trade, migration, empire), while regional history studies how a place <b>works internally</b> (local society and culture). Each alone is weak: global history can become too abstract, and regional history too isolated.</p>
+<p>Hall argues there were <b>multiple globalizations</b> with long histories, not one modern one, and Wallerstein showed how a world-system links a core and a periphery. But such big models need regional detail to test them.</p>
+<p>India shows why both are needed. It contains many regions (Gujarat, Bengal, Malabar), yet it was linked to Africa, Arabia and China through the Indian Ocean. Vasco da Gama's arrival in 1498 looks like the start of colonialism at the national scale, but at the regional scale he was only a new player in a crowded ocean.</p>
+<p>So history is strongest when it moves across scales: modern nation borders mislead us about the past, and we must ask both "how was it connected?" and "how did it work inside?"</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>4</div>
+  <div class="session-title"><h1>Indian Schools of Historical Thought</h1>
+  <div class="readings">E. Sreedharan, <i>A Textbook of Historiography</i>, chs. 14–16 + Lecture 4 (Said, Cambridge School). <b>Very likely essay topic.</b></div></div>
+</div>
+
+<div class="oneline"><small>In one line</small>Indian history has been written by different groups, <b>each answering the one before</b>: Orientalists recovered ancient India, colonial writers called it backward, nationalists defended it, Marxists looked at economy and class, and Subaltern historians looked at ordinary people.</div>
+
+<h2>Picture it: the chain of schools (learn this order)</h2>
+<div class="pic">
+<svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5a6375"/></marker></defs>
+<g font-size="12">
+<rect x="10" y="8" width="740" height="40" rx="6" fill="#fff8e8" stroke="#9a5b00"/>
+<text x="20" y="25" font-weight="800" fill="#9a5b00">1. ORIENTALIST (late 1700s–1800s)</text><text x="20" y="41">"India had a great ancient past." Recovered texts, languages, inscriptions. (William Jones)</text>
+<line x1="380" y1="49" x2="380" y2="58" stroke="#5a6375" stroke-width="2" marker-end="url(#a4)"/>
+<rect x="10" y="60" width="740" height="40" rx="6" fill="#f4f4f3" stroke="#6b7280"/>
+<text x="20" y="77" font-weight="800" fill="#4b5363">2. COLONIAL / IMPERIALIST (1800s)</text><text x="20" y="93">"India is backward and unchanging, so Britain must rule it." (James Mill, 1818)</text>
+<line x1="380" y1="101" x2="380" y2="110" stroke="#5a6375" stroke-width="2" marker-end="url(#a4)"/>
+<rect x="10" y="112" width="740" height="40" rx="6" fill="#fff3f1" stroke="#b42318"/>
+<text x="20" y="129" font-weight="800" fill="#b42318">3. NATIONALIST (late 1800s–1960s)</text><text x="20" y="145">"India was great; the British exploited it." Pride, but sometimes exaggeration. (R.C. Dutt, Jayaswal)</text>
+<line x1="380" y1="153" x2="380" y2="162" stroke="#5a6375" stroke-width="2" marker-end="url(#a4)"/>
+<rect x="10" y="164" width="740" height="40" rx="6" fill="#f0f5fd" stroke="#1f5fae"/>
+<text x="20" y="181" font-weight="800" fill="#1f5fae">4. MARXIST "new history" (after 1947)</text><text x="20" y="197">"Explain history through economy, production and class." (Kosambi, R.S. Sharma, Romila Thapar, Habib)</text>
+<line x1="200" y1="205" x2="200" y2="222" stroke="#5a6375" stroke-width="2" marker-end="url(#a4)"/>
+<line x1="560" y1="205" x2="560" y2="222" stroke="#5a6375" stroke-width="2" marker-end="url(#a4)"/>
+<rect x="10" y="224" width="365" height="70" rx="6" fill="#f5effc" stroke="#6a3d9e"/>
+<text x="20" y="242" font-weight="800" fill="#6a3d9e">5a. CAMBRIDGE SCHOOL (1960s–80s)</text><text x="20" y="260">Nationalism = Indian elites bargaining</text><text x="20" y="276">for power and jobs (Anil Seal)</text>
+<rect x="385" y="224" width="365" height="70" rx="6" fill="#edf9f2" stroke="#11734a"/>
+<text x="395" y="242" font-weight="800" fill="#11734a">5b. SUBALTERN STUDIES (1982 →)</text><text x="395" y="260">"History from below": peasants, workers,</text><text x="395" y="276">tribals had their own politics (Ranajit Guha)</text>
+</g></svg>
+<div class="cap">Each school reacted to the one above it. The Cambridge School and the Subaltern school both challenged nationalist history, from opposite sides.</div>
+</div>
+
+<h2>1. Orientalists (Indology) <span class="badge b-hi">Must know</span></h2>
+<p><b>Problem they solved:</b> the British thought ancient India had "no history" (no proper written history books). So history had to be rebuilt from <b>texts, languages, inscriptions, coins and ruins</b>.</p>
+<div class="ideas">
+<div class="idea gold"><h4>What they achieved</h4>
+<ul class="tight">
+<li><b>William Jones</b> founded the <b>Asiatic Society of Bengal (1784)</b>.</li>
+<li>He found that Sanskrit is related to Greek, Latin and English (the <b>Indo-European</b> language family).</li>
+<li>He matched the Greek "Sandrocottas" with <b>Chandragupta Maurya</b>, giving the first firm date, <b>325 BC</b> (the <b>"sheet anchor"</b> of Indian chronology).</li>
+<li><b>Prinsep</b> read the <b>Brahmi script</b> of Ashoka's inscriptions (1834); <b>Cunningham</b> started archaeology (ASI).</li>
+</ul></div>
+<div class="idea red"><h4>The problems</h4>
+<ul class="tight">
+<li>From "shared language" they jumped to a shared <b>"Aryan race"</b>, which was later used to justify British (white) superiority and an Aryan–Dravidian divide.</li>
+<li>Exaggeration ("Sanskrit more perfect than Greek").</li>
+<li><b>Edward Said (<i>Orientalism</i>, 1978):</b> this knowledge was also <b>power</b>. It helped Britain classify and rule India. <span class="eg">Translating Hindu law books helped British courts govern Indians; Jones himself was a judge.</span></li>
+</ul></div>
+</div>
+
+<h2>2. Colonial / imperialist history <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea"><h4>James Mill, <i>History of British India</i> (1818)</h4>
+<p>He <b>never visited India</b>, knew no Indian language, and used only hostile sources. He called Hindu society one of the "rudest" states of mind.</p>
+<p>He split history into <b>Hindu, Muslim and British periods</b> (still used today). His book was the textbook for British officers at <b>Haileybury College</b>.</p>
+<span class="eg">A perfect example of bad source criticism (S2).</span></div>
+<div class="idea"><h4>The colonial "story" in 3 myths</h4>
+<ol class="tight">
+<li><b>Static India</b>: it never changed.</li>
+<li><b>Oriental despotism</b>: cruel kings and powerless villages.</li>
+<li>So <b>Britain brings progress</b>, which justifies colonial rule.</li>
+</ol>
+<p>Others: Elphinstone (fairer, "Tacitus of India"), Elliot &amp; Dowson (attacked Muslim rule), Vincent Smith (textbook writer).</p></div>
+</div>
+
+<h2>3. Nationalist history <span class="badge b-hi">Must know</span></h2>
+<div class="vs">
+<div class="side a"><h4>What they did (strengths)</h4>
+<ul class="tight">
+<li>Defended Indian civilisation and showed a "golden age".</li>
+<li><b>K.P. Jayaswal</b>, <i>Hindu Polity</i> (1918): ancient India had <b>republics</b>, not just despots.</li>
+<li><b>R.C. Dutt</b> and <b>Naoroji</b>: the <b>drain of wealth</b> to Britain, which began economic history.</li>
+<li>Started regional history (e.g. south India by Nilakanta Sastri).</li>
+</ul></div>
+<div class="mid">but</div>
+<div class="side b"><h4>Problems (weaknesses)</h4>
+<ul class="tight">
+<li><b>Exaggeration and chauvinism</b>: e.g. claims of aeroplanes in the epics.</li>
+<li>Used sources "like a lawyer trying to win a case" (Basham on Jayaswal).</li>
+<li>Thapar: glorified the past as "compensation for a humiliating present".</li>
+<li>Hindu-centred, which fed <b>communal</b> history.</li>
+</ul></div>
+</div>
+
+<h2>4. Marxist "new history" <span class="badge b-hi">Must know</span></h2>
+<p><b>Big idea:</b> not new sources, but <b>new questions</b> about the old ones: <b>Who produced what? Who owned land? Who worked for whom?</b></p>
+<div class="ideas">
+<div class="idea"><h4>D.D. Kosambi (the founder)</h4>
+<p>History = "successive developments in the <b>means and relations of production</b>", i.e. tools, and who controls work.</p>
+<span class="eg">The iron plough cleared forests, tribes broke up, and <b>caste</b> grew as a new way to organise farm labour.</span></div>
+<div class="idea"><h4>R.S. Sharma · Romila Thapar · Irfan Habib</h4>
+<p><b>Sharma</b>: "Indian <b>feudalism</b>" (land grants to Brahmins and officials, declining towns). <b>Thapar</b>: Ashoka's <i>dhamma</i> was a social and political policy; no massive "Aryan invasion". <b>Habib</b>: Mughal peasants were crushed by the land-revenue demand.</p></div>
+</div>
+<div class="vs">
+<div class="side a"><h4>Why it was an advance</h4>From kings and battles to <b>ordinary people</b>, the economy and society; used archaeology and other disciplines; destroyed the "static India" and "Aryan race" myths.</div>
+<div class="mid">but</div>
+<div class="side b"><h4>Criticism</h4>Class can become a <b>"master explanation"</b> for everything, ignoring religion, culture and ideas; heavy jargon; Marxists themselves disagreed.</div>
+</div>
+
+<h2>5. Cambridge School vs Subaltern Studies <span class="badge b-hi">Must know</span></h2>
+<div class="vs">
+<div class="side a"><h4>Cambridge School (Anil Seal, Gallagher)</h4>The freedom movement was mainly <b>Indian elites competing</b> for power, jobs and patronage, through local politics and factions.<span class="eg">Critics: this ignores ideals and mass anger against British rule.</span></div>
+<div class="mid">vs</div>
+<div class="side b"><h4>Subaltern Studies (Ranajit Guha, 1982)</h4>"Subaltern" (from <b>Gramsci</b>) = people of low rank. Peasants, workers and tribals had their <b>own politics</b>; they were not just followers of leaders.<span class="eg">Peasant revolts in Awadh; how peasants saw Gandhi as a miracle-worker (Shahid Amin).</span></div>
+</div>
+<p class="small"><b>Guha's point:</b> both colonial and nationalist history are <b>"elitist"</b>. One says the British made India; the other says Indian leaders freed it. Neither gives credit to ordinary people.</p>
+
+<div class="answer"><span class="box-title">Write it like this: the professor's essay (15 marks)</span>
+<div class="q">Q. Was the shift from colonial and nationalist history to Marxist "new history" a major advance?</div>
+<p><b>Intro:</b> Each school of Indian history reflected the politics of its time (Hobsbawm: the past is used for present needs).</p>
+<p><b>Colonial history</b> (James Mill, 1818) described India as static and despotic to justify British rule, and used biased sources. <b>Nationalist history</b> (Jayaswal's republics, Dutt's drain of wealth) answered with pride and opened economic history, but often exaggerated and glorified a "golden age".</p>
+<p><b>Marxist history</b> was an advance because it asked new questions of old sources: production, land and class (Kosambi on the plough and caste; Sharma on feudalism; Thapar on Ashoka). It moved history from kings to ordinary people and used archaeology and other disciplines.</p>
+<p><b>But</b> it could make class a rigid master key, ignoring culture and religion. The Cambridge School stressed elite politics, and Subaltern Studies (Guha) argued that even Marxists missed peasants' own politics.</p>
+<p><b>Conclusion:</b> it was a real advance in method and scope, but not the final word. History keeps being rewritten.</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>6</div>
+  <div class="session-title"><h1>India through the Eyes of Foreign Travellers</h1>
+  <div class="readings">Tansen Sen, "The Travel Records of Chinese Pilgrims Faxian, Xuanzang and Yijing" (2006) · M.S. Khan, "A Twelfth Century Arab Account of Indian Religions" (on al-Shahrastani, 1983)</div></div>
+</div>
+
+<div class="oneline"><small>In one line</small>Foreign travellers fill gaps where Indian records are missing, but every travel account is <b>part evidence, part opinion</b>, so historians must <b>check it against other sources</b>.</div>
+
+<h2>Picture it: what goes into a travel account</h2>
+<div class="flow">
+  <div class="node n1"><b>Observation</b><br>what they saw</div>
+  <div class="arrow">+</div>
+  <div class="node n2"><b>Memory</b><br>written years later</div>
+  <div class="arrow">+</div>
+  <div class="node n3"><b>Interpretation</b><br>seen through their religion and culture</div>
+  <div class="arrow">+</div>
+  <div class="node n4"><b>Opinion</b><br>judgements of people</div>
+  <div class="arrow">=</div>
+  <div class="node n5"><b>Travel writing</b><br>useful but biased</div>
+</div>
+
+<div class="vs">
+<div class="side a"><h4>Why useful</h4>
+<ul class="tight"><li><b>Eyewitness</b> accounts</li><li>Notice everyday things locals ignored (food, dress, cities)</li><li>Compare India with their own country</li><li>Fill gaps where Indian records are missing</li></ul></div>
+<div class="mid">but</div>
+<div class="side b"><h4>Why careful</h4>
+<ul class="tight"><li><b>Language</b> barriers</li><li><b>Religious bias</b> (Buddhist monks saw everything through Buddhism)</li><li>Saw only <b>part</b> of India</li><li>Exaggeration and hearsay</li></ul></div>
+</div>
+
+<figure class="mapfig"><svg viewBox="0 0 784 472" xmlns="http://www.w3.org/2000/svg" class="map" role="img" aria-label="Routes of the three Chinese pilgrims (approximate)"><rect x="0" y="0" width="784" height="472" class="sea-bg"/><polygon class="land-fill" points="0.0,0.0 0.0,73.6 64.0,76.0 56.0,104.0 50.4,117.6 36.8,128.0 52.0,144.0 56.0,144.0 88.0,196.0 117.6,248.0 123.2,266.4 136.0,265.6 168.0,254.4 193.6,243.2 220.0,228.0 238.4,216.0 254.4,188.0 244.8,178.4 226.4,157.6 212.0,174.4 188.8,171.2 188.0,160.0 177.6,155.2 164.0,140.8 159.2,128.0 166.4,126.4 178.4,133.6 187.2,144.8 212.0,155.2 228.0,151.2 246.4,163.2 268.8,166.4 308.8,164.8 314.4,170.4 324.0,180.0 337.6,187.2 328.0,189.6 337.6,200.8 356.8,197.6 358.4,216.0 363.2,240.0 373.6,264.0 384.0,288.0 396.0,303.2 401.6,296.8 410.4,285.6 415.2,272.0 418.4,248.0 428.0,236.8 434.4,232.0 452.0,216.0 468.0,206.4 472.0,196.0 484.0,194.4 492.0,192.0 500.0,187.2 508.0,188.0 514.4,202.4 529.6,216.0 531.2,240.0 540.0,241.6 556.8,236.0 558.4,256.0 564.8,288.0 562.4,304.0 578.4,320.0 585.6,344.0 603.2,357.6 609.6,356.8 603.2,336.0 594.4,318.4 578.4,307.2 576.0,292.0 569.6,284.0 576.0,260.8 583.2,260.8 594.4,270.4 600.0,280.0 612.8,284.8 616.0,299.2 630.4,284.8 650.4,273.6 649.6,257.6 642.4,240.0 628.8,228.0 620.8,216.0 629.6,203.2 640.0,195.2 654.4,196.0 657.6,206.4 664.0,196.0 684.0,190.4 708.0,184.0 724.0,172.0 732.8,161.6 740.0,148.0 750.4,128.0 744.0,116.0 740.0,96.0 730.4,88.0 740.0,78.4 756.0,69.6 744.0,65.6 728.0,70.4 720.0,60.0 716.8,55.2 732.0,46.4 748.0,41.6 752.0,44.0 772.0,48.0 784.0,51.2 784.0,0.0"/><polygon class="land-fill" points="0.0,117.6 34.4,117.6 36.0,128.0 44.0,148.0 60.0,180.0 73.6,216.0 92.0,244.0 122.4,272.0 185.6,273.6 168.0,320.0 128.0,360.0 104.0,384.0 92.0,416.0 90.4,440.0 100.0,456.0 100.0,472.0 0.0,472.0"/><polygon class="land-fill" points="415.2,289.6 417.6,289.6 427.2,300.0 431.2,312.0 426.4,318.4 416.8,320.0 414.4,308.0"/><polygon class="land-fill" points="538.4,323.2 556.0,326.4 578.4,348.0 604.8,376.0 624.0,393.6 622.4,414.4 612.0,415.2 594.4,400.0 578.4,376.0 565.6,354.4 544.0,337.6"/><polygon class="land-fill" points="617.6,422.4 628.0,416.0 642.4,418.4 659.2,423.2 676.8,423.2 692.0,430.4 691.2,437.6 664.0,433.6 644.0,430.4 627.2,427.2"/><polygon class="land-fill" points="648.0,354.4 660.0,354.4 680.0,342.4 700.0,328.0 713.6,312.0 728.0,326.4 720.0,332.8 716.8,360.0 705.6,380.0 704.0,397.6 690.4,396.0 669.6,392.0 656.8,381.6 648.0,368.0"/><polygon class="land-fill" points="645.6,214.4 660.0,207.2 664.0,211.2 658.4,220.8 648.0,220.0"/><polygon class="land-fill" points="737.6,184.0 748.0,166.4 751.2,171.2 743.2,192.0"/><polygon class="land-fill" points="164.8,472.0 170.4,464.0 178.4,472.0"/><text x="256.0" y="256.0" class="sea-name">ARABIAN SEA</text><text x="448.0" y="252.0" class="sea-name">BAY OF BENGAL</text><text x="336.0" y="400.0" class="sea-name">INDIAN OCEAN</text><text x="672.0" y="264.0" class="sea-name">SOUTH CHINA SEA</text><text x="180.0" y="150.4" class="sea-name small">PERSIAN GULF</text><text x="68.0" y="208.0" class="sea-name small">RED SEA</text><polyline points="647.2,93.6 533.6,47.2 415.2,71.2 348.8,96.0 358.4,98.4 397.6,148.0 456.8,163.2 479.2,189.6 420.8,305.6 584.0,400.0 620.8,417.6 659.2,428.8 640.0,408.0 628.0,352.0 654.4,296.0 660.0,264.0 672.0,216.0 744.0,152.0 738.4,80.0" class="route faxian"/><polyline points="647.2,93.6 533.6,47.2 489.6,24.8 440.0,34.4 312.0,51.2 318.4,89.6 415.2,151.2 459.2,167.2" class="route xuanzang"/><polyline points="459.2,167.2 374.4,95.2 384.0,52.0 415.2,71.2 533.6,47.2 647.2,93.6" class="route xuanzang2"/><polyline points="647.2,93.6 731.2,108.8 682.4,183.2 614.4,392.0 590.4,352.0 572.0,332.0 552.0,313.6 520.0,248.0 479.2,189.6 459.2,167.2" class="route yijing"/><circle cx="647.2" cy="93.6" r="3.2" class="pt"/><text x="652.2" y="88.6" class="pt-label" text-anchor="start">Chang'an (Xi'an)</text><circle cx="533.6" cy="47.2" r="3.2" class="pt"/><text x="538.6" y="42.2" class="pt-label" text-anchor="start">Dunhuang</text><circle cx="415.2" cy="71.2" r="3.2" class="pt"/><text x="420.2" y="80.2" class="pt-label" text-anchor="start">Khotan</text><circle cx="489.6" cy="24.8" r="3.2" class="pt"/><text x="494.6" y="19.8" class="pt-label" text-anchor="start">Turfan</text><circle cx="440.0" cy="34.4" r="3.2" class="pt"/><text x="435.0" y="29.4" class="pt-label" text-anchor="end">Kucha</text><circle cx="312.0" cy="51.2" r="3.2" class="pt"/><text x="307.0" y="46.2" class="pt-label" text-anchor="end">Samarkand</text><circle cx="318.4" cy="89.6" r="3.2" class="pt"/><text x="313.4" y="85.6" class="pt-label" text-anchor="end">Bamiyan</text><circle cx="348.8" cy="96.0" r="3.2" class="pt"/><text x="343.8" y="92.0" class="pt-label" text-anchor="end">Peshawar</text><circle cx="397.6" cy="148.0" r="3.2" class="pt"/><text x="392.6" y="152.0" class="pt-label" text-anchor="end">Mathura</text><circle cx="415.2" cy="151.2" r="3.2" class="pt"/><text x="410.2" y="147.2" class="pt-label" text-anchor="end">Kanauj</text><circle cx="459.2" cy="167.2" r="3.2" class="pt"/><text x="463.2" y="176.2" class="pt-label" text-anchor="start">Nalanda</text><circle cx="456.8" cy="163.2" r="3.2" class="pt"/><text x="451.8" y="158.2" class="pt-label" text-anchor="end">Pataliputra</text><circle cx="479.2" cy="189.6" r="3.2" class="pt"/><text x="474.2" y="199.6" class="pt-label" text-anchor="end">Tamralipti (Tamluk)</text><circle cx="420.8" cy="305.6" r="3.2" class="pt"/><text x="426.8" y="313.6" class="pt-label" text-anchor="start">Sri Lanka</text><circle cx="659.2" cy="428.8" r="3.2" class="pt"/><text x="653.2" y="440.8" class="pt-label" text-anchor="end">Java (Yepoti?)</text><circle cx="614.4" cy="392.0" r="3.2" class="pt"/><text x="620.4" y="396.0" class="pt-label" text-anchor="start">Palembang (Srivijaya)</text><circle cx="682.4" cy="183.2" r="3.2" class="pt"/><text x="687.4" y="191.2" class="pt-label" text-anchor="start">Canton (Guangzhou)</text><circle cx="731.2" cy="108.8" r="3.2" class="pt"/><text x="736.2" y="112.8" class="pt-label" text-anchor="start">Yangzhou</text><circle cx="738.4" cy="80.0" r="3.2" class="pt"/><text x="743.4" y="76.0" class="pt-label" text-anchor="start">Shandong (Faxian lands)</text><g class="legend"><rect x="292" y="394" width="240" height="78" rx="4"/><line x1="300" y1="404" x2="326" y2="404" class="route faxian"/><text x="332" y="408">Faxian 399–413</text><line x1="300" y1="420" x2="326" y2="420" class="route xuanzang"/><text x="332" y="424">Xuanzang 627–645 (outward)</text><line x1="300" y1="436" x2="326" y2="436" class="route xuanzang2"/><text x="332" y="440">Xuanzang (return)</text><line x1="300" y1="452" x2="326" y2="452" class="route yijing"/><text x="332" y="456">Yijing 671–695 (by sea)</text></g></svg><figcaption>Routes of the three Chinese pilgrims (approximate). Coastlines simplified; positions approximate.</figcaption></figure>
+
+<h2>The three Chinese monks <span class="badge b-hi">Must know</span></h2>
+<p><b>Why they came:</b> to collect <b>Buddhist texts</b>, visit places linked to the Buddha, and learn from Indian teachers.</p>
+<table>
+<tr><th style="width:16%">Monk</th><th style="width:18%">When / route</th><th>Remember</th></tr>
+<tr><td class="rowh">Faxian</td><td>399–413 · overland there, <b>by sea</b> back</td><td>Came for <b>Vinaya</b> texts (monastery rules). Described <b>Gupta</b> India. Returned via <b>Sri Lanka</b> on a merchant ship, a scary voyage. Showed that <b>monks and merchants helped each other</b>.</td></tr>
+<tr><td class="rowh">Xuanzang</td><td>629–645 · overland</td><td>"The greatest traveller". Took back <b>657 texts</b>. Met King <b>Harsha</b> at <b>Kanauj</b>; studied at <b>Nalanda</b>. Gave India the Chinese name "Yindu". Was also a <b>diplomat</b> for the Tang emperor. His notes help archaeologists today.</td></tr>
+<tr><td class="rowh">Yijing</td><td>671–695 · <b>by sea</b></td><td>Studied at <b>Srivijaya</b> (Sumatra) on the way. Recorded daily <b>monastery rules</b>. Wrote short lives of <b>56 Chinese monks</b> who went to India.</td></tr>
+</table>
+<div class="ideas">
+<div class="idea teal"><h4>"Borderland complex"</h4>
+<p>Chinese monks felt China was on the <b>edge</b> of the Buddhist world, far from the Buddha's land. Some even wished not to be reborn in China.</p>
+<span class="eg">Faxian's companion stayed in India for good.</span></div>
+<div class="idea green"><h4>Their big impact</h4>
+<p>They made China see India as a <b>civilised, holy land</b> (high praise, since the Chinese usually called foreigners "barbarians"). They also show <b>monks travelling with merchants</b>, an early sign of trade and religion moving together (Sessions 7–9).</p></div>
+</div>
+
+<h2>The Arab scholar: al-Shahrastani (12th c.) <span class="badge b-hi">Must know</span></h2>
+<p><b>Book:</b> <i>Kitab al-Milal wa'l-Nihal</i> ("Book of Religions and Sects"), a chapter on Indian religions. <b>M.S. Khan</b> evaluates it.</p>
+<div class="vs">
+<div class="side a"><h4>Strengths</h4>
+<ul class="tight"><li><b>Systematic</b>: neatly classified Indian religions</li><li><b>Fair tone</b>: did not insult Indian religions</li><li>Unique details on <b>Buddhism</b></li><li>Understood that Hindus believe God himself comes down (<b>avatar</b>) instead of sending a prophet with a book</li></ul></div>
+<div class="mid">but</div>
+<div class="side b"><h4>Weaknesses</h4>
+<ul class="tight"><li><b>Never visited India</b>; knew <b>no Sanskrit</b></li><li>Copied older Arabic books (<b>secondary</b> sources)</li><li>Errors: thought "Brahma" was a man's name; treated Buddhism as a branch of Hinduism</li><li>Left out the <b>Vedas</b> and <b>Jainism</b>; judged India through Islamic ideas</li></ul></div>
+</div>
+
+<h3>Al-Biruni vs al-Shahrastani (easy comparison)</h3>
+<table>
+<tr><th></th><th>Al-Biruni (973–1048)</th><th>Al-Shahrastani (1086–1153)</th></tr>
+<tr><td class="rowh">Visited India?</td><td>Yes</td><td>No</td></tr>
+<tr><td class="rowh">Knew Sanskrit?</td><td>Yes</td><td>No</td></tr>
+<tr><td class="rowh">Sources</td><td>Original Indian texts (<b>primary</b>)</td><td>Arabic books (<b>secondary</b>)</td></tr>
+<tr><td class="rowh">Style</td><td>Critical scholar</td><td>Compiler</td></tr>
+</table>
+<div class="box simple"><span class="box-title">Clever point for answers</span>
+Al-Shahrastani is <b>poor evidence for what India was really like</b>, but <b>good evidence for what 12th-century Muslims believed about India</b>. The value of a source depends on the question you ask (Backerra, S2).
+</div>
+
+<div class="names"><span><b>Faxian</b> 399–413</span><span><b>Xuanzang</b>: Harsha, Nalanda, 657 texts</span><span><b>Yijing</b>: Srivijaya, 56 monks</span><span><b>al-Shahrastani</b>: never visited</span><span><b>al-Biruni</b>: knew Sanskrit</span><span>Megasthenes (Greek, Chandragupta's court)</span></div>
+
+<div class="answer"><span class="box-title">Write it like this (10 marks)</span>
+<div class="q">Q. How useful are foreign travellers' accounts as sources for Indian history?</div>
+<p>Where Indian records are scarce, foreign accounts are very useful, but travel writing mixes <b>observation, memory, interpretation and opinion</b>, so it is both evidence and interpretation.</p>
+<p>The Chinese monks were <b>eyewitnesses</b>. Faxian described Gupta India and his sea voyage home; Xuanzang described Harsha's Kanauj and Nalanda and brought back 657 texts; Yijing recorded monastery life and studied at Srivijaya. They also show monks travelling with merchants. <b>But</b> they saw India through a Buddhist lens.</p>
+<p>Al-Shahrastani systematically classified Indian religions, <b>but</b> he never visited India, knew no Sanskrit, relied on older Arabic books and made errors (e.g. "Brahma" as a man). Al-Biruni, who learned Sanskrit and used original texts, is more reliable.</p>
+<p>So historians must <b>corroborate</b> these accounts with inscriptions, coins and archaeology. Used critically, they also show that India was <b>connected</b> to Asia, not isolated.</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>7</div>
+  <div class="session-title"><h1>Baghdad to Canton: Trade in the Medieval Indian Ocean</h1>
+  <div class="readings">William Bernstein, <i>A Splendid Exchange</i>, ch. 4 (2008) + Lecture 7</div></div>
+</div>
+
+<div class="oneline"><small>In one line</small>Long before Europeans came, the Indian Ocean was a busy <b>"premodern globalisation"</b> from East Africa to China, run by the <b>monsoon winds</b>, merchants and shared rules, with <b>India at the centre</b>.</div>
+
+<h2>Picture it: the monsoon "timetable"</h2>
+<div class="pic">
+<svg viewBox="0 0 760 170" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="a7" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b42318"/></marker>
+<marker id="a7b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f5fae"/></marker></defs>
+<g font-size="12">
+<rect x="20" y="60" width="120" height="44" rx="6" fill="#fff8e8" stroke="#9a5b00"/><text x="80" y="80" text-anchor="middle" font-weight="700">Arabia / Gulf</text><text x="80" y="96" text-anchor="middle" font-size="10">horses, incense</text>
+<rect x="320" y="60" width="120" height="44" rx="6" fill="#fff3f1" stroke="#b42318"/><text x="380" y="80" text-anchor="middle" font-weight="700">INDIA</text><text x="380" y="96" text-anchor="middle" font-size="10">cotton cloth, pepper</text>
+<rect x="620" y="60" width="120" height="44" rx="6" fill="#f0f5fd" stroke="#1f5fae"/><text x="680" y="80" text-anchor="middle" font-weight="700">SE Asia / China</text><text x="680" y="96" text-anchor="middle" font-size="10">spices, silk, porcelain</text>
+<path d="M145,62 Q230,20 315,62" fill="none" stroke="#b42318" stroke-width="2.5" marker-end="url(#a7)"/>
+<path d="M445,62 Q530,20 615,62" fill="none" stroke="#b42318" stroke-width="2.5" marker-end="url(#a7)"/>
+<text x="380" y="22" text-anchor="middle" fill="#b42318" font-weight="700">SUMMER (south-west) monsoon → sail EAST</text>
+<path d="M615,104 Q530,146 445,104" fill="none" stroke="#1f5fae" stroke-width="2.5" marker-end="url(#a7b)"/>
+<path d="M315,104 Q230,146 145,104" fill="none" stroke="#1f5fae" stroke-width="2.5" marker-end="url(#a7b)"/>
+<text x="380" y="160" text-anchor="middle" fill="#1f5fae" font-weight="700">WINTER (north-east) monsoon → sail back WEST</text>
+</g></svg>
+<div class="cap">Winds reverse each season, so merchants sailed in segments (stages). Goods from Baghdad to Canton usually changed ships at least 3 times, often in India.</div>
+</div>
+
+<h2>Key ideas</h2>
+<div class="ideas">
+<div class="idea red"><h4>A "system", not random trips</h4>
+<p>Trade was <b>regular and lasting</b>. It moved <b>goods</b> (cotton, pepper, silk, horses, porcelain), <b>people</b> (merchants, pilgrims, judges), <b>ideas</b> (Islam, law) and <b>institutions</b> (taxes, credit, contracts).</p>
+<span class="eg">A Gujarati merchant sails to Malacca with cloth, swaps it for spices and porcelain, and returns on the next monsoon.</span></div>
+
+<div class="idea green"><h4>Islam as "trade infrastructure"</h4>
+<p>From Cairo to Malacca, Muslim merchants followed the <b>same law and customs</b>, which built trust at a distance. The hajj connected the whole network.</p>
+<span class="eg">Customs duty: Muslims 2.5%, Christians and Jews 5%, others 10%. Southeast Asia became Muslim through <b>merchants who married locally</b>, not through armies.</span></div>
+
+<div class="idea gold"><h4>Why India was central (not just geography)</h4>
+<ol class="tight"><li><b>Middle-man</b>: ships from the west and east met at Indian ports</li><li><b>Producer</b>: cotton cloth ("if spices were glamorous, cloth was indispensable") and Malabar <b>pepper</b></li><li><b>Gujarat / Cambay</b>: expert merchants (even the Portuguese Tomé Pires praised them)</li><li><b>Cultural carrier</b>: Indian Muslim traders spread Islam east</li></ol></div>
+
+<div class="idea purple"><h4>Malacca: success through good rules</h4>
+<p>Founded c.1400 by <b>Parameswara</b>. <b>Low taxes, honest courts, transparent prices</b> drew traders; Pires counted <b>84 languages</b> spoken there.</p>
+<span class="like">Asia's Singapore of the 1400s: success came from good institutions, not only location.</span></div>
+</div>
+
+<figure class="mapfig"><svg viewBox="0 0 784 472" xmlns="http://www.w3.org/2000/svg" class="map" role="img" aria-label="The Baghdad–Canton sea route (Akhbar al-Sin wa’l-Hind, 9th c.) and the later Cambay–Malacca axis (Pires)"><rect x="0" y="0" width="784" height="472" class="sea-bg"/><polygon class="land-fill" points="0.0,0.0 0.0,73.6 64.0,76.0 56.0,104.0 50.4,117.6 36.8,128.0 52.0,144.0 56.0,144.0 88.0,196.0 117.6,248.0 123.2,266.4 136.0,265.6 168.0,254.4 193.6,243.2 220.0,228.0 238.4,216.0 254.4,188.0 244.8,178.4 226.4,157.6 212.0,174.4 188.8,171.2 188.0,160.0 177.6,155.2 164.0,140.8 159.2,128.0 166.4,126.4 178.4,133.6 187.2,144.8 212.0,155.2 228.0,151.2 246.4,163.2 268.8,166.4 308.8,164.8 314.4,170.4 324.0,180.0 337.6,187.2 328.0,189.6 337.6,200.8 356.8,197.6 358.4,216.0 363.2,240.0 373.6,264.0 384.0,288.0 396.0,303.2 401.6,296.8 410.4,285.6 415.2,272.0 418.4,248.0 428.0,236.8 434.4,232.0 452.0,216.0 468.0,206.4 472.0,196.0 484.0,194.4 492.0,192.0 500.0,187.2 508.0,188.0 514.4,202.4 529.6,216.0 531.2,240.0 540.0,241.6 556.8,236.0 558.4,256.0 564.8,288.0 562.4,304.0 578.4,320.0 585.6,344.0 603.2,357.6 609.6,356.8 603.2,336.0 594.4,318.4 578.4,307.2 576.0,292.0 569.6,284.0 576.0,260.8 583.2,260.8 594.4,270.4 600.0,280.0 612.8,284.8 616.0,299.2 630.4,284.8 650.4,273.6 649.6,257.6 642.4,240.0 628.8,228.0 620.8,216.0 629.6,203.2 640.0,195.2 654.4,196.0 657.6,206.4 664.0,196.0 684.0,190.4 708.0,184.0 724.0,172.0 732.8,161.6 740.0,148.0 750.4,128.0 744.0,116.0 740.0,96.0 730.4,88.0 740.0,78.4 756.0,69.6 744.0,65.6 728.0,70.4 720.0,60.0 716.8,55.2 732.0,46.4 748.0,41.6 752.0,44.0 772.0,48.0 784.0,51.2 784.0,0.0"/><polygon class="land-fill" points="0.0,117.6 34.4,117.6 36.0,128.0 44.0,148.0 60.0,180.0 73.6,216.0 92.0,244.0 122.4,272.0 185.6,273.6 168.0,320.0 128.0,360.0 104.0,384.0 92.0,416.0 90.4,440.0 100.0,456.0 100.0,472.0 0.0,472.0"/><polygon class="land-fill" points="415.2,289.6 417.6,289.6 427.2,300.0 431.2,312.0 426.4,318.4 416.8,320.0 414.4,308.0"/><polygon class="land-fill" points="538.4,323.2 556.0,326.4 578.4,348.0 604.8,376.0 624.0,393.6 622.4,414.4 612.0,415.2 594.4,400.0 578.4,376.0 565.6,354.4 544.0,337.6"/><polygon class="land-fill" points="617.6,422.4 628.0,416.0 642.4,418.4 659.2,423.2 676.8,423.2 692.0,430.4 691.2,437.6 664.0,433.6 644.0,430.4 627.2,427.2"/><polygon class="land-fill" points="648.0,354.4 660.0,354.4 680.0,342.4 700.0,328.0 713.6,312.0 728.0,326.4 720.0,332.8 716.8,360.0 705.6,380.0 704.0,397.6 690.4,396.0 669.6,392.0 656.8,381.6 648.0,368.0"/><polygon class="land-fill" points="645.6,214.4 660.0,207.2 664.0,211.2 658.4,220.8 648.0,220.0"/><polygon class="land-fill" points="737.6,184.0 748.0,166.4 751.2,171.2 743.2,192.0"/><polygon class="land-fill" points="164.8,472.0 170.4,464.0 178.4,472.0"/><text x="256.0" y="256.0" class="sea-name">ARABIAN SEA</text><text x="448.0" y="252.0" class="sea-name">BAY OF BENGAL</text><text x="336.0" y="400.0" class="sea-name">INDIAN OCEAN</text><text x="672.0" y="264.0" class="sea-name">SOUTH CHINA SEA</text><text x="180.0" y="150.4" class="sea-name small">PERSIAN GULF</text><text x="68.0" y="208.0" class="sea-name small">RED SEA</text><defs><marker id="ah-sw" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0,0 L11,5.5 L0,11 z" class="ah-sw"/></marker><marker id="ah-ne" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0,0 L11,5.5 L0,11 z" class="ah-ne"/></marker></defs><line x1="216.0" y1="312.0" x2="264.0" y2="264.0" class="sw" marker-end="url(#ah-sw)"/><line x1="448.0" y1="328.0" x2="488.0" y2="280.0" class="sw" marker-end="url(#ah-sw)"/><line x1="320.0" y1="216.0" x2="280.0" y2="256.0" class="ne" marker-end="url(#ah-ne)"/><line x1="520.0" y1="232.0" x2="480.0" y2="272.0" class="ne" marker-end="url(#ah-ne)"/><line x1="704.0" y1="232.0" x2="672.0" y2="280.0" class="ne" marker-end="url(#ah-ne)"/><g class="legend"><rect x="6.4" y="8.0" width="150" height="40" rx="4"/><line x1="14.4" y1="21" x2="36.4" y2="21" class="sw"/><text x="42.4" y="24">SW monsoon (Jun–Sep)</text><line x1="14.4" y1="37" x2="36.4" y2="37" class="ne"/><text x="42.4" y="40">NE monsoon (Nov–Mar)</text></g><polyline points="131.2,101.6 158.4,124.0 196.8,146.4 230.4,155.2 236.8,166.4 243.2,179.2 388.8,296.8 387.2,308.8 420.0,325.6 517.6,272.0 579.2,319.2 590.4,352.0 594.0,350.4 612.0,360.0 654.4,296.0 660.0,264.0 642.4,240.8 672.0,216.0 682.4,183.2" class="route sea"/><polyline points="356.8,189.6 352.0,232.0 368.0,296.0 420.0,325.6 536.0,316.0 572.0,332.0 594.0,350.4" class="route gold"/><polyline points="136.0,265.6 356.8,189.6" class="route gold"/><polyline points="96.8,393.6 124.0,376.0 176.0,328.0 196.0,276.0 136.0,265.6" class="route gold"/><polyline points="25.6,128.0 36.0,128.8 89.6,196.0 108.0,240.0 122.4,267.2 136.0,265.6" class="route sea"/><polyline points="682.4,183.2 708.0,188.8 724.8,168.8" class="route sea"/><circle cx="131.2" cy="101.6" r="3.2" class="pt"/><text x="136.2" y="96.6" class="pt-label" text-anchor="start">Baghdad</text><circle cx="158.4" cy="124.0" r="3.2" class="pt"/><text x="163.4" y="134.0" class="pt-label" text-anchor="start">Basra</text><circle cx="196.8" cy="146.4" r="3.2" class="pt"/><text x="200.8" y="157.4" class="pt-label" text-anchor="start">Siraf</text><circle cx="228.0" cy="151.2" r="3.2" class="pt"/><text x="233.0" y="146.2" class="pt-label" text-anchor="start">Hormuz</text><circle cx="243.2" cy="179.2" r="3.2" class="pt"/><text x="248.2" y="189.2" class="pt-label" text-anchor="start">Muscat</text><circle cx="136.0" cy="265.6" r="3.2" class="pt"/><text x="131.0" y="278.6" class="pt-label" text-anchor="end">Aden</text><circle cx="89.6" cy="196.0" r="3.2" class="pt"/><text x="84.6" y="200.0" class="pt-label" text-anchor="end">Jeddah</text><circle cx="25.6" cy="128.0" r="3.2" class="pt"/><text x="21.6" y="122.0" class="pt-label" text-anchor="start">Cairo</text><circle cx="96.8" cy="393.6" r="3.2" class="pt"/><text x="101.8" y="397.6" class="pt-label" text-anchor="start">Malindi</text><circle cx="356.8" cy="189.6" r="3.2" class="pt"/><text x="351.8" y="185.6" class="pt-label" text-anchor="end">Cambay</text><circle cx="382.4" cy="278.0" r="3.2" class="pt"/><text x="377.4" y="282.0" class="pt-label" text-anchor="end">Calicut</text><circle cx="388.8" cy="296.8" r="3.2" class="pt"/><text x="383.8" y="302.8" class="pt-label" text-anchor="end">Quilon</text><circle cx="517.6" cy="272.0" r="3.2" class="pt"/><text x="522.6" y="276.0" class="pt-label" text-anchor="start">Andamans</text><circle cx="579.2" cy="319.2" r="3.2" class="pt"/><text x="574.2" y="323.2" class="pt-label" text-anchor="end">Kedah</text><circle cx="594.0" cy="350.4" r="3.2" class="pt"/><text x="589.0" y="360.4" class="pt-label" text-anchor="end">Malacca</text><circle cx="614.4" cy="392.0" r="3.2" class="pt"/><text x="620.4" y="396.0" class="pt-label" text-anchor="start">Palembang (Srivijaya)</text><circle cx="642.4" cy="240.8" r="3.2" class="pt"/><text x="647.4" y="244.8" class="pt-label" text-anchor="start">Champa</text><circle cx="682.4" cy="183.2" r="3.2" class="pt"/><text x="687.4" y="191.2" class="pt-label" text-anchor="start">Canton (Guangzhou)</text><circle cx="724.8" cy="168.8" r="3.2" class="pt"/><text x="720.8" y="162.8" class="pt-label" text-anchor="end">Quanzhou (Zaitun)</text><circle cx="393.6" cy="139.2" r="3.2" class="pt"/><text x="388.6" y="135.2" class="pt-label" text-anchor="end">Delhi</text><g class="legend"><rect x="292" y="426" width="240" height="46" rx="4"/><line x1="300" y1="436" x2="326" y2="436" class="route sea"/><text x="332" y="440">Basra/Siraf → Malabar → Kedah → Canton</text><line x1="300" y1="452" x2="326" y2="452" class="route gold"/><text x="332" y="456">Cambay → Malacca (Pires, 1510s)</text></g></svg><figcaption>The Baghdad–Canton sea route (Akhbar al-Sin wa’l-Hind, 9th c.) and the later Cambay–Malacca axis (Pires). Coastlines simplified; positions approximate.</figcaption></figure>
+
+<h3>The story in 4 quick stages</h3>
+<table class="compact">
+<tr><th style="width:24%">Stage</th><th>What happened (just remember the bold)</th></tr>
+<tr><td class="rowh">1. 7th–9th c.</td><td><b>Tang China + Abbasid Baghdad (750)</b>: direct sea trade Basra → India → Canton. In <b>878 Huang Chao</b>'s rebels massacred foreign merchants at Canton.</td></tr>
+<tr><td class="rowh">2. 13th–14th c.</td><td><b>Mongol</b> period. <b>Ibn Battuta</b> (Moroccan judge) worked in <b>Delhi</b> under Muhammad bin Tughluq; he travelled the whole Muslim world.</td></tr>
+<tr><td class="rowh">3. 1405–1433</td><td><b>Zheng He</b>'s huge Chinese fleets (7 voyages) reached India and Africa, then China <b>stopped</b> sea voyages.</td></tr>
+<tr><td class="rowh">4. c.1500</td><td><b>Malacca</b> at its height (Tomé Pires) → captured by the <b>Portuguese in 1511</b>.</td></tr>
+</table>
+
+<div class="box simple"><span class="box-title">Sources: each one has its own angle (source criticism again)</span>
+<b>Akhbar al-Sin wa'l-Hind</b> (c.851, Arab merchants): route details. · <b>Marvels of India</b> (10th c.): mixes real sailing life with fantasy. · <b>Marco Polo</b>: accurate but likes marvels. · <b>Ibn Battuta</b>: a Muslim judge, little interest in trade. · <b>Tomé Pires</b> (1511): precise numbers, admired Asian trade.
+</div>
+
+<div class="answer"><span class="box-title">Write it like this (10 marks)</span>
+<div class="q">Q. Why was India central to the Indian Ocean trading system before 1500?</div>
+<p>Bernstein shows that the medieval Indian Ocean was a form of <b>premodern globalisation</b>, a regular system linking East Africa, Arabia, India, Southeast Asia and China. India was at its centre.</p>
+<p>First, because of the <b>monsoon</b>, voyages were done in segments, and ships from the west and east met at Indian ports. India was the <b>middle-man</b>, where goods were sorted, taxed and re-shipped. Second, India was a major <b>producer</b>: cotton textiles bought across Asia, and Malabar pepper. Third, <b>Gujarati</b> merchants of Cambay were so skilled that the Portuguese Tomé Pires told his countrymen to learn from them. Fourth, Indian Muslim traders spread <b>Islam</b> to Southeast Asia through trade and marriage.</p>
+<p><b>But</b> geography alone does not explain it: good ports, fair taxes and shared Islamic commercial law mattered too (as at Malacca).</p>
+<p>So Europe entered an <b>already-connected world</b>; it did not create it.</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>8</div>
+  <div class="session-title"><h1>Silk Route Connections I: Two Lenses on the Silk Road</h1>
+  <div class="readings">Valerie Hansen, <i>The Silk Road</i>, ch. 5 (Chang'an) · Jayati Bhattacharya, "Old Routes, New Dreams" (2021, Bengal–China) + Lecture 8</div></div>
+</div>
+
+<div class="oneline"><small>In one line</small>There was <b>no single "Silk Road"</b> but many routes. <b>Hansen</b> looks through a <b>city</b> (Chang'an); <b>Bhattacharya</b> looks through a <b>region</b> (Bengal). The lens you pick decides which Silk Road you see.</div>
+
+<div class="box simple"><span class="box-title">Start here: what is the "Silk Road"?</span>
+The name was invented in <b>1877</b> by a German geographer, <b>Ferdinand von Richthofen</b>. He drew it as <b>one line</b> from China to Europe. In reality it was a <b>web of many routes</b>, few people travelled the whole way, and goods passed from hand to hand. Much more than silk moved: <b>people, religions (Buddhism, Christianity, Zoroastrianism), ideas and many goods</b>.
+</div>
+
+<figure class="mapfig"><svg viewBox="0 0 784 472" xmlns="http://www.w3.org/2000/svg" class="map" role="img" aria-label="Two lenses: Chang’an as terminus (Hansen) and Bengal as circulatory centre (Bhattacharya)"><rect x="0" y="0" width="784" height="472" class="sea-bg"/><polygon class="land-fill" points="0.0,0.0 0.0,73.6 64.0,76.0 56.0,104.0 50.4,117.6 36.8,128.0 52.0,144.0 56.0,144.0 88.0,196.0 117.6,248.0 123.2,266.4 136.0,265.6 168.0,254.4 193.6,243.2 220.0,228.0 238.4,216.0 254.4,188.0 244.8,178.4 226.4,157.6 212.0,174.4 188.8,171.2 188.0,160.0 177.6,155.2 164.0,140.8 159.2,128.0 166.4,126.4 178.4,133.6 187.2,144.8 212.0,155.2 228.0,151.2 246.4,163.2 268.8,166.4 308.8,164.8 314.4,170.4 324.0,180.0 337.6,187.2 328.0,189.6 337.6,200.8 356.8,197.6 358.4,216.0 363.2,240.0 373.6,264.0 384.0,288.0 396.0,303.2 401.6,296.8 410.4,285.6 415.2,272.0 418.4,248.0 428.0,236.8 434.4,232.0 452.0,216.0 468.0,206.4 472.0,196.0 484.0,194.4 492.0,192.0 500.0,187.2 508.0,188.0 514.4,202.4 529.6,216.0 531.2,240.0 540.0,241.6 556.8,236.0 558.4,256.0 564.8,288.0 562.4,304.0 578.4,320.0 585.6,344.0 603.2,357.6 609.6,356.8 603.2,336.0 594.4,318.4 578.4,307.2 576.0,292.0 569.6,284.0 576.0,260.8 583.2,260.8 594.4,270.4 600.0,280.0 612.8,284.8 616.0,299.2 630.4,284.8 650.4,273.6 649.6,257.6 642.4,240.0 628.8,228.0 620.8,216.0 629.6,203.2 640.0,195.2 654.4,196.0 657.6,206.4 664.0,196.0 684.0,190.4 708.0,184.0 724.0,172.0 732.8,161.6 740.0,148.0 750.4,128.0 744.0,116.0 740.0,96.0 730.4,88.0 740.0,78.4 756.0,69.6 744.0,65.6 728.0,70.4 720.0,60.0 716.8,55.2 732.0,46.4 748.0,41.6 752.0,44.0 772.0,48.0 784.0,51.2 784.0,0.0"/><polygon class="land-fill" points="0.0,117.6 34.4,117.6 36.0,128.0 44.0,148.0 60.0,180.0 73.6,216.0 92.0,244.0 122.4,272.0 185.6,273.6 168.0,320.0 128.0,360.0 104.0,384.0 92.0,416.0 90.4,440.0 100.0,456.0 100.0,472.0 0.0,472.0"/><polygon class="land-fill" points="415.2,289.6 417.6,289.6 427.2,300.0 431.2,312.0 426.4,318.4 416.8,320.0 414.4,308.0"/><polygon class="land-fill" points="538.4,323.2 556.0,326.4 578.4,348.0 604.8,376.0 624.0,393.6 622.4,414.4 612.0,415.2 594.4,400.0 578.4,376.0 565.6,354.4 544.0,337.6"/><polygon class="land-fill" points="617.6,422.4 628.0,416.0 642.4,418.4 659.2,423.2 676.8,423.2 692.0,430.4 691.2,437.6 664.0,433.6 644.0,430.4 627.2,427.2"/><polygon class="land-fill" points="648.0,354.4 660.0,354.4 680.0,342.4 700.0,328.0 713.6,312.0 728.0,326.4 720.0,332.8 716.8,360.0 705.6,380.0 704.0,397.6 690.4,396.0 669.6,392.0 656.8,381.6 648.0,368.0"/><polygon class="land-fill" points="645.6,214.4 660.0,207.2 664.0,211.2 658.4,220.8 648.0,220.0"/><polygon class="land-fill" points="737.6,184.0 748.0,166.4 751.2,171.2 743.2,192.0"/><polygon class="land-fill" points="164.8,472.0 170.4,464.0 178.4,472.0"/><text x="256.0" y="256.0" class="sea-name">ARABIAN SEA</text><text x="448.0" y="252.0" class="sea-name">BAY OF BENGAL</text><text x="336.0" y="400.0" class="sea-name">INDIAN OCEAN</text><text x="672.0" y="264.0" class="sea-name">SOUTH CHINA SEA</text><text x="180.0" y="150.4" class="sea-name small">PERSIAN GULF</text><text x="68.0" y="208.0" class="sea-name small">RED SEA</text><polyline points="647.2,93.6 596.8,64.8 533.6,47.2 489.6,24.8 440.0,34.4 384.0,52.0 312.0,51.2 291.2,49.6" class="route land"/><polyline points="533.6,47.2 415.2,71.2 384.0,52.0" class="route land"/><polyline points="597.6,168.0 553.6,173.6 509.6,159.2 456.8,163.2" class="route south"/><polyline points="597.6,168.0 544.8,192.0 519.2,207.2 510.4,189.6" class="route south"/><polyline points="504.8,131.2 456.8,163.2" class="route south"/><polyline points="479.2,189.6 420.8,305.6" class="route sea"/><polyline points="510.4,189.6 520.0,248.0 552.0,313.6 572.0,332.0 594.0,350.4 612.0,360.0 654.4,296.0 660.0,264.0 672.0,216.0 682.4,183.2" class="route sea"/><circle cx="647.2" cy="93.6" r="3.2" class="pt"/><text x="652.2" y="88.6" class="pt-label" text-anchor="start">Chang'an (Xi'an)</text><circle cx="596.8" cy="64.8" r="3.2" class="pt"/><text x="601.8" y="68.8" class="pt-label" text-anchor="start">Wuwei</text><circle cx="533.6" cy="47.2" r="3.2" class="pt"/><text x="538.6" y="42.2" class="pt-label" text-anchor="start">Dunhuang</text><circle cx="489.6" cy="24.8" r="3.2" class="pt"/><text x="494.6" y="19.8" class="pt-label" text-anchor="start">Turfan</text><circle cx="440.0" cy="34.4" r="3.2" class="pt"/><text x="435.0" y="29.4" class="pt-label" text-anchor="end">Kucha</text><circle cx="415.2" cy="71.2" r="3.2" class="pt"/><text x="420.2" y="80.2" class="pt-label" text-anchor="start">Khotan</text><circle cx="384.0" cy="52.0" r="3.2" class="pt"/><text x="379.0" y="47.0" class="pt-label" text-anchor="end">Kashgar</text><circle cx="312.0" cy="51.2" r="3.2" class="pt"/><text x="307.0" y="46.2" class="pt-label" text-anchor="end">Samarkand</text><circle cx="291.2" cy="49.6" r="3.2" class="pt"/><text x="286.2" y="58.6" class="pt-label" text-anchor="end">Bukhara</text><circle cx="597.6" cy="168.0" r="3.2" class="pt"/><text x="602.6" y="164.0" class="pt-label" text-anchor="start">Kunming</text><circle cx="553.6" cy="173.6" r="3.2" class="pt"/><text x="558.6" y="169.6" class="pt-label" text-anchor="start">Bhamo</text><circle cx="544.8" cy="192.0" r="3.2" class="pt"/><text x="549.8" y="196.0" class="pt-label" text-anchor="start">Mandalay</text><circle cx="519.2" cy="207.2" r="3.2" class="pt"/><text x="513.2" y="219.2" class="pt-label" text-anchor="end">Arakan</text><circle cx="510.4" cy="189.6" r="3.2" class="pt"/><text x="510.4" y="202.6" class="pt-label" text-anchor="middle">Chittagong</text><circle cx="499.2" cy="177.6" r="3.2" class="pt"/><text x="504.2" y="184.6" class="pt-label" text-anchor="start">Dhaka</text><circle cx="479.2" cy="189.6" r="3.2" class="pt"/><text x="474.2" y="199.6" class="pt-label" text-anchor="end">Tamralipti (Tamluk)</text><circle cx="509.6" cy="159.2" r="3.2" class="pt"/><text x="514.6" y="155.2" class="pt-label" text-anchor="start">Guwahati</text><circle cx="504.8" cy="131.2" r="3.2" class="pt"/><text x="509.8" y="127.2" class="pt-label" text-anchor="start">Lhasa</text><circle cx="456.8" cy="163.2" r="3.2" class="pt"/><text x="451.8" y="158.2" class="pt-label" text-anchor="end">Pataliputra</text><circle cx="480.8" cy="167.2" r="3.2" class="pt"/><text x="485.8" y="164.2" class="pt-label" text-anchor="start">Pandua</text><circle cx="682.4" cy="183.2" r="3.2" class="pt"/><text x="687.4" y="191.2" class="pt-label" text-anchor="start">Canton (Guangzhou)</text><circle cx="594.0" cy="350.4" r="3.2" class="pt"/><text x="589.0" y="360.4" class="pt-label" text-anchor="end">Malacca</text><circle cx="420.8" cy="305.6" r="3.2" class="pt"/><text x="426.8" y="313.6" class="pt-label" text-anchor="start">Sri Lanka</text><g class="legend"><rect x="292" y="410" width="240" height="62" rx="4"/><line x1="300" y1="420" x2="326" y2="420" class="route land"/><text x="332" y="424">Northern overland routes</text><line x1="300" y1="436" x2="326" y2="436" class="route south"/><text x="332" y="440">Southern routes: Yunnan–Assam/Arakan–Bengal</text><line x1="300" y1="452" x2="326" y2="452" class="route sea"/><text x="332" y="456">Bay of Bengal – South China Sea</text></g></svg><figcaption>Two lenses: Chang’an as terminus (Hansen) and Bengal as circulatory centre (Bhattacharya). Coastlines simplified; positions approximate.</figcaption></figure>
+
+<div class="vs">
+<div class="side a"><h4>Hansen: the CITY lens</h4>
+<b>Chang'an</b> (modern Xi'an), capital of the Tang dynasty, was a <b>cosmopolitan</b> city of about 1 million people, home to foreigners, monks, merchants and refugees.
+<p style="margin-top:2mm"><b>Main point:</b> <b>few goods</b> travelled the whole way; <b>people and ideas</b> mattered more.</p>
+<p><b>Evidence:</b> archaeology (tombs, hoards, documents).</p></div>
+<div class="mid">vs</div>
+<div class="side b"><h4>Bhattacharya: the REGION lens</h4>
+<b>Bengal</b> was not a "periphery" (edge) but a <b>hub</b> linking rivers, mountains and sea to China and Southeast Asia (the <b>"Southern Silk Road"</b>).
+<p style="margin-top:2mm"><b>Main point:</b> centres and peripheries are <b>made by politics</b>, not by nature.</p>
+<p><b>Evidence:</b> trade goods like <b>cotton</b> and <b>cowrie shells</b>.</p></div>
+</div>
+
+<h2>Hansen: Chang'an (key examples)</h2>
+<div class="ideas">
+<div class="idea"><h4>Sogdians (Central Asian traders)</h4>
+<p>Merchants from <b>Samarkand</b> who settled in China. Their leaders, called <b><i>sabao</i></b>, were headmen of foreign communities.</p>
+<span class="eg">The tomb of <b>An Jia</b> (d. 579) is Chinese in shape but has a <b>Zoroastrian</b> fire altar: <b>mixing of cultures</b> ("hybridity").</span></div>
+<div class="idea"><h4>Hejiacun hoard (treasure found in 1970)</h4>
+<p>Over 1,000 items, but only a <b>few imported</b> ones; most were made <b>in China</b> by migrant craftsmen.</p>
+<span class="eg">This proves Hansen's point: <b>skills and people</b> travelled more than goods. Fewer than 50 Roman coins have been found in all of China.</span></div>
+<div class="idea red"><h4>Rise and fall</h4>
+<p>Chang'an grew under the <b>Tang</b>, then suffered: the <b>An Lushan rebellion (755)</b>, followed by attacks on Sogdians; foreign religions banned (843–845); rebels burned the city. Trade shifted to the <b>sea</b>.</p></div>
+<div class="idea green"><h4>Everyday life too</h4>
+<p><b>Pawnshop tickets</b> show ordinary people (a quarter of them women) pawning clothes, not grand luxury trade.</p></div>
+</div>
+
+<h2>Bhattacharya: Bengal (key examples)</h2>
+<div class="ideas">
+<div class="idea gold"><h4>Cotton, not just silk ("Cotton Road")</h4>
+<p>Bengal's fine <b>cotton cloth (muslin)</b> was sold to China for centuries.</p>
+<span class="eg">So why do we say "Silk Road" and not "Cotton Road"? Because Bengal was later imagined as a "periphery".</span></div>
+<div class="idea gold"><h4>Cowrie shells (money)</h4>
+<p>Small shells used as <b>cheap money</b> from the Maldives through Bengal to Yunnan in China. Where cowries spread shows how far the Southern Silk Road reached.</p>
+<span class="eg">Faxian, Xuanzang and Ibn Battuta mention them; in Bengal a chicken cost about 448 cowries.</span></div>
+<div class="idea red"><h4>Colonial rule changed the routes</h4>
+<p>The British <b>restructured</b> trade (railways, tea, new borders). Then <b>1947</b> (Partition) and the <b>1962</b> India–China war <b>closed</b> old routes, and Bengal became a "border" zone.</p></div>
+<div class="idea purple"><h4>Today: old routes, new politics</h4>
+<p>China's <b>Belt and Road Initiative (BRI, 2013)</b> and India's <b>Act East Policy (2014)</b> both <b>use the memory</b> of old routes, but <b>selectively</b>, for their own goals.</p>
+<span class="eg">This is Hobsbawm's "use of the past" (S1) in action.</span></div>
+</div>
+
+<div class="box key"><span class="box-title">Big lessons (use in any Silk Road answer)</span>
+<ol class="tight">
+<li><b>No single road</b>: many routes, by land, river and sea.</li>
+<li><b>Scale matters</b>: a city view and a regional view show different things (S3).</li>
+<li><b>Centres and peripheries are made</b>: Bengal was called "peripheral" only from Delhi's or London's point of view.</li>
+<li><b>Connectivity changes over time</b>: it grows, shrinks, reroutes and gets "revived" for politics.</li>
+</ol></div>
+
+<div class="names"><span><b>Richthofen</b> 1877 "Silk Road"</span><span><b>Hansen</b>: Chang'an, Sogdians</span><span><b>Bhattacharya</b>: Bengal hub</span><span>BRI 2013 · Act East 2014</span><span>An Lushan 755</span></div>
+
+<div class="answer"><span class="box-title">Write it like this (10 marks)</span>
+<div class="q">Q. "There is no single Silk Road." Discuss with reference to Hansen and Bhattacharya.</div>
+<p>The term "Silk Road" was coined by Richthofen in 1877 as one line from China to Europe, but the readings show a <b>web of routes</b> carrying people, religions and many goods.</p>
+<p><b>Hansen</b> uses a <b>city lens</b>. Through archaeology in Chang'an (the Sogdian tomb of An Jia, the Hejiacun hoard) she shows a cosmopolitan city where foreigners mixed cultures, but where <b>few goods</b> travelled long distances. People, skills and ideas mattered more. The city declined after the An Lushan rebellion, and trade moved to the sea.</p>
+<p><b>Bhattacharya</b> uses a <b>regional lens</b>. Bengal was a <b>hub</b> linking rivers, mountains and sea, with trade in cotton and cowrie shells reaching Yunnan. It was later made "peripheral" by colonial borders, Partition and the 1962 war.</p>
+<p><b>Today</b>, China's BRI and India's Act East use the Silk Road memory selectively, a political use of the past. So the Silk Road was <b>multiple and changing</b>, and what we see depends on our lens.</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>9</div>
+  <div class="session-title"><h1>Silk Route Connections II: Buddhism Across the Sea</h1>
+  <div class="readings">Tansen Sen, "Buddhism and the Maritime Crossings" (2014) + Lecture 9</div></div>
+</div>
+
+<div class="oneline"><small>In one line</small>Buddhism also travelled from India to China <b>by sea</b>, carried by monks on <b>merchant ships</b>. Trade and religion helped each other, and <b>Sri Lanka</b> and <b>Srivijaya</b> became key Buddhist centres on the way.</div>
+
+<h2>Key idea 1: why "Maritime Silk Road" is a misleading name</h2>
+<div class="ideas">
+<div class="idea red"><h4>Sen's 3 objections</h4>
+<ol class="tight">
+<li><b>Silk was not the main cargo</b> at sea. It was beads, pearls and precious stones, and later incense, pepper, spices and porcelain.</li>
+<li>It makes <b>China</b> look like the centre, but Indian, Southeast Asian and Arab ships mattered just as much. China became active at sea only from the <b>10th century</b>.</li>
+<li>It <b>ignores Southeast Asia</b>, whose sailors had linked the seas since about 2500 BCE.</li>
+</ol></div>
+<div class="idea green"><h4>Sen's alternative</h4>
+<p>See maritime Asia as a <b>multi-centred</b> world (many centres), not a "Chinese road".</p>
+<p>And stop arguing over whether Buddhism reached China first by land or by sea: the evidence shows <b>both</b>. Land and sea <b>complemented</b> each other.</p></div>
+</div>
+
+<h2>Key idea 2: monks + merchants</h2>
+<div class="pic">
+<svg viewBox="0 0 760 160" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="a9" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5a6375"/></marker></defs>
+<g font-size="12">
+<rect x="20" y="20" width="230" height="120" rx="8" fill="#fff8e8" stroke="#9a5b00"/>
+<text x="135" y="44" text-anchor="middle" font-weight="800" fill="#9a5b00">MERCHANTS gave</text>
+<text x="135" y="68" text-anchor="middle">• free passage on ships</text>
+<text x="135" y="88" text-anchor="middle">• money for monasteries</text>
+<text x="135" y="108" text-anchor="middle">• carried relics &amp; texts</text>
+<rect x="510" y="20" width="230" height="120" rx="8" fill="#f5effc" stroke="#6a3d9e"/>
+<text x="625" y="44" text-anchor="middle" font-weight="800" fill="#6a3d9e">MONKS / MONASTERIES gave</text>
+<text x="625" y="68" text-anchor="middle">• blessings, spiritual help</text>
+<text x="625" y="88" text-anchor="middle">• safe lodging, trust</text>
+<text x="625" y="108" text-anchor="middle">• demand for luxury goods</text>
+<path d="M255,60 L505,60" stroke="#5a6375" stroke-width="2" marker-end="url(#a9)"/>
+<path d="M505,100 L255,100" stroke="#5a6375" stroke-width="2" marker-end="url(#a9)"/>
+<text x="380" y="52" text-anchor="middle" font-weight="700">support</text>
+<text x="380" y="120" text-anchor="middle" font-weight="700">support</text>
+<text x="380" y="150" text-anchor="middle" fill="#5a6375" font-size="11">e.g. the "seven jewels" (saptaratna) offered to monasteries created demand for pearls and coral</text>
+</g></svg>
+<div class="cap">Lecture: religion did not just "go along with" trade; it became part of trade itself.</div>
+</div>
+<div class="ideas">
+<div class="idea"><h4>Example: the ship-owner Nandin (5th c.)</h4><p>An Indian ship-owner who carried the monk <b>Gunavarman</b> and groups of <b>Sri Lankan nuns</b> to China, and helped translate texts.</p></div>
+<div class="idea red"><h4>But not always friendly</h4><p>Sen adds that some merchants were <b>hostile</b>.</p><span class="eg">In a storm (411), "Brahmin" merchants on <b>Faxian</b>'s ship wanted to throw him off as bad luck. His patron saved him.</span></div>
+</div>
+
+<figure class="mapfig"><svg viewBox="0 0 784 472" xmlns="http://www.w3.org/2000/svg" class="map" role="img" aria-label="Maritime Buddhist networks (Tansen Sen)"><rect x="0" y="0" width="784" height="472" class="sea-bg"/><polygon class="land-fill" points="0.0,0.0 0.0,73.6 64.0,76.0 56.0,104.0 50.4,117.6 36.8,128.0 52.0,144.0 56.0,144.0 88.0,196.0 117.6,248.0 123.2,266.4 136.0,265.6 168.0,254.4 193.6,243.2 220.0,228.0 238.4,216.0 254.4,188.0 244.8,178.4 226.4,157.6 212.0,174.4 188.8,171.2 188.0,160.0 177.6,155.2 164.0,140.8 159.2,128.0 166.4,126.4 178.4,133.6 187.2,144.8 212.0,155.2 228.0,151.2 246.4,163.2 268.8,166.4 308.8,164.8 314.4,170.4 324.0,180.0 337.6,187.2 328.0,189.6 337.6,200.8 356.8,197.6 358.4,216.0 363.2,240.0 373.6,264.0 384.0,288.0 396.0,303.2 401.6,296.8 410.4,285.6 415.2,272.0 418.4,248.0 428.0,236.8 434.4,232.0 452.0,216.0 468.0,206.4 472.0,196.0 484.0,194.4 492.0,192.0 500.0,187.2 508.0,188.0 514.4,202.4 529.6,216.0 531.2,240.0 540.0,241.6 556.8,236.0 558.4,256.0 564.8,288.0 562.4,304.0 578.4,320.0 585.6,344.0 603.2,357.6 609.6,356.8 603.2,336.0 594.4,318.4 578.4,307.2 576.0,292.0 569.6,284.0 576.0,260.8 583.2,260.8 594.4,270.4 600.0,280.0 612.8,284.8 616.0,299.2 630.4,284.8 650.4,273.6 649.6,257.6 642.4,240.0 628.8,228.0 620.8,216.0 629.6,203.2 640.0,195.2 654.4,196.0 657.6,206.4 664.0,196.0 684.0,190.4 708.0,184.0 724.0,172.0 732.8,161.6 740.0,148.0 750.4,128.0 744.0,116.0 740.0,96.0 730.4,88.0 740.0,78.4 756.0,69.6 744.0,65.6 728.0,70.4 720.0,60.0 716.8,55.2 732.0,46.4 748.0,41.6 752.0,44.0 772.0,48.0 784.0,51.2 784.0,0.0"/><polygon class="land-fill" points="0.0,117.6 34.4,117.6 36.0,128.0 44.0,148.0 60.0,180.0 73.6,216.0 92.0,244.0 122.4,272.0 185.6,273.6 168.0,320.0 128.0,360.0 104.0,384.0 92.0,416.0 90.4,440.0 100.0,456.0 100.0,472.0 0.0,472.0"/><polygon class="land-fill" points="415.2,289.6 417.6,289.6 427.2,300.0 431.2,312.0 426.4,318.4 416.8,320.0 414.4,308.0"/><polygon class="land-fill" points="538.4,323.2 556.0,326.4 578.4,348.0 604.8,376.0 624.0,393.6 622.4,414.4 612.0,415.2 594.4,400.0 578.4,376.0 565.6,354.4 544.0,337.6"/><polygon class="land-fill" points="617.6,422.4 628.0,416.0 642.4,418.4 659.2,423.2 676.8,423.2 692.0,430.4 691.2,437.6 664.0,433.6 644.0,430.4 627.2,427.2"/><polygon class="land-fill" points="648.0,354.4 660.0,354.4 680.0,342.4 700.0,328.0 713.6,312.0 728.0,326.4 720.0,332.8 716.8,360.0 705.6,380.0 704.0,397.6 690.4,396.0 669.6,392.0 656.8,381.6 648.0,368.0"/><polygon class="land-fill" points="645.6,214.4 660.0,207.2 664.0,211.2 658.4,220.8 648.0,220.0"/><polygon class="land-fill" points="737.6,184.0 748.0,166.4 751.2,171.2 743.2,192.0"/><polygon class="land-fill" points="164.8,472.0 170.4,464.0 178.4,472.0"/><text x="256.0" y="256.0" class="sea-name">ARABIAN SEA</text><text x="448.0" y="252.0" class="sea-name">BAY OF BENGAL</text><text x="336.0" y="400.0" class="sea-name">INDIAN OCEAN</text><text x="672.0" y="264.0" class="sea-name">SOUTH CHINA SEA</text><text x="180.0" y="150.4" class="sea-name small">PERSIAN GULF</text><text x="68.0" y="208.0" class="sea-name small">RED SEA</text><polyline points="479.2,189.6 420.8,305.6 584.0,400.0 620.8,417.6 659.2,428.8 640.0,408.0 628.0,352.0 654.4,296.0 660.0,264.0 672.0,216.0 682.4,183.2" class="route faxian"/><polyline points="682.4,183.2 614.4,392.0 590.4,352.0 572.0,332.0 552.0,313.6 520.0,248.0 479.2,189.6 459.2,167.2" class="route yijing"/><polyline points="474.4,165.6 479.2,189.6 488.0,248.0 540.0,304.0 572.0,332.0 590.4,352.0 614.4,392.0" class="route atisa"/><polyline points="474.4,165.6 504.8,131.2" class="route atisa"/><polyline points="616.8,286.4 622.4,200.0 726.4,112.0" class="route sea"/><circle cx="479.2" cy="189.6" r="3.2" class="pt"/><text x="474.2" y="199.6" class="pt-label" text-anchor="end">Tamralipti (Tamluk)</text><circle cx="459.2" cy="167.2" r="3.2" class="pt"/><text x="463.2" y="176.2" class="pt-label" text-anchor="start">Nalanda</text><circle cx="474.4" cy="165.6" r="3.2" class="pt"/><text x="479.4" y="160.6" class="pt-label" text-anchor="start">Vikramashila</text><circle cx="420.8" cy="305.6" r="3.2" class="pt"/><text x="426.8" y="313.6" class="pt-label" text-anchor="start">Sri Lanka</text><circle cx="419.2" cy="301.6" r="3.2" class="pt"/><text x="425.2" y="299.6" class="pt-label" text-anchor="start">Anuradhapura</text><circle cx="579.2" cy="319.2" r="3.2" class="pt"/><text x="574.2" y="323.2" class="pt-label" text-anchor="end">Kedah</text><circle cx="614.4" cy="392.0" r="3.2" class="pt"/><text x="620.4" y="396.0" class="pt-label" text-anchor="start">Palembang (Srivijaya)</text><circle cx="659.2" cy="428.8" r="3.2" class="pt"/><text x="653.2" y="440.8" class="pt-label" text-anchor="end">Java (Yepoti?)</text><circle cx="660.0" cy="430.4" r="3.2" class="pt"/><text x="665.0" y="442.4" class="pt-label" text-anchor="start">Ratu Boko</text><circle cx="616.8" cy="286.4" r="3.2" class="pt"/><text x="611.8" y="296.4" class="pt-label" text-anchor="end">Oc Eo (Funan)</text><circle cx="622.4" cy="200.0" r="3.2" class="pt"/><text x="617.4" y="196.0" class="pt-label" text-anchor="end">Jiaozhi</text><circle cx="682.4" cy="183.2" r="3.2" class="pt"/><text x="687.4" y="191.2" class="pt-label" text-anchor="start">Canton (Guangzhou)</text><circle cx="726.4" cy="112.0" r="3.2" class="pt"/><text x="731.4" y="110.0" class="pt-label" text-anchor="start">Nanjing</text><circle cx="729.6" cy="91.2" r="3.2" class="pt"/><text x="734.6" y="88.2" class="pt-label" text-anchor="start">Mt Kongwang</text><circle cx="504.8" cy="131.2" r="3.2" class="pt"/><text x="509.8" y="127.2" class="pt-label" text-anchor="start">Lhasa</text><circle cx="647.2" cy="93.6" r="3.2" class="pt"/><text x="652.2" y="88.6" class="pt-label" text-anchor="start">Chang'an (Xi'an)</text><g class="legend"><rect x="292" y="394" width="240" height="78" rx="4"/><line x1="300" y1="404" x2="326" y2="404" class="route faxian"/><text x="332" y="408">Sri Lanka–Java–China route (Faxian, Gunavarman)</text><line x1="300" y1="420" x2="326" y2="420" class="route yijing"/><text x="332" y="424">Yijing via Srivijaya (Palembang)</text><line x1="300" y1="436" x2="326" y2="436" class="route atisa"/><text x="332" y="440">Atisa: Bengal ↔ Suvarnadvipa (1012–c.1025)</text><line x1="300" y1="452" x2="326" y2="452" class="route sea"/><text x="332" y="456">Funan–Jiaozhi–Nanjing (3rd–6th c.)</text></g></svg><figcaption>Maritime Buddhist networks (Tansen Sen). Coastlines simplified; positions approximate.</figcaption></figure>
+
+<h2>Key idea 3: Southeast Asia was first just a "transit zone"</h2>
+<div class="flow">
+  <div class="node n1"><b>1st–4th c.</b><br>Just a <b>stop-over</b>: ships changed crews and took supplies. No monasteries yet.</div>
+  <div class="arrow">→</div>
+  <div class="node n2"><b>5th c.</b><br>First Buddhist inscription, by the sea captain <b>Buddhagupta</b> (Kedah, Malaysia)</div>
+  <div class="arrow">→</div>
+  <div class="node n3"><b>7th–13th c.</b><br><b>Srivijaya</b> (Sumatra) becomes a big <b>Buddhist learning centre</b></div>
+</div>
+<span class="like">A flight stop-over: Buddhism flew "direct" from India to China (<b>long-distance</b> transmission, Zürcher's idea). The places in between only became Buddhist later.</span>
+
+<h2>Key idea 4: Srivijaya and Sri Lanka as hubs</h2>
+<div class="vs">
+<div class="side a"><h4>Srivijaya (Palembang, Sumatra)</h4>
+<ul class="tight"><li><b>Yijing</b>: over <b>1,000 monks</b> there; Chinese monks should study there <b>1–2 years</b> before going to India.</li>
+<li><b>Atisa</b>, an Indian monk, went there to learn (1012), then went to <b>Tibet</b>: knowledge flowed <b>back to India</b> too.</li>
+<li>Its kings gave gifts to <b>Nalanda</b> and <b>Nagapattinam</b> (S10).</li></ul></div>
+<div class="mid">&amp;</div>
+<div class="side b"><h4>Sri Lanka</h4>
+<ul class="tight"><li>Not just the home of Theravada: also <b>Tantric</b> Buddhism and <b>relics</b>.</li>
+<li>Kings wanted its relics for power: <b>Kublai Khan</b> sent an envoy (1284); <b>Zheng He</b> (1410) probably wanted the <b>tooth relic</b>.</li>
+<li>Its monastery design was copied in <b>Java</b> (the Ratu Boko inscription, 792), <b>adapted</b> locally.</li></ul></div>
+</div>
+
+<div class="vs">
+<div class="side a"><h4>Strengths of Sen's article</h4>Connected history, not separate national ones; the <b>sea as an active space</b>; uses many kinds of evidence (archaeology, inscriptions, texts); <b>land and sea</b> seen as complementary.</div>
+<div class="mid">but</div>
+<div class="side b"><h4>Limitations (lecture)</h4>Relies heavily on <b>Chinese texts</b>; Southeast Asians appear only as middle-men, with <b>little local agency</b>; treats all merchants as one group; <b>women are almost absent</b>.</div>
+</div>
+
+<div class="box low"><span class="box-title">Old vs new view of the Silk Roads (lecture table, in short)</span>
+<b>Old:</b> one road, over land, luxury goods, China–Europe, centred on states and empires. → <b>New:</b> many roads, land <b>and</b> sea, people and ideas too, many centres, networks.
+</div>
+
+<div class="answer"><span class="box-title">Write it like this (10 marks)</span>
+<div class="q">Q. How did trade and religion support each other in the maritime spread of Buddhism? (Sen)</div>
+<p>Tansen Sen argues that Buddhism reached China by sea as well as by land, and that this spread was <b>closely tied to trade</b>. He also rejects the label "maritime Silk Road", because silk was not the main cargo and the label makes China the centre.</p>
+<p>Merchants gave monks <b>passage</b> on ships, funded monasteries and carried relics and texts. Monasteries gave merchants lodging, trust and blessings, and Buddhist rituals such as offering the "seven jewels" created <b>demand</b> for pearls and coral. The ship-owner Nandin, who carried Gunavarman and Sri Lankan nuns to China, shows this link. <b>But</b> relations were not always friendly: merchants on Faxian's ship wanted to abandon him in a storm.</p>
+<p>At first Southeast Asia was only a <b>transit zone</b>. Later <b>Srivijaya</b> (where Yijing found 1,000 monks) and <b>Sri Lanka</b> (relics and Tantric teaching) became hubs, and knowledge even flowed back to India (Atisa).</p>
+<p><b>Limitation:</b> Sen relies mainly on Chinese sources. Still, he shows that religion became part of trade itself.</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>10</div>
+  <div class="session-title"><h1>Religions in India: Encounters, Adaptations, Travels</h1>
+  <div class="readings">T.N. Madan, <i>India's Religions</i> (Introduction) · John Guy, "Tamil Merchants and the Hindu-Buddhist Diaspora" · H.P. Ray, "A 'Chinese' Pagoda at Nagapattinam" + Lecture 10. <b>The professor's model short answer comes from here.</b></div></div>
+</div>
+
+<div class="oneline"><small>In one line</small>Religion in India is <b>plural, diverse inside, and lived</b> (not just texts). When people travelled across the ocean, religion <b>travelled with them and changed</b> on the way.</div>
+
+<h2>Part 1: How to think about religion in India (Madan + lecture)</h2>
+<div class="ideas">
+<div class="idea red"><h4>Plurality ≠ Pluralism</h4>
+<p><b>Plurality</b> = a <b>fact</b>: many religions exist. <b>Pluralism</b> = a <b>value or practice</b>: people actively live together with difference.</p>
+<span class="eg">A city with a temple, a mosque and a church has plurality. Neighbours attending each other's festivals is pluralism.</span></div>
+
+<div class="idea"><h4>Every religion is diverse inside</h4>
+<p>No religion is one single thing. Madan calls Hinduism a <b>"federation of faiths"</b>: no single founder or book.</p>
+<span class="eg">Hinduism: Shaiva, Vaishnava, Shakta, bhakti. Islam: Sunni, Shia, Sufi orders. Sikhism: Khalsa and Sahajdhari.</span></div>
+
+<div class="idea gold"><h4>Doctrine vs lived religion</h4>
+<p><b>Doctrine</b> = what holy texts and priests say. <b>Lived religion</b> = what people actually do: food, festivals, pilgrimage, shrines.</p>
+<span class="eg">Texts may draw sharp lines, but Hindus and Muslims both visit <b>Sufi shrines</b>; the Mapillas of Kerala kept local customs.</span></div>
+
+<div class="idea green"><h4>Religion is mixed into society</h4>
+<p>Religion connects with caste, family, gender, economy and politics.</p>
+<span class="eg">A <b>temple</b> is also an employer, a bank, a centre of power and a marker of identity.</span></div>
+
+<div class="idea teal"><h4>Dharma is not "religion"</h4>
+<p>The Western word "religion" means a private belief. <b>Dharma</b> means duty, moral order and a whole way of life, covering law, family and society.</p></div>
+
+<div class="idea purple"><h4>Colonial census (from 1871) hardened identities</h4>
+<p>The British used a <b>Christian model</b> of religion (one God, one book, clear membership) and put everyone into <b>fixed boxes</b> in the census.</p>
+<span class="eg">Fluid identities (e.g. people who were partly Hindu and partly Muslim in practice) became "Hindu <b>or</b> Muslim <b>or</b> Sikh".</span></div>
+</div>
+
+<div class="vs">
+<div class="side a"><h4>Religions born in India</h4>Hinduism, Buddhism, Jainism, Sikhism</div>
+<div class="mid">+</div>
+<div class="side b"><h4>Religions that came from outside</h4>Islam, Christianity, Judaism, Zoroastrianism (Parsis), Bahá'í</div>
+</div>
+<p class="small">Census 1991 (Madan): Hindus about 82%, Muslims about 12%, Christians 2.3%, Sikhs 2%, Buddhists 0.8%, Jains 0.4%. Islam came first through <b>traders</b> (Kerala coast), then conquest (Sind 712); it spread mostly <b>peacefully</b>, through Sufis and trade.</p>
+
+<h3>Did India's plurality produce pluralism? (Madan)</h3>
+<div class="ideas">
+<div class="idea"><h4>Traditional "pluralism" was a ranking</h4>
+<p>The Rig Veda says "Truth is one, the wise call it by many names", but traditional Hinduism <b>tolerated others by ranking them below itself</b>.</p>
+<span class="eg"><b>Vivekananda</b>: all religions are true, but Vedanta is the highest. The <b>Arya Samaj</b> rejected other religions (exclusivist).</span></div>
+<div class="idea green"><h4>Most pluralist: Gandhi</h4>
+<p>Gandhi said all religions are <b>equally true and equally imperfect</b>, and he refused to rank them. He drew on the Jain idea of <b><i>anekantavada</i></b> (truth has many sides).</p>
+<span class="eg">Also <b>Dara Shikoh</b> (Mughal prince) called Hinduism and Islam "twin brothers".</span></div>
+</div>
+<div class="box simple"><span class="box-title">Two kinds of pluralism (Madan's key conclusion)</span>
+<b>Folk pluralism</b> = ordinary people <b>naturally</b> living with difference in everyday life. <b>Intellectual or secular pluralism</b> = an <b>idea</b> promoted by elites and the state (e.g. <i>sarva dharma samabhava</i>, "equal respect for all religions"). Madan says there is a <b>gap</b> between the two.
+</div>
+
+<h2>Part 2: Religion on the move (Guy + Ray)</h2>
+<div class="vs">
+<div class="side a"><h4>Old view: "diffusion"</h4>India → Southeast Asia, one way. India gives, others copy.</div>
+<div class="mid">→</div>
+<div class="side b"><h4>New view: "circulation"</h4>India ↔ Sri Lanka ↔ Southeast Asia ↔ China, in many directions, and religion <b>changes</b> as it moves.</div>
+</div>
+<p><b>Who carried religion?</b> <b>Merchants</b> (created the movement) · <b>Brahmins</b> (rituals for kings) · <b>Buddhist monks</b> (monasteries, teaching) · <b>Kings</b> (patronage) · <b>Artisans</b> (statues). Pattern: <b>merchant → settlement → community → temple</b>.</p>
+
+<figure class="mapfig"><svg viewBox="0 0 784 472" xmlns="http://www.w3.org/2000/svg" class="map" role="img" aria-label="Inscriptions and sacred sites of the Hindu–Buddhist maritime world (Guy; H.P. Ray)"><rect x="0" y="0" width="784" height="472" class="sea-bg"/><polygon class="land-fill" points="0.0,0.0 0.0,73.6 64.0,76.0 56.0,104.0 50.4,117.6 36.8,128.0 52.0,144.0 56.0,144.0 88.0,196.0 117.6,248.0 123.2,266.4 136.0,265.6 168.0,254.4 193.6,243.2 220.0,228.0 238.4,216.0 254.4,188.0 244.8,178.4 226.4,157.6 212.0,174.4 188.8,171.2 188.0,160.0 177.6,155.2 164.0,140.8 159.2,128.0 166.4,126.4 178.4,133.6 187.2,144.8 212.0,155.2 228.0,151.2 246.4,163.2 268.8,166.4 308.8,164.8 314.4,170.4 324.0,180.0 337.6,187.2 328.0,189.6 337.6,200.8 356.8,197.6 358.4,216.0 363.2,240.0 373.6,264.0 384.0,288.0 396.0,303.2 401.6,296.8 410.4,285.6 415.2,272.0 418.4,248.0 428.0,236.8 434.4,232.0 452.0,216.0 468.0,206.4 472.0,196.0 484.0,194.4 492.0,192.0 500.0,187.2 508.0,188.0 514.4,202.4 529.6,216.0 531.2,240.0 540.0,241.6 556.8,236.0 558.4,256.0 564.8,288.0 562.4,304.0 578.4,320.0 585.6,344.0 603.2,357.6 609.6,356.8 603.2,336.0 594.4,318.4 578.4,307.2 576.0,292.0 569.6,284.0 576.0,260.8 583.2,260.8 594.4,270.4 600.0,280.0 612.8,284.8 616.0,299.2 630.4,284.8 650.4,273.6 649.6,257.6 642.4,240.0 628.8,228.0 620.8,216.0 629.6,203.2 640.0,195.2 654.4,196.0 657.6,206.4 664.0,196.0 684.0,190.4 708.0,184.0 724.0,172.0 732.8,161.6 740.0,148.0 750.4,128.0 744.0,116.0 740.0,96.0 730.4,88.0 740.0,78.4 756.0,69.6 744.0,65.6 728.0,70.4 720.0,60.0 716.8,55.2 732.0,46.4 748.0,41.6 752.0,44.0 772.0,48.0 784.0,51.2 784.0,0.0"/><polygon class="land-fill" points="0.0,117.6 34.4,117.6 36.0,128.0 44.0,148.0 60.0,180.0 73.6,216.0 92.0,244.0 122.4,272.0 185.6,273.6 168.0,320.0 128.0,360.0 104.0,384.0 92.0,416.0 90.4,440.0 100.0,456.0 100.0,472.0 0.0,472.0"/><polygon class="land-fill" points="415.2,289.6 417.6,289.6 427.2,300.0 431.2,312.0 426.4,318.4 416.8,320.0 414.4,308.0"/><polygon class="land-fill" points="538.4,323.2 556.0,326.4 578.4,348.0 604.8,376.0 624.0,393.6 622.4,414.4 612.0,415.2 594.4,400.0 578.4,376.0 565.6,354.4 544.0,337.6"/><polygon class="land-fill" points="617.6,422.4 628.0,416.0 642.4,418.4 659.2,423.2 676.8,423.2 692.0,430.4 691.2,437.6 664.0,433.6 644.0,430.4 627.2,427.2"/><polygon class="land-fill" points="648.0,354.4 660.0,354.4 680.0,342.4 700.0,328.0 713.6,312.0 728.0,326.4 720.0,332.8 716.8,360.0 705.6,380.0 704.0,397.6 690.4,396.0 669.6,392.0 656.8,381.6 648.0,368.0"/><polygon class="land-fill" points="645.6,214.4 660.0,207.2 664.0,211.2 658.4,220.8 648.0,220.0"/><polygon class="land-fill" points="737.6,184.0 748.0,166.4 751.2,171.2 743.2,192.0"/><polygon class="land-fill" points="164.8,472.0 170.4,464.0 178.4,472.0"/><text x="256.0" y="256.0" class="sea-name">ARABIAN SEA</text><text x="448.0" y="252.0" class="sea-name">BAY OF BENGAL</text><text x="336.0" y="400.0" class="sea-name">INDIAN OCEAN</text><text x="672.0" y="264.0" class="sea-name">SOUTH CHINA SEA</text><text x="180.0" y="150.4" class="sea-name small">PERSIAN GULF</text><text x="68.0" y="208.0" class="sea-name small">RED SEA</text><polyline points="414.4,281.6 562.4,296.8 579.2,319.2 580.0,332.0 590.4,352.0 604.0,372.0 614.4,392.0" class="route sea"/><polyline points="414.4,281.6 563.2,352.0" class="route sea"/><polyline points="579.2,319.2 590.4,352.0 612.0,360.0 654.4,296.0 660.0,264.0 642.4,240.8 672.0,216.0 682.4,183.2 708.0,188.8 724.8,168.8" class="route sea"/><polyline points="614.4,392.0 604.0,372.0 590.4,352.0 572.0,332.0 520.0,248.0 479.2,189.6 459.2,167.2" class="route atisa"/><polyline points="572.0,332.0 536.0,316.0 414.4,281.6" class="route atisa"/><circle cx="414.4" cy="281.6" r="3.2" class="pt"/><text x="419.4" y="285.6" class="pt-label" text-anchor="start">Nagapattinam</text><circle cx="459.2" cy="167.2" r="3.2" class="pt"/><text x="463.2" y="176.2" class="pt-label" text-anchor="start">Nalanda</text><circle cx="479.2" cy="189.6" r="3.2" class="pt"/><text x="474.2" y="199.6" class="pt-label" text-anchor="end">Tamralipti (Tamluk)</text><circle cx="420.8" cy="305.6" r="3.2" class="pt"/><text x="426.8" y="313.6" class="pt-label" text-anchor="start">Sri Lanka</text><circle cx="562.4" cy="296.8" r="3.2" class="pt"/><text x="557.4" y="294.8" class="pt-label" text-anchor="end">Takuapa</text><circle cx="568.8" cy="304.8" r="3.2" class="pt"/><text x="563.8" y="311.8" class="pt-label" text-anchor="end">Klong Thom</text><circle cx="575.2" cy="300.8" r="3.2" class="pt"/><text x="580.2" y="304.8" class="pt-label" text-anchor="start">Nakhon Si Thammarat</text><circle cx="579.2" cy="319.2" r="3.2" class="pt"/><text x="574.2" y="323.2" class="pt-label" text-anchor="end">Kedah</text><circle cx="563.2" cy="352.0" r="3.2" class="pt"/><text x="558.2" y="356.0" class="pt-label" text-anchor="end">Barus</text><circle cx="614.4" cy="392.0" r="3.2" class="pt"/><text x="620.4" y="396.0" class="pt-label" text-anchor="start">Palembang (Srivijaya)</text><circle cx="629.6" cy="420.8" r="3.2" class="pt"/><text x="624.6" y="432.8" class="pt-label" text-anchor="end">Ciaruteun (W. Java)</text><circle cx="712.0" cy="372.0" r="3.2" class="pt"/><text x="717.0" y="376.0" class="pt-label" text-anchor="start">Kutei (Borneo)</text><circle cx="649.6" cy="270.4" r="3.2" class="pt"/><text x="654.6" y="274.4" class="pt-label" text-anchor="start">Vo Canh</text><circle cx="640.8" cy="241.6" r="3.2" class="pt"/><text x="645.8" y="241.6" class="pt-label" text-anchor="start">My Son</text><circle cx="622.4" cy="248.8" r="3.2" class="pt"/><text x="617.4" y="244.8" class="pt-label" text-anchor="end">Champasak</text><circle cx="682.4" cy="183.2" r="3.2" class="pt"/><text x="687.4" y="191.2" class="pt-label" text-anchor="start">Canton (Guangzhou)</text><circle cx="724.8" cy="168.8" r="3.2" class="pt"/><text x="720.8" y="162.8" class="pt-label" text-anchor="end">Quanzhou (Zaitun)</text><g class="legend"><rect x="292" y="426" width="240" height="46" rx="4"/><line x1="300" y1="436" x2="326" y2="436" class="route sea"/><text x="332" y="440">Tamil merchant routes</text><line x1="300" y1="452" x2="326" y2="452" class="route atisa"/><text x="332" y="456">Srivijaya patronage: Nalanda & Nagapattinam</text></g></svg><figcaption>Inscriptions and sacred sites of the Hindu–Buddhist maritime world (Guy; H.P. Ray). Coastlines simplified; positions approximate.</figcaption></figure>
+
+<h3>John Guy: Tamil merchants carried Hindu and Buddhist culture</h3>
+<div class="ideas">
+<div class="idea gold"><h4>Purnavarman (West Java, c.450)</h4>
+<p>A local king wrote a Sanskrit inscription with <b>Vishnu's footprints</b>, which were also <b>his own</b>.</p>
+<span class="eg">India was not simply copied: he <b>used</b> Vishnu to make himself look powerful. Indian ideas + local politics = something new.</span></div>
+<div class="idea gold"><h4>Inscriptions mark the trade routes</h4>
+<p><b>Kutei</b> (Borneo, 4th c.): the earliest Indian-style inscriptions. <b>Klong Thom</b> (Thailand): a goldsmith's stone with the earliest <b>Tamil</b> inscription. <b>Takuapa</b> (9th c.): a temple tank built by <b>Tamil merchant guilds</b>.</p></div>
+<div class="idea"><h4>Tamils in China</h4>
+<p>By <b>750</b> Guangzhou had <b>3 monasteries</b> for Indian Brahmins. In <b>Quanzhou</b> (1281) a <b>Tamil–Chinese</b> inscription dedicates a <b>Shiva temple</b>; its pillars were later reused in a Chinese Buddhist temple.</p></div>
+<div class="idea"><h4>Merchant guilds</h4>
+<p>Groups like the <b>Ainnurruvar</b> and <b>Manigramam</b> traded overseas, had their own guards, and paid for temples.</p></div>
+</div>
+
+<h3>H.P. Ray: Nagapattinam, one port with many religions</h3>
+<div class="ideas">
+<div class="idea purple"><h4>The Buddhist monastery (Cudamanivihara)</h4>
+<p>Built at Nagapattinam (Tamil coast) by the <b>king of Srivijaya</b> (Sumatra) with land given by the <b>Chola kings</b> (c.1005). Demolished in <b>1867</b>.</p>
+<span class="eg">Hundreds of <b>Buddha bronzes</b> were found. Some Buddha statues were carried in <b>temple processions like Hindu gods</b>, showing religions borrowing from each other.</span></div>
+<div class="idea purple"><h4>A multi-religious coast</h4>
+<p>Nagapattinam also had a <b>Shiva temple</b> (which received gifts from Srivijaya and gold from China), later a <b>Sufi dargah</b> (Nagore) and a <b>church</b> (Velankanni).</p>
+<span class="eg">Ray: not "first Buddhism, then Hinduism" but <b>many religions side by side</b>. This also challenges the old idea (Cunningham's) that Buddhism died out in India around the 7th–8th century.</span></div>
+</div>
+<div class="box key"><span class="box-title">The lecture's overarching argument (memorise)</span>
+Indian religions became important across Asia <b>not because they stayed the same, but because they could be carried, translated and reinterpreted</b> in new places. <b>Madan</b> → religion is social and plural · <b>Guy</b> → it travelled through merchant networks · <b>Ray</b> → it created multi-religious landscapes.
+</div>
+
+<div class="answer"><span class="box-title">Write it like this: the professor's short answer (10 marks)</span>
+<div class="q">Q. Distinguish religion as doctrine from religion as lived practice in India.</div>
+<p>The lecture and Madan argue that religion is more than belief: it moves from <b>belief → practice → experience → social life</b>. So historians must separate doctrine from lived religion.</p>
+<p><b>Doctrine</b> means the official teachings in sacred texts and from religious authorities, such as the Vedas and Manusmriti, the Quran and sharia, or the Sikh Khalsa code. Doctrine tends to draw <b>clear boundaries</b> between religions.</p>
+<p><b>Lived religion</b> is what people actually do: food rules, festivals, pilgrimage, local saints. In practice boundaries are <b>porous</b>. Hindus and Muslims visit the same Sufi shrines, the Mapilla Muslims of Kerala kept local customs, and Madan calls this everyday mixing "folk pluralism". A temple is also an economic and social institution.</p>
+<p>The difference matters. The colonial census (from 1871), using a text-based Christian model, put people into fixed boxes and <b>hardened identities</b>. Studying lived religion shows that Indian religions were plural, mixed and changing, as at Nagapattinam, where Buddha images were worshipped like Hindu gods.</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>11</div>
+  <div class="session-title"><h1>The Indian Ocean as a Connected Space</h1>
+  <div class="readings">K.N. Chaudhuri, "Unity and Disunity of Indian Ocean History" (1993) · Tirthankar Roy, "The Indian Ocean Trade, 1500–1800" (2012) + Lecture 11</div></div>
+</div>
+
+<div class="oneline"><small>In one line</small>The Indian Ocean was <b>connected but not the same everywhere</b> ("unity in the large, disunity in the small"). Europeans <b>entered and changed</b> this working system, and trade slowly turned into <b>empire</b>.</div>
+
+<p><b>"Connected space"</b> means <b>structured interaction across distance</b>, not sameness. It works through routes (the monsoon), shared trade customs, migration, religious networks, and even war and diplomacy.</p>
+
+<figure class="mapfig"><svg viewBox="0 0 784 472" xmlns="http://www.w3.org/2000/svg" class="map" role="img" aria-label="Indian Ocean c.1500–1800: Asian hubs, Portuguese bases, English presidencies (T. Roy)"><rect x="0" y="0" width="784" height="472" class="sea-bg"/><polygon class="land-fill" points="0.0,0.0 0.0,73.6 64.0,76.0 56.0,104.0 50.4,117.6 36.8,128.0 52.0,144.0 56.0,144.0 88.0,196.0 117.6,248.0 123.2,266.4 136.0,265.6 168.0,254.4 193.6,243.2 220.0,228.0 238.4,216.0 254.4,188.0 244.8,178.4 226.4,157.6 212.0,174.4 188.8,171.2 188.0,160.0 177.6,155.2 164.0,140.8 159.2,128.0 166.4,126.4 178.4,133.6 187.2,144.8 212.0,155.2 228.0,151.2 246.4,163.2 268.8,166.4 308.8,164.8 314.4,170.4 324.0,180.0 337.6,187.2 328.0,189.6 337.6,200.8 356.8,197.6 358.4,216.0 363.2,240.0 373.6,264.0 384.0,288.0 396.0,303.2 401.6,296.8 410.4,285.6 415.2,272.0 418.4,248.0 428.0,236.8 434.4,232.0 452.0,216.0 468.0,206.4 472.0,196.0 484.0,194.4 492.0,192.0 500.0,187.2 508.0,188.0 514.4,202.4 529.6,216.0 531.2,240.0 540.0,241.6 556.8,236.0 558.4,256.0 564.8,288.0 562.4,304.0 578.4,320.0 585.6,344.0 603.2,357.6 609.6,356.8 603.2,336.0 594.4,318.4 578.4,307.2 576.0,292.0 569.6,284.0 576.0,260.8 583.2,260.8 594.4,270.4 600.0,280.0 612.8,284.8 616.0,299.2 630.4,284.8 650.4,273.6 649.6,257.6 642.4,240.0 628.8,228.0 620.8,216.0 629.6,203.2 640.0,195.2 654.4,196.0 657.6,206.4 664.0,196.0 684.0,190.4 708.0,184.0 724.0,172.0 732.8,161.6 740.0,148.0 750.4,128.0 744.0,116.0 740.0,96.0 730.4,88.0 740.0,78.4 756.0,69.6 744.0,65.6 728.0,70.4 720.0,60.0 716.8,55.2 732.0,46.4 748.0,41.6 752.0,44.0 772.0,48.0 784.0,51.2 784.0,0.0"/><polygon class="land-fill" points="0.0,117.6 34.4,117.6 36.0,128.0 44.0,148.0 60.0,180.0 73.6,216.0 92.0,244.0 122.4,272.0 185.6,273.6 168.0,320.0 128.0,360.0 104.0,384.0 92.0,416.0 90.4,440.0 100.0,456.0 100.0,472.0 0.0,472.0"/><polygon class="land-fill" points="415.2,289.6 417.6,289.6 427.2,300.0 431.2,312.0 426.4,318.4 416.8,320.0 414.4,308.0"/><polygon class="land-fill" points="538.4,323.2 556.0,326.4 578.4,348.0 604.8,376.0 624.0,393.6 622.4,414.4 612.0,415.2 594.4,400.0 578.4,376.0 565.6,354.4 544.0,337.6"/><polygon class="land-fill" points="617.6,422.4 628.0,416.0 642.4,418.4 659.2,423.2 676.8,423.2 692.0,430.4 691.2,437.6 664.0,433.6 644.0,430.4 627.2,427.2"/><polygon class="land-fill" points="648.0,354.4 660.0,354.4 680.0,342.4 700.0,328.0 713.6,312.0 728.0,326.4 720.0,332.8 716.8,360.0 705.6,380.0 704.0,397.6 690.4,396.0 669.6,392.0 656.8,381.6 648.0,368.0"/><polygon class="land-fill" points="645.6,214.4 660.0,207.2 664.0,211.2 658.4,220.8 648.0,220.0"/><polygon class="land-fill" points="737.6,184.0 748.0,166.4 751.2,171.2 743.2,192.0"/><polygon class="land-fill" points="164.8,472.0 170.4,464.0 178.4,472.0"/><text x="256.0" y="256.0" class="sea-name">ARABIAN SEA</text><text x="448.0" y="252.0" class="sea-name">BAY OF BENGAL</text><text x="336.0" y="400.0" class="sea-name">INDIAN OCEAN</text><text x="672.0" y="264.0" class="sea-name">SOUTH CHINA SEA</text><text x="180.0" y="150.4" class="sea-name small">PERSIAN GULF</text><text x="68.0" y="208.0" class="sea-name small">RED SEA</text><polyline points="136.0,265.6 356.8,189.6" class="route sea"/><polyline points="356.8,189.6 352.0,232.0 368.0,296.0 420.0,325.6 536.0,316.0 572.0,332.0 594.0,350.4" class="route sea"/><polyline points="228.0,151.2 304.0,180.0 332.0,204.0 352.0,201.6 356.8,189.6" class="route sea"/><polyline points="92.0,439.2 96.8,393.6 382.4,278.0" class="route sea"/><polyline points="382.4,278.0 387.2,308.8 420.0,325.6" class="route sea"/><polyline points="424.8,238.4 536.0,316.0" class="route sea"/><circle cx="136.0" cy="265.6" r="3.2" class="pt"/><text x="131.0" y="278.6" class="pt-label" text-anchor="end">Aden</text><circle cx="228.0" cy="151.2" r="3.2" class="pt pt-port"/><text x="233.0" y="146.2" class="pt-label" text-anchor="start">Hormuz</text><circle cx="158.4" cy="124.0" r="3.2" class="pt"/><text x="163.4" y="134.0" class="pt-label" text-anchor="start">Basra</text><circle cx="92.0" cy="439.2" r="3.2" class="pt"/><text x="97.0" y="443.2" class="pt-label" text-anchor="start">Kilwa</text><circle cx="96.8" cy="393.6" r="3.2" class="pt"/><text x="101.8" y="397.6" class="pt-label" text-anchor="start">Malindi</text><circle cx="356.8" cy="189.6" r="3.2" class="pt"/><text x="351.8" y="185.6" class="pt-label" text-anchor="end">Cambay</text><circle cx="344.0" cy="202.4" r="3.2" class="pt pt-port"/><text x="339.0" y="202.4" class="pt-label" text-anchor="end">Diu</text><circle cx="358.4" cy="198.4" r="3.2" class="pt"/><text x="353.4" y="202.4" class="pt-label" text-anchor="end">Surat</text><circle cx="359.2" cy="216.0" r="3.2" class="pt pt-eng"/><text x="354.2" y="216.0" class="pt-label" text-anchor="end">Bombay</text><circle cx="366.4" cy="244.0" r="3.2" class="pt pt-port"/><text x="361.4" y="247.0" class="pt-label" text-anchor="end">Goa</text><circle cx="382.4" cy="278.0" r="3.2" class="pt"/><text x="377.4" y="282.0" class="pt-label" text-anchor="end">Calicut</text><circle cx="386.4" cy="288.0" r="3.2" class="pt pt-port"/><text x="381.4" y="296.0" class="pt-label" text-anchor="end">Cochin</text><circle cx="424.8" cy="238.4" r="3.2" class="pt"/><text x="429.8" y="238.4" class="pt-label" text-anchor="start">Masulipatnam</text><circle cx="418.4" cy="260.8" r="3.2" class="pt"/><text x="423.4" y="257.8" class="pt-label" text-anchor="start">Pulicat</text><circle cx="418.4" cy="263.2" r="3.2" class="pt pt-eng"/><text x="423.4" y="267.2" class="pt-label" text-anchor="start">Madras</text><circle cx="483.2" cy="187.2" r="3.2" class="pt pt-eng"/><text x="488.2" y="197.2" class="pt-label" text-anchor="start">Calcutta</text><circle cx="510.4" cy="189.6" r="3.2" class="pt"/><text x="515.4" y="195.6" class="pt-label" text-anchor="start">Chittagong</text><circle cx="594.0" cy="350.4" r="3.2" class="pt pt-port"/><text x="589.0" y="360.4" class="pt-label" text-anchor="end">Malacca</text><circle cx="420.8" cy="305.6" r="3.2" class="pt"/><text x="426.8" y="313.6" class="pt-label" text-anchor="start">Sri Lanka</text><g class="legend"><rect x="292" y="410" width="240" height="62" rx="4"/><line x1="300" y1="420" x2="326" y2="420" class="route sea"/><text x="332" y="424">Main Asian trade axes</text><circle cx="313" cy="436" r="4" class="pt pt-port"/><text x="332" y="440">Portuguese base (16th c.)</text><circle cx="313" cy="452" r="4" class="pt pt-eng"/><text x="332" y="456">English presidency town (17th c.)</text></g></svg><figcaption>Indian Ocean c.1500–1800: Asian hubs, Portuguese bases, English presidencies (T. Roy). Coastlines simplified; positions approximate.</figcaption></figure>
+
+<h2>Chaudhuri: the BIG picture (622–1750) <span class="badge b-hi">Must know</span></h2>
+<div class="pic">
+<svg viewBox="0 0 760 170" xmlns="http://www.w3.org/2000/svg"><g font-size="12">
+<rect x="10" y="10" width="740" height="44" rx="8" fill="#edf9f2" stroke="#11734a"/>
+<text x="380" y="30" text-anchor="middle" font-weight="800" fill="#11734a">UNITY "in the large": one ocean of trade (monsoon, merchants, routes from Suez/Basra to China)</text>
+<text x="380" y="46" text-anchor="middle">like Braudel's Mediterranean</text>
+<rect x="10" y="64" width="178" height="96" rx="8" fill="#fff8e8" stroke="#9a5b00"/><text x="99" y="88" text-anchor="middle" font-weight="800" fill="#9a5b00">ISLAM</text><text x="99" y="108" text-anchor="middle">Middle East</text><text x="99" y="128" text-anchor="middle">bread / wheat</text>
+<rect x="197" y="64" width="178" height="96" rx="8" fill="#fff3f1" stroke="#b42318"/><text x="286" y="88" text-anchor="middle" font-weight="800" fill="#b42318">SANSKRITIC INDIA</text><text x="286" y="108" text-anchor="middle">South Asia</text><text x="286" y="128" text-anchor="middle">wheat + rice</text>
+<rect x="384" y="64" width="178" height="96" rx="8" fill="#f5effc" stroke="#6a3d9e"/><text x="473" y="88" text-anchor="middle" font-weight="800" fill="#6a3d9e">SOUTHEAST ASIA</text><text x="473" y="108" text-anchor="middle">islands &amp; mainland</text><text x="473" y="128" text-anchor="middle">rice / fish</text>
+<rect x="571" y="64" width="179" height="96" rx="8" fill="#f0f5fd" stroke="#1f5fae"/><text x="660" y="88" text-anchor="middle" font-weight="800" fill="#1f5fae">CONFUCIAN CHINA</text><text x="660" y="108" text-anchor="middle">East Asia</text><text x="660" y="128" text-anchor="middle">rice</text>
+<text x="380" y="152" text-anchor="middle" fill="#5a6375" font-size="11">DISUNITY "in the small": 4 different civilisations, foods, clothes, houses</text>
+</g></svg>
+<div class="cap">Chaudhuri: similar at the big level, different at the small level.</div>
+</div>
+<div class="ideas">
+<div class="idea"><h4>Unity in the large, disunity in the small</h4>
+<p>Two things can look <b>different up close</b> but <b>similar overall</b> (or the reverse). Word by word, the Rig Veda, the Quran and the Confucian texts differ. But <b>Arab sailors could sail from Basra to China</b>, so as a trade system the ocean was one unit.</p>
+<span class="like">Different shops in one big market: each sells different things, but it is still one market.</span></div>
+<div class="idea gold"><h4>The "ground floor" of daily life barely changed</h4>
+<p>Food, clothes and houses stayed similar for centuries (<b>invariance</b>).</p>
+<span class="eg"><b>Bread zone vs rice zone</b>; the Muslim pilgrim's white unsewn cloth (<i>ihram</i>) has the same ritual meaning as a <b>Brahmin's</b> unstitched dress; <b>dry zones</b> (brick houses, wheat) vs <b>wet zones</b> (bamboo houses, rice, fish ponds).</span></div>
+<div class="idea green"><h4>Time span: 622 to 1750</h4>
+<p>From the <b>rise of Islam (622)</b> and the Tang dynasty (618) to the <b>Battle of Plassey (1757)</b>, a whole "life cycle".</p>
+<p>Four big expansions shaped it: <b>Islam, China, Turko-Mongol nomads, and Europe</b>.</p>
+<span class="eg">A critic (Arasaratnam) wrote "750–1750"; Chaudhuri corrected it to 622.</span></div>
+<div class="idea red"><h4>Unity is partly in the historian's mind</h4>
+<p>Chaudhuri admits that "one Indian Ocean" is a <b>mental construct</b>: historians <b>choose</b> the unit and period that fit their question.</p>
+<span class="eg">"Asia" only makes sense when contrasted with "Europe".</span></div>
+</div>
+<p class="skipnote"><b>Skip:</b> Chaudhuri's maths and philosophy (set theory, Gödel, Dedekind). At most, write "he used structuralism and set theory".</p>
+
+<h2>Roy: trade, companies, empire (1500–1800) <span class="badge b-hi">Must know</span></h2>
+<div class="flow">
+  <div class="node n1"><b>Before 1500</b><br>Busy Asian trade; India in the middle of the "great arc"</div>
+  <div class="arrow">→</div>
+  <div class="node n2"><b>1498 →</b><br>Portuguese: force and passes, but only partial control</div>
+  <div class="arrow">→</div>
+  <div class="node n3"><b>1600 →</b><br>English (EIC) and Dutch (VOC) companies</div>
+  <div class="arrow">→</div>
+  <div class="node n4"><b>c.1640–1690</b><br>Madras, Bombay, Calcutta port towns</div>
+  <div class="arrow">→</div>
+  <div class="node n5"><b>1757–1765</b><br>Plassey, Buxar: trade becomes <b>empire</b></div>
+</div>
+
+<div class="ideas">
+<div class="idea"><h4>1. A crowded world before Europe</h4>
+<p>India was the <b>middle of the "great arc"</b> of Asian trade, and a producer and market itself: it exported <b>cotton cloth</b>, rice and indigo, and imported silver, gold and <b>horses</b>.</p>
+<span class="eg">Merchants: <b>Gujarati Muslims</b> (Cambay), <b>Mapillas</b> (Malabar), <b>Chulias</b> and <b>Telugu Chettis</b> (Coromandel). "Europeans entered a crowded, working world, not an empty stage."</span></div>
+<div class="idea red"><h4>2. The Portuguese: violent but limited</h4>
+<p><b>Vasco da Gama</b> reached Calicut in <b>1498</b>, guided by a <b>Gujarati pilot</b>. Later voyages brought <b>bombardment</b> and massacres. They forced ships to buy <b>passes</b> (<i>cartaz</i>) and held forts (Goa, Hormuz, Malacca).</p>
+<span class="eg">But they <b>never fully controlled</b> trade and declined after 1640. (Steensgaard: they lived off others' profits instead of making their own.)</span></div>
+<div class="idea green"><h4>3. Companies: power through organisation</h4>
+<p><b>English EIC (1600)</b>, <b>Dutch VOC (1602)</b>, French (1664). What was new: <b>joint-stock money</b> (many investors share risk), <b>monopoly charters</b>, forts and armed ships.</p>
+<span class="eg">Roy: <b>organisation mattered as much as guns</b>.</span></div>
+<div class="idea gold"><h4>4. Europeans depended on Indians</h4>
+<p>Indian <b>bankers</b> (who minted coins and lent money, e.g. the <b>Jagatseths</b>), <b>brokers</b> (who bought cloth from weavers) and shipbuilders did most of the work. Relations mixed need and distrust.</p>
+<span class="eg">The broker <b>Amirchand</b> plotted against the nawab Siraj ud-Daula in 1756; <b>Ananda Ranga Pillai</b>'s diary describes a broker's hard job.</span></div>
+<div class="idea purple"><h4>5. Port towns: Madras, Bombay, Calcutta</h4>
+<p>Unlike Surat (where they were only tenants), here the English were <b>landlords</b>, with their own <b>laws, courts and forts</b>. Indian merchants moved in for safety.</p>
+<span class="eg">Madras c.1640, Bombay c.1660, Calcutta c.1690.</span></div>
+<div class="idea teal"><h4>6. From trade to empire</h4>
+<p>After <b>Aurangzeb died (1707)</b>, the Mughal empire broke up. The companies fought each other (Carnatic wars) and the English won Bengal: <b>Plassey 1757, Buxar 1764</b>.</p>
+<span class="eg">Trade did not automatically cause empire, but it <b>created the conditions</b> for it.</span></div>
+</div>
+
+<div class="vs">
+<div class="side a"><h4>Chaudhuri</h4>Big theory · whole civilisations · very long time (622–1750) · connection as an <b>idea</b></div>
+<div class="mid">vs</div>
+<div class="side b"><h4>Roy</h4>Facts and economics · merchants, companies, ports · 1500–1800 · connection as <b>trade practice</b></div>
+</div>
+<p class="small">Lecture: they <b>complement</b> each other. <b>Limitation of the "connected space" idea:</b> it can hide inequality, slavery and force, and focus on merchants rather than peasants and workers. Ask <b>"connected for whom?"</b></p>
+
+<div class="answer"><span class="box-title">Write it like this (essay outline, 15 marks)</span>
+<div class="q">Q. "European expansion transformed, but did not create, Indian Ocean connectivity." Discuss.</div>
+<p><b>Intro:</b> "Connected space" means structured interaction across distance, not sameness. The Indian Ocean was connected long before 1500.</p>
+<p><b>Before Europe:</b> monsoon trade from Baghdad to Canton with India at the centre (Bernstein); monks on merchant ships (Sen); Tamil temples from Java to Quanzhou (Guy). Chaudhuri shows "unity in the large" across four civilisations from 622.</p>
+<p><b>Europeans arrive:</b> the Portuguese (1498) used violence and passes but never fully controlled trade. The EIC and VOC brought joint-stock organisation, but still <b>depended on Indian bankers and brokers</b> (Roy).</p>
+<p><b>Transformation:</b> port towns (Madras, Bombay, Calcutta) with their own law; Mughal decline after 1707; Plassey and Buxar turned trade into <b>empire</b>.</p>
+<p><b>But:</b> connection was unequal (force, slavery, coerced weavers). "Connected for whom?"</p>
+<p><b>Conclusion:</b> Europe changed who held power, but the network itself was much older.</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>LAST</small>★</div>
+  <div class="session-title"><h1>Night-Before Revision Sheet</h1>
+  <div class="readings">Read this once tonight and once before the exam. One line per session, the names and dates for MCQs, and the questions most likely to come.</div></div>
+</div>
+
+<table>
+<tr><th style="width:9%">S</th><th style="width:44%">The one idea</th><th>Names + 1 example each</th></tr>
+<tr><td class="rowh">1</td><td>Societies use the past as <b>pattern → model → process</b></td><td><b>Hobsbawm</b> (1972) · Zapata · Warsaw = symbolic restoration</td></tr>
+<tr><td class="rowh">2</td><td>Find → check → interpret → explain; <b>compare</b> cases</td><td><b>Droysen</b>'s 4 steps · <b>Lange</b> (CHA) · <b>Backerra</b> (diplomatic letters)</td></tr>
+<tr><td class="rowh">3</td><td><b>Global</b> = connections; <b>regional</b> = inside. Use both</td><td><b>Wallerstein</b> (core/periphery) · <b>Hall</b> (multiple globalizations) · da Gama at 3 scales</td></tr>
+<tr><td class="rowh">4</td><td>Orientalist → Colonial → Nationalist → Marxist → Cambridge / Subaltern</td><td><b>Jones</b> 1784 · <b>Mill</b> 1818 · <b>Jayaswal</b> · <b>Kosambi</b> · <b>Guha</b> 1982 · <b>Said</b> 1978</td></tr>
+<tr><td class="rowh">6</td><td>Travel writing = evidence <b>+</b> opinion → <b>corroborate</b></td><td><b>Faxian</b>, <b>Xuanzang</b> (Harsha, Nalanda), <b>Yijing</b> · al-Shahrastani vs al-Biruni</td></tr>
+<tr><td class="rowh">7</td><td>Monsoon trade = <b>premodern globalisation</b>, India at the centre</td><td><b>Bernstein</b> · Gujarat/Cambay · Malacca (84 languages) · Zheng He 1405–33</td></tr>
+<tr><td class="rowh">8</td><td>No single Silk Road; <b>city lens vs region lens</b></td><td><b>Hansen</b> (Chang'an, Sogdians) · <b>Bhattacharya</b> (Bengal, cotton, cowries) · BRI 2013</td></tr>
+<tr><td class="rowh">9</td><td>Buddhism went <b>by sea with merchants</b>; "maritime Silk Road" is misleading</td><td><b>Tansen Sen</b> · transit zone · Srivijaya · Sri Lanka relics · Atisa</td></tr>
+<tr><td class="rowh">10</td><td>Religion is plural, lived, and <b>changes as it travels</b></td><td><b>Madan</b> (plurality ≠ pluralism) · <b>Guy</b> (Purnavarman) · <b>Ray</b> (Nagapattinam)</td></tr>
+<tr><td class="rowh">11</td><td>Unity in the large, disunity in the small; <b>trade → empire</b></td><td><b>Chaudhuri</b> (622–1750, 4 civilisations) · <b>Roy</b> (EIC, brokers, Madras/Bombay/Calcutta)</td></tr>
+</table>
+
+<h2>Dates worth remembering (MCQs + answers)</h2>
+<div class="grid2">
+<div class="dates">
+<b>325 BC</b><span>Chandragupta date ("sheet anchor", Jones)</span>
+<b>399–413</b><span>Faxian's journey</span>
+<b>629–645</b><span>Xuanzang in India (met Harsha)</span>
+<b>622</b><span>Rise of Islam (Chaudhuri's start)</span>
+<b>750</b><span>Abbasids, Baghdad</span>
+<b>878</b><span>Huang Chao massacre at Canton</span>
+<b>c.450</b><span>Purnavarman's Vishnu footprint (Java)</span>
+<b>1281</b><span>Tamil–Chinese Shiva temple inscription, Quanzhou</span>
+<b>1405–33</b><span>Zheng He's voyages</span>
+<b>1498</b><span>Vasco da Gama at Calicut</span>
+</div>
+<div class="dates">
+<b>1511</b><span>Portuguese take Malacca</span>
+<b>1600 / 1602</b><span>English EIC / Dutch VOC</span>
+<b>1707</b><span>Aurangzeb dies; Mughal breakup</span>
+<b>1757 / 1764</b><span>Plassey / Buxar</span>
+<b>1784</b><span>Asiatic Society (William Jones)</span>
+<b>1818</b><span>James Mill's <i>History of British India</i></span>
+<b>1871</b><span>Colonial census categories begin</span>
+<b>1877</b><span>"Silk Road" named (Richthofen)</span>
+<b>1972 / 1982</b><span>Hobsbawm's essay / Subaltern Studies</span>
+<b>2013 / 2014</b><span>China's BRI / India's Act East</span>
+</div>
+</div>
+
+<h2>Most likely questions (prepare these)</h2>
+<div class="grid2">
+<div class="box exam"><span class="box-title">Short answers (10 marks)</span>
+<ol class="tight">
+<li>Doctrine vs lived religion (S10) <b>(model answer given in class)</b></li>
+<li>Pattern, model, process (S1)</li>
+<li>Usefulness of foreign travellers; al-Shahrastani vs al-Biruni (S6)</li>
+<li>Hansen vs Bhattacharya: "no single Silk Road" (S8)</li>
+<li>Why "maritime Silk Road" is misleading; monks and merchants (S9)</li>
+<li>Why India was central to Indian Ocean trade (S7)</li>
+<li>Global vs regional history (S3)</li>
+<li>Plurality vs pluralism (S10)</li>
+</ol></div>
+<div class="box exam"><span class="box-title">Essays (15 marks)</span>
+<ol class="tight">
+<li>Was Marxist "new history" an advance over colonial and nationalist history? (S4) <b>(model essay given in class)</b></li>
+<li>Europe transformed but did not create Indian Ocean connectivity (S7 + S9 + S10 + S11)</li>
+<li>"Religion travelled because people travelled" (S9 + S10)</li>
+<li>"Unity in the large, disunity in the small": Chaudhuri and Roy (S11)</li>
+</ol>
+<p class="small"><b>Essay shape:</b> intro with a thesis → 3–4 paragraphs, each = one point + scholar + example → one "but" paragraph → conclusion linking to "India was connected long before Europe".</p></div>
+</div>
+
+<div class="box key"><span class="box-title">5 sentences you can drop into almost any answer</span>
+<ol class="tight">
+<li>"The past is a permanent dimension of human consciousness" (Hobsbawm): every age rewrites it for its own needs.</li>
+<li>Every source is both evidence and interpretation, so historians must corroborate.</li>
+<li>The scale we choose (city, region, ocean, globe) decides what we see.</li>
+<li>Asia was connected long before 1500; Europe transformed but did not create that world.</li>
+<li>Religion travelled because people travelled, and it was translated, not simply copied.</li>
+</ol>
+</div>
+</section>
+</body></html>
