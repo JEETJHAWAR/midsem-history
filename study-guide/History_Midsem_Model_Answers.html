@@ -1,0 +1,416 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>World &amp; Indian History — Mid-term Study Guide</title><style>:root {
+  --ink:#1c2230; --muted:#5a6375; --line:#d8dce4; --paper:#ffffff;
+  --hi:#b42318; --hi-bg:#fff3f1;
+  --mid:#1f5fae; --mid-bg:#f0f5fd;
+  --lo:#6b7280; --lo-bg:#f4f4f3;
+  --sum:#11734a; --sum-bg:#edf9f2;
+  --ex:#6a3d9e; --ex-bg:#f5effc;
+  --gold:#9a5b00; --gold-bg:#fff8e8;
+  --teal:#0f6e74; --teal-bg:#eaf7f7;
+}
+* { box-sizing: border-box; }
+html, body { background: var(--paper); }
+body {
+  font-family: "Bitstream Charter", "Caladea", "Liberation Serif", Georgia, serif;
+  font-size: 10.4pt; line-height: 1.47; color: var(--ink); margin: 0;
+  -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+h1, h2, h3, h4, h5, .badge, th, .node, .tl-date, figcaption, .kicker, .pill, .toc, .chip, .legend text, .map text {
+  font-family: Inter, "DejaVu Sans", Arial, sans-serif;
+}
+p { margin: 0 0 6px; }
+ul, ol { margin: 2px 0 7px 0; padding-left: 18px; }
+li { margin: 1.5px 0; }
+strong { color: #0f1626; }
+em { color: #26324a; }
+a { color: var(--mid); text-decoration: none; }
+
+/* ---------- page structure ---------- */
+.page-break { break-before: page; }
+section.session { break-before: page; }
+.avoid { break-inside: avoid; }
+@media screen { body { max-width: 900px; margin: 0 auto; padding: 24px 18px 80px; } }
+
+/* ---------- cover ---------- */
+.cover { min-height: 255mm; display: flex; flex-direction: column; justify-content: space-between; padding: 6mm 2mm; }
+.cover .top { border-top: 6px solid #1c2230; padding-top: 10mm; }
+.cover .kicker { font-size: 10pt; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.cover h1 { font-size: 34pt; line-height: 1.05; margin: 6mm 0 3mm; font-weight: 800; letter-spacing: -.01em; }
+.cover h1 span { color: var(--hi); }
+.cover .sub { font-size: 13pt; color: #35405a; max-width: 150mm; }
+.cover .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; margin-top: 8mm; }
+.cover .card { border: 1px solid var(--line); border-radius: 6px; padding: 4mm; background: #fafbfc; }
+.cover .card h4 { margin: 0 0 2mm; font-size: 9.5pt; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.cover .foot { font-family: Inter, sans-serif; font-size: 8.5pt; color: var(--muted); border-top: 1px solid var(--line); padding-top: 3mm; }
+
+/* ---------- headings ---------- */
+h2.front { font-size: 19pt; margin: 0 0 3mm; padding-bottom: 2mm; border-bottom: 3px solid var(--ink); }
+.session-head { display: flex; gap: 5mm; align-items: stretch; margin-bottom: 4mm; border-bottom: 3px solid var(--ink); padding-bottom: 3mm; }
+.session-num { font-family: Inter, sans-serif; font-weight: 800; font-size: 30pt; line-height: 1; background: var(--ink); color: #fff; padding: 3mm 4mm; border-radius: 4px; min-width: 22mm; text-align: center; }
+.session-num small { display: block; font-size: 7pt; letter-spacing: .15em; font-weight: 600; opacity: .8; margin-bottom: 1mm; }
+.session-title h1 { font-size: 19pt; line-height: 1.12; margin: 0 0 1.5mm; font-weight: 800; }
+.session-title .readings { font-family: Inter, sans-serif; font-size: 8.4pt; color: var(--muted); line-height: 1.4; }
+h2 { font-size: 13.5pt; margin: 6mm 0 2mm; padding-bottom: 1mm; border-bottom: 1.5px solid var(--line); break-after: avoid; }
+h3 { font-size: 11.3pt; margin: 4.5mm 0 1.5mm; break-after: avoid; color: #142036; }
+h4 { font-size: 10pt; margin: 3mm 0 1mm; break-after: avoid; color: #2b3650; }
+h2 .badge, h3 .badge { vertical-align: middle; margin-left: 2mm; }
+
+/* ---------- priority badges ---------- */
+.badge { display: inline-block; font-size: 7.2pt; font-weight: 700; letter-spacing: .04em; padding: .6mm 1.8mm; border-radius: 10px; text-transform: uppercase; white-space: nowrap; }
+.b-hi { background: var(--hi); color: #fff; }
+.b-mid { background: var(--mid); color: #fff; }
+.b-lo { background: #9aa1ad; color: #fff; }
+.b-skip { background: #fff; color: var(--lo); border: 1px dashed var(--lo); }
+
+/* ---------- boxes ---------- */
+.box { border-radius: 5px; padding: 2.8mm 3.6mm; margin: 3mm 0; border-left: 4px solid; break-inside: avoid; }
+.box > .box-title { font-family: Inter, sans-serif; font-weight: 700; font-size: 8.6pt; text-transform: uppercase; letter-spacing: .07em; margin-bottom: 1.2mm; display: block; }
+.box p:last-child, .box ul:last-child, .box ol:last-child { margin-bottom: 0; }
+.why { background: var(--gold-bg); border-color: var(--gold); } .why > .box-title { color: var(--gold); }
+.key { background: var(--hi-bg); border-color: var(--hi); } .key > .box-title { color: var(--hi); }
+.support { background: var(--mid-bg); border-color: var(--mid); } .support > .box-title { color: var(--mid); }
+.low { background: var(--lo-bg); border-color: #a3a9b4; } .low > .box-title { color: var(--lo); }
+.summary { background: var(--sum-bg); border-color: var(--sum); } .summary > .box-title { color: var(--sum); }
+.exam { background: var(--ex-bg); border-color: var(--ex); } .exam > .box-title { color: var(--ex); }
+.simple { background: var(--teal-bg); border-color: var(--teal); } .simple > .box-title { color: var(--teal); }
+.quote { border-left: 3px solid #b8bfcc; padding: 1mm 0 1mm 3.5mm; margin: 2.5mm 0; color: #303a50; font-style: italic; break-inside: avoid; }
+.quote cite { display: block; font-style: normal; font-family: Inter, sans-serif; font-size: 8pt; color: var(--muted); margin-top: .8mm; }
+.connect { font-family: Inter, sans-serif; font-size: 8.6pt; background: #f6f7f9; border: 1px dashed #c3c8d2; border-radius: 5px; padding: 2mm 3mm; margin: 3mm 0; break-inside: avoid; }
+.connect b { color: var(--teal); }
+
+/* ---------- tables ---------- */
+table { width: 100%; border-collapse: collapse; margin: 2.5mm 0 3.5mm; font-size: 9.2pt; break-inside: auto; }
+tr { break-inside: avoid; }
+th { background: #263049; color: #fff; text-align: left; font-weight: 600; font-size: 8.4pt; padding: 1.6mm 2mm; vertical-align: bottom; }
+td { border-bottom: 1px solid var(--line); padding: 1.5mm 2mm; vertical-align: top; }
+tbody tr:nth-child(even) td { background: #f8f9fb; }
+td.rowh { font-family: Inter, sans-serif; font-weight: 600; font-size: 8.6pt; color: #1e2a44; background: #eef1f6 !important; width: 22%; }
+table.compact td, table.compact th { padding: 1mm 1.6mm; font-size: 8.7pt; }
+
+/* ---------- flow diagrams ---------- */
+.flow { display: flex; align-items: stretch; gap: 0; margin: 3mm 0; break-inside: avoid; flex-wrap: nowrap; }
+.flow .node { flex: 1; border: 1.5px solid #34405a; border-radius: 5px; padding: 2mm 2.4mm; font-size: 8.3pt; line-height: 1.32; background: #fff; text-align: center; display: flex; flex-direction: column; justify-content: center; }
+.flow .node b { display: block; font-size: 9pt; margin-bottom: .6mm; color: #0f1626; }
+.flow .arrow { flex: 0 0 7mm; display: flex; align-items: center; justify-content: center; font-size: 14pt; color: #5a6375; font-family: Inter, sans-serif; }
+.flow .node.n1 { background: #fff8e8; border-color: #b7791f; }
+.flow .node.n2 { background: #f0f5fd; border-color: #1f5fae; }
+.flow .node.n3 { background: #edf9f2; border-color: #11734a; }
+.flow .node.n4 { background: #f5effc; border-color: #6a3d9e; }
+.flow .node.n5 { background: #fff3f1; border-color: #b42318; }
+.vflow { display: flex; flex-direction: column; align-items: stretch; margin: 3mm auto; max-width: 150mm; break-inside: avoid; }
+.vflow .node { border: 1.5px solid #34405a; border-radius: 5px; padding: 1.8mm 3mm; font-size: 8.6pt; background: #fff; font-family: Inter, sans-serif; text-align: center; }
+.vflow .arrow { text-align: center; color: #5a6375; font-size: 12pt; line-height: 1.1; }
+
+/* ---------- concept grid ---------- */
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; margin: 3mm 0; }
+.grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 3mm; margin: 3mm 0; }
+.grid2 > div, .grid3 > div { break-inside: avoid; }
+.card { border: 1px solid var(--line); border-radius: 5px; padding: 2.4mm 3mm; background: #fff; font-size: 9.3pt; }
+.card h4 { margin: 0 0 1mm; font-size: 9.4pt; }
+.card.c1 { border-top: 3px solid #b7791f; } .card.c2 { border-top: 3px solid #1f5fae; } .card.c3 { border-top: 3px solid #11734a; } .card.c4 { border-top: 3px solid #6a3d9e; } .card.c5 { border-top: 3px solid #b42318; } .card.c6 { border-top: 3px solid #0f6e74; }
+
+/* ---------- timeline ---------- */
+.timeline { position: relative; margin: 3mm 0 4mm 0; padding-left: 26mm; break-inside: auto; }
+.timeline:before { content: ""; position: absolute; left: 22mm; top: 1mm; bottom: 1mm; width: 2px; background: #c3c9d4; }
+.tl { position: relative; margin: 0 0 2mm; break-inside: avoid; font-size: 9.2pt; }
+.tl .tl-date { position: absolute; left: -26mm; width: 20mm; text-align: right; font-weight: 700; font-size: 8.2pt; color: #263049; top: .3mm; }
+.tl:before { content: ""; position: absolute; left: -5.2mm; top: 1.4mm; width: 7px; height: 7px; border-radius: 50%; background: #263049; }
+.tl.hi:before { background: var(--hi); } .tl.hi .tl-date { color: var(--hi); }
+
+/* ---------- maps ---------- */
+figure { margin: 3mm 0; break-inside: avoid; }
+figcaption { font-size: 7.8pt; color: var(--muted); margin-top: 1mm; text-align: center; }
+svg.map { width: 100%; height: auto; display: block; border: 1px solid #c9d2de; border-radius: 4px; }
+.map .sea-bg { fill: #e8f1f8; }
+.map .land-fill { fill: #f4efe4; stroke: #b9ae95; stroke-width: .8; }
+.map .sea-name { font-size: 9px; fill: #7f9bb5; letter-spacing: .2em; font-weight: 600; }
+.map .sea-name.small { font-size: 6.5px; letter-spacing: .1em; }
+.map .pt { fill: #1c2230; stroke: #fff; stroke-width: 1; }
+.map .pt-port { fill: #c2410c; }
+.map .pt-eng { fill: #1d4ed8; }
+.map .pt-label { font-size: 7.6px; fill: #1c2230; font-weight: 600; paint-order: stroke; stroke: #ffffffd0; stroke-width: 2.4px; }
+.map .route { fill: none; stroke-width: 2.1; stroke-linejoin: round; stroke-linecap: round; opacity: .9; }
+.map .route.land { stroke: #a16207; stroke-dasharray: 6 3; }
+.map .route.sea { stroke: #1f5fae; }
+.map .route.south { stroke: #11734a; stroke-dasharray: 2 3; stroke-width: 2.4; }
+.map .route.gold { stroke: #b42318; }
+.map .route.faxian { stroke: #b42318; }
+.map .route.xuanzang { stroke: #a16207; stroke-dasharray: 6 3; }
+.map .route.xuanzang2 { stroke: #c08a2f; stroke-dasharray: 2 3; }
+.map .route.yijing { stroke: #1f5fae; }
+.map .route.atisa { stroke: #6a3d9e; stroke-dasharray: 5 2; }
+.map line.sw { stroke: #0f6e74; stroke-width: 2.4; }
+.map line.ne { stroke: #9a5b00; stroke-width: 2.4; stroke-dasharray: 4 2; }
+.map .ah-sw { fill: #0f6e74; } .map .ah-ne { fill: #9a5b00; }
+.map .legend rect { fill: #ffffffe8; stroke: #c9d2de; }
+.map .legend text { font-size: 8px; fill: #1c2230; }
+
+/* ---------- misc ---------- */
+.toc { columns: 2; column-gap: 8mm; font-size: 9.3pt; }
+.toc div { break-inside: avoid; margin-bottom: 1.6mm; }
+.toc b { color: var(--hi); }
+.chip { display: inline-block; font-size: 7.6pt; border: 1px solid #c3c9d4; border-radius: 9px; padding: .2mm 1.8mm; margin: .4mm .6mm .4mm 0; color: #34405a; background: #fff; }
+.mcq ol { padding-left: 16px; }
+.mcq li { margin-bottom: 2mm; break-inside: avoid; }
+.mcq .opts { font-size: 9pt; color: #34405a; }
+.answers { font-family: Inter, sans-serif; font-size: 8.4pt; columns: 2; }
+.small { font-size: 8.8pt; }
+.muted { color: var(--muted); }
+.two-col { columns: 2; column-gap: 7mm; }
+.two-col > * { break-inside: avoid; }
+dl.terms { margin: 2mm 0; }
+dl.terms dt { font-family: Inter, sans-serif; font-weight: 700; font-size: 9pt; color: #142036; margin-top: 1.6mm; }
+dl.terms dd { margin: 0 0 0 4mm; font-size: 9.3pt; }
+.legend-row { display: flex; flex-wrap: wrap; gap: 2mm; align-items: center; font-family: Inter, sans-serif; font-size: 8.4pt; margin: 2mm 0; }
+.hl { background: #fff1a8; padding: 0 .6mm; }
+
+.grid2.tl-cols > div { break-inside: auto; }
+.grid2.tl-cols { display: block; columns: 2; column-gap: 6mm; }
+.grid2.tl-cols > .timeline { break-inside: auto; margin-top: 0; }
+
+ol.mcq{columns:2;column-gap:26px;padding-left:22px;font-size:0.93em}
+ol.mcq li{break-inside:avoid;margin-bottom:7px}
+
+/* ---------- Exam Essentials (simple edition) ---------- */
+body { font-size: 11pt; line-height: 1.5; }
+h2 { font-size: 14pt; }
+.session-title h1 { font-size: 20pt; }
+
+/* the one-sentence takeaway at the top of each session */
+.oneline { font-family: Inter, sans-serif; font-size: 12.5pt; font-weight: 700; line-height: 1.35;
+  background: var(--ink); color: #fff; border-radius: 6px; padding: 3.5mm 4.5mm; margin: 2mm 0 4mm; break-inside: avoid; }
+.oneline small { display: block; font-size: 7.5pt; letter-spacing: .14em; text-transform: uppercase; opacity: .7; margin-bottom: 1mm; font-weight: 600; }
+
+/* idea cards: keyword -> plain meaning -> example */
+.ideas { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; margin: 2mm 0 3mm; }
+.ideas.one { grid-template-columns: 1fr; }
+.idea { border: 1px solid var(--line); border-top: 4px solid var(--mid); border-radius: 5px; padding: 2.6mm 3.2mm; break-inside: avoid; background: #fff; }
+.idea h4 { margin: 0 0 1mm; font-size: 10.5pt; color: var(--mid); }
+.idea p { margin: 0 0 1.2mm; }
+.idea.red { border-top-color: var(--hi); } .idea.red h4 { color: var(--hi); }
+.idea.green { border-top-color: var(--sum); } .idea.green h4 { color: var(--sum); }
+.idea.gold { border-top-color: var(--gold); } .idea.gold h4 { color: var(--gold); }
+.idea.purple { border-top-color: var(--ex); } .idea.purple h4 { color: var(--ex); }
+.idea.teal { border-top-color: var(--teal); } .idea.teal h4 { color: var(--teal); }
+
+/* example tag */
+.eg { display: block; background: var(--gold-bg); border-radius: 4px; padding: 1.4mm 2.4mm; margin-top: 1.2mm; font-size: 10pt; }
+.eg::before { content: "e.g. "; font-family: Inter, sans-serif; font-weight: 800; color: var(--gold); font-size: 8.5pt; letter-spacing: .04em; }
+.like { display: block; background: var(--teal-bg); border-radius: 4px; padding: 1.4mm 2.4mm; margin-top: 1.2mm; font-size: 10pt; }
+.like::before { content: "Think of it like: "; font-family: Inter, sans-serif; font-weight: 800; color: var(--teal); font-size: 8.5pt; }
+
+/* ready-to-write answer */
+.answer { border: 2px solid var(--ex); border-radius: 6px; padding: 3mm 4mm; margin: 4mm 0; background: #fcfaff; break-inside: avoid; }
+.answer > .box-title { font-family: Inter, sans-serif; font-weight: 800; font-size: 8.8pt; text-transform: uppercase; letter-spacing: .07em; color: var(--ex); display: block; margin-bottom: 1.5mm; }
+.answer .q { font-family: Inter, sans-serif; font-weight: 700; font-size: 10pt; margin-bottom: 1.5mm; color: #2b2142; }
+.answer p { margin-bottom: 1.6mm; }
+
+/* names to drop + dates strip */
+.names { display: flex; flex-wrap: wrap; gap: 1.6mm; margin: 2mm 0 3mm; }
+.names span { font-family: Inter, sans-serif; font-size: 8.6pt; background: #f1f3f7; border: 1px solid var(--line); border-radius: 12px; padding: .8mm 2.6mm; }
+.names span b { color: var(--hi); }
+.dates { display: grid; grid-template-columns: auto 1fr; gap: 1mm 3mm; font-size: 10pt; margin: 2mm 0 3mm; break-inside: avoid; }
+.dates b:nth-child(odd) { font-family: Inter, sans-serif; color: var(--hi); white-space: nowrap; }
+
+/* comparison "vs" boxes */
+.vs { display: grid; grid-template-columns: 1fr auto 1fr; gap: 2.5mm; align-items: stretch; margin: 3mm 0; break-inside: avoid; }
+.vs .side { border-radius: 6px; padding: 2.8mm 3.4mm; }
+.vs .side h4 { margin: 0 0 1mm; font-size: 10.5pt; }
+.vs .a { background: var(--mid-bg); border: 1px solid #c9daf3; } .vs .a h4 { color: var(--mid); }
+.vs .b { background: var(--hi-bg); border: 1px solid #f3cfc9; } .vs .b h4 { color: var(--hi); }
+.vs .mid { align-self: center; font-family: Inter, sans-serif; font-weight: 800; color: var(--muted); font-size: 12pt; }
+
+/* simple picture/diagram frame */
+.pic { border: 1px solid var(--line); border-radius: 6px; padding: 3mm; margin: 3mm 0; background: #fafbfc; break-inside: avoid; }
+.pic .cap { font-family: Inter, sans-serif; font-size: 8pt; color: var(--muted); text-align: center; margin-top: 1.5mm; }
+.pic svg { display: block; width: 100%; height: auto; }
+.pic svg text { font-family: Inter, sans-serif; }
+
+/* skip note */
+.skipnote { font-family: Inter, sans-serif; font-size: 8.4pt; color: var(--muted); border: 1px dashed #c3c8d2; border-radius: 5px; padding: 1.6mm 2.6mm; margin: 2mm 0; }
+.skipnote b { color: #4b5363; }
+
+.tight li { margin: .6mm 0; }
+.mapfig svg { max-height: 120mm; }
+</style></head><body><div class="cover" style="min-height:auto"><div class="top">
+<div class="kicker">BMS-01 · World &amp; Indian History · Mid-term</div>
+<h1>History Midsem: <span>Model Answers</span></h1>
+<div class="sub">All the sample questions and answers in one place: the professor's two models from class, one ready answer for every session, and extra answer and essay plans.</div>
+</div></div>
+<h2>How to use these answers</h2>
+<div class="box support"><span class="box-title">A reliable answer template (10 marks)</span>
+    <ol>
+      <li><b>Intro (2–3 lines):</b> define the key term and state your thesis.</li>
+      <li><b>Body:</b> 3–4 paragraphs, each with one idea, the scholar or reading behind it, and a concrete example.</li>
+      <li><b>Complication:</b> one paragraph of critique or limits (examiners reward balance).</li>
+      <li><b>Conclusion:</b> answer the question directly and link it to the course's big theme (connectivity, scale, uses of the past).</li>
+    </ol>
+  </div>
+<div class="box key"><span class="box-title">What's inside</span><ol class="tight">
+<li><b>Part A</b>: the professor's own model short answer and model essay plan (given in class). Read these first, since they show exactly what the examiner wants.</li>
+<li><b>Part B</b>: one full model answer for each session (1, 2, 3, 4, 6, 7, 8, 9, 10, 11).</li>
+<li><b>Part C</b>: six more short-answer plans and four essay plans that mix sessions together.</li></ol>
+<p>Don't memorise word for word. Learn the <b>structure</b> (thesis → points with scholar and example → "but" → conclusion) and the <b>names and examples</b>.</p></div>
+<section class="session"><div class="session-head"><div class="session-num"><small>PART</small>A</div><div class="session-title"><h1>The Professor's Model Answers (from class)</h1><div class="readings">Read these first: they show the structure the examiner expects.</div></div></div>
+<h3>Model short answer given in class </h3>
+<p class="muted small"><b>Q.</b> Why is it important to distinguish between religious doctrines and lived religious practices in understanding religion in India? <i>(The professor's model answer, condensed. Notice the structure: definition → Islam example → Kashmir/Rishi example → Hinduism → Christianity → conclusion.)</i></p>
+<div class="box summary"><span class="box-title">Model answer (condensed)</span>
+<p>Formal teachings do not by themselves determine how religion is experienced. Traditions provide beliefs, texts, rituals and principles, but these are <b>interpreted and adapted within particular social and cultural contexts</b>.</p>
+<p><b>Islam in India:</b> it has universal principles (one God, the Qur'an, prayer, fasting, charity, pilgrimage), yet Indian Muslims lived in a society with established traditions, so Islamic practice acquired distinctive regional and cultural characteristics. They shared Islam's universal foundations while being shaped by geography, language and social circumstances.</p>
+<p><b>Kashmir:</b> Islam spread there not only by transmitting doctrine but by adapting to existing practice. The <b>Rishi order of Nuruddin</b> incorporated familiar elements of Kashmiri religious life, such as <b>vegetarianism and concern for animals</b>. A tradition can take local forms without losing its broader identity.</p>
+<p><b>Hinduism:</b> the Brahmanical textual tradition differs from local and popular ritual. Brahmanical ideas were incorporated into local traditions and popular religion entered wider Hindu practice, producing great variation and diversity.</p>
+<p><b>Christianity:</b> converts did not abandon their earlier identities. Communities retained pre-conversion beliefs, social attitudes and ritual practices.</p>
+<p><b>Conclusion:</b> studying religion requires attention to how people interpret, negotiate and practise teachings in everyday life. Lived religion shows how caste, region, culture and historical experience shape religious expression.</p>
+</div>
+
+<div class="avoid"><h3>Model essay plan given in class </h3>
+<p class="muted small"><b>Q.</b> Evaluate the claim that the shift from colonial and nationalist history to Marxist "new history" represented a major advance in historical understanding.</p>
+<div class="box summary"><span class="box-title">Professor's essay guideline (condensed)</span>
+<ol>
+<li><b>Introduce</b> the historiographical schools of Indian history briefly and connect them to the question.</li>
+<li>Colonial and nationalist writing focused on <b>civilisational judgements, political narratives and identity arguments</b>. Marxist history redirected attention to <b>economy, society, class and material life</b>.</li>
+<li><b>Advance 1, a shift away from elite-centred narrative:</b> from rulers, dynasties, decline or national greatness to peasants, labour, land systems, production relations and social hierarchy.</li>
+<li><b>Advance 2, explanation:</b> events are not isolated episodes or moral lessons; causes are sought in material structures and social relations.</li>
+<li><b>Advance 3, correcting nationalist weaknesses:</b> where nationalists used the past to foster pride, Marxists exposed inequality, conflict and contradiction within Indian society.</li>
+<li><b>Critique:</b> Marxist history could become rigid when class was the "master explanation". Culture, religion, region and ideas could be undervalued as mere reflections of the economy.</li>
+<li><b>Layered revision:</b> earlier phases should not be dismissed wholesale. Marxists built on them, and understanding advances by layered revision, not total replacement.</li>
+<li><b>Conclusion:</b> a major advance (broader evidence, sharper explanation, deeper processes), but one stage in an evolving historiography, not the final form.</li>
+</ol>
+</div>
+</div>
+
+</section>
+<section class="session"><div class="session-head"><div class="session-num"><small>PART</small>B</div><div class="session-title"><h1>One Model Answer for Every Session</h1><div class="readings">Short answers are 10 marks; essays are 15 marks. Each answer follows the same shape: thesis → points with examples → "but" → conclusion.</div></div></div>
+<div class="avoid"><h2>Session 1 · Why Study History?</h2>
+<div class="answer"><span class="box-title">Write it like this (10 marks)</span>
+<div class="q">Q. Explain Hobsbawm's idea of the past as pattern, model and process.</div>
+<p>Hobsbawm (1972) argues that "the past is a permanent dimension of human consciousness": every society uses its past, but how it uses it depends on how fast it changes.</p>
+<p>In <b>traditional societies</b> the past is a <b>pattern</b>: people copy inherited customs, and law equals custom. Yet these societies are not static (static tradition is "a myth of vulgar social science"). Change is absorbed gradually, hidden, or renamed, as when nomads treated lorries as part of their camel trade. Innovation enters through gaps in the remembered past, through technology, or disguised as a return to a forgotten past. If change is too fast, tradition survives only through isolation (the Amish) or at great cost (the forced conversion of Mexican Indians).</p>
+<p>When change accelerates, the past becomes a <b>model</b>, consciously chosen. Loud calls for "restoration" show that continuity has already broken. Zapata's peasants tried to restore their lands of 40 years earlier, but they had to imagine what they could not remember, the change could not be cut out "like a bullet", and their movement became a revolution that created a new Mexico. Restoration may also be only <b>symbolic</b>, like rebuilding Warsaw.</p>
+<p>In <b>modern societies</b> the past becomes a <b>process</b> of progress that explains the present; "new" means "better", and even conservatives think historically.</p>
+<p><b>But</b> the past is often selected or invented, especially by nationalism. History cannot predict the future, though it explains how the present was made.</p>
+</div>
+</div>
+<div class="avoid"><h2>Session 2 · Historical Methods, Sources &amp; Practices</h2>
+<div class="answer"><span class="box-title">Write it like this (10 marks)</span>
+<div class="q">Q. "Lange shows how historians explain; Backerra shows how they know." Discuss.</div>
+<p>Historical method is both a science of evidence and an art of interpretation, and the two readings cover each side.</p>
+<p><b>Lange</b> explains how historians build <b>causal explanations</b> through comparative-historical analysis. CHA has four elements: within-case methods (causal narrative, process tracing), comparison across cases, a social-scientific belief that causes can be found, and big units like states and classes. Skocpol, for example, found that revolutions need both state breakdown and peasant power. CHA balances unique (ideographic) and general (nomothetic) explanation. This is why works such as Said's <i>Orientalism</i> do not count as CHA.</p>
+<p><b>Backerra</b> explains how historians decide whether evidence can be <b>trusted</b>, through source criticism (Droysen's heuristic, analysis, interpretation, presentation). Cultural historians use the same method with new questions: in diplomatic letters, wide margins showed rank, the choice of language showed status, and ceremony filled half the instructions.</p>
+<p><b>But</b> comparison can over-generalise, and presentation is still neglected. Together they make the full workflow: find → check → compare → explain.</p>
+</div>
+</div>
+<div class="avoid"><h2>Session 3 · Global and Regional Histories: Scale, Perspective, Context</h2>
+<div class="answer"><span class="box-title">Write it like this (10 marks)</span>
+<div class="q">Q. Why should global and regional histories be read together? Use India as an example.</div>
+<p>Global history studies how places are <b>connected</b> (trade, migration, empire); regional history studies how a place <b>works internally</b>. Each alone is weak: global history can become too abstract, regional history too isolated.</p>
+<p>Hall argues that there were <b>multiple globalizations</b> with long histories, not one modern one: "how can one tell what is new if one does not know what is old?" Wallerstein's world-system ("a system that is a world") links a core and a periphery, while Frank sees one 5,000-year system and Chase-Dunn and Hall see many. Such big models need regional detail to test them, and the right comparison depends on the purpose.</p>
+<p>India shows why both are needed. It contains many regions, yet it was linked to Africa, Arabia and China through the Indian Ocean, which is both a region and a global arena. Vasco da Gama's arrival in 1498 looks like the start of colonialism at the national scale, but regionally he was only a new player, guided by a Gujarati pilot.</p>
+<p>Since modern borders mislead us about the past, good history moves across scales and asks both "how was it connected?" and "how did it work inside?"</p>
+</div>
+</div>
+<div class="avoid"><h2>Session 4 · Indian Schools of Historical Thought</h2>
+<div class="answer"><span class="box-title">Write it like this: the professor's essay (15 marks)</span>
+<div class="q">Q. Was the shift from colonial and nationalist history to Marxist "new history" a major advance?</div>
+<p><b>Intro:</b> Each school of Indian history reflected the politics of its time (Hobsbawm: the past is used for present needs). Marxist history was a real advance in method and scope, but not the final word.</p>
+<p><b>Colonial history</b>: James Mill (1818), who never visited India, used hostile sources and described India as static and despotic, which justified British rule. His Hindu–Muslim–British periodisation trained Haileybury officials. Maine and Smith repeated these assumptions.</p>
+<p><b>Nationalist history</b> answered with pride: Jayaswal's ancient republics, Mookerji's "fundamental unity", and Dutt's and Naoroji's drain theory, which began economic history. <b>But</b> it often glorified a golden age "as compensation for the humiliating present" (Thapar) and fed communal history.</p>
+<p><b>Marxist history</b> asked new questions of old sources: production, land and class. Kosambi showed how the plough turned tribes into caste society; Sharma studied feudalism; Thapar saw Ashoka's dhamma as policy and rejected the Aryan invasion; Habib showed peasant revolts against Mughal revenue. It moved history from kings to society, used archaeology and destroyed colonial myths.</p>
+<p><b>Limits:</b> class could become a rigid master explanation and the jargon was heavy. The Cambridge School stressed elite bargaining, and Subaltern Studies (Guha, 1982) showed that even Marxists missed peasants' own politics.</p>
+<p><b>Conclusion:</b> a major advance in scope and method, but history keeps being rewritten from new angles.</p>
+</div>
+</div>
+<div class="avoid"><h2>Session 6 · India through the Eyes of Foreign Travellers</h2>
+<div class="answer"><span class="box-title">Write it like this (10 marks)</span>
+<div class="q">Q. How useful are foreign travellers' accounts as sources for Indian history?</div>
+<p>Where Indian records are scarce, foreign accounts are very useful, but travel writing mixes <b>observation, memory, interpretation and opinion</b>, so it is evidence and interpretation at once. Historians must ask why the traveller came, for whom they wrote, what languages they knew, and what they left out.</p>
+<p>The Chinese pilgrims were <b>eyewitnesses</b>. Faxian (399–413) described Gupta India, relic worship and his sea voyage home. Xuanzang described Harsha's Kanauj and Nalanda, brought back 657 texts and opened diplomatic ties. Yijing recorded monastery rules and studied at Srivijaya. They also show monks travelling with merchants. <b>But</b> they saw India through a Buddhist lens, and their "borderland complex" made them idealise it.</p>
+<p>Al-Shahrastani classified Indian religions systematically and fairly, <b>but</b> he never visited India, knew no Sanskrit, relied on older Arabic books and made errors (e.g. "Brahma" as a man). Al-Biruni, who learned Sanskrit and used original texts, is more reliable, though al-Shahrastani still shows what Muslims of his time believed.</p>
+<p>So these accounts must be <b>corroborated</b> with inscriptions, coins and archaeology. Used critically, they also show that India was <b>connected</b> to Asia, not isolated.</p>
+</div>
+</div>
+<div class="avoid"><h2>Session 7 · Baghdad to Canton: Commerce and Culture in the Medieval Indian Ocean</h2>
+<div class="answer"><span class="box-title">Write it like this (10 marks)</span>
+<div class="q">Q. Why was India central to the Indian Ocean trading system before 1500?</div>
+<p>Bernstein shows that the medieval Indian Ocean was a form of <b>premodern globalisation</b>, a regular system linking East Africa, Arabia, India, Southeast Asia and China, organised by monsoons, ports, merchant networks and shared institutions. India sat at its centre, but not just because of geography.</p>
+<p>First, monsoon voyages were done in segments, so ships from the west and east met at Indian ports, and India acted as the <b>intermediary</b> where cargo was sorted, taxed and re-shipped. Second, India was a great <b>producer</b>: its cotton textiles were "indispensable" across Asia, and Malabar pepper was in huge demand in China. Third, the <b>Gujarati</b> merchants of Cambay were so skilled that Tomé Pires told the Portuguese to learn from them; they dominated Malacca, which had 84 languages. Fourth, Indian Muslim traders spread <b>Islam</b> to Southeast Asia through trade and marriage, and Delhi under Tughluq drew scholars like Ibn Battuta.</p>
+<p><b>But</b> centrality also depended on institutions: safe ports, fair taxes and shared Islamic commercial law (customs of 2.5%, 5% or 10%), as Malacca's success shows.</p>
+<p>So Europe entered an <b>already-connected world</b>; it did not create it.</p>
+</div>
+</div>
+<div class="avoid"><h2>Session 8 · Silk Route Connections I: Overland Networks ("Comparing Two Lenses")</h2>
+<div class="answer"><span class="box-title">Write it like this (10 marks)</span>
+<div class="q">Q. "There is no single Silk Road." Discuss with reference to Hansen and Bhattacharya.</div>
+<p>The term "Silk Road" was coined by Richthofen in 1877 as one line from China to Europe, but the readings show a <b>web of routes</b> carrying people, religions and many goods, with few people travelling the whole way.</p>
+<p><b>Hansen</b> uses a <b>city lens</b>. Through archaeology in Chang'an (An Jia's Chinese tomb with a Zoroastrian altar, the Hejiacun hoard, pawn tickets) she shows a cosmopolitan city where foreigners mixed cultures, but where <b>few goods</b> travelled far. Most items were made locally by migrant craftsmen, so people and skills mattered more. After the An Lushan rebellion (755) and the bans of 843–845, the city declined and trade moved to the sea.</p>
+<p><b>Bhattacharya</b> uses a <b>regional lens</b>. Bengal was a <b>hub</b> linking rivers, mountains and sea to Yunnan and Southeast Asia, shown by trade in cotton (a "Cotton Road") and cowrie shells. Colonial rule restructured these routes, and 1947 and 1962 closed them, making Bengal "peripheral".</p>
+<p><b>Today</b>, China's BRI (2013) and India's Act East (2014) use the Silk Road memory <b>selectively</b>, a political use of the past. So the Silk Road was <b>multiple and changing</b>, and what we see depends on the lens and scale we choose.</p>
+</div>
+</div>
+<div class="avoid"><h2>Session 9 · Silk Route Connections II: Trade, Religion and Buddhism Across the Sea</h2>
+<div class="answer"><span class="box-title">Write it like this (10 marks)</span>
+<div class="q">Q. How did trade and religion support each other in the maritime spread of Buddhism? (Sen)</div>
+<p>Tansen Sen argues that Buddhism reached China by sea as well as by land, and that this spread was <b>closely tied to trade</b>. He rejects the label "maritime Silk Road", since silk was not the main cargo and the label wrongly makes China the centre.</p>
+<p>Merchants gave monks passage, funded monasteries and carried relics and texts; monasteries gave merchants lodging, trust and blessings. Offerings of the "seven jewels" created demand for pearls and coral (Xinru Liu). The Indian ship-owner Nandin, who carried Gunavarman and Sri Lankan nuns to China, shows this link. <b>But</b> the relationship was not always friendly: "Brahmin" merchants on Faxian's ship wanted to abandon him in a storm.</p>
+<p>Following Zürcher, Sen shows that Southeast Asia was first only a <b>transit zone</b>; the first Buddhist inscription there was set up by a sea captain, Buddhagupta. Later <b>Srivijaya</b> (1,000 monks, according to Yijing) and <b>Sri Lanka</b> (relics and Tantric teachers like Vajrabodhi and Amoghavajra) became hubs, and knowledge flowed back to India with Atisa.</p>
+<p><b>Limitation:</b> he relies on Chinese sources and gives little voice to local people or women. Still, he shows that religion became part of trade itself.</p>
+</div>
+</div>
+<div class="avoid"><h2>Session 10 · Religions in India: Encounters, Adaptations and Transregional Influences</h2>
+<div class="answer"><span class="box-title">Write it like this: the professor's short answer (10 marks)</span>
+<div class="q">Q. Distinguish religion as doctrine from religion as lived practice in India.</div>
+<p>The lecture and Madan argue that religion is more than belief: it moves from <b>belief → practice → experience → social life</b>. So historians must separate doctrine from lived religion.</p>
+<p><b>Doctrine</b> means the official teachings in sacred texts and from religious authorities: the Vedas and Manusmriti, the Quran and sharia (upheld by the ulama), or the Sikh Khalsa code. Doctrine tends to draw <b>clear boundaries</b> between religions.</p>
+<p><b>Lived religion</b> is what people actually do: food rules, festivals, pilgrimage, local saints. In practice boundaries are <b>porous</b>. Hindus and Muslims visit the same Sufi shrines, the Mapilla Muslims of Kerala kept local customs, and Madan calls this everyday mixing "folk pluralism". Religion is also embedded in society: a temple is an economic and social institution.</p>
+<p>The difference matters. The colonial census (from 1871), using a text-based Judeo-Christian model, put people into fixed boxes and <b>hardened identities</b>. Studying lived religion shows that Indian religions were plural and changing, as at Nagapattinam, where Buddha images were carried in processions like Hindu gods.</p>
+</div>
+</div>
+<div class="avoid"><h2>Session 11 · History of the Indian Ocean as a Connected Space</h2>
+<div class="answer"><span class="box-title">Write it like this (essay outline, 15 marks)</span>
+<div class="q">Q. "European expansion transformed, but did not create, Indian Ocean connectivity." Discuss.</div>
+<p><b>Intro:</b> "Connected space" means structured interaction across distance, not sameness. The Indian Ocean was connected long before 1500.</p>
+<p><b>Before Europe:</b> monsoon trade from Baghdad to Canton with India at the centre (Bernstein); monks on merchant ships (Sen); Tamil temples from Java to Quanzhou (Guy). Chaudhuri shows "unity in the large" across four civilisations from 622, with a shared ground floor of daily life.</p>
+<p><b>Europeans arrive:</b> the Portuguese (1498) used violence and the cartaz, but never fully controlled trade (Steensgaard vs strong Asian states). The EIC and VOC brought joint-stock organisation, but <b>depended on Indian bankers and brokers</b> such as Kasi Viranna and Amirchand (Roy).</p>
+<p><b>Transformation:</b> port towns (Madras, Bombay, Calcutta) with their own law; Mughal decline after 1707; Plassey and Buxar turned trade into <b>empire</b>.</p>
+<p><b>But:</b> connection was unequal (force, slavery, coerced weavers). "Connected for whom?"</p>
+<p><b>Conclusion:</b> Europe changed <b>who held power</b>, but the network itself was much older.</p>
+</div>
+</div>
+</section>
+<section class="session"><div class="session-head"><div class="session-num"><small>PART</small>C</div><div class="session-title"><h1>More Answer Plans</h1><div class="readings">Six more short answers and four essays that mix several sessions. Write each one as paragraphs, not bullet points.</div></div></div>
+<h2>Short-answer plans (10 marks)</h2>
+
+<p class="small"><b>Formula for every short answer:</b> (1) one-line definition or thesis naming the scholar; (2) two or three explained points, each with a <b>named example, date or place</b>; (3) a brief critical note or limitation; (4) a one-line conclusion linking to the course theme. Write <b>paragraphs, not bullets</b>.</p>
+<div class="grid2">
+<div class="card c1"><h4>Q. Doctrine vs lived religion in India</h4>
+Thesis: religion is more than belief (belief → practice → experience → social life). ¶ <b>Doctrine:</b> texts and orthodoxies: Veda and Manusmriti, the Quran and sharia (the ulama, Barani), the Khalsa <i>rahit</i>. ¶ <b>Lived:</b> food, pilgrimage, festivals; Sufi shrines shared by Hindus and Muslims; Mapilla customs; Marriott's little traditions; Madan's <b>folk pluralism</b>; temples as economic institutions. ¶ <b>Why the gap matters:</b> the colonial census (1871) and the Judeo-Christian model read religion through doctrine and hardened identities; lived religion shows porous boundaries (the Nagapattinam bronzes). ¶ Conclusion: study religion through society, not texts alone.</div>
+<div class="card c2"><h4>Q. Why "maritime Silk Road" is misleading (Sen)</h4>
+Richthofen's 1877 term was extended to every route. ¶ Silk was not the main sea cargo (beads, pearls, then incense, pepper, porcelain). ¶ It over-emphasises China (Chinese shipping only from the 10th c.) and erases Southeast Asia, India and the Middle East (Austronesians, Funan/Oc Eo, Indo-Roman trade). ¶ It is also politically loaded today (BRI's 21st-century Maritime Silk Road; Bhattacharya: selective use of the past). ¶ Alternative: a multi-centred maritime Asia.</div>
+<div class="card c3"><h4>Q. Hansen's urban lens vs Bhattacharya's regional lens</h4>
+Both reject one road and centres-only history. ¶ <b>Hansen:</b> Chang'an; archaeology (An Jia, Shi Wirkak, the Hejiacun hoard, pawn tickets); cosmopolitanism; few goods, many people; decline after An Lushan and the bans of 843/845. ¶ <b>Bhattacharya:</b> Bengal as a hinge of land, river and sea; cotton and cowries; colonial restructuring; BRI and Act East. ¶ Different scales reveal different Silk Roads; centres and peripheries are made.</div>
+<div class="card c4"><h4>Q. How useful are foreign travellers' accounts?</h4>
+Travel writing = observation + memory + interpretation. ¶ Advantages: eyewitness, details Indians did not record, comparisons (Faxian's Gupta India; Xuanzang's Harsha and Nalanda). ¶ Limits: language, religious lens (Buddhist pilgrims), hearsay (al-Shahrastani never visited India and wrote from Arabic secondary sources), exaggeration (<i>Marvels</i>). ¶ Method: corroborate with inscriptions, coins and archaeology; al-Biruni as the critical counterpoint. ¶ Conclusion: indispensable but must be read critically.</div>
+<div class="card c5"><h4>Q. Chaudhuri's "unity in the large, disunity in the small"</h4>
+Braudel's model applied to the Indian Ocean (622–1750). ¶ Möbius strip analogy. ¶ Unity: transcontinental trade, the monsoon, an invariant material ground floor, four expansions to Plassey. ¶ Disunity: four civilisations; bread vs rice; arid vs wet. ¶ Unity is a mental construct (Gödel; Arasaratnam's critique). ¶ Lecture: "connected, not uniform".</div>
+<div class="card c6"><h4>Q. Indian agency in Indo-European trade (Roy)</h4>
+A crowded world before 1500 (Gujarati, Mapilla, Chulia and Chetti merchants). ¶ Europeans "had no option but to operate within the given structure" (Om Prakash): bankers (minting, hundis; the Jagatseths), brokers (Kasi Viranna, Amirchand, Ananda Ranga Pillai), coastal shippers, shipwrights (Narsapur Peta). ¶ Relations of dependence and distrust; "contract" was a new institution. ¶ Empire grew through entanglement. ¶ But also coercion of weavers after 1765.</div>
+</div>
+
+
+<h2>Essay plans (15 marks)</h2>
+
+<div class="box exam"><span class="box-title">Essay 1: "Indian Ocean connectivity was transformed, not created, by Europeans." Discuss.</span>
+<b>Intro:</b> define connectivity (structured interaction across distance); thesis: Europeans entered a working system and reorganised it institutionally and violently. ¶ <b>1. Pre-1500 system:</b> monsoon and segmented trade, Baghdad to Canton, India as hub (Bernstein); Arab/Persian, Gujarati and Tamil merchants; Chaudhuri's unity in the large. ¶ <b>2. Religion and diaspora:</b> Buddhism at sea (Sen), Tamil guilds and temples from Takuapa to Quanzhou (Guy), multi-religious Nagapattinam (Ray). ¶ <b>3. The Portuguese:</b> violence, the cartaz, forts, but partial control and decline after 1640 (Steensgaard vs strong states). ¶ <b>4. Companies:</b> joint stock, charters, forts; dependence on Indian bankers and brokers; textiles and silver. ¶ <b>5. Transformation:</b> port cities with their own law → state formation 1707–65 → empire (Plassey, Buxar, 1765). ¶ <b>Critique:</b> "connected for whom?"; coercion of weavers; slavery. ¶ <b>Conclusion:</b> continuity of networks and rupture of sovereignty.
+</div>
+<div class="box exam"><span class="box-title">Essay 2: Trace the development of Indian historiography from Orientalism to Subaltern Studies (the professor's model essay; see Part A)</span>
+<b>Intro:</b> each school answered the colonial claim that "India has no history". ¶ <b>Orientalists:</b> Jones (1784), Prinsep (1834), the "sheet anchor": achievements, but a golden-age and Brahmanical bias (Said). ¶ <b>Colonial:</b> Mill (1818): Hindu–Muslim–British, despotism, the justification of rule; Elliot &amp; Dowson. ¶ <b>Nationalist:</b> golden ages, Hindu Polity (Jayaswal), Rajput heroism: pride but communal tendencies. ¶ <b>Marxist:</b> Kosambi, Sharma (feudalism), Thapar, Habib: economic structures and class. ¶ <b>Cambridge School:</b> elite interest politics. ¶ <b>Subaltern:</b> Guha (1982), history from below; critique of elitism. ¶ <b>Conclusion:</b> historiography reflects the politics of its present (Hobsbawm).
+</div>
+<div class="box exam"><span class="box-title">Essay 3: "Religion travelled because people travelled." Discuss with reference to Indian religions in Asia</span>
+<b>Intro:</b> from diffusion to circulation; Madan's plural and lived religion. ¶ <b>Agents:</b> merchants, Brahmans, monks, rulers, artisans. ¶ <b>Buddhism:</b> monk–merchant reciprocity (Liu, <i>saptaratna</i>), Faxian's voyage, the transit zone (Sen), Srivijaya and Sri Lanka, Atisa. ¶ <b>Hinduism and kingship:</b> Kutei yupas, Purnavarman's Vishnupada (local appropriation), Takuapa guilds, Quanzhou temples (Guy). ¶ <b>Hybridity and reverse flows:</b> Nagapattinam (Srivijayan and Chinese gifts; Schalk's three Buddhisms; Ray); Balaputradeva at Nalanda. ¶ <b>Limits:</b> antagonism (Faxian's "Brahmin" merchants), source bias. ¶ <b>Conclusion:</b> religion was carried, translated and reinterpreted, not copied.
+</div>
+<div class="box exam"><span class="box-title">Essay 4: "There is no single Silk Road." Discuss</span>
+Richthofen's 1877 coinage vs many routes. ¶ Overland: Hansen's Chang'an, Sogdians, archaeology, change over time. ¶ Southern: Bhattacharya's Bengal (cotton, cowries), colonial rerouting. ¶ Maritime: Sen's critique; Bernstein's sea route. ¶ Modern uses: BRI, Act East, BCIM (Hobsbawm's invented past). ¶ Scale and centre/periphery. ¶ Conclusion: multiple, layered, dynamic networks; the lens decides what we see.
+</div>
+
+
+</section></body></html>

@@ -1,13 +1,16 @@
 // Builds the study guide: concatenates src/*.html, injects SVG maps, prints a PDF.
 // Usage: node build.js            -> History_Midsem_Study_Guide.{html,pdf}
 //        node build.js --lite     -> History_Midsem_Exam_Essentials.{html,pdf}
+//        node build.js --qa       -> History_Midsem_Model_Answers.{html,pdf}
 const fs = require('fs');
 const path = require('path');
 
 // --lite builds the short "Exam Essentials" edition from src-lite/.
-const LITE = process.argv.includes('--lite');
-const SRC = path.join(__dirname, LITE ? 'src-lite' : 'src');
-const OUT_BASE = LITE ? 'History_Midsem_Exam_Essentials' : 'History_Midsem_Study_Guide';
+// --qa builds the "Model Answers" collection from src-qa/ (uses the lite styles too).
+const QA = process.argv.includes('--qa');
+const LITE = QA || process.argv.includes('--lite');
+const SRC = path.join(__dirname, QA ? 'src-qa' : LITE ? 'src-lite' : 'src');
+const OUT_BASE = QA ? 'History_Midsem_Model_Answers' : LITE ? 'History_Midsem_Exam_Essentials' : 'History_Midsem_Study_Guide';
 const OUT_HTML = path.join(__dirname, OUT_BASE + '.html');
 const OUT_PDF = path.join(__dirname, OUT_BASE + '.pdf');
 
@@ -246,7 +249,7 @@ async function pdf() {
   await page.pdf({
     path: OUT_PDF, format: 'A4', printBackground: true,
     displayHeaderFooter: true,
-    headerTemplate: `<div style="font-family:Inter,sans-serif;font-size:7px;color:#8a93a3;width:100%;padding:0 15mm;display:flex;justify-content:space-between"><span>BMS-01 · World &amp; Indian History · ${LITE ? 'Exam Essentials (simple version)' : 'Mid-term Study Guide'}</span><span>Sessions 1–4, 6–11</span></div>`,
+    headerTemplate: `<div style="font-family:Inter,sans-serif;font-size:7px;color:#8a93a3;width:100%;padding:0 15mm;display:flex;justify-content:space-between"><span>BMS-01 · World &amp; Indian History · ${QA ? 'Model Answers' : LITE ? 'Exam Essentials (simple version)' : 'Mid-term Study Guide'}</span><span>Sessions 1–4, 6–11</span></div>`,
     footerTemplate: '<div style="font-family:Inter,sans-serif;font-size:7.5px;color:#8a93a3;width:100%;text-align:center">Page <span class="pageNumber"></span> of <span class="totalPages"></span></div>',
     margin: { top: '16mm', bottom: '16mm', left: '14mm', right: '14mm' },
   });
