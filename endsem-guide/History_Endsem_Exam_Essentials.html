@@ -1,0 +1,1254 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>World &amp; Indian History — End-term Study Guide</title><style>:root {
+  --ink:#1c2230; --muted:#5a6375; --line:#d8dce4; --paper:#ffffff;
+  --hi:#b42318; --hi-bg:#fff3f1;
+  --mid:#1f5fae; --mid-bg:#f0f5fd;
+  --lo:#6b7280; --lo-bg:#f4f4f3;
+  --sum:#11734a; --sum-bg:#edf9f2;
+  --ex:#6a3d9e; --ex-bg:#f5effc;
+  --gold:#9a5b00; --gold-bg:#fff8e8;
+  --teal:#0f6e74; --teal-bg:#eaf7f7;
+}
+* { box-sizing: border-box; }
+html, body { background: var(--paper); }
+body {
+  font-family: "Bitstream Charter", "Caladea", "Liberation Serif", Georgia, serif;
+  font-size: 10.4pt; line-height: 1.47; color: var(--ink); margin: 0;
+  -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+h1, h2, h3, h4, h5, .badge, th, .node, .tl-date, figcaption, .kicker, .pill, .toc, .chip, .legend text, .map text {
+  font-family: Inter, "DejaVu Sans", Arial, sans-serif;
+}
+p { margin: 0 0 6px; }
+ul, ol { margin: 2px 0 7px 0; padding-left: 18px; }
+li { margin: 1.5px 0; }
+strong { color: #0f1626; }
+em { color: #26324a; }
+a { color: var(--mid); text-decoration: none; }
+
+/* ---------- page structure ---------- */
+.page-break { break-before: page; }
+section.session { break-before: page; }
+.avoid { break-inside: avoid; }
+@media screen { body { max-width: 900px; margin: 0 auto; padding: 24px 18px 80px; } }
+
+/* ---------- cover ---------- */
+.cover { min-height: 255mm; display: flex; flex-direction: column; justify-content: space-between; padding: 6mm 2mm; }
+.cover .top { border-top: 6px solid #1c2230; padding-top: 10mm; }
+.cover .kicker { font-size: 10pt; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.cover h1 { font-size: 34pt; line-height: 1.05; margin: 6mm 0 3mm; font-weight: 800; letter-spacing: -.01em; }
+.cover h1 span { color: var(--hi); }
+.cover .sub { font-size: 13pt; color: #35405a; max-width: 150mm; }
+.cover .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; margin-top: 8mm; }
+.cover .card { border: 1px solid var(--line); border-radius: 6px; padding: 4mm; background: #fafbfc; }
+.cover .card h4 { margin: 0 0 2mm; font-size: 9.5pt; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.cover .foot { font-family: Inter, sans-serif; font-size: 8.5pt; color: var(--muted); border-top: 1px solid var(--line); padding-top: 3mm; }
+
+/* ---------- headings ---------- */
+h2.front { font-size: 19pt; margin: 0 0 3mm; padding-bottom: 2mm; border-bottom: 3px solid var(--ink); }
+.session-head { display: flex; gap: 5mm; align-items: stretch; margin-bottom: 4mm; border-bottom: 3px solid var(--ink); padding-bottom: 3mm; }
+.session-num { font-family: Inter, sans-serif; font-weight: 800; font-size: 30pt; line-height: 1; background: var(--ink); color: #fff; padding: 3mm 4mm; border-radius: 4px; min-width: 22mm; text-align: center; }
+.session-num small { display: block; font-size: 7pt; letter-spacing: .15em; font-weight: 600; opacity: .8; margin-bottom: 1mm; }
+.session-title h1 { font-size: 19pt; line-height: 1.12; margin: 0 0 1.5mm; font-weight: 800; }
+.session-title .readings { font-family: Inter, sans-serif; font-size: 8.4pt; color: var(--muted); line-height: 1.4; }
+h2 { font-size: 13.5pt; margin: 6mm 0 2mm; padding-bottom: 1mm; border-bottom: 1.5px solid var(--line); break-after: avoid; }
+h3 { font-size: 11.3pt; margin: 4.5mm 0 1.5mm; break-after: avoid; color: #142036; }
+h4 { font-size: 10pt; margin: 3mm 0 1mm; break-after: avoid; color: #2b3650; }
+h2 .badge, h3 .badge { vertical-align: middle; margin-left: 2mm; }
+
+/* ---------- priority badges ---------- */
+.badge { display: inline-block; font-size: 7.2pt; font-weight: 700; letter-spacing: .04em; padding: .6mm 1.8mm; border-radius: 10px; text-transform: uppercase; white-space: nowrap; }
+.b-hi { background: var(--hi); color: #fff; }
+.b-mid { background: var(--mid); color: #fff; }
+.b-lo { background: #9aa1ad; color: #fff; }
+.b-skip { background: #fff; color: var(--lo); border: 1px dashed var(--lo); }
+
+/* ---------- boxes ---------- */
+.box { border-radius: 5px; padding: 2.8mm 3.6mm; margin: 3mm 0; border-left: 4px solid; break-inside: avoid; }
+.box > .box-title { font-family: Inter, sans-serif; font-weight: 700; font-size: 8.6pt; text-transform: uppercase; letter-spacing: .07em; margin-bottom: 1.2mm; display: block; }
+.box p:last-child, .box ul:last-child, .box ol:last-child { margin-bottom: 0; }
+.why { background: var(--gold-bg); border-color: var(--gold); } .why > .box-title { color: var(--gold); }
+.key { background: var(--hi-bg); border-color: var(--hi); } .key > .box-title { color: var(--hi); }
+.support { background: var(--mid-bg); border-color: var(--mid); } .support > .box-title { color: var(--mid); }
+.low { background: var(--lo-bg); border-color: #a3a9b4; } .low > .box-title { color: var(--lo); }
+.summary { background: var(--sum-bg); border-color: var(--sum); } .summary > .box-title { color: var(--sum); }
+.exam { background: var(--ex-bg); border-color: var(--ex); } .exam > .box-title { color: var(--ex); }
+.simple { background: var(--teal-bg); border-color: var(--teal); } .simple > .box-title { color: var(--teal); }
+.quote { border-left: 3px solid #b8bfcc; padding: 1mm 0 1mm 3.5mm; margin: 2.5mm 0; color: #303a50; font-style: italic; break-inside: avoid; }
+.quote cite { display: block; font-style: normal; font-family: Inter, sans-serif; font-size: 8pt; color: var(--muted); margin-top: .8mm; }
+.connect { font-family: Inter, sans-serif; font-size: 8.6pt; background: #f6f7f9; border: 1px dashed #c3c8d2; border-radius: 5px; padding: 2mm 3mm; margin: 3mm 0; break-inside: avoid; }
+.connect b { color: var(--teal); }
+
+/* ---------- tables ---------- */
+table { width: 100%; border-collapse: collapse; margin: 2.5mm 0 3.5mm; font-size: 9.2pt; break-inside: auto; }
+tr { break-inside: avoid; }
+th { background: #263049; color: #fff; text-align: left; font-weight: 600; font-size: 8.4pt; padding: 1.6mm 2mm; vertical-align: bottom; }
+td { border-bottom: 1px solid var(--line); padding: 1.5mm 2mm; vertical-align: top; }
+tbody tr:nth-child(even) td { background: #f8f9fb; }
+td.rowh { font-family: Inter, sans-serif; font-weight: 600; font-size: 8.6pt; color: #1e2a44; background: #eef1f6 !important; width: 22%; }
+table.compact td, table.compact th { padding: 1mm 1.6mm; font-size: 8.7pt; }
+
+/* ---------- flow diagrams ---------- */
+.flow { display: flex; align-items: stretch; gap: 0; margin: 3mm 0; break-inside: avoid; flex-wrap: nowrap; }
+.flow .node { flex: 1; border: 1.5px solid #34405a; border-radius: 5px; padding: 2mm 2.4mm; font-size: 8.3pt; line-height: 1.32; background: #fff; text-align: center; display: flex; flex-direction: column; justify-content: center; }
+.flow .node b { display: block; font-size: 9pt; margin-bottom: .6mm; color: #0f1626; }
+.flow .arrow { flex: 0 0 7mm; display: flex; align-items: center; justify-content: center; font-size: 14pt; color: #5a6375; font-family: Inter, sans-serif; }
+.flow .node.n1 { background: #fff8e8; border-color: #b7791f; }
+.flow .node.n2 { background: #f0f5fd; border-color: #1f5fae; }
+.flow .node.n3 { background: #edf9f2; border-color: #11734a; }
+.flow .node.n4 { background: #f5effc; border-color: #6a3d9e; }
+.flow .node.n5 { background: #fff3f1; border-color: #b42318; }
+.vflow { display: flex; flex-direction: column; align-items: stretch; margin: 3mm auto; max-width: 150mm; break-inside: avoid; }
+.vflow .node { border: 1.5px solid #34405a; border-radius: 5px; padding: 1.8mm 3mm; font-size: 8.6pt; background: #fff; font-family: Inter, sans-serif; text-align: center; }
+.vflow .arrow { text-align: center; color: #5a6375; font-size: 12pt; line-height: 1.1; }
+
+/* ---------- concept grid ---------- */
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; margin: 3mm 0; }
+.grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 3mm; margin: 3mm 0; }
+.grid2 > div, .grid3 > div { break-inside: avoid; }
+.card { border: 1px solid var(--line); border-radius: 5px; padding: 2.4mm 3mm; background: #fff; font-size: 9.3pt; }
+.card h4 { margin: 0 0 1mm; font-size: 9.4pt; }
+.card.c1 { border-top: 3px solid #b7791f; } .card.c2 { border-top: 3px solid #1f5fae; } .card.c3 { border-top: 3px solid #11734a; } .card.c4 { border-top: 3px solid #6a3d9e; } .card.c5 { border-top: 3px solid #b42318; } .card.c6 { border-top: 3px solid #0f6e74; }
+
+/* ---------- timeline ---------- */
+.timeline { position: relative; margin: 3mm 0 4mm 0; padding-left: 26mm; break-inside: auto; }
+.timeline:before { content: ""; position: absolute; left: 22mm; top: 1mm; bottom: 1mm; width: 2px; background: #c3c9d4; }
+.tl { position: relative; margin: 0 0 2mm; break-inside: avoid; font-size: 9.2pt; }
+.tl .tl-date { position: absolute; left: -26mm; width: 20mm; text-align: right; font-weight: 700; font-size: 8.2pt; color: #263049; top: .3mm; }
+.tl:before { content: ""; position: absolute; left: -5.2mm; top: 1.4mm; width: 7px; height: 7px; border-radius: 50%; background: #263049; }
+.tl.hi:before { background: var(--hi); } .tl.hi .tl-date { color: var(--hi); }
+
+/* ---------- maps ---------- */
+figure { margin: 3mm 0; break-inside: avoid; }
+figcaption { font-size: 7.8pt; color: var(--muted); margin-top: 1mm; text-align: center; }
+svg.map { width: 100%; height: auto; display: block; border: 1px solid #c9d2de; border-radius: 4px; }
+.map .sea-bg { fill: #e8f1f8; }
+.map .land-fill { fill: #f4efe4; stroke: #b9ae95; stroke-width: .8; }
+.map .sea-name { font-size: 9px; fill: #7f9bb5; letter-spacing: .2em; font-weight: 600; }
+.map .sea-name.small { font-size: 6.5px; letter-spacing: .1em; }
+.map .pt { fill: #1c2230; stroke: #fff; stroke-width: 1; }
+.map .pt-port { fill: #c2410c; }
+.map .pt-eng { fill: #1d4ed8; }
+.map .pt-label { font-size: 7.6px; fill: #1c2230; font-weight: 600; paint-order: stroke; stroke: #ffffffd0; stroke-width: 2.4px; }
+.map .route { fill: none; stroke-width: 2.1; stroke-linejoin: round; stroke-linecap: round; opacity: .9; }
+.map .route.land { stroke: #a16207; stroke-dasharray: 6 3; }
+.map .route.sea { stroke: #1f5fae; }
+.map .route.south { stroke: #11734a; stroke-dasharray: 2 3; stroke-width: 2.4; }
+.map .route.gold { stroke: #b42318; }
+.map .route.faxian { stroke: #b42318; }
+.map .route.xuanzang { stroke: #a16207; stroke-dasharray: 6 3; }
+.map .route.xuanzang2 { stroke: #c08a2f; stroke-dasharray: 2 3; }
+.map .route.yijing { stroke: #1f5fae; }
+.map .route.atisa { stroke: #6a3d9e; stroke-dasharray: 5 2; }
+.map line.sw { stroke: #0f6e74; stroke-width: 2.4; }
+.map line.ne { stroke: #9a5b00; stroke-width: 2.4; stroke-dasharray: 4 2; }
+.map .ah-sw { fill: #0f6e74; } .map .ah-ne { fill: #9a5b00; }
+.map .legend rect { fill: #ffffffe8; stroke: #c9d2de; }
+.map .legend text { font-size: 8px; fill: #1c2230; }
+
+/* ---------- misc ---------- */
+.toc { columns: 2; column-gap: 8mm; font-size: 9.3pt; }
+.toc div { break-inside: avoid; margin-bottom: 1.6mm; }
+.toc b { color: var(--hi); }
+.chip { display: inline-block; font-size: 7.6pt; border: 1px solid #c3c9d4; border-radius: 9px; padding: .2mm 1.8mm; margin: .4mm .6mm .4mm 0; color: #34405a; background: #fff; }
+.mcq ol { padding-left: 16px; }
+.mcq li { margin-bottom: 2mm; break-inside: avoid; }
+.mcq .opts { font-size: 9pt; color: #34405a; }
+.answers { font-family: Inter, sans-serif; font-size: 8.4pt; columns: 2; }
+.small { font-size: 8.8pt; }
+.muted { color: var(--muted); }
+.two-col { columns: 2; column-gap: 7mm; }
+.two-col > * { break-inside: avoid; }
+dl.terms { margin: 2mm 0; }
+dl.terms dt { font-family: Inter, sans-serif; font-weight: 700; font-size: 9pt; color: #142036; margin-top: 1.6mm; }
+dl.terms dd { margin: 0 0 0 4mm; font-size: 9.3pt; }
+.legend-row { display: flex; flex-wrap: wrap; gap: 2mm; align-items: center; font-family: Inter, sans-serif; font-size: 8.4pt; margin: 2mm 0; }
+.hl { background: #fff1a8; padding: 0 .6mm; }
+
+.grid2.tl-cols > div { break-inside: auto; }
+.grid2.tl-cols { display: block; columns: 2; column-gap: 6mm; }
+.grid2.tl-cols > .timeline { break-inside: auto; margin-top: 0; }
+
+ol.mcq{columns:2;column-gap:26px;padding-left:22px;font-size:0.93em}
+ol.mcq li{break-inside:avoid;margin-bottom:7px}
+.map .region-name { font-family: Inter, sans-serif; font-size: 10px; font-weight: 800; fill: #7c2d12; letter-spacing: .06em; }
+.map .region-sub { font-family: Inter, sans-serif; font-size: 8.5px; fill: #7c2d12; font-style: italic; }
+
+/* ---- endsem: components shared with the simple edition ---- */
+/* idea cards: keyword -> plain meaning -> example */
+.ideas { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; margin: 2mm 0 3mm; }
+.ideas.one { grid-template-columns: 1fr; }
+.idea { border: 1px solid var(--line); border-top: 4px solid var(--mid); border-radius: 5px; padding: 2.6mm 3.2mm; break-inside: avoid; background: #fff; }
+.idea h4 { margin: 0 0 1mm; font-size: 10.5pt; color: var(--mid); }
+.idea p { margin: 0 0 1.2mm; }
+.idea.red { border-top-color: var(--hi); } .idea.red h4 { color: var(--hi); }
+.idea.green { border-top-color: var(--sum); } .idea.green h4 { color: var(--sum); }
+.idea.gold { border-top-color: var(--gold); } .idea.gold h4 { color: var(--gold); }
+.idea.purple { border-top-color: var(--ex); } .idea.purple h4 { color: var(--ex); }
+.idea.teal { border-top-color: var(--teal); } .idea.teal h4 { color: var(--teal); }
+
+/* example tag */
+.eg { display: block; background: var(--gold-bg); border-radius: 4px; padding: 1.4mm 2.4mm; margin-top: 1.2mm; font-size: 10pt; }
+.eg::before { content: "e.g. "; font-family: Inter, sans-serif; font-weight: 800; color: var(--gold); font-size: 8.5pt; letter-spacing: .04em; }
+.like { display: block; background: var(--teal-bg); border-radius: 4px; padding: 1.4mm 2.4mm; margin-top: 1.2mm; font-size: 10pt; }
+.like::before { content: "Think of it like: "; font-family: Inter, sans-serif; font-weight: 800; color: var(--teal); font-size: 8.5pt; }
+
+/* ready-to-write answer */
+.answer { border: 2px solid var(--ex); border-radius: 6px; padding: 3mm 4mm; margin: 4mm 0; background: #fcfaff; break-inside: avoid; }
+.answer > .box-title { font-family: Inter, sans-serif; font-weight: 800; font-size: 8.8pt; text-transform: uppercase; letter-spacing: .07em; color: var(--ex); display: block; margin-bottom: 1.5mm; }
+.answer .q { font-family: Inter, sans-serif; font-weight: 700; font-size: 10pt; margin-bottom: 1.5mm; color: #2b2142; }
+.answer p { margin-bottom: 1.6mm; }
+
+/* names to drop + dates strip */
+.names { display: flex; flex-wrap: wrap; gap: 1.6mm; margin: 2mm 0 3mm; }
+.names span { font-family: Inter, sans-serif; font-size: 8.6pt; background: #f1f3f7; border: 1px solid var(--line); border-radius: 12px; padding: .8mm 2.6mm; }
+.names span b { color: var(--hi); }
+.dates { display: grid; grid-template-columns: auto 1fr; gap: 1mm 3mm; font-size: 10pt; margin: 2mm 0 3mm; break-inside: avoid; }
+.dates b:nth-child(odd) { font-family: Inter, sans-serif; color: var(--hi); white-space: nowrap; }
+
+/* comparison "vs" boxes */
+.vs { display: grid; grid-template-columns: 1fr auto 1fr; gap: 2.5mm; align-items: stretch; margin: 3mm 0; break-inside: avoid; }
+.vs .side { border-radius: 6px; padding: 2.8mm 3.4mm; }
+.vs .side h4 { margin: 0 0 1mm; font-size: 10.5pt; }
+.vs .a { background: var(--mid-bg); border: 1px solid #c9daf3; } .vs .a h4 { color: var(--mid); }
+.vs .b { background: var(--hi-bg); border: 1px solid #f3cfc9; } .vs .b h4 { color: var(--hi); }
+.vs .mid { align-self: center; font-family: Inter, sans-serif; font-weight: 800; color: var(--muted); font-size: 12pt; }
+
+/* simple picture/diagram frame */
+.pic { border: 1px solid var(--line); border-radius: 6px; padding: 3mm; margin: 3mm 0; background: #fafbfc; break-inside: avoid; }
+.pic .cap { font-family: Inter, sans-serif; font-size: 8pt; color: var(--muted); text-align: center; margin-top: 1.5mm; }
+.pic svg { display: block; width: 100%; height: auto; }
+.pic svg text { font-family: Inter, sans-serif; }
+
+/* skip note */
+.skipnote { font-family: Inter, sans-serif; font-size: 8.4pt; color: var(--muted); border: 1px dashed #c3c8d2; border-radius: 5px; padding: 1.6mm 2.6mm; margin: 2mm 0; }
+.skipnote b { color: #4b5363; }
+
+.tight li { margin: .6mm 0; }
+.mapfig svg { max-height: 120mm; }
+/* ---- endsem: let long boxes and grid columns flow across pages (avoid half-empty pages) ---- */
+.box, .card { break-inside: auto; }
+.grid2 > div, .grid3 > div { break-inside: auto; }
+.mapfig svg { max-height: 118mm; }
+.box > .box-title, .card h4 { break-after: avoid; }
+.grid2 > table, .grid3 > table { align-self: start; }
+.answer { break-inside: auto; }
+.answer p, .answer .q { break-inside: avoid; }
+.answer > .box-title { break-after: avoid; }
+.avoid .answer { break-inside: avoid; }
+
+/* ---------- Exam Essentials (simple edition) ---------- */
+body { font-size: 11pt; line-height: 1.5; }
+h2 { font-size: 14pt; }
+.session-title h1 { font-size: 20pt; }
+
+/* the one-sentence takeaway at the top of each session */
+.oneline { font-family: Inter, sans-serif; font-size: 12.5pt; font-weight: 700; line-height: 1.35;
+  background: var(--ink); color: #fff; border-radius: 6px; padding: 3.5mm 4.5mm; margin: 2mm 0 4mm; break-inside: avoid; }
+.oneline small { display: block; font-size: 7.5pt; letter-spacing: .14em; text-transform: uppercase; opacity: .7; margin-bottom: 1mm; font-weight: 600; }
+
+/* idea cards: keyword -> plain meaning -> example */
+.ideas { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; margin: 2mm 0 3mm; }
+.ideas.one { grid-template-columns: 1fr; }
+.idea { border: 1px solid var(--line); border-top: 4px solid var(--mid); border-radius: 5px; padding: 2.6mm 3.2mm; break-inside: avoid; background: #fff; }
+.idea h4 { margin: 0 0 1mm; font-size: 10.5pt; color: var(--mid); }
+.idea p { margin: 0 0 1.2mm; }
+.idea.red { border-top-color: var(--hi); } .idea.red h4 { color: var(--hi); }
+.idea.green { border-top-color: var(--sum); } .idea.green h4 { color: var(--sum); }
+.idea.gold { border-top-color: var(--gold); } .idea.gold h4 { color: var(--gold); }
+.idea.purple { border-top-color: var(--ex); } .idea.purple h4 { color: var(--ex); }
+.idea.teal { border-top-color: var(--teal); } .idea.teal h4 { color: var(--teal); }
+
+/* example tag */
+.eg { display: block; background: var(--gold-bg); border-radius: 4px; padding: 1.4mm 2.4mm; margin-top: 1.2mm; font-size: 10pt; }
+.eg::before { content: "e.g. "; font-family: Inter, sans-serif; font-weight: 800; color: var(--gold); font-size: 8.5pt; letter-spacing: .04em; }
+.like { display: block; background: var(--teal-bg); border-radius: 4px; padding: 1.4mm 2.4mm; margin-top: 1.2mm; font-size: 10pt; }
+.like::before { content: "Think of it like: "; font-family: Inter, sans-serif; font-weight: 800; color: var(--teal); font-size: 8.5pt; }
+
+/* ready-to-write answer */
+.answer { border: 2px solid var(--ex); border-radius: 6px; padding: 3mm 4mm; margin: 4mm 0; background: #fcfaff; break-inside: avoid; }
+.answer > .box-title { font-family: Inter, sans-serif; font-weight: 800; font-size: 8.8pt; text-transform: uppercase; letter-spacing: .07em; color: var(--ex); display: block; margin-bottom: 1.5mm; }
+.answer .q { font-family: Inter, sans-serif; font-weight: 700; font-size: 10pt; margin-bottom: 1.5mm; color: #2b2142; }
+.answer p { margin-bottom: 1.6mm; }
+
+/* names to drop + dates strip */
+.names { display: flex; flex-wrap: wrap; gap: 1.6mm; margin: 2mm 0 3mm; }
+.names span { font-family: Inter, sans-serif; font-size: 8.6pt; background: #f1f3f7; border: 1px solid var(--line); border-radius: 12px; padding: .8mm 2.6mm; }
+.names span b { color: var(--hi); }
+.dates { display: grid; grid-template-columns: auto 1fr; gap: 1mm 3mm; font-size: 10pt; margin: 2mm 0 3mm; break-inside: avoid; }
+.dates b:nth-child(odd) { font-family: Inter, sans-serif; color: var(--hi); white-space: nowrap; }
+
+/* comparison "vs" boxes */
+.vs { display: grid; grid-template-columns: 1fr auto 1fr; gap: 2.5mm; align-items: stretch; margin: 3mm 0; break-inside: avoid; }
+.vs .side { border-radius: 6px; padding: 2.8mm 3.4mm; }
+.vs .side h4 { margin: 0 0 1mm; font-size: 10.5pt; }
+.vs .a { background: var(--mid-bg); border: 1px solid #c9daf3; } .vs .a h4 { color: var(--mid); }
+.vs .b { background: var(--hi-bg); border: 1px solid #f3cfc9; } .vs .b h4 { color: var(--hi); }
+.vs .mid { align-self: center; font-family: Inter, sans-serif; font-weight: 800; color: var(--muted); font-size: 12pt; }
+
+/* simple picture/diagram frame */
+.pic { border: 1px solid var(--line); border-radius: 6px; padding: 3mm; margin: 3mm 0; background: #fafbfc; break-inside: avoid; }
+.pic .cap { font-family: Inter, sans-serif; font-size: 8pt; color: var(--muted); text-align: center; margin-top: 1.5mm; }
+.pic svg { display: block; width: 100%; height: auto; }
+.pic svg text { font-family: Inter, sans-serif; }
+
+/* skip note */
+.skipnote { font-family: Inter, sans-serif; font-size: 8.4pt; color: var(--muted); border: 1px dashed #c3c8d2; border-radius: 5px; padding: 1.6mm 2.6mm; margin: 2mm 0; }
+.skipnote b { color: #4b5363; }
+
+.tight li { margin: .6mm 0; }
+.mapfig svg { max-height: 120mm; }
+</style></head><body><div class="cover" style="min-height:auto">
+  <div class="top">
+    <div class="kicker">BMS-01 · World &amp; Indian History · End-term</div>
+    <h1>History Endsem: <span>Exam Essentials</span></h1>
+    <div class="sub">Every key point from the endsem readings and PPTs (Sessions 12–15 and 17–22), explained in simple words with an example for each idea, a map or diagram per session, and a ready model answer at the end of each session. Small side details are marked "Skip".</div>
+  </div>
+</div>
+
+<h2>How to use this guide (read in 1 minute)</h2>
+<div class="ideas">
+<div class="idea red"><h4>Each session has the same 5 parts</h4>
+<ol class="tight">
+<li><b>In one line</b>: the whole session in one sentence.</li>
+<li><b>Picture it</b>: a map or diagram.</li>
+<li><b>All key points</b>: each <b>keyword</b> in simple words, with an <b>e.g.</b></li>
+<li><b>Names &amp; dates</b>: only the ones worth writing in an answer.</li>
+<li><b>Write it like this</b>: a ready model answer you can adapt.</li>
+</ol></div>
+<div class="idea green"><h4>The exam</h4>
+<ul class="tight">
+<li>Final exam = <b>35%</b> of your grade.</li>
+<li>Midsem pattern (Lecture 16): <b>A</b> 10 MCQs × ½ = 5 · <b>B</b> 3 of 5 short answers × 10 = 30 · <b>C</b> 1 essay × 15 = 15. Closed book, 2 hours.</li>
+<li>Expect the same unless told otherwise: <b>check with the professor</b>.</li>
+</ul>
+<p><b>The professor wants:</b> paragraphs (not bullets), the <b>scholar's name</b>, examples (people, places, dates), and one <b>"but…"</b>.</p></div>
+</div>
+
+<div class="box key"><span class="box-title">The 4-step formula for every answer</span>
+<b>1. Say what the scholar argues</b> in one line ("Nadri argues that…"). <b>2. Explain 2–3 points</b>, each with an example. <b>3. Add one "but"</b> (a limit or criticism). <b>4. End with one line</b> linking to the big course idea (e.g. "empire was a process, not a single event").
+</div>
+
+<h2>The endsem on one page</h2>
+<div class="pic">
+<svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arl0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5a6375"/></marker></defs>
+<g font-family="Inter, sans-serif" font-size="12">
+<rect x="10" y="10" width="360" height="125" rx="8" fill="#f0f5fd" stroke="#1f5fae"/>
+<text x="190" y="32" text-anchor="middle" font-weight="800" fill="#1f5fae">PART A · WHO AND WHAT CONNECTED THE OCEAN?</text>
+<text x="22" y="56">S12 People: mariners, merchants, monks</text>
+<text x="22" y="76">S13 Things: textiles, spices, perfumes</text>
+<text x="22" y="96">S14 Faith: Islam across the ocean</text>
+<text x="22" y="116">S15 Ships: sewn hulls → steam &amp; telegraph</text>
+<rect x="390" y="10" width="360" height="125" rx="8" fill="#fff3f1" stroke="#b42318"/>
+<text x="570" y="32" text-anchor="middle" font-weight="800" fill="#b42318">PART B · HOW DID TRADE BECOME EMPIRE?</text>
+<text x="402" y="56">S17 Surat brokers → colonial markets (Nadri, Roy)</text>
+<text x="402" y="76">S18 Silver &amp; tea; Plassey, diwani (Furber, Bowen)</text>
+<text x="402" y="96">S19 Opium circuit India–SE Asia–China (Trocki)</text>
+<text x="402" y="116">S20 Port cities: networks and city space</text>
+<rect x="200" y="165" width="360" height="85" rx="8" fill="#edf9f2" stroke="#11734a"/>
+<text x="380" y="187" text-anchor="middle" font-weight="800" fill="#11734a">PART C · HOW DID EMPIRE END?</text>
+<text x="212" y="211">S21 Colonial state → mass nationalism → war crisis</text>
+<text x="212" y="231">S22 Revolutionaries abroad: connection and silence</text>
+<line x1="190" y1="137" x2="300" y2="162" stroke="#5a6375" stroke-width="2" marker-end="url(#arl0)"/>
+<line x1="570" y1="137" x2="460" y2="162" stroke="#5a6375" stroke-width="2" marker-end="url(#arl0)"/>
+<text x="380" y="285" text-anchor="middle" font-size="12.5" font-weight="700">Big idea: an old, Asian-made connected ocean was entered, reorganised and ruled by Europe, then challenged.</text>
+</g></svg></div>
+
+<div class="ideas">
+<div class="idea purple"><h4>Six phrases that fit almost any answer</h4>
+<ul class="tight">
+<li>"Connection does not mean sameness" (or equality).</li>
+<li>"The forms of connection changed; connection continued."</li>
+<li>"Read empire as a process, not a single event."</li>
+<li>"Commerce and belief travelled together."</li>
+<li>"Technology is inseparable from power."</li>
+<li>"Sources are never neutral."</li>
+</ul></div>
+<div class="idea teal"><h4>Note on sources</h4>
+<p>Three readings were not in the folder: <b>Trocki</b> (S19), <b>Bose &amp; Jalal</b> (S21), <b>Aspengren</b> (S22). For these the professor's slides are used, which is what she will examine anyway. <b>Khatun</b> (S13) and <b>Kooria</b> (S14) come from the long extracts on the slides.</p></div>
+</div>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>12</div>
+  <div class="session-title"><h1>Mariners, Merchants and Monks in the Indian Ocean</h1>
+  <div class="readings">Ranabir Chakravarti, "Indic Mercantile Networks… c. 500–1500" (2019) · Mansur al-Sharida, "Merchants without Borders: Qusman Traders… c. 1850–1950" (2023) · Lecture 12</div></div>
+</div>
+
+<div class="oneline"><small>In one line</small>The Indian Ocean was connected by <b>people</b> (mariners, merchants, monks), not by geography alone. From the <b>Geniza traders of 1100</b> to the <b>Najdi traders of 1900</b>, the same ocean kept rewarding <b>mobility and trust</b>; only the scale, technology and imperial setting changed.</div>
+
+<h2>1. The big picture <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>Who made the "connected space" work?</h4>
+<p><b>Mariners</b> knew winds and routes. <b>Merchants</b> organised goods, credit and risk. <b>Monks and religious groups</b> carried texts, rituals and gifts. Trade also created <b>diasporas</b>, many languages in one port, and <b>trust</b>.</p>
+<span class="eg">Buddhist monks and merchants used the same ships and ports; a Hindu Chola king paid for a Buddhist monastery at Nagapattinam.</span></div>
+<div class="idea"><h4>"Connected space" (Subrahmanyam)</h4>
+<p>Places are linked by <b>movement</b>, shaped by <b>encounters</b>, part of <b>larger processes</b>, and the links are <b>repeated, not accidental</b>.</p>
+<span class="like">a railway network: no station makes sense alone; it matters because trains keep coming back.</span></div>
+<div class="idea gold"><h4>Why read the two articles together?</h4>
+<p>Chakravarti = medieval <b>foundations</b> (500–1500). al-Sharida = modern <b>transformation</b> (1850–1950). Together they show <b>continuity and change</b> in one ocean.</p></div>
+<div class="idea green"><h4>"Segmented mobility"</h4>
+<p>Goods moved <b>in stages</b>: ship → port → caravan → inland. No ship could cross the whole ocean in <b>one monsoon</b>, so goods were <b>transshipped</b> at stopover ports.</p>
+<span class="eg">Gulf goods reached al-Qasim by ship to Bahrain, then by camel caravan inland.</span></div>
+</div>
+
+<h2>2. Chakravarti: South Asia was "a hinge, not an edge" <span class="badge b-hi">Must know</span></h2>
+<figure class="mapfig"><svg viewBox="0 0 784 472" xmlns="http://www.w3.org/2000/svg" class="map" role="img" aria-label="Chakravarti’s Indian Ocean, c. 500–1500: South Asia as the hinge"><rect x="0" y="0" width="784" height="472" class="sea-bg"/><polygon class="land-fill" points="0.0,0.0 0.0,73.6 64.0,76.0 56.0,104.0 50.4,117.6 36.8,128.0 52.0,144.0 56.0,144.0 88.0,196.0 117.6,248.0 123.2,266.4 136.0,265.6 168.0,254.4 193.6,243.2 220.0,228.0 238.4,216.0 254.4,188.0 244.8,178.4 226.4,157.6 212.0,174.4 188.8,171.2 188.0,160.0 177.6,155.2 164.0,140.8 159.2,128.0 166.4,126.4 178.4,133.6 187.2,144.8 212.0,155.2 228.0,151.2 246.4,163.2 268.8,166.4 308.8,164.8 314.4,170.4 324.0,180.0 337.6,187.2 328.0,189.6 337.6,200.8 356.8,197.6 358.4,216.0 363.2,240.0 373.6,264.0 384.0,288.0 396.0,303.2 401.6,296.8 410.4,285.6 415.2,272.0 418.4,248.0 428.0,236.8 434.4,232.0 452.0,216.0 468.0,206.4 472.0,196.0 484.0,194.4 492.0,192.0 500.0,187.2 508.0,188.0 514.4,202.4 529.6,216.0 531.2,240.0 540.0,241.6 556.8,236.0 558.4,256.0 564.8,288.0 562.4,304.0 578.4,320.0 585.6,344.0 603.2,357.6 609.6,356.8 603.2,336.0 594.4,318.4 578.4,307.2 576.0,292.0 569.6,284.0 576.0,260.8 583.2,260.8 594.4,270.4 600.0,280.0 612.8,284.8 616.0,299.2 630.4,284.8 650.4,273.6 649.6,257.6 642.4,240.0 628.8,228.0 620.8,216.0 629.6,203.2 640.0,195.2 654.4,196.0 657.6,206.4 664.0,196.0 684.0,190.4 708.0,184.0 724.0,172.0 732.8,161.6 740.0,148.0 750.4,128.0 744.0,116.0 740.0,96.0 730.4,88.0 740.0,78.4 756.0,69.6 744.0,65.6 728.0,70.4 720.0,60.0 716.8,55.2 732.0,46.4 748.0,41.6 752.0,44.0 772.0,48.0 784.0,51.2 784.0,0.0"/><polygon class="land-fill" points="0.0,117.6 34.4,117.6 36.0,128.0 44.0,148.0 60.0,180.0 73.6,216.0 92.0,244.0 122.4,272.0 185.6,273.6 168.0,320.0 128.0,360.0 104.0,384.0 92.0,416.0 90.4,440.0 100.0,456.0 100.0,472.0 0.0,472.0"/><polygon class="land-fill" points="415.2,289.6 417.6,289.6 427.2,300.0 431.2,312.0 426.4,318.4 416.8,320.0 414.4,308.0"/><polygon class="land-fill" points="538.4,323.2 556.0,326.4 578.4,348.0 604.8,376.0 624.0,393.6 622.4,414.4 612.0,415.2 594.4,400.0 578.4,376.0 565.6,354.4 544.0,337.6"/><polygon class="land-fill" points="617.6,422.4 628.0,416.0 642.4,418.4 659.2,423.2 676.8,423.2 692.0,430.4 691.2,437.6 664.0,433.6 644.0,430.4 627.2,427.2"/><polygon class="land-fill" points="648.0,354.4 660.0,354.4 680.0,342.4 700.0,328.0 713.6,312.0 728.0,326.4 720.0,332.8 716.8,360.0 705.6,380.0 704.0,397.6 690.4,396.0 669.6,392.0 656.8,381.6 648.0,368.0"/><polygon class="land-fill" points="645.6,214.4 660.0,207.2 664.0,211.2 658.4,220.8 648.0,220.0"/><polygon class="land-fill" points="737.6,184.0 748.0,166.4 751.2,171.2 743.2,192.0"/><polygon class="land-fill" points="164.8,472.0 170.4,464.0 178.4,472.0"/><polygon class="land-fill" points="732.0,412.0 739.2,391.2 734.4,368.0 743.2,357.6 760.0,360.8 770.4,356.8 776.0,355.2 761.6,364.0 748.0,364.0 745.6,376.0 758.4,376.0 762.4,375.2 754.4,389.6 755.2,405.6 745.6,404.8 740.0,412.8"/><polygon class="land-fill" points="89.6,413.6 91.2,415.2 92.0,419.2 90.4,420.0"/><text x="256.0" y="256.0" class="sea-name">ARABIAN SEA</text><text x="448.0" y="252.0" class="sea-name">BAY OF BENGAL</text><text x="336.0" y="400.0" class="sea-name">INDIAN OCEAN</text><text x="672.0" y="264.0" class="sea-name">SOUTH CHINA SEA</text><text x="180.0" y="150.4" class="sea-name small">PERSIAN GULF</text><text x="68.0" y="208.0" class="sea-name small">RED SEA</text><defs><marker id="ah-sw" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0,0 L11,5.5 L0,11 z" class="ah-sw"/></marker><marker id="ah-ne" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0,0 L11,5.5 L0,11 z" class="ah-ne"/></marker></defs><line x1="216.0" y1="312.0" x2="264.0" y2="264.0" class="sw" marker-end="url(#ah-sw)"/><line x1="448.0" y1="328.0" x2="488.0" y2="280.0" class="sw" marker-end="url(#ah-sw)"/><line x1="320.0" y1="216.0" x2="280.0" y2="256.0" class="ne" marker-end="url(#ah-ne)"/><line x1="520.0" y1="232.0" x2="480.0" y2="272.0" class="ne" marker-end="url(#ah-ne)"/><line x1="704.0" y1="232.0" x2="672.0" y2="280.0" class="ne" marker-end="url(#ah-ne)"/><g class="legend"><rect x="6.4" y="8.0" width="150" height="40" rx="4"/><line x1="14.4" y1="21" x2="36.4" y2="21" class="sw"/><text x="42.4" y="24">SW monsoon (Jun–Sep)</text><line x1="14.4" y1="37" x2="36.4" y2="37" class="ne"/><text x="42.4" y="40">NE monsoon (Nov–Mar)</text></g><polyline points="25.6,128.0 66.4,189.6 84.0,216.0 108.0,240.0 122.4,267.2 136.0,265.6" class="route gold"/><polyline points="136.0,265.6 192.0,268.0 272.0,268.0 374.8,264.8" class="route gold"/><polyline points="196.8,146.4 207.6,155.6 230.4,155.2 236.8,166.4 272.0,180.0 320.0,196.0 339.2,200.8" class="route sea"/><polyline points="320.0,196.0 359.8,214.4" class="route sea"/><polyline points="228.0,151.2 256.0,192.0 288.0,240.0 344.0,272.0 382.4,278.0" class="route land"/><polyline points="382.4,278.0 388.8,296.8 387.2,308.8 420.0,325.6 414.4,281.6" class="route sea"/><polyline points="414.4,281.6 464.0,296.0 528.0,312.0 579.2,319.2 590.4,352.0 604.0,372.0 614.4,392.0" class="route atisa"/><polyline points="414.4,281.6 464.0,328.0 536.0,342.4 563.2,352.0" class="route atisa"/><polyline points="510.4,189.6 488.0,248.0 416.0,320.0 364.0,334.4" class="route south"/><circle cx="25.6" cy="128.0" r="3.2" class="pt"/><text x="21.6" y="122.0" class="pt-label" text-anchor="start">Fustat (Old Cairo)</text><circle cx="66.4" cy="189.6" r="3.2" class="pt"/><text x="71.4" y="185.6" class="pt-label" text-anchor="start">Aidhab</text><circle cx="136.0" cy="265.6" r="3.2" class="pt"/><text x="131.0" y="278.6" class="pt-label" text-anchor="end">Aden</text><circle cx="206.4" cy="268.0" r="3.2" class="pt"/><text x="211.4" y="272.0" class="pt-label" text-anchor="start">Socotra</text><circle cx="196.8" cy="146.4" r="3.2" class="pt"/><text x="200.8" y="157.4" class="pt-label" text-anchor="start">Siraf</text><circle cx="207.6" cy="155.6" r="3.2" class="pt"/><text x="210.6" y="166.6" class="pt-label" text-anchor="start">Kish</text><circle cx="228.0" cy="151.2" r="3.2" class="pt"/><text x="233.0" y="146.2" class="pt-label" text-anchor="start">Hormuz</text><circle cx="316.0" cy="170.0" r="3.2" class="pt"/><text x="311.0" y="167.0" class="pt-label" text-anchor="end">Daibul</text><circle cx="356.8" cy="189.6" r="3.2" class="pt"/><text x="351.8" y="185.6" class="pt-label" text-anchor="end">Cambay</text><circle cx="339.2" cy="200.8" r="3.2" class="pt"/><text x="334.2" y="206.8" class="pt-label" text-anchor="end">Somnath</text><circle cx="359.8" cy="214.4" r="3.2" class="pt"/><text x="354.8" y="218.4" class="pt-label" text-anchor="end">Thana</text><circle cx="374.8" cy="264.8" r="3.2" class="pt"/><text x="369.8" y="268.8" class="pt-label" text-anchor="end">Mangalore</text><circle cx="382.4" cy="278.0" r="3.2" class="pt"/><text x="377.4" y="282.0" class="pt-label" text-anchor="end">Calicut</text><circle cx="388.8" cy="296.8" r="3.2" class="pt"/><text x="383.8" y="302.8" class="pt-label" text-anchor="end">Quilon</text><circle cx="420.8" cy="305.6" r="3.2" class="pt"/><text x="426.8" y="313.6" class="pt-label" text-anchor="start">Sri Lanka</text><circle cx="414.4" cy="281.6" r="3.2" class="pt"/><text x="419.4" y="285.6" class="pt-label" text-anchor="start">Nagapattinam</text><circle cx="418.4" cy="242.0" r="3.2" class="pt"/><text x="423.4" y="248.0" class="pt-label" text-anchor="start">Motupalli</text><circle cx="442.4" cy="226.4" r="3.2" class="pt"/><text x="447.4" y="224.4" class="pt-label" text-anchor="start">Visakhapatnam</text><circle cx="479.2" cy="189.6" r="3.2" class="pt"/><text x="474.2" y="199.6" class="pt-label" text-anchor="end">Tamralipti (Tamluk)</text><circle cx="510.4" cy="189.6" r="3.2" class="pt"/><text x="515.4" y="195.6" class="pt-label" text-anchor="start">Chittagong</text><circle cx="364.0" cy="334.4" r="3.2" class="pt"/><text x="369.0" y="338.4" class="pt-label" text-anchor="start">Maldives</text><circle cx="579.2" cy="319.2" r="3.2" class="pt"/><text x="574.2" y="323.2" class="pt-label" text-anchor="end">Kedah</text><circle cx="563.2" cy="352.0" r="3.2" class="pt"/><text x="558.2" y="356.0" class="pt-label" text-anchor="end">Barus</text><circle cx="614.4" cy="392.0" r="3.2" class="pt"/><text x="620.4" y="396.0" class="pt-label" text-anchor="start">Palembang (Srivijaya)</text><g class="legend"><rect x="322" y="362" width="270" height="110" rx="4"/><line x1="330" y1="372" x2="356" y2="372" class="route gold"/><text x="362" y="376">Geniza route: Fustat → Aidhab → Aden</text><line x1="330" y1="388" x2="356" y2="388" class="route gold"/><text x="362" y="392">Aden → Malabar (Ben Yiju at Mangalore)</text><line x1="330" y1="404" x2="356" y2="404" class="route sea"/><text x="362" y="408">Persian Gulf → Gujarat / Konkan</text><line x1="330" y1="420" x2="356" y2="420" class="route land"/><text x="362" y="424">Sea-borne (bahri) horses to Malabar</text><line x1="330" y1="436" x2="356" y2="436" class="route atisa"/><text x="362" y="440">Chola reach: Kadaram campaign 1025</text><line x1="330" y1="452" x2="356" y2="452" class="route south"/><text x="362" y="456">Rice out, cowries in (Bengal–Maldives)</text></g></svg><figcaption>Chakravarti’s Indian Ocean, c. 500–1500: South Asia as the hinge. Coastlines simplified; positions approximate.</figcaption></figure>
+<div class="ideas">
+<div class="idea red"><h4>Why India is central</h4>
+<p>The Indian Ocean is the <b>only enclosed ocean</b>. India and Sri Lanka sit in the <b>middle</b>, with two long coasts, so ships stopped there to wait for the next monsoon and swap cargo. This is <b>geography, not Indian pride</b> (he rejects replacing Eurocentrism with Indocentrism).</p></div>
+<div class="idea"><h4>The "yawning gap"</h4>
+<p>Most historians study <b>1500–1800</b> because the Portuguese and the East India Companies left big archives. Chakravarti fills the <b>millennium before 1500</b>.</p></div>
+<div class="idea gold"><h4>Two lessons from the sources</h4>
+<p>(1) <b>Indians did go to sea</b>; the "taboo on sea travel" idea is wrong. (2) Ships carried <b>everyday bulk goods</b>, not only luxuries.</p>
+<span class="eg">Bengal sent <b>rice</b> to the Maldives and got <b>cowrie shells</b> (used as money) back.</span></div>
+<div class="idea purple"><h4>Ports and power shifts</h4>
+<p>Abbasids + <b>Siraf</b> → Persian Gulf strong; Fatimid Egypt (969) → <b>Red Sea</b> strong; <b>Hormuz</b> from the 13th c. Indian ports: <b>Cambay, Somnath, Thana, Quilon, Calicut</b> (west); <b>Nagapattinam, Motupalli, Chittagong</b> (east).</p></div>
+</div>
+
+<div class="ideas">
+<div class="idea teal"><h4>The Cairo Geniza: letters of merchants</h4>
+<p>Old letters kept in a Cairo synagogue. Jewish traders went <b>Tunisia → Cairo → Red Sea → Aden → Malabar</b>.</p>
+<p><b>Abraham Ben Yiju</b> lived in <b>Mangalore 1132–49</b>, ran a <b>bronze factory</b>, married a local Tulu woman, <b>Ashu</b>. His friend in Aden was <b>Madmun</b>.</p>
+<span class="eg">A ship carrying his pepper sank at Bab-el-Mandeb (c. 1138): "The pepper was a total loss." Traders lived with real risk.</span></div>
+<div class="idea red"><h4>Trust across religions</h4>
+<p>A Jewish trader robbed near Thana was told to ask the <b>Hindu shipowner Tinbu</b> for help, because they had "bonds of friendship and brotherhood". Information mattered: "one who is present can see what is not seen by one who is absent".</p></div>
+<div class="idea"><h4>Chola power and merchant guilds</h4>
+<p>Merchant bodies like the <b>ainnurruvar</b> ("the 500 of Ayyavole", an umbrella guild), manigramam and anjuvannam traded and gave money to temples. The Cholas sent embassies to China and in <b>1025</b> raided <b>Srivijaya (Kadaram)</b> to cut out this middleman.</p></div>
+<div class="idea gold"><h4>Kings as protectors</h4>
+<p>The Kakatiya king <b>Ganapati's Motupalli charter (1245)</b> promised merchants safety from pirates and only fixed taxes, because "wealth is dearer than life" to merchants.</p>
+<span class="eg">Visakhapatnam was even renamed after the Chola king Kulottunga, who cut tolls to attract trade.</span></div>
+<div class="idea purple"><h4>Horses: the biggest import</h4>
+<p>India lacked good warhorses. Arabian and Persian horses came <b>by sea</b>: Marco Polo says <b>10,000 a year</b> to the Pandya kingdom, at about 220 gold coins each.</p></div>
+<div class="idea green"><h4>Plural ports; an open sea</h4>
+<p>At <b>Somnath (1264)</b> a Muslim shipowner from Hormuz built a mosque with land arranged by his <b>Hindu friends</b>, approved by the Saiva priest. Rulers rarely kept navies at sea: before 1500 the ocean was <b>open (<i>mare liberum</i>)</b>, unlike the Mediterranean.</p></div>
+</div>
+<p class="skipnote"><b>Skip:</b> Socotra inscriptions, Cosmas Indicopleustes, Harikela coins, William of Adam's crusade plan (good extras, rarely asked).</p>
+
+<h2>3. al-Sharida: desert traders in an ocean world (1850–1950) <span class="badge b-hi">Must know</span></h2>
+<figure class="mapfig"><svg viewBox="0 0 784 472" xmlns="http://www.w3.org/2000/svg" class="map" role="img" aria-label="al-Sharida’s Qusman network, c. 1850–1950: desert interior linked to the ocean"><rect x="0" y="0" width="784" height="472" class="sea-bg"/><polygon class="land-fill" points="0.0,0.0 0.0,73.6 64.0,76.0 56.0,104.0 50.4,117.6 36.8,128.0 52.0,144.0 56.0,144.0 88.0,196.0 117.6,248.0 123.2,266.4 136.0,265.6 168.0,254.4 193.6,243.2 220.0,228.0 238.4,216.0 254.4,188.0 244.8,178.4 226.4,157.6 212.0,174.4 188.8,171.2 188.0,160.0 177.6,155.2 164.0,140.8 159.2,128.0 166.4,126.4 178.4,133.6 187.2,144.8 212.0,155.2 228.0,151.2 246.4,163.2 268.8,166.4 308.8,164.8 314.4,170.4 324.0,180.0 337.6,187.2 328.0,189.6 337.6,200.8 356.8,197.6 358.4,216.0 363.2,240.0 373.6,264.0 384.0,288.0 396.0,303.2 401.6,296.8 410.4,285.6 415.2,272.0 418.4,248.0 428.0,236.8 434.4,232.0 452.0,216.0 468.0,206.4 472.0,196.0 484.0,194.4 492.0,192.0 500.0,187.2 508.0,188.0 514.4,202.4 529.6,216.0 531.2,240.0 540.0,241.6 556.8,236.0 558.4,256.0 564.8,288.0 562.4,304.0 578.4,320.0 585.6,344.0 603.2,357.6 609.6,356.8 603.2,336.0 594.4,318.4 578.4,307.2 576.0,292.0 569.6,284.0 576.0,260.8 583.2,260.8 594.4,270.4 600.0,280.0 612.8,284.8 616.0,299.2 630.4,284.8 650.4,273.6 649.6,257.6 642.4,240.0 628.8,228.0 620.8,216.0 629.6,203.2 640.0,195.2 654.4,196.0 657.6,206.4 664.0,196.0 684.0,190.4 708.0,184.0 724.0,172.0 732.8,161.6 740.0,148.0 750.4,128.0 744.0,116.0 740.0,96.0 730.4,88.0 740.0,78.4 756.0,69.6 744.0,65.6 728.0,70.4 720.0,60.0 716.8,55.2 732.0,46.4 748.0,41.6 752.0,44.0 772.0,48.0 784.0,51.2 784.0,0.0"/><polygon class="land-fill" points="0.0,117.6 34.4,117.6 36.0,128.0 44.0,148.0 60.0,180.0 73.6,216.0 92.0,244.0 122.4,272.0 185.6,273.6 168.0,320.0 128.0,360.0 104.0,384.0 92.0,416.0 90.4,440.0 100.0,456.0 100.0,472.0 0.0,472.0"/><polygon class="land-fill" points="415.2,289.6 417.6,289.6 427.2,300.0 431.2,312.0 426.4,318.4 416.8,320.0 414.4,308.0"/><polygon class="land-fill" points="538.4,323.2 556.0,326.4 578.4,348.0 604.8,376.0 624.0,393.6 622.4,414.4 612.0,415.2 594.4,400.0 578.4,376.0 565.6,354.4 544.0,337.6"/><polygon class="land-fill" points="617.6,422.4 628.0,416.0 642.4,418.4 659.2,423.2 676.8,423.2 692.0,430.4 691.2,437.6 664.0,433.6 644.0,430.4 627.2,427.2"/><polygon class="land-fill" points="648.0,354.4 660.0,354.4 680.0,342.4 700.0,328.0 713.6,312.0 728.0,326.4 720.0,332.8 716.8,360.0 705.6,380.0 704.0,397.6 690.4,396.0 669.6,392.0 656.8,381.6 648.0,368.0"/><polygon class="land-fill" points="645.6,214.4 660.0,207.2 664.0,211.2 658.4,220.8 648.0,220.0"/><polygon class="land-fill" points="737.6,184.0 748.0,166.4 751.2,171.2 743.2,192.0"/><polygon class="land-fill" points="164.8,472.0 170.4,464.0 178.4,472.0"/><polygon class="land-fill" points="732.0,412.0 739.2,391.2 734.4,368.0 743.2,357.6 760.0,360.8 770.4,356.8 776.0,355.2 761.6,364.0 748.0,364.0 745.6,376.0 758.4,376.0 762.4,375.2 754.4,389.6 755.2,405.6 745.6,404.8 740.0,412.8"/><polygon class="land-fill" points="89.6,413.6 91.2,415.2 92.0,419.2 90.4,420.0"/><text x="256.0" y="256.0" class="sea-name">ARABIAN SEA</text><text x="448.0" y="252.0" class="sea-name">BAY OF BENGAL</text><text x="336.0" y="400.0" class="sea-name">INDIAN OCEAN</text><text x="672.0" y="264.0" class="sea-name">SOUTH CHINA SEA</text><text x="180.0" y="150.4" class="sea-name small">PERSIAN GULF</text><text x="68.0" y="208.0" class="sea-name small">RED SEA</text><polyline points="127.8,157.4 159.8,133.0" class="route land"/><polyline points="127.8,157.4 173.3,152.0" class="route land"/><polyline points="127.8,157.4 177.6,162.8" class="route land"/><polyline points="127.8,157.4 136.0,132.0 158.4,124.0 131.2,101.6" class="route land"/><polyline points="127.8,157.4 92.8,172.2" class="route land"/><polyline points="159.8,133.0 180.0,145.6 230.4,155.2 236.8,166.4 272.0,188.0 320.0,204.0 359.2,216.0" class="route sea"/><polyline points="180.4,158.4 196.0,155.2 230.4,155.2" class="route sea"/><polyline points="359.2,216.0 352.0,248.0 368.0,296.0 387.2,308.8 420.0,325.6 448.0,272.0 483.2,187.2" class="route gold"/><polyline points="243.2,179.2 192.0,288.0 136.0,368.0 89.6,417.3" class="route south"/><polyline points="359.2,216.0 280.0,264.0 176.0,267.2 136.0,265.6 108.0,240.0 86.4,208.0 89.6,196.0" class="route gold"/><circle cx="127.8" cy="157.4" r="3.2" class="pt"/><text x="132.8" y="153.4" class="pt-label" text-anchor="start">al-Qasim (Buraydah, Unayzah)</text><circle cx="159.8" cy="133.0" r="3.2" class="pt"/><text x="164.8" y="130.0" class="pt-label" text-anchor="start">Kuwait</text><circle cx="158.4" cy="124.0" r="3.2" class="pt"/><text x="163.4" y="134.0" class="pt-label" text-anchor="start">Basra</text><circle cx="131.2" cy="101.6" r="3.2" class="pt"/><text x="136.2" y="96.6" class="pt-label" text-anchor="start">Baghdad</text><circle cx="180.4" cy="158.4" r="3.2" class="pt"/><text x="186.4" y="162.4" class="pt-label" text-anchor="start">Bahrain</text><circle cx="173.3" cy="152.0" r="3.2" class="pt"/><text x="168.3" y="148.0" class="pt-label" text-anchor="end">al-Jubayl</text><circle cx="177.6" cy="162.8" r="3.2" class="pt"/><text x="172.6" y="170.8" class="pt-label" text-anchor="end">al-Uqayr</text><circle cx="243.2" cy="179.2" r="3.2" class="pt"/><text x="248.2" y="189.2" class="pt-label" text-anchor="start">Muscat</text><circle cx="92.8" cy="172.2" r="3.2" class="pt"/><text x="87.8" y="176.2" class="pt-label" text-anchor="end">Madinah</text><circle cx="89.6" cy="196.0" r="3.2" class="pt"/><text x="84.6" y="200.0" class="pt-label" text-anchor="end">Jeddah</text><circle cx="136.0" cy="265.6" r="3.2" class="pt"/><text x="131.0" y="278.6" class="pt-label" text-anchor="end">Aden</text><circle cx="312.0" cy="169.1" r="3.2" class="pt"/><text x="307.0" y="173.1" class="pt-label" text-anchor="end">Karachi</text><circle cx="359.2" cy="216.0" r="3.2" class="pt"/><text x="354.2" y="216.0" class="pt-label" text-anchor="end">Bombay</text><circle cx="483.2" cy="187.2" r="3.2" class="pt"/><text x="488.2" y="197.2" class="pt-label" text-anchor="start">Calcutta</text><circle cx="89.6" cy="417.3" r="3.2" class="pt"/><text x="94.6" y="421.3" class="pt-label" text-anchor="start">Zanzibar</text><g class="legend"><rect x="322" y="394" width="270" height="78" rx="4"/><line x1="330" y1="404" x2="356" y2="404" class="route land"/><text x="362" y="408">Camel caravans (about 20 days one way)</text><line x1="330" y1="420" x2="356" y2="420" class="route sea"/><text x="362" y="424">Horses, pearls, dates, gold → India</text><line x1="330" y1="436" x2="356" y2="436" class="route gold"/><text x="362" y="440">Rice, tea, textiles, spices ← India</text><line x1="330" y1="452" x2="356" y2="452" class="route south"/><text x="362" y="456">Oman–East Africa (slaves, weapons)</text></g></svg><figcaption>al-Sharida’s Qusman network, c. 1850–1950: desert interior linked to the ocean. Coastlines simplified; positions approximate.</figcaption></figure>
+<div class="ideas">
+<div class="idea red"><h4>Who were the Qusman?</h4>
+<p>Traders from <b>al-Qasim</b> in <b>Najd</b> (central Arabia; towns Buraydah and Unayzah). Najd was poor, so its people moved to <b>Kuwait, Bahrain, Basra</b> and on to <b>Bombay, Calcutta, Karachi</b>.</p>
+<span class="eg">Salih al-Bassam reached Bombay in 1887; his family brand "Shimagh al-Bassam" (red headdress) still exists.</span></div>
+<div class="idea"><h4>His main point</h4>
+<p>The <b>desert interior and the ocean were one commercial world</b>. Goods came by sea to the Gulf, then by <b>camel</b> (about 20 days) to al-Qasim, which became an <b>entrepôt</b>. So Najd was in the global economy by the 19th c.</p></div>
+<div class="idea gold"><h4>Trade in anything profitable</h4>
+<p>Horses, pearls, gold, currency, weapons, textiles, carpets, dates, rice, sugar, tea, coffee, perfume. <b>Diversification</b> helped them survive shocks.</p>
+<span class="eg">When pearls crashed (WWI, cultured pearls 1925, Depression 1929), they switched to <b>gold smuggling</b> to India for 300–400% profit.</span></div>
+<div class="idea green"><h4>How they worked</h4>
+<p><b>Family firms</b> and agents in many cities, <b>letters instead of contracts</b>, constant travel home and back. Families: al-Bassam, al-Assafi, al-Dhukayr, al-Mushayqih, al-Khunayni.</p>
+<span class="eg">Arab horses were sold at Bombay's <b>Byculla</b> market for Rs 600–900.</span></div>
+</div>
+
+<div class="vs">
+<div class="side a"><h4>What continued (500 → 1950)</h4>Monsoon routes · ports linking sea and inland · trust, letters, diasporas · luxuries + staples · many cultures together.</div>
+<div class="mid">vs</div>
+<div class="side b"><h4>What changed</h4>Steamships and Suez (1869) · British rules and treaties (1820) · price-sensitive global markets · gold and currency trades · colonial control of movement.</div>
+</div>
+
+<div class="names"><span><b>Chakravarti</b> South Asia as hinge</span><span><b>al-Sharida</b> Qusman</span><span><b>Goitein</b> Geniza</span><span><b>Subrahmanyam</b> connected space</span><span><b>Ben Yiju</b> Mangalore</span></div>
+<div class="dates"><b>1025</b><span>Chola raid on Srivijaya</span><b>1132–49</b><span>Ben Yiju in Mangalore</span><b>1245</b><span>Motupalli charter</span><b>1264</b><span>Somnath mosque inscription</span><b>1820 / 1869</b><span>British treaty with Gulf rulers / Suez Canal</span></div>
+
+<div class="answer"><span class="box-title">Write it like this (short answer, 10 marks)</span>
+<div class="q">Q. Who connected the Indian Ocean more effectively before modern nation-states: rulers, merchants, mariners, or religious communities?</div>
+<p>The Indian Ocean was connected less by geography than by the people who moved across it. Reading Chakravarti and al-Sharida together shows that merchants and mariners made the daily connections, religious communities gave them trust, and rulers mostly protected them.</p>
+<p><b>Merchants and mariners</b> built the routine links. The Cairo Geniza letters show Abraham Ben Yiju living in Mangalore (1132–49), trading pepper and iron with partners in Aden, while Indian shipowners such as Fatanswami carried the cargo. Centuries later, Qusman families from Najd linked the Arabian desert to Bombay and Calcutta through agents and letters (al-Sharida).</p>
+<p><b>Religious communities</b> supplied moral ties: the Chola kings funded a Buddhist monastery at Nagapattinam, and at Somnath in 1264 Hindu friends helped a Muslim shipowner build a mosque. <b>Rulers</b> acted mainly as patrons; the Motupalli charter (1245) protected merchants from pirates. But rulers seldom kept navies, so the sea stayed open (<i>mare liberum</i>), with the 1025 Chola raid as an exception.</p>
+<p>Thus no single group connected the ocean. Merchants and mariners did most of the work, but it was the combination of trade, faith and protection that made the Indian Ocean a connected world.</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>13</div>
+  <div class="session-title"><h1>Textiles, Spices and Perfumes across the Indian Ocean</h1>
+  <div class="readings">H.P. Ray, "Warp and Weft: Producing, Trading and Consuming Indian Textiles Across the Seas" (2018) · Toslima Khatun, <i>Global Trade in the Early Medieval World</i> (2025), ch. 3 (via slides) · Lecture 13</div></div>
+</div>
+
+<div class="oneline"><small>In one line</small><b>Things</b> connected Europe and Asia as much as ships did: Indian <b>cloth</b> worn on bodies, <b>spices</b> used in food and medicine, and <b>perfumes</b> burned in courts. Europe <b>entered an older system</b>; it did not create it.</div>
+
+<h2>1. Why study commodities? <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>Commodities as "historical actors"</h4>
+<p>Goods show <b>who wanted what, and where</b>; how local <b>ecology</b> fed long-distance trade; how trade linked to <b>ritual, medicine and diplomacy</b>; and they make <b>consumers</b> visible, not only merchants.</p>
+<span class="like">reading history through your wardrobe: each item tells you where it came from and what it says about you.</span></div>
+<div class="idea"><h4>Two kinds of goods</h4>
+<p><b>Bulk/practical</b>: everyday cotton, indigo dye, wood, food. <b>Prestige</b>: fine muslin and silk, pepper, cloves, camphor, musk, ambergris, incense.</p></div>
+</div>
+<figure class="mapfig"><svg viewBox="0 0 784 472" xmlns="http://www.w3.org/2000/svg" class="map" role="img" aria-label="Where the cloth, spices and aromatics came from — and where archaeology has found them"><rect x="0" y="0" width="784" height="472" class="sea-bg"/><polygon class="land-fill" points="0.0,0.0 0.0,73.6 64.0,76.0 56.0,104.0 50.4,117.6 36.8,128.0 52.0,144.0 56.0,144.0 88.0,196.0 117.6,248.0 123.2,266.4 136.0,265.6 168.0,254.4 193.6,243.2 220.0,228.0 238.4,216.0 254.4,188.0 244.8,178.4 226.4,157.6 212.0,174.4 188.8,171.2 188.0,160.0 177.6,155.2 164.0,140.8 159.2,128.0 166.4,126.4 178.4,133.6 187.2,144.8 212.0,155.2 228.0,151.2 246.4,163.2 268.8,166.4 308.8,164.8 314.4,170.4 324.0,180.0 337.6,187.2 328.0,189.6 337.6,200.8 356.8,197.6 358.4,216.0 363.2,240.0 373.6,264.0 384.0,288.0 396.0,303.2 401.6,296.8 410.4,285.6 415.2,272.0 418.4,248.0 428.0,236.8 434.4,232.0 452.0,216.0 468.0,206.4 472.0,196.0 484.0,194.4 492.0,192.0 500.0,187.2 508.0,188.0 514.4,202.4 529.6,216.0 531.2,240.0 540.0,241.6 556.8,236.0 558.4,256.0 564.8,288.0 562.4,304.0 578.4,320.0 585.6,344.0 603.2,357.6 609.6,356.8 603.2,336.0 594.4,318.4 578.4,307.2 576.0,292.0 569.6,284.0 576.0,260.8 583.2,260.8 594.4,270.4 600.0,280.0 612.8,284.8 616.0,299.2 630.4,284.8 650.4,273.6 649.6,257.6 642.4,240.0 628.8,228.0 620.8,216.0 629.6,203.2 640.0,195.2 654.4,196.0 657.6,206.4 664.0,196.0 684.0,190.4 708.0,184.0 724.0,172.0 732.8,161.6 740.0,148.0 750.4,128.0 744.0,116.0 740.0,96.0 730.4,88.0 740.0,78.4 756.0,69.6 744.0,65.6 728.0,70.4 720.0,60.0 716.8,55.2 732.0,46.4 748.0,41.6 752.0,44.0 772.0,48.0 784.0,51.2 784.0,0.0"/><polygon class="land-fill" points="0.0,117.6 34.4,117.6 36.0,128.0 44.0,148.0 60.0,180.0 73.6,216.0 92.0,244.0 122.4,272.0 185.6,273.6 168.0,320.0 128.0,360.0 104.0,384.0 92.0,416.0 90.4,440.0 100.0,456.0 100.0,472.0 0.0,472.0"/><polygon class="land-fill" points="415.2,289.6 417.6,289.6 427.2,300.0 431.2,312.0 426.4,318.4 416.8,320.0 414.4,308.0"/><polygon class="land-fill" points="538.4,323.2 556.0,326.4 578.4,348.0 604.8,376.0 624.0,393.6 622.4,414.4 612.0,415.2 594.4,400.0 578.4,376.0 565.6,354.4 544.0,337.6"/><polygon class="land-fill" points="617.6,422.4 628.0,416.0 642.4,418.4 659.2,423.2 676.8,423.2 692.0,430.4 691.2,437.6 664.0,433.6 644.0,430.4 627.2,427.2"/><polygon class="land-fill" points="648.0,354.4 660.0,354.4 680.0,342.4 700.0,328.0 713.6,312.0 728.0,326.4 720.0,332.8 716.8,360.0 705.6,380.0 704.0,397.6 690.4,396.0 669.6,392.0 656.8,381.6 648.0,368.0"/><polygon class="land-fill" points="645.6,214.4 660.0,207.2 664.0,211.2 658.4,220.8 648.0,220.0"/><polygon class="land-fill" points="737.6,184.0 748.0,166.4 751.2,171.2 743.2,192.0"/><polygon class="land-fill" points="164.8,472.0 170.4,464.0 178.4,472.0"/><polygon class="land-fill" points="732.0,412.0 739.2,391.2 734.4,368.0 743.2,357.6 760.0,360.8 770.4,356.8 776.0,355.2 761.6,364.0 748.0,364.0 745.6,376.0 758.4,376.0 762.4,375.2 754.4,389.6 755.2,405.6 745.6,404.8 740.0,412.8"/><polygon class="land-fill" points="89.6,413.6 91.2,415.2 92.0,419.2 90.4,420.0"/><text x="256.0" y="256.0" class="sea-name">ARABIAN SEA</text><text x="448.0" y="252.0" class="sea-name">BAY OF BENGAL</text><text x="336.0" y="400.0" class="sea-name">INDIAN OCEAN</text><text x="672.0" y="264.0" class="sea-name">SOUTH CHINA SEA</text><text x="180.0" y="150.4" class="sea-name small">PERSIAN GULF</text><text x="68.0" y="208.0" class="sea-name small">RED SEA</text><polyline points="356.8,189.6 304.0,208.0 224.0,256.0 176.0,268.8 136.0,265.6 108.0,240.0 84.0,212.0 59.8,176.7" class="route gold"/><polyline points="59.8,176.7 50.2,159.2 25.6,128.0" class="route gold"/><polyline points="315.2,171.2 272.0,184.0 236.8,166.4 230.4,155.2 196.8,146.4 158.4,124.0 131.2,101.6" class="route sea"/><polyline points="382.4,278.0 304.0,264.0 240.0,232.0 243.2,179.2" class="route sea"/><polyline points="356.8,189.6 368.0,272.0 420.0,325.6 536.0,316.0 572.0,332.0 590.4,352.0 612.0,360.0 632.0,400.0 659.2,428.8" class="route atisa"/><polyline points="632.0,400.0 696.0,416.0 728.0,404.0" class="route atisa"/><polyline points="639.2,391.2 628.0,352.0 654.4,296.0 660.0,264.0 672.0,216.0 682.4,183.2" class="route land"/><circle cx="25.6" cy="128.0" r="3.2" class="pt"/><text x="21.6" y="122.0" class="pt-label" text-anchor="start">Fustat (Old Cairo)</text><circle cx="50.2" cy="159.2" r="3.2" class="pt"/><text x="55.2" y="156.2" class="pt-label" text-anchor="start">Quseir al-Qadim</text><circle cx="59.8" cy="176.7" r="3.2" class="pt"/><text x="54.8" y="180.7" class="pt-label" text-anchor="end">Berenike</text><circle cx="136.0" cy="265.6" r="3.2" class="pt"/><text x="131.0" y="278.6" class="pt-label" text-anchor="end">Aden</text><circle cx="131.2" cy="101.6" r="3.2" class="pt"/><text x="136.2" y="96.6" class="pt-label" text-anchor="start">Baghdad</text><circle cx="158.4" cy="124.0" r="3.2" class="pt"/><text x="163.4" y="134.0" class="pt-label" text-anchor="start">Basra</text><circle cx="196.8" cy="146.4" r="3.2" class="pt"/><text x="200.8" y="157.4" class="pt-label" text-anchor="start">Siraf</text><circle cx="243.2" cy="179.2" r="3.2" class="pt"/><text x="248.2" y="189.2" class="pt-label" text-anchor="start">Muscat</text><circle cx="315.2" cy="171.2" r="3.2" class="pt"/><text x="310.2" y="167.2" class="pt-label" text-anchor="end">Barbarikon</text><circle cx="356.8" cy="189.6" r="3.2" class="pt"/><text x="351.8" y="185.6" class="pt-label" text-anchor="end">Cambay</text><circle cx="382.4" cy="278.0" r="3.2" class="pt"/><text x="377.4" y="282.0" class="pt-label" text-anchor="end">Calicut</text><circle cx="388.8" cy="296.8" r="3.2" class="pt"/><text x="383.8" y="302.8" class="pt-label" text-anchor="end">Quilon</text><circle cx="420.8" cy="305.6" r="3.2" class="pt"/><text x="426.8" y="313.6" class="pt-label" text-anchor="start">Sri Lanka</text><circle cx="563.2" cy="352.0" r="3.2" class="pt"/><text x="558.2" y="356.0" class="pt-label" text-anchor="end">Barus</text><circle cx="581.6" cy="249.6" r="3.2" class="pt"/><text x="586.6" y="246.6" class="pt-label" text-anchor="start">Tha Kae</text><circle cx="659.2" cy="428.8" r="3.2" class="pt"/><text x="653.2" y="440.8" class="pt-label" text-anchor="end">Java (Yepoti?)</text><circle cx="749.6" cy="387.2" r="3.2" class="pt"/><text x="754.6" y="397.2" class="pt-label" text-anchor="start">Sulawesi (Pontanoa)</text><circle cx="779.2" cy="360.8" r="3.2" class="pt"/><text x="775.2" y="354.8" class="pt-label" text-anchor="end">Moluccas →</text><circle cx="639.2" cy="391.2" r="3.2" class="pt"/><text x="644.2" y="401.2" class="pt-label" text-anchor="start">Belitung wreck (c.826)</text><circle cx="682.4" cy="183.2" r="3.2" class="pt"/><text x="687.4" y="191.2" class="pt-label" text-anchor="start">Canton (Guangzhou)</text><g class="legend"><rect x="292" y="394" width="270" height="78" rx="4"/><line x1="300" y1="404" x2="326" y2="404" class="route gold"/><text x="332" y="408">Indian cloth & indigo to the Red Sea</text><line x1="300" y1="420" x2="326" y2="420" class="route sea"/><text x="332" y="424">Gulf route to the Caliphate (the "hinge")</text><line x1="300" y1="436" x2="326" y2="436" class="route atisa"/><text x="332" y="440">Indian textiles east (Java, Sulawesi, Thailand)</text><line x1="300" y1="452" x2="326" y2="452" class="route land"/><text x="332" y="456">Belitung ship (China ceramics westward)</text></g></svg><figcaption>Where the cloth, spices and aromatics came from — and where archaeology has found them. Coastlines simplified; positions approximate.</figcaption></figure>
+
+<h2>2. Textiles (Ray): "not a mere luxury" <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>Ray's argument</h4>
+<p>Indian cloth was a <b>means of communication</b> and a marker of <b>identity</b> across the ocean, used to build social relationships. Only <b>some</b> kinds travelled (fine, patterned, valuable). It was <b>not just</b> something foreigners bought to pay for spices.</p></div>
+<div class="idea"><h4>A very old tradition</h4>
+<p>Cotton was grown at <b>Mehrgarh</b> (5th millennium BCE); Mohenjo-daro had <b>red-dyed cotton</b> around silver vases.</p></div>
+<div class="idea gold"><h4>Cloth at home showed rank and rules</h4>
+<p>Dharma texts gave colours to varnas (brahmin white, kshatriya red, vaishya yellow) and told brahmins not to trade <b>indigo</b>. Buddhist monks first could wear only cotton (to look different); silk came later, the <b>"middle way"</b>.</p>
+<span class="eg">Tamil poems: white cloth covers a dead hero; the king gives silk to a poet.</span></div>
+<div class="idea purple"><h4>The technology</h4>
+<p>Cotton doesn't hold dye easily, so a <b>mordant</b> (fixative) was painted or <b>block-printed</b>; <b>resist dyeing</b> used wax or mud to keep areas white. <b>Indigo</b> gave durable blue (Greek <i>indikon melan</i> = "Indian black"; Sanskrit <i>nīla</i>).</p></div>
+<div class="idea teal"><h4>Archaeology proves the trade</h4>
+<p><b>Berenike</b> (Red Sea port, Egypt): about 800 textile pieces; half the cotton is <b>Z-spun</b>, the Indian twist (Romans used S-spin). <b>Fustat, Quseir al-Qadim</b> (Egypt): Indian blue cloth with elephants and "tree of life". <b>Newberry collection</b>: designs like Jain manuscripts, so from <b>Gujarat</b>. Thailand and Sulawesi also have Indian cloth.</p>
+<span class="eg">"Archaeology confirms that written accounts were not exaggerating."</span></div>
+<div class="idea green"><h4>How the trade was organised</h4>
+<p><b>Guilds</b> produced and financed: at Nasik a donor invested money with a <b>weavers' guild</b> and used the interest to clothe monks. Merchant bodies (<b>Anjuvannam, Manigramam</b>) linked ports and inland areas. States taxed but did not control trade (Periplus: no state control).</p></div>
+<div class="idea"><h4>Gifts, not just goods</h4>
+<p>Geniza traders sent fine muslins mostly as <b>presents</b> (to wives, partners, rabbis); plain cotton was traded but "secondary". In Java, land-grant ceremonies gave out <b>200 pieces of cloth</b>.</p></div>
+<div class="idea gold"><h4>Cloth as paper</h4>
+<p>Cotton was also <b>writing material</b>: when Ben Yiju ran out of paper in India, he wrote on cloth.</p></div>
+</div>
+<div class="box key"><span class="box-title">Ray's conclusion</span>Value differed by <b>time and place</b>, so avoid generalising. Study cloth both <b>locally</b> (micro) and across the <b>ocean</b> (macro).</div>
+
+<h2>3. Spices: more than flavour <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>Why spices travelled so well</h4>
+<p>High <b>value for their weight</b>, long <b>shelf life</b>, <b>elite demand</b>, and <b>medicinal</b> use. Rarity came from <b>ecology and distance</b>.</p>
+<span class="eg">pepper from Malabar, cinnamon from Sri Lanka, cloves from the Moluccas.</span></div>
+<div class="idea"><h4>Khatun: no single boss</h4>
+<p>Arab traders <b>joined existing Asian markets</b>, using <b>cabotage</b> (short coastal hops). There was <b>no hegemonic group</b> and no sudden "explosion". When spices' <b>medical</b> uses were studied, their value rose.</p></div>
+<div class="idea gold"><h4>Abu-Lughod</h4>
+<p><i>Before European Hegemony</i> (1989): a world system existed before Europe; the <b>Red Sea</b> was the preferred route; trade <b>adapted</b> when empires fell, it never stopped.</p></div>
+<div class="idea purple"><h4>Fragile ships, important ports</h4>
+<p>al-Sirafi: if winds were too strong, merchants sold wherever they landed, so <b>ports</b> mattered.</p></div>
+</div>
+
+<h2>4. Perfumes: political goods <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>Luxury + ritual</h4>
+<p><b>Musk, ambergris, camphor, sandalwood, aloe wood</b> were used in <b>tribute, diplomacy and court ceremony</b>; they mixed luxury, medicine and ritual, turning rarity into <b>political capital</b>.</p>
+<span class="eg">At Caliph <b>Harun al-Rashid's</b> wedding, guests received <b>perfume in glass bottles</b>; the bride got huge pearls.</span></div>
+<div class="idea"><h4>The Caliphate as a hinge</h4>
+<p><b>Baghdad</b> absorbed Indian goods and passed them on to Egypt and Europe (even <b>Charlemagne's court</b>). Controlling <b>Sind</b> let the Caliphate cut out middlemen. Expansion <b>intensified but did not invent</b> these networks.</p>
+<span class="eg">The <b>Belitung</b> wreck carried 60,000+ Chinese ceramics: the market was huge.</span></div>
+</div>
+
+<div class="vs">
+<div class="side a"><h4>Shared</h4>Needed special knowledge and local ecology; moved through ports and middlemen; carried meanings beyond price.</div>
+<div class="mid">vs</div>
+<div class="side b"><h4>Different</h4><b>Textiles</b> = identity on bodies and in homes. <b>Spices</b> = concentrated, portable value. <b>Perfumes</b> = court ritual and diplomacy.</div>
+</div>
+<p><b>What they changed:</b> tastes and consumer culture; merchant diasporas; spread of techniques and <b>words</b>; made the ocean "a lived material world, not just a map".</p>
+
+<div class="names"><span><b>H.P. Ray</b> textiles</span><span><b>Khatun</b> spices &amp; perfumes</span><span><b>Abu-Lughod</b> world system 1250–1350</span><span><b>Goitein</b> Geniza</span></div>
+
+<div class="answer"><span class="box-title">Write it like this (short answer, 10 marks)</span>
+<div class="q">Q. Which commodity best explains Indian Ocean connectivity: textiles, spices or perfumes?</div>
+<p>All three linked Europe and Asia, but each did so differently. Comparing their portability, meaning and market reach shows that textiles explain connectivity most fully, while spices and perfumes add value and political meaning.</p>
+<p><b>Spices</b> were the most portable: high value for their weight and a long shelf life, so they suited long voyages. Khatun shows Arab merchants joining existing Asian markets through cabotage to obtain them. <b>Perfumes</b> carried the most political meaning: musk, camphor and ambergris appeared in tribute and court ritual, as at Harun al-Rashid's wedding, where perfumes in glass vessels displayed the Caliphate's wealth.</p>
+<p><b>Textiles</b> had the widest reach. H.P. Ray shows that Indian cotton reached Berenike on the Red Sea (Z-spun cotton), Fustat, Java and Sulawesi, served both everyday and elite buyers, and was organised by weavers' guilds and merchant bodies. Cloth also carried identity and ritual meaning. But Ray warns that value varied by region, so we should not generalise.</p>
+<p>Textiles therefore best explain the depth of connection, though the three goods worked together. Their story also shows that Europe entered an older Asian system of exchange rather than creating it.</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>14</div>
+  <div class="session-title"><h1>Islam and the Indian Ocean World</h1>
+  <div class="readings">Geoff Wade, "Islam Across the Indian Ocean to 1500 CE" (2019) · Lecture 14 (with Mahmood Kooria on Ponnāni)</div></div>
+</div>
+
+<div class="oneline"><small>In one line</small>Islam did not simply "spread" across the ocean. <b>Merchants settled, communities formed, networks grew</b>, and local societies <b>remade</b> Islam in their own way, often under <b>non-Muslim rulers</b>, until the Portuguese turned trade rivalry into religious conflict.</div>
+
+<h2>1. How the network formed <span class="badge b-hi">Must know</span></h2>
+<div class="flow">
+<div class="node n1"><b>Visitor</b>merchant comes with the monsoon</div><div class="arrow">→</div>
+<div class="node n2"><b>Resident</b>long stays, marriage</div><div class="arrow">→</div>
+<div class="node n3"><b>Community</b>mosque, qadi</div><div class="arrow">→</div>
+<div class="node n4"><b>Institution</b>networks, schools, power</div>
+</div>
+<div class="ideas">
+<div class="idea red"><h4>"Islam does not travel alone"</h4>
+<p>People, trade, language, law and politics move as <b>one bundle</b>. So ask <b>"who brought Islam, and through which relationships?"</b> Carriers: Arab and Persian merchants, Gujarati and Tamil Muslims, Sufis, scholars, refugees.</p></div>
+<div class="idea"><h4>Pearson's "Indian Ocean world"</h4>
+<p>The ocean is an <b>arena of connection</b>, not an obstacle. For Malabar the real "frontier" was the sea, not inland India.</p></div>
+<div class="idea gold"><h4>Why it's hard to study</h4>
+<p>Islam has <b>no images</b>, so historians use <b>tombstones</b>, a few texts, shipwreck finds and <b>Chinese records</b> (Wade's new source).</p></div>
+<div class="idea purple"><h4>Background</h4>
+<p><b>Baghdad (762)</b> pushed Gulf–China trade (~6 months to Canton). The <b>878 Canton massacre</b> ended direct voyages, so trade became <b>segmented</b> (Arabian Sea / Bay of Bengal / South China Sea).</p></div>
+</div>
+<figure class="mapfig"><svg viewBox="0 0 784 472" xmlns="http://www.w3.org/2000/svg" class="map" role="img" aria-label="Wade’s arc of Islam across the Indian Ocean to 1500"><rect x="0" y="0" width="784" height="472" class="sea-bg"/><polygon class="land-fill" points="0.0,0.0 0.0,73.6 64.0,76.0 56.0,104.0 50.4,117.6 36.8,128.0 52.0,144.0 56.0,144.0 88.0,196.0 117.6,248.0 123.2,266.4 136.0,265.6 168.0,254.4 193.6,243.2 220.0,228.0 238.4,216.0 254.4,188.0 244.8,178.4 226.4,157.6 212.0,174.4 188.8,171.2 188.0,160.0 177.6,155.2 164.0,140.8 159.2,128.0 166.4,126.4 178.4,133.6 187.2,144.8 212.0,155.2 228.0,151.2 246.4,163.2 268.8,166.4 308.8,164.8 314.4,170.4 324.0,180.0 337.6,187.2 328.0,189.6 337.6,200.8 356.8,197.6 358.4,216.0 363.2,240.0 373.6,264.0 384.0,288.0 396.0,303.2 401.6,296.8 410.4,285.6 415.2,272.0 418.4,248.0 428.0,236.8 434.4,232.0 452.0,216.0 468.0,206.4 472.0,196.0 484.0,194.4 492.0,192.0 500.0,187.2 508.0,188.0 514.4,202.4 529.6,216.0 531.2,240.0 540.0,241.6 556.8,236.0 558.4,256.0 564.8,288.0 562.4,304.0 578.4,320.0 585.6,344.0 603.2,357.6 609.6,356.8 603.2,336.0 594.4,318.4 578.4,307.2 576.0,292.0 569.6,284.0 576.0,260.8 583.2,260.8 594.4,270.4 600.0,280.0 612.8,284.8 616.0,299.2 630.4,284.8 650.4,273.6 649.6,257.6 642.4,240.0 628.8,228.0 620.8,216.0 629.6,203.2 640.0,195.2 654.4,196.0 657.6,206.4 664.0,196.0 684.0,190.4 708.0,184.0 724.0,172.0 732.8,161.6 740.0,148.0 750.4,128.0 744.0,116.0 740.0,96.0 730.4,88.0 740.0,78.4 756.0,69.6 744.0,65.6 728.0,70.4 720.0,60.0 716.8,55.2 732.0,46.4 748.0,41.6 752.0,44.0 772.0,48.0 784.0,51.2 784.0,0.0"/><polygon class="land-fill" points="0.0,117.6 34.4,117.6 36.0,128.0 44.0,148.0 60.0,180.0 73.6,216.0 92.0,244.0 122.4,272.0 185.6,273.6 168.0,320.0 128.0,360.0 104.0,384.0 92.0,416.0 90.4,440.0 100.0,456.0 100.0,472.0 0.0,472.0"/><polygon class="land-fill" points="415.2,289.6 417.6,289.6 427.2,300.0 431.2,312.0 426.4,318.4 416.8,320.0 414.4,308.0"/><polygon class="land-fill" points="538.4,323.2 556.0,326.4 578.4,348.0 604.8,376.0 624.0,393.6 622.4,414.4 612.0,415.2 594.4,400.0 578.4,376.0 565.6,354.4 544.0,337.6"/><polygon class="land-fill" points="617.6,422.4 628.0,416.0 642.4,418.4 659.2,423.2 676.8,423.2 692.0,430.4 691.2,437.6 664.0,433.6 644.0,430.4 627.2,427.2"/><polygon class="land-fill" points="648.0,354.4 660.0,354.4 680.0,342.4 700.0,328.0 713.6,312.0 728.0,326.4 720.0,332.8 716.8,360.0 705.6,380.0 704.0,397.6 690.4,396.0 669.6,392.0 656.8,381.6 648.0,368.0"/><polygon class="land-fill" points="645.6,214.4 660.0,207.2 664.0,211.2 658.4,220.8 648.0,220.0"/><polygon class="land-fill" points="737.6,184.0 748.0,166.4 751.2,171.2 743.2,192.0"/><polygon class="land-fill" points="164.8,472.0 170.4,464.0 178.4,472.0"/><polygon class="land-fill" points="732.0,412.0 739.2,391.2 734.4,368.0 743.2,357.6 760.0,360.8 770.4,356.8 776.0,355.2 761.6,364.0 748.0,364.0 745.6,376.0 758.4,376.0 762.4,375.2 754.4,389.6 755.2,405.6 745.6,404.8 740.0,412.8"/><polygon class="land-fill" points="89.6,413.6 91.2,415.2 92.0,419.2 90.4,420.0"/><text x="256.0" y="256.0" class="sea-name">ARABIAN SEA</text><text x="448.0" y="252.0" class="sea-name">BAY OF BENGAL</text><text x="336.0" y="400.0" class="sea-name">INDIAN OCEAN</text><text x="672.0" y="264.0" class="sea-name">SOUTH CHINA SEA</text><text x="180.0" y="150.4" class="sea-name small">PERSIAN GULF</text><text x="68.0" y="208.0" class="sea-name small">RED SEA</text><polyline points="158.4,124.0 196.8,146.4 230.4,155.2 236.8,166.4 256.0,208.0 336.0,280.0 388.8,296.8 387.2,308.8 420.0,325.6 496.0,312.0 579.2,319.2 590.4,352.0 594.0,350.4 612.0,360.0 654.4,296.0 642.4,240.8 672.0,216.0 682.4,183.2 708.0,188.8 724.8,168.8" class="route sea"/><polyline points="356.8,189.6 352.0,248.0 384.0,328.0 536.0,316.0 553.6,327.2" class="route gold"/><polyline points="553.6,327.2 572.0,332.0 590.4,352.0 612.0,360.0 640.0,400.0 677.2,425.3" class="route gold"/><polyline points="724.8,168.8 720.0,200.0 680.0,240.0 664.0,288.0 638.4,344.0 636.0,404.0 677.2,425.3" class="route atisa"/><polyline points="642.4,240.8 652.0,222.0" class="route atisa"/><circle cx="158.4" cy="124.0" r="3.2" class="pt"/><text x="163.4" y="134.0" class="pt-label" text-anchor="start">Basra</text><circle cx="196.8" cy="146.4" r="3.2" class="pt"/><text x="200.8" y="157.4" class="pt-label" text-anchor="start">Siraf</text><circle cx="228.0" cy="151.2" r="3.2" class="pt"/><text x="233.0" y="146.2" class="pt-label" text-anchor="start">Hormuz</text><circle cx="136.0" cy="265.6" r="3.2" class="pt"/><text x="131.0" y="278.6" class="pt-label" text-anchor="end">Aden</text><circle cx="359.4" cy="219.6" r="3.2" class="pt"/><text x="354.4" y="219.6" class="pt-label" text-anchor="end">Saymur (Chaul)</text><circle cx="356.8" cy="189.6" r="3.2" class="pt"/><text x="351.8" y="185.6" class="pt-label" text-anchor="end">Cambay</text><circle cx="382.4" cy="278.0" r="3.2" class="pt"/><text x="377.4" y="282.0" class="pt-label" text-anchor="end">Calicut</text><circle cx="383.4" cy="281.8" r="3.2" class="pt"/><text x="378.4" y="291.8" class="pt-label" text-anchor="end">Ponnani</text><circle cx="388.8" cy="296.8" r="3.2" class="pt"/><text x="383.8" y="302.8" class="pt-label" text-anchor="end">Quilon</text><circle cx="401.0" cy="299.4" r="3.2" class="pt"/><text x="406.0" y="307.4" class="pt-label" text-anchor="start">Kayal (Ma‘abar)</text><circle cx="420.8" cy="305.6" r="3.2" class="pt"/><text x="426.8" y="313.6" class="pt-label" text-anchor="start">Sri Lanka</text><circle cx="579.2" cy="319.2" r="3.2" class="pt"/><text x="574.2" y="323.2" class="pt-label" text-anchor="end">Kedah</text><circle cx="540.8" cy="323.6" r="3.2" class="pt"/><text x="535.8" y="319.6" class="pt-label" text-anchor="end">Lamreh</text><circle cx="553.6" cy="327.2" r="3.2" class="pt"/><text x="558.6" y="323.2" class="pt-label" text-anchor="start">Pasai</text><circle cx="563.2" cy="352.0" r="3.2" class="pt"/><text x="558.2" y="358.0" class="pt-label" text-anchor="end">Barus</text><circle cx="594.0" cy="350.4" r="3.2" class="pt"/><text x="589.0" y="360.4" class="pt-label" text-anchor="end">Malacca</text><circle cx="614.4" cy="392.0" r="3.2" class="pt"/><text x="620.4" y="396.0" class="pt-label" text-anchor="start">Palembang (Srivijaya)</text><circle cx="677.2" cy="425.3" r="3.2" class="pt"/><text x="682.2" y="422.3" class="pt-label" text-anchor="start">Gresik</text><circle cx="675.0" cy="428.5" r="3.2" class="pt"/><text x="680.0" y="440.5" class="pt-label" text-anchor="start">Trowulan (Majapahit)</text><circle cx="695.2" cy="328.8" r="3.2" class="pt"/><text x="700.2" y="326.8" class="pt-label" text-anchor="start">Brunei</text><circle cx="642.4" cy="240.8" r="3.2" class="pt"/><text x="647.4" y="244.8" class="pt-label" text-anchor="start">Champa</text><circle cx="652.0" cy="222.0" r="3.2" class="pt"/><text x="657.0" y="228.0" class="pt-label" text-anchor="start">Sanya</text><circle cx="682.4" cy="183.2" r="3.2" class="pt"/><text x="687.4" y="191.2" class="pt-label" text-anchor="start">Canton (Guangzhou)</text><circle cx="724.8" cy="168.8" r="3.2" class="pt"/><text x="720.8" y="162.8" class="pt-label" text-anchor="end">Quanzhou (Zaitun)</text><g class="legend"><rect x="292" y="394" width="270" height="78" rx="4"/><line x1="300" y1="404" x2="326" y2="404" class="route sea"/><text x="332" y="408">Merchant route Gulf → Quilon → Kalah → Canton</text><line x1="300" y1="420" x2="326" y2="420" class="route gold"/><text x="332" y="424">Cambay gravestones to Pasai & Gresik (Lambourn)</text><line x1="300" y1="436" x2="326" y2="436" class="route atisa"/><text x="332" y="440">1360s refugees from Quanzhou to Java</text><line x1="300" y1="452" x2="326" y2="452" class="route atisa"/><text x="332" y="456">980s Cham Muslims to Hainan & Guangzhou</text></g></svg><figcaption>Wade’s arc of Islam across the Indian Ocean to 1500. Coastlines simplified; positions approximate.</figcaption></figure>
+
+<h2>2. South India: Muslims without a Muslim state <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>Muslim presence ≠ Muslim rule</h4>
+<p>A town could have a <b>Hindu king, Muslim merchants, a mosque and Muslim law</b> all at once. So Islam does <b>not</b> need a Muslim state.</p>
+<span class="eg">Al-Masudi: <b>10,000 Muslims</b> at Saymur (Chaul) under a Hindu king, who appointed a Muslim leader to judge them.</span></div>
+<div class="idea"><h4>Calicut and the Zamorin</h4>
+<p>The Hindu <b>Zamorin</b> protected Muslim merchants because they were <b>economically essential</b>; merchants even gave him <b>ships and soldiers</b>: <b>mutual dependence</b>.</p></div>
+<div class="idea gold"><h4>Coast vs inland</h4>
+<p>Coastal Muslims followed the <b>Shafi'i</b> school (comfortable under non-Muslim kings) and linked to other Shafi'i ports; inland Muslims were <b>Hanafi</b>. Malabar Muslims: <b>Pardesi</b> (foreign) and <b>Mappila</b> (local converts).</p></div>
+<div class="idea teal"><h4>Why convert? (Eaton)</h4>
+<p>No single cause: <b>trade, marriage, patronage, social mobility, Sufis, local adaptation</b>. A slow, negotiated process, elites first.</p>
+<span class="eg">Low-caste Malabaris who became Muslim could move freely, outside caste rules (Correia).</span></div>
+</div>
+
+<h2>3. Networks beyond trade <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>Khutba network (Lambourn)</h4>
+<p>In the <b>Friday sermon (khutba)</b>, Indian coastal mosques named the <b>Rasulid sultan of Yemen</b>, who paid their preachers. This meant <b>loyalty without territorial rule</b> and "preferred trading partners".</p></div>
+<div class="idea"><h4>Sufi networks</h4>
+<p>The <b>Kazaruni</b> order had lodges at <b>Cambay, Calicut, Quilon and Quanzhou</b>; ships paid money to its saint, so it was called a "Sufi insurance company". <b>Caution (Wade):</b> don't assume Sufis converted Asia before 1500.</p></div>
+<div class="idea gold"><h4>Family, contracts, gravestones</h4>
+<p><b>Hadhrami</b> scholars in Malabar (Engseng Ho); partnership contracts (<i>mufawada</i>, <i>commenda</i>); <b>gravestones carved in Cambay</b> shipped to Pasai and Gresik (Lambourn).</p></div>
+<div class="idea green"><h4>Layered identity</h4>
+<p>A Malabar Muslim could be <b>Malabari + Muslim + merchant + the Zamorin's subject + part of a global network</b> at once. The <i>umma</i> never erased local identity. Engseng Ho: a diaspora stops being "foreign" when later generations stay local but keep their wider ties.</p></div>
+</div>
+
+<h2>4. Southeast Asia and China <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>Locals remade Islam</h4>
+<p>Southeast Asians were <b>not passive</b>. Muslim communities by the 10th c.; first Muslim rulers in the <b>13th c.</b>: <b>Malik al-Salih of Samudera-Pasai (d. 1297)</b>. Feener: real conversion first among <b>elites</b>.</p></div>
+<div class="idea"><h4>Malacca: why would a king convert?</h4>
+<p>Trade, diplomacy, legitimacy, <b>marriage</b>. Its ruler <b>Iskandar Shah</b> converted after marrying into the <b>Pasai</b> royal family. Malacca became a hub of trade and learning (Reid's "Age of Commerce").</p></div>
+<div class="idea gold"><h4>Quanzhou: read a tombstone as a map</h4>
+<p>A <b>nisba</b> (name of origin) on Quanzhou graves (Isfahan, Shiraz, Bukhara, Yemen) shows the wide world the community imagined. Chinese records call Muslim envoys <b>Li (= 'Ali)</b> and <b>Pu (= Abu)</b>.</p></div>
+<div class="idea purple"><h4>Refugees spread Islam too</h4>
+<p>The <b>1360s violence in Quanzhou</b> made Muslims flee by sea; soon Muslim graves appear in <b>Java</b> (Trowulan, from the 1370s). Lesson: <b>forced migration</b> creates new religious maps.</p>
+<span class="eg">Zheng He, a Muslim admiral, led Ming fleets (1405–35) that linked these communities.</span></div>
+</div>
+
+<h2>5. Ponnāni and the ribāṭ (Kooria) <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>Microhistory</h4>
+<p>Study <b>one place</b> to see the whole ocean. <b>Ponnāni</b> was the Zamorin's <b>second (military) capital</b>: port, navy base, school, trade hub, frontier.</p></div>
+<div class="idea"><h4>What is a ribāṭ?</h4>
+<p>First a <b>frontier fort</b>; for Kooria, a whole <b>coastal community</b> organised around <b>defence, religion and sea life</b>. An idea, not just a building.</p></div>
+<div class="idea gold"><h4>1498: what changed</h4>
+<p>Vasco da Gama reached Calicut. The Portuguese wanted to <b>control trade by force</b>. Trade rivalry → political conflict → expressed in <b>religious</b> terms (jihad).</p></div>
+<div class="idea green"><h4>Who made the ribāṭ?</h4>
+<p>A coalition: the <b>Zamorin</b> (revenue, sovereignty), the <b>'ulamā'</b> (jihad language), the <b>Kuññāli Marakkārs</b> (navy), the <b>Māppiḷas</b> (trade, fishing, money). Not simply "Muslims vs Christians".</p></div>
+</div>
+<div class="box key"><span class="box-title">Conclusion</span>From "how did Islam spread?" to "how did Muslim communities become <b>embedded</b> and reshape their identities?" Islam was <b>made, remade and localised</b> through maritime networks.</div>
+
+<div class="names"><span><b>Wade</b> transmission, China</span><span><b>Kooria</b> ribāṭ</span><span><b>Eaton</b> conversion</span><span><b>Lambourn</b> khutba, gravestones</span><span><b>Pearson</b> IO world</span><span><b>Engseng Ho</b> diaspora</span><span><b>Feener</b> localisation</span><span><b>Reid</b> Age of Commerce</span></div>
+
+<div class="answer"><span class="box-title">Write it like this (essay outline, 15 marks)</span>
+<div class="q">Q. "Islam became an Indian Ocean religion not simply because Muslims travelled, but because mobility created communities that local societies reshaped." Discuss.</div>
+<p><b>Intro:</b> Islam "does not travel alone"; the better question is who carried it and how communities became embedded (Wade; Kooria).</p>
+<p><b>Settlement without states:</b> monsoon stays turned visitors into residents. At Saymur (Chaul) 10,000 Muslims lived under a Hindu king with their own judge; at Calicut the Zamorin and Muslim merchants depended on each other.</p>
+<p><b>Networks:</b> Lambourn's khutba network tied Indian mosques to the Rasulids of Yemen without territorial rule; the Kazaruni Sufis had lodges from Cambay to Quanzhou; Cambay gravestones reached Pasai and Gresik.</p>
+<p><b>Local remaking:</b> Malacca's ruler converted through marriage to Pasai; Quanzhou's refugees of the 1360s carried Islam to Java; Kooria's ribāṭ at Ponnāni joined the Zamorin, 'ulamā', Marakkār navy and Mappila traders against the Portuguese.</p>
+<p><b>But:</b> Sufi roles before 1500 should not be assumed (Wade), and conversion was slow and elite-led (Eaton, Feener).</p>
+<p><b>Conclusion:</b> Islam was made and remade locally; mobility created the communities, and local societies gave them their shape.</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>15</div>
+  <div class="session-title"><h1>Shipping, Navigation and Technology: Power in the Indian Ocean</h1>
+  <div class="readings">Nick Burningham, "Shipping of the Indian Ocean World" (2019) · S. Bhattacharya, "The Indian Ocean in the 19th and Early 20th Centuries" (1987, via slides) · Lecture 15</div></div>
+</div>
+
+<div class="oneline"><small>In one line</small>Indian Ocean ships were <b>advanced, not primitive</b>. Europe first won by <b>force</b> (16th c.), and only later by <b>better technology</b>: steam, iron and the telegraph (19th c.). Even then the old <b>dhows survived</b>.</div>
+
+<h2>1. Two authors, before and after <span class="badge b-hi">Must know</span></h2>
+<div class="vs">
+<div class="side a"><h4>Burningham (before)</h4>Maritime archaeologist. Uses <b>shipwrecks, pictures and fieldwork</b> over 5,000 years. Says regional shipbuilding traditions were <b>sophisticated engineering</b>, not crude boats waiting to be replaced.</div>
+<div class="mid">→</div>
+<div class="side b"><h4>S. Bhattacharya (after)</h4>Economic historian (<b>world-systems</b>, Wallerstein). 1800–WWII. Says steam, navigation and telegraph <b>pulled the Indian Ocean into world capitalism</b> as a <b>subordinate supplier of raw materials</b> (periphery).</div>
+</div>
+
+<h2>2. Five shipbuilding traditions <span class="badge b-hi">Must know</span></h2>
+<figure class="mapfig"><svg viewBox="0 0 784 472" xmlns="http://www.w3.org/2000/svg" class="map" role="img" aria-label="Shipbuilding traditions (Burningham) and the first steam link (1830)"><rect x="0" y="0" width="784" height="472" class="sea-bg"/><polygon class="land-fill" points="0.0,0.0 0.0,73.6 64.0,76.0 56.0,104.0 50.4,117.6 36.8,128.0 52.0,144.0 56.0,144.0 88.0,196.0 117.6,248.0 123.2,266.4 136.0,265.6 168.0,254.4 193.6,243.2 220.0,228.0 238.4,216.0 254.4,188.0 244.8,178.4 226.4,157.6 212.0,174.4 188.8,171.2 188.0,160.0 177.6,155.2 164.0,140.8 159.2,128.0 166.4,126.4 178.4,133.6 187.2,144.8 212.0,155.2 228.0,151.2 246.4,163.2 268.8,166.4 308.8,164.8 314.4,170.4 324.0,180.0 337.6,187.2 328.0,189.6 337.6,200.8 356.8,197.6 358.4,216.0 363.2,240.0 373.6,264.0 384.0,288.0 396.0,303.2 401.6,296.8 410.4,285.6 415.2,272.0 418.4,248.0 428.0,236.8 434.4,232.0 452.0,216.0 468.0,206.4 472.0,196.0 484.0,194.4 492.0,192.0 500.0,187.2 508.0,188.0 514.4,202.4 529.6,216.0 531.2,240.0 540.0,241.6 556.8,236.0 558.4,256.0 564.8,288.0 562.4,304.0 578.4,320.0 585.6,344.0 603.2,357.6 609.6,356.8 603.2,336.0 594.4,318.4 578.4,307.2 576.0,292.0 569.6,284.0 576.0,260.8 583.2,260.8 594.4,270.4 600.0,280.0 612.8,284.8 616.0,299.2 630.4,284.8 650.4,273.6 649.6,257.6 642.4,240.0 628.8,228.0 620.8,216.0 629.6,203.2 640.0,195.2 654.4,196.0 657.6,206.4 664.0,196.0 684.0,190.4 708.0,184.0 724.0,172.0 732.8,161.6 740.0,148.0 750.4,128.0 744.0,116.0 740.0,96.0 730.4,88.0 740.0,78.4 756.0,69.6 744.0,65.6 728.0,70.4 720.0,60.0 716.8,55.2 732.0,46.4 748.0,41.6 752.0,44.0 772.0,48.0 784.0,51.2 784.0,0.0"/><polygon class="land-fill" points="0.0,117.6 34.4,117.6 36.0,128.0 44.0,148.0 60.0,180.0 73.6,216.0 92.0,244.0 122.4,272.0 185.6,273.6 168.0,320.0 128.0,360.0 104.0,384.0 92.0,416.0 90.4,440.0 100.0,456.0 100.0,472.0 0.0,472.0"/><polygon class="land-fill" points="415.2,289.6 417.6,289.6 427.2,300.0 431.2,312.0 426.4,318.4 416.8,320.0 414.4,308.0"/><polygon class="land-fill" points="538.4,323.2 556.0,326.4 578.4,348.0 604.8,376.0 624.0,393.6 622.4,414.4 612.0,415.2 594.4,400.0 578.4,376.0 565.6,354.4 544.0,337.6"/><polygon class="land-fill" points="617.6,422.4 628.0,416.0 642.4,418.4 659.2,423.2 676.8,423.2 692.0,430.4 691.2,437.6 664.0,433.6 644.0,430.4 627.2,427.2"/><polygon class="land-fill" points="648.0,354.4 660.0,354.4 680.0,342.4 700.0,328.0 713.6,312.0 728.0,326.4 720.0,332.8 716.8,360.0 705.6,380.0 704.0,397.6 690.4,396.0 669.6,392.0 656.8,381.6 648.0,368.0"/><polygon class="land-fill" points="645.6,214.4 660.0,207.2 664.0,211.2 658.4,220.8 648.0,220.0"/><polygon class="land-fill" points="737.6,184.0 748.0,166.4 751.2,171.2 743.2,192.0"/><polygon class="land-fill" points="164.8,472.0 170.4,464.0 178.4,472.0"/><polygon class="land-fill" points="732.0,412.0 739.2,391.2 734.4,368.0 743.2,357.6 760.0,360.8 770.4,356.8 776.0,355.2 761.6,364.0 748.0,364.0 745.6,376.0 758.4,376.0 762.4,375.2 754.4,389.6 755.2,405.6 745.6,404.8 740.0,412.8"/><polygon class="land-fill" points="89.6,413.6 91.2,415.2 92.0,419.2 90.4,420.0"/><text x="256.0" y="256.0" class="sea-name">ARABIAN SEA</text><text x="448.0" y="252.0" class="sea-name">BAY OF BENGAL</text><text x="336.0" y="400.0" class="sea-name">INDIAN OCEAN</text><text x="672.0" y="264.0" class="sea-name">SOUTH CHINA SEA</text><text x="180.0" y="150.4" class="sea-name small">PERSIAN GULF</text><text x="68.0" y="208.0" class="sea-name small">RED SEA</text><polyline points="359.2,216.0 304.0,232.0 240.0,256.0 184.0,269.6 136.0,265.6 108.0,240.0 80.0,200.0 36.0,128.8" class="route gold"/><circle cx="236.0" cy="189.6" r="3.2" class="pt"/><text x="241.0" y="195.6" class="pt-label" text-anchor="start">Oman (Sohar)</text><circle cx="243.2" cy="179.2" r="3.2" class="pt"/><text x="248.2" y="175.2" class="pt-label" text-anchor="start">Muscat</text><circle cx="358.4" cy="198.4" r="3.2" class="pt"/><text x="353.4" y="195.4" class="pt-label" text-anchor="end">Surat</text><circle cx="359.2" cy="216.0" r="3.2" class="pt"/><text x="354.2" y="224.0" class="pt-label" text-anchor="end">Bombay</text><circle cx="103.2" cy="386.2" r="3.2" class="pt"/><text x="108.2" y="390.2" class="pt-label" text-anchor="start">Lamu</text><circle cx="89.6" cy="417.3" r="3.2" class="pt"/><text x="94.6" y="421.3" class="pt-label" text-anchor="start">Zanzibar</text><circle cx="364.0" cy="334.4" r="3.2" class="pt"/><text x="369.0" y="338.4" class="pt-label" text-anchor="start">Maldives</text><circle cx="414.4" cy="281.6" r="3.2" class="pt"/><text x="419.4" y="285.6" class="pt-label" text-anchor="start">Nagapattinam</text><circle cx="602.4" cy="337.6" r="3.2" class="pt"/><text x="607.4" y="341.6" class="pt-label" text-anchor="start">Pontian boat</text><circle cx="659.2" cy="428.8" r="3.2" class="pt"/><text x="653.2" y="440.8" class="pt-label" text-anchor="end">Java (Yepoti?)</text><circle cx="639.2" cy="391.2" r="3.2" class="pt"/><text x="644.2" y="401.2" class="pt-label" text-anchor="start">Belitung wreck (c.826)</text><circle cx="594.0" cy="350.4" r="3.2" class="pt"/><text x="589.0" y="360.4" class="pt-label" text-anchor="end">Malacca</text><circle cx="553.6" cy="327.2" r="3.2" class="pt"/><text x="558.6" y="323.2" class="pt-label" text-anchor="start">Pasai</text><circle cx="36.0" cy="128.8" r="3.2" class="pt"/><text x="41.0" y="125.8" class="pt-label" text-anchor="start">Suez</text><circle cx="228.0" cy="151.2" r="3.2" class="pt"/><text x="233.0" y="146.2" class="pt-label" text-anchor="start">Hormuz</text><text x="192.0" y="212.0" class="region-name" text-anchor="middle">ARABIAN SEA TRADITION</text><text x="192.0" y="224" class="region-sub" text-anchor="middle">sewn-plank ("stitched") hulls</text><text x="112.0" y="398.4" class="region-name" text-anchor="middle">SWAHILI</text><text x="112.0" y="410.4" class="region-sub" text-anchor="middle">mtepe: sewn + edge-dowelled</text><text x="320.0" y="348.0" class="region-name" text-anchor="middle">MALDIVIAN</text><text x="320.0" y="360" class="region-sub" text-anchor="middle">edge-dowelled</text><text x="440.0" y="299.2" class="region-name" text-anchor="middle">OTHER INDIAN</text><text x="440.0" y="311.2" class="region-sub" text-anchor="middle">dovetail straps, flat bottoms</text><text x="680.0" y="454.4" class="region-name" text-anchor="middle">SOUTHEAST ASIAN</text><text x="680.0" y="466.4" class="region-sub" text-anchor="middle">lashed-lug; the jong</text><g class="legend"><rect x="322" y="442" width="270" height="30" rx="4"/><line x1="330" y1="452" x2="356" y2="452" class="route gold"/><text x="362" y="456">Bombay–Suez steam mail, 1830 (Suez Canal 1869)</text></g></svg><figcaption>Shipbuilding traditions (Burningham) and the first steam link (1830). Coastlines simplified; positions approximate.</figcaption></figure>
+<div class="ideas">
+<div class="idea red"><h4>Arabian Sea: sewn-plank</h4>
+<p>Planks <b>stitched with coconut rope</b>, no nails. First described by <b>al-Sirafi (916)</b>. The <b>Belitung wreck</b> (9th c.) had <b>zero nails</b>.</p>
+<span class="eg">The replica <b>Jewel of Muscat</b> (2010) was lifted by crane without bending: the hull worked like an <b>egg shell</b> (a "monocoque").</span></div>
+<div class="idea"><h4>Other Indian (east coast)</h4>
+<p>Planks joined with <b>dovetail wooden straps</b>, flat bottoms; later mixed with British designs.</p></div>
+<div class="idea gold"><h4>Swahili (Kenya)</h4>
+<p>The <b>mtepe</b>: planks <b>doweled and sewn</b>.</p></div>
+<div class="idea purple"><h4>Southeast Asian: lashed-lug</h4>
+<p>Wooden <b>lugs</b> carved on planks are <b>tied</b> to the frames. Already mature in the <b>Pontian boat</b> (3rd–5th c.).</p></div>
+<div class="idea teal"><h4>Maldivian</h4>
+<p>More like <b>Southeast Asian</b> ships than its neighbours': "geography does not predict technology".</p></div>
+<div class="idea green"><h4>Weak points</h4>
+<p>Stitching must be <b>replaced every few years</b>, and there is a <b>size limit</b> unless the hull is strengthened.</p></div>
+</div>
+
+<div class="ideas">
+<div class="idea red"><h4>Rudder ahead of Europe</h4>
+<p>Arabian ships had <b>sternpost rudders by the 12th c.</b>, maybe before Europe's first (Winchester, c. 1180). Without iron hinges they used rope and an extended sternpost (<i>fashin</i>), which also let them lift the rudder for beaching.</p></div>
+<div class="idea"><h4>Gujarati and Parsi shipwrights</h4>
+<p>The Portuguese (c. 1500) called <b>Gujarati</b> shipwrights the best; ships of <b>300–800 tons</b> with <b>rabbeted seams</b>. In <b>1736</b> the EIC brought Parsi shipwrights from <b>Surat</b> under <b>Lovji Nusserwanjee Wadia</b> to Bombay.</p>
+<span class="eg"><b>HMS Trincomalee</b> (1817) is still afloat; <b>HMS Cornwallis</b> lasted 144 years.</span></div>
+<div class="idea gold"><h4>The vanishing jong</h4>
+<p>In <b>1512</b> the Portuguese met the Javanese <b>jong</b>: <b>bigger</b> than their ships, with planks <b>too thick for their cannon</b>. By the late 16th c. the jong <b>disappeared</b>, because Portuguese <b>attacks on trade routes</b> killed it, not better design.</p></div>
+<div class="idea purple"><h4>So what?</h4>
+<p>European dominance <b>did not start with superior technology</b>. It started with <b>military coercion</b> of sea routes.</p></div>
+</div>
+
+<h2>3. Two ways Europe dominated <span class="badge b-hi">Must know</span></h2>
+<div class="vs">
+<div class="side a"><h4>16th c.: COERCION</h4>Portuguese navies attack ships and routes. Asian ships were <b>as good or better</b>. Power = <b>force</b>.</div>
+<div class="mid">vs</div>
+<div class="side b"><h4>19th c.: COMPETITION</h4>Steam, iron, telegraph give a <b>real edge</b>: cheaper, faster, centralised. Power = <b>economic advantage</b>.</div>
+</div>
+
+<h2>4. Bhattacharya: the transport revolution <span class="badge b-hi">Must know</span></h2>
+<div class="dates"><b>1770s</b><span>French build marine steam engines</span><b>1830</b><span>first regular steamer: <b>Bombay–Suez</b> mail (state-paid)</span><b>1840s</b><span>P&amp;O and others; but wooden ships still 90% of tonnage</span><b>1869</b><span><b>Suez Canal</b>: the decisive blow to sailing ships</span><b>1870</b><span>submarine telegraph Britain–India</span></div>
+<div class="ideas">
+<div class="idea red"><h4>Slow, uneven change</h4>
+<p>Early steamers were <b>slower</b> than good sailing ships (about 25% longer in 1825) and needed coal. Not a "quantum jump".</p></div>
+<div class="idea"><h4>Charts and compasses</h4>
+<p><b>Iron hulls</b> confused compasses; <b>Flinders'</b> fixes and new charts cut England–Australia trips by ~20%. Tech solved a problem tech created, and made empire cheaper to run.</p></div>
+<div class="idea gold"><h4>Telegraph = political control</h4>
+<p>It made trade faster and <b>prices the same worldwide</b>, but also let <b>London</b> run India more directly than the post-1857 reforms did.</p></div>
+<div class="idea purple"><h4>What it changed</h4>
+<p>British fleet 2.5 m → <b>9.3 m tons</b> by 1900; shipping income paid >half of Britain's trade deficit (1825–50); raw materials got <b>cheaper</b>; Asian shipbuilding skills became useless (<b>dependency</b>); cheap ships made mass <b>indentured labour</b> migration possible.</p></div>
+</div>
+<div class="box key"><span class="box-title">Survivals: the dhow beneath the steamship</span>Arab <b>dhows</b> and Indian <b>katias</b> survived in the "<b>unorganised sector</b>" of a <b>dual economy</b> (Boeke). Steam pushed old technology to the <b>margins</b>, but did not destroy it.</div>
+
+<div class="names"><span><b>Burningham</b> traditions</span><span><b>S. Bhattacharya</b> world-systems</span><span><b>al-Sirafi</b> 916</span><span><b>Wadia</b> 1736</span><span><b>Flinders</b> charts</span><span><b>Boeke</b> dual economy</span></div>
+
+<div class="answer"><span class="box-title">Write it like this (short answer, 10 marks)</span>
+<div class="q">Q. Compare the disappearance of the Southeast Asian jong in the 16th century with the decline of Indian Ocean sail after 1869. What differs about the mechanism?</div>
+<p>Both cases ended with European shipping on top, but they happened in very different ways: the first through military coercion, the second through technological and economic competition.</p>
+<p>When the Portuguese met the Javanese jong in 1512, it was bigger than their own ships and its four layers of planking resisted their cannon (Burningham). The jong was not beaten by better design. Sustained Portuguese attacks on trade routes made large jongs too risky, and by the late 16th century smaller vessels replaced them. Here dominance came from force.</p>
+<p>After 1869 the mechanism was competition. Steam, iron hulls, new charts and the telegraph (from 1870) made transport cheaper, faster and centrally controlled, and the Suez Canal finished off timber sailing ships on the main routes (S. Bhattacharya). Asian shipyards lost their role, creating dependency.</p>
+<p>But neither change was total: dhows and katias survived in the "unorganised sector" well into the 20th century. The comparison shows that technology is inseparable from power, and that European dominance began with coercion long before it had a real technical edge.</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>17</div>
+  <div class="session-title"><h1>European Expansion in South Asia: Trade, Merchants, Empire</h1>
+  <div class="readings">Ghulam Nadri, "The English and Dutch East India Companies and Indian Merchants in Surat" (2018) · Tirthankar Roy, <i>India in the World Economy</i>, ch. 7, "Colonialism and Development, 1860–1920" (2012) · Lecture 17</div></div>
+</div>
+
+<div class="oneline"><small>In one line</small>Europeans did not arrive as rulers. In <b>Surat</b> they <b>depended on Indian merchants</b> (Nadri); only slowly did dependence turn into <b>leverage</b>. Later, colonial rule changed India's economy mainly through <b>law, railways and knowledge</b>, with real but <b>uneven</b> development (Roy).</div>
+
+<h2>1. Surat: Europeans enter an existing world <span class="badge b-hi">Must know</span></h2>
+<figure class="mapfig"><svg viewBox="0 0 784 472" xmlns="http://www.w3.org/2000/svg" class="map" role="img" aria-label="Surat and the Company factories in Gujarat and North India (17th–18th c.)"><rect x="0" y="0" width="784" height="472" class="sea-bg"/><polygon class="land-fill" points="0.0,0.0 0.0,73.6 64.0,76.0 56.0,104.0 50.4,117.6 36.8,128.0 52.0,144.0 56.0,144.0 88.0,196.0 117.6,248.0 123.2,266.4 136.0,265.6 168.0,254.4 193.6,243.2 220.0,228.0 238.4,216.0 254.4,188.0 244.8,178.4 226.4,157.6 212.0,174.4 188.8,171.2 188.0,160.0 177.6,155.2 164.0,140.8 159.2,128.0 166.4,126.4 178.4,133.6 187.2,144.8 212.0,155.2 228.0,151.2 246.4,163.2 268.8,166.4 308.8,164.8 314.4,170.4 324.0,180.0 337.6,187.2 328.0,189.6 337.6,200.8 356.8,197.6 358.4,216.0 363.2,240.0 373.6,264.0 384.0,288.0 396.0,303.2 401.6,296.8 410.4,285.6 415.2,272.0 418.4,248.0 428.0,236.8 434.4,232.0 452.0,216.0 468.0,206.4 472.0,196.0 484.0,194.4 492.0,192.0 500.0,187.2 508.0,188.0 514.4,202.4 529.6,216.0 531.2,240.0 540.0,241.6 556.8,236.0 558.4,256.0 564.8,288.0 562.4,304.0 578.4,320.0 585.6,344.0 603.2,357.6 609.6,356.8 603.2,336.0 594.4,318.4 578.4,307.2 576.0,292.0 569.6,284.0 576.0,260.8 583.2,260.8 594.4,270.4 600.0,280.0 612.8,284.8 616.0,299.2 630.4,284.8 650.4,273.6 649.6,257.6 642.4,240.0 628.8,228.0 620.8,216.0 629.6,203.2 640.0,195.2 654.4,196.0 657.6,206.4 664.0,196.0 684.0,190.4 708.0,184.0 724.0,172.0 732.8,161.6 740.0,148.0 750.4,128.0 744.0,116.0 740.0,96.0 730.4,88.0 740.0,78.4 756.0,69.6 744.0,65.6 728.0,70.4 720.0,60.0 716.8,55.2 732.0,46.4 748.0,41.6 752.0,44.0 772.0,48.0 784.0,51.2 784.0,0.0"/><polygon class="land-fill" points="0.0,117.6 34.4,117.6 36.0,128.0 44.0,148.0 60.0,180.0 73.6,216.0 92.0,244.0 122.4,272.0 185.6,273.6 168.0,320.0 128.0,360.0 104.0,384.0 92.0,416.0 90.4,440.0 100.0,456.0 100.0,472.0 0.0,472.0"/><polygon class="land-fill" points="415.2,289.6 417.6,289.6 427.2,300.0 431.2,312.0 426.4,318.4 416.8,320.0 414.4,308.0"/><polygon class="land-fill" points="538.4,323.2 556.0,326.4 578.4,348.0 604.8,376.0 624.0,393.6 622.4,414.4 612.0,415.2 594.4,400.0 578.4,376.0 565.6,354.4 544.0,337.6"/><polygon class="land-fill" points="617.6,422.4 628.0,416.0 642.4,418.4 659.2,423.2 676.8,423.2 692.0,430.4 691.2,437.6 664.0,433.6 644.0,430.4 627.2,427.2"/><polygon class="land-fill" points="648.0,354.4 660.0,354.4 680.0,342.4 700.0,328.0 713.6,312.0 728.0,326.4 720.0,332.8 716.8,360.0 705.6,380.0 704.0,397.6 690.4,396.0 669.6,392.0 656.8,381.6 648.0,368.0"/><polygon class="land-fill" points="645.6,214.4 660.0,207.2 664.0,211.2 658.4,220.8 648.0,220.0"/><polygon class="land-fill" points="737.6,184.0 748.0,166.4 751.2,171.2 743.2,192.0"/><polygon class="land-fill" points="164.8,472.0 170.4,464.0 178.4,472.0"/><polygon class="land-fill" points="732.0,412.0 739.2,391.2 734.4,368.0 743.2,357.6 760.0,360.8 770.4,356.8 776.0,355.2 761.6,364.0 748.0,364.0 745.6,376.0 758.4,376.0 762.4,375.2 754.4,389.6 755.2,405.6 745.6,404.8 740.0,412.8"/><polygon class="land-fill" points="89.6,413.6 91.2,415.2 92.0,419.2 90.4,420.0"/><text x="256.0" y="256.0" class="sea-name">ARABIAN SEA</text><text x="448.0" y="252.0" class="sea-name">BAY OF BENGAL</text><text x="336.0" y="400.0" class="sea-name">INDIAN OCEAN</text><text x="672.0" y="264.0" class="sea-name">SOUTH CHINA SEA</text><text x="180.0" y="150.4" class="sea-name small">PERSIAN GULF</text><text x="68.0" y="208.0" class="sea-name small">RED SEA</text><polyline points="358.4,198.4 359.8,194.4 361.4,189.6 356.6,183.8 400.0,150.6" class="route land"/><polyline points="359.8,194.4 356.8,189.6" class="route land"/><polyline points="358.4,198.4 304.0,224.0 224.0,256.0 176.0,268.8 122.0,261.4" class="route sea"/><polyline points="358.4,198.4 304.0,188.0 236.8,166.4 230.4,155.2 226.2,150.6" class="route sea"/><polyline points="230.4,155.2 158.4,124.0" class="route sea"/><polyline points="358.4,198.4 352.0,248.0 368.0,296.0 420.0,325.6 536.0,316.0 538.6,323.6" class="route gold"/><polyline points="538.6,323.6 572.0,332.0 590.4,352.0 612.0,384.0 630.4,417.6" class="route gold"/><circle cx="358.4" cy="198.4" r="3.2" class="pt"/><text x="353.4" y="202.4" class="pt-label" text-anchor="end">Surat</text><circle cx="356.6" cy="183.8" r="3.2" class="pt"/><text x="361.6" y="181.8" class="pt-label" text-anchor="start">Ahmadabad</text><circle cx="356.8" cy="189.6" r="3.2" class="pt"/><text x="351.8" y="185.6" class="pt-label" text-anchor="end">Cambay</text><circle cx="400.0" cy="150.6" r="3.2" class="pt"/><text x="405.0" y="147.6" class="pt-label" text-anchor="start">Agra</text><circle cx="359.2" cy="216.0" r="3.2" class="pt pt-eng"/><text x="354.2" y="222.0" class="pt-label" text-anchor="end">Bombay</text><circle cx="366.4" cy="244.0" r="3.2" class="pt pt-port"/><text x="361.4" y="247.0" class="pt-label" text-anchor="end">Goa</text><circle cx="122.0" cy="261.4" r="3.2" class="pt"/><text x="117.0" y="267.4" class="pt-label" text-anchor="end">Mocha (al-Mukka)</text><circle cx="226.2" cy="150.6" r="3.2" class="pt"/><text x="231.2" y="146.6" class="pt-label" text-anchor="start">Bandar Abbas (Gombroon)</text><circle cx="158.4" cy="124.0" r="3.2" class="pt"/><text x="163.4" y="134.0" class="pt-label" text-anchor="start">Basra</text><circle cx="89.6" cy="196.0" r="3.2" class="pt"/><text x="84.6" y="200.0" class="pt-label" text-anchor="end">Jeddah</text><circle cx="538.6" cy="323.6" r="3.2" class="pt"/><text x="533.6" y="319.6" class="pt-label" text-anchor="end">Aceh</text><circle cx="630.4" cy="417.6" r="3.2" class="pt"/><text x="625.4" y="427.6" class="pt-label" text-anchor="end">Batavia</text><circle cx="418.4" cy="263.2" r="3.2" class="pt pt-eng"/><text x="423.4" y="267.2" class="pt-label" text-anchor="start">Madras</text><circle cx="483.2" cy="187.2" r="3.2" class="pt pt-eng"/><text x="488.2" y="197.2" class="pt-label" text-anchor="start">Calcutta</text><g class="legend"><rect x="322" y="378" width="270" height="94" rx="4"/><line x1="330" y1="388" x2="356" y2="388" class="route land"/><text x="362" y="392">Inland factories: indigo & textiles</text><line x1="330" y1="404" x2="356" y2="404" class="route sea"/><text x="362" y="408">Surat shipping to the Red Sea & Gulf</text><line x1="330" y1="420" x2="356" y2="420" class="route gold"/><text x="362" y="424">East to Aceh and (VOC) Batavia</text><circle cx="343" cy="436" r="4" class="pt pt-port"/><text x="362" y="440">Portuguese base</text><circle cx="343" cy="452" r="4" class="pt pt-eng"/><text x="362" y="456">English presidency town</text></g></svg><figcaption>Surat and the Company factories in Gujarat and North India (17th–18th c.). Coastlines simplified; positions approximate.</figcaption></figure>
+<div class="ideas">
+<div class="idea red"><h4>Surat before empire</h4>
+<p>A major <b>Mughal port</b> linking inland goods (indigo, textiles) to the Red Sea, Gulf, Southeast Asia and Europe. The English (1600s) and Dutch (1610s) <b>joined a mature system</b> where Indians controlled <b>credit, supply and market knowledge</b>.</p></div>
+<div class="idea"><h4>Not like the Portuguese</h4>
+<p>The Portuguese demanded <b>passes (<i>cartaz</i>)</b> and used violence. The EIC and VOC were <b>pragmatic merchants</b> who asked Mughal permission (Jahangir's <b>farman</b> via Thomas Roe).</p></div>
+</div>
+<div class="vs">
+<div class="side a"><h4>What the Companies needed</h4>Credit · textile supply · shipping · market information · political go-betweens.</div>
+<div class="mid">⇄</div>
+<div class="side b"><h4>What merchants gained</h4>New buyers · price leverage · access to silver · alliances · room to bargain.</div>
+</div>
+
+<h2>2. Nadri: interdependence, competition, contestation <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>His argument</h4>
+<p>The companies <b>needed</b> Indian bankers, brokers and suppliers; merchants <b>gained</b> profit and status. The relationship was <b>interdependent</b>, but also <b>competitive and contested</b>. Indian merchants were <b>strategic actors</b>, not passive middlemen.</p></div>
+<div class="idea gold"><h4>Virji Vora: the merchant who set the terms</h4>
+<p>Surat's richest merchant. He <b>lent money</b> to both companies and bought almost <b>all their imports</b> (a <b>monopsony</b>, a single buyer).</p>
+<span class="eg">An EIC official (1643): Vora sold them pepper at double the price, but "must not be displeased in any case", because the Company owed him money.</span></div>
+<div class="idea"><h4>Broker families for generations</h4>
+<p>EIC: the <b>Parekh</b> family (Tapidas, Bhimji Parekh) vs the Parsi <b>Rustamji Manikji</b> family, fighting over the office. VOC: the <b>Kishandas</b> family until 1795; later the Parsi <b>Mancherji Khurshedji</b>.</p></div>
+<div class="idea purple"><h4>Conflict too</h4>
+<p>Mughal officials who traded saw companies as <b>rivals</b>; companies sometimes used <b>violence</b> (Middleton plundered ~15 Surat ships in 1612) but usually <b>negotiated</b> first.</p></div>
+<div class="idea teal"><h4>18th-century change</h4>
+<p>Companies <b>split the broker's job</b> (one sells imports, another supplies exports) and renamed the broker a <b><i>marfatia</i></b> (agent). Brokers became <b>more dependent</b>, though still needed.</p></div>
+<div class="idea green"><h4>Protection</h4>
+<p>Merchants worked with companies partly for <b>protection</b>. In 1771 the Portuguese seized broker <b>Dhanjishah's</b> ship; the EIC said he was <b>its subject</b> and seized Portuguese goods in return.</p></div>
+</div>
+<div class="flow">
+<div class="node n1"><b>Entry</b>arrive as traders</div><div class="arrow">→</div>
+<div class="node n2"><b>Dependence</b>rely on Indians</div><div class="arrow">→</div>
+<div class="node n3"><b>Privileges</b>bargain for footholds</div><div class="arrow">→</div>
+<div class="node n4"><b>Leverage</b>presence becomes power</div>
+</div>
+
+<h2>3. Roy: how empire changed India's economy (1860–1920) <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>Roy's argument</h4>
+<p>He <b>challenges the simple "drain and deindustrialisation" story</b>. Empire changed India by <b>integrating markets</b>: railways, telegraph, ports and <b>uniform law</b>. The state was <b>poor</b> (tiny taxes) but <b>made many laws</b>. Results were <b>uneven</b>.</p>
+<span class="eg">"Far from deindustrializing, India industrialized": Bombay cotton mills, Calcutta jute mills.</span></div>
+<div class="idea"><h4>Law: three strategies</h4>
+<p><b>Appropriation</b> (taking land and labour, as in settler colonies): not important in India. <b>Incorporation</b> (ruling through religious/community law): early, but failed. <b>Standardisation</b> (one law for all, e.g. <b>Contract Act 1872</b>): grew later. These often helped <b>capital more than labour</b>.</p></div>
+<div class="idea gold"><h4>Industry</h4>
+<p>Factory jobs <b>100,000 (1860) → 2 million (1940)</b>, mostly in <b>Bombay and Calcutta</b>. Cotton mills: Indian capital (first lasting mill 1854; 271 mills by 1914). Jute: <b>European</b> capital. Limits: few regions, imported machines.</p></div>
+<div class="idea purple"><h4>Artisans: loss and reinvention</h4>
+<p>Some crafts declined, but <b>handloom weavers</b> used new tools (fly-shuttle, synthetic dyes) and <b>doubled output 1900–30</b>; blacksmiths used imported iron; leather grew.</p></div>
+<div class="idea teal"><h4>Agriculture: uneven</h4>
+<p>Only <b>10–15%</b> of land grew export crops; gains came only where there was land, clear rights, <b>cheap water</b> and railways. The main problem was <b>scarce irrigation</b>.</p></div>
+<div class="idea green"><h4>Knowledge and dependence</h4>
+<p>Empire brought machines, engineers, medicine; Indians learned in mills and workshops (Europeans among mill supervisors fell from 100% to under 30% by 1925). But "buy British" also imposed costs.</p></div>
+</div>
+<div class="vs">
+<div class="side a"><h4>Nadri</h4>Surat, 17th–18th c. · interdependence, negotiation · Indian merchants central · European power limited.</div>
+<div class="mid">vs</div>
+<div class="side b"><h4>Roy</h4>Colonial India, 1860–1920 · market integration, institutions · law, railways, knowledge · development uneven.</div>
+</div>
+<div class="box key"><span class="box-title">Four takeaways</span>(1) Expansion was <b>gradual</b>. (2) <b>Indian actors shaped</b> the markets. (3) Empire changed markets through <b>institutions</b>. (4) Colonial development brought <b>gains and inequality</b>. "Read empire as a <b>process</b>, not a single event."</div>
+
+<div class="names"><span><b>Nadri</b> Surat brokers</span><span><b>T. Roy</b> market integration</span><span><b>Virji Vora</b></span><span><b>Parekh family</b></span><span><b>Thomas Roe</b></span><span><b>Naoroji, Dutt</b> drain (S21)</span></div>
+
+<div class="answer"><span class="box-title">Write it like this (short answer, 10 marks)</span>
+<div class="q">Q. How did dependence become a route to later domination in European expansion in South Asia?</div>
+<p>European expansion began from weakness, not strength. In Surat the English and Dutch companies depended on Indian merchants, but repeated bargaining slowly turned this dependence into leverage and then political power.</p>
+<p>Nadri shows that in the 17th century the EIC and VOC needed Indian credit, supplies and brokers. Virji Vora lent them money and bought nearly all their imports, so he could dictate prices; an EIC officer wrote in 1643 that he "must not be displeased in any case". Broker families such as the Parekhs managed Company trade for generations.</p>
+<p>In the 18th century the balance shifted. The companies split the broker's role and renamed him a <i>marfatia</i>, and merchants increasingly relied on Company protection: in 1771 the EIC treated its broker Dhanjishah as its own subject against the Portuguese. A Parekh agent even helped the English take Surat castle in 1759. By 1860–1920, Roy shows, empire was reshaping markets through law and infrastructure.</p>
+<p>But this was not a smooth plan: Mughal power and Indian merchants limited the companies for a long time. The lesson is that European power was negotiated before it was institutionalised; empire was a process, not a single event.</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>18</div>
+  <div class="session-title"><h1>Silver, Tea and Opium I: The Bullion and the Tea</h1>
+  <div class="readings">Holden Furber, <i>Rival Empires of Trade in the Orient, 1600–1800</i>, ch. 3, "The Triumph of Tea" (1976) · H.V. Bowen, "Bullion for Trade, War, and Debt-Relief… 1760–1833" (2010) · Lecture 18</div></div>
+</div>
+
+<div class="oneline"><small>In one line</small>British power in Asia grew from <b>commerce + private enterprise + war + land revenue + finance</b> together. <b>Tea</b> made China central, <b>country trade</b> tied India to China, and <b>silver</b> moved in all directions, paying for <b>trade, war and debt</b>, not just goods.</div>
+
+<h2>1. The old model, and why it is too simple <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>"Bullion for goods"</h4>
+<p>Old picture: <b>Europe sends silver</b>, <b>Asia sends goods</b>, in a straight line. Furber and Bowen add <b>private traders, trade inside Asia, war, land revenue and reverse flows</b>.</p>
+<span class="like">thinking a company's only cash flow is "sales": you miss loans, investments, and money moving between branches.</span></div>
+<div class="idea"><h4>Country trade</h4>
+<p><b>Europe trade</b> = Europe ↔ Asia through the companies. <b>Country trade</b> = trade <b>within Asia</b> (India ↔ Southeast Asia ↔ China) by private Europeans and Company servants. Britain grew by <b>entering existing Asian circuits</b>.</p></div>
+<div class="idea gold"><h4>The paradox of monopoly</h4>
+<p>The Company had a monopoly on paper, but its own servants, ship captains and private merchants traded for themselves. <b>Private enterprise ate away the monopoly.</b></p></div>
+<div class="idea purple"><h4>Why the Dutch lost tea</h4>
+<p>The Dutch bought tea through <b>Batavia</b> (it lost flavour in transit) and started direct trade only in 1729; the English took "the lion's share". From <b>1716</b> the EIC kept supercargoes at <b>Canton</b>.</p></div>
+</div>
+
+<h2>2. Furber: from trade to "country power" <span class="badge b-hi">Must know</span></h2>
+<div class="flow">
+<div class="node n1">Protect trade</div><div class="arrow">→</div>
+<div class="node n2">Political intervention</div><div class="arrow">→</div>
+<div class="node n3">Military power</div><div class="arrow">→</div>
+<div class="node n4">Territorial power</div>
+</div>
+<div class="ideas">
+<div class="idea red"><h4>Plassey 1757: more than a battle</h4>
+<p>A <b>conspiracy</b> as much as a fight: Clive's side bought over <b>Mir Jafar</b>, backed by Bengal's <b>Seth bankers</b>; a fake treaty fooled Amin Chand. Little real fighting. Officers <b>expected rewards</b> (Clive got about £234,000).</p>
+<span class="eg">After Plassey only one European power could be a "country power" in India; the Dutch were crushed in 1759, the French at Wandiwash (1760).</span></div>
+<div class="idea"><h4>1765: revenue changes everything</h4>
+<p>After <b>Baksar (1764)</b>, Clive got the <b>diwani of Bengal</b> (the right to collect revenue). The Company became a <b>government</b>. But land brought big <b>military and administrative costs</b>.</p></div>
+<div class="idea gold"><h4>The Company paradox</h4>
+<p>As a <b>government</b> it grew stronger (land, revenue, army); as a <b>trading monopoly</b> it grew weaker (private traders, agency houses). Parliament stepped in: Regulating Act <b>1773</b>, Pitt's India Act <b>1784</b>.</p></div>
+<div class="idea purple"><h4>Tea makes one Asian system</h4>
+<p>British tea demand grew; the <b>Commutation Act (1784)</b> cut the tea tax and beat smuggling: London tea imports rose to <b>23 million lb</b> by 1800. India sent <b>opium and cotton</b> east; China sent <b>tea and silk</b> west.</p>
+<span class="eg">Canton officials sold <b>bills on London</b> to country traders for their silver, so the Company needed less silver from Britain.</span></div>
+</div>
+<p class="skipnote"><b>Skip:</b> the 1713–44 details (Utrecht, ship counts, calico re-export markets) and Hastings' quarrels with Francis.</p>
+
+<h2>3. Bowen: follow the silver (1760–1833) <span class="badge b-hi">Must know</span></h2>
+<div class="pic">
+<svg viewBox="0 0 760 200" xmlns="http://www.w3.org/2000/svg"><g font-family="Inter, sans-serif" font-size="12">
+<defs><marker id="b18l" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect x="315" y="8" width="130" height="36" rx="6" fill="#f0f5fd" stroke="#1f5fae"/><text x="380" y="31" text-anchor="middle" font-weight="800">BRITAIN</text>
+<rect x="60" y="90" width="150" height="40" rx="6" fill="#fff3f1" stroke="#b42318"/><text x="135" y="115" text-anchor="middle" font-weight="800">INDIA</text>
+<rect x="550" y="90" width="150" height="40" rx="6" fill="#fff8e8" stroke="#9a5b00"/><text x="625" y="115" text-anchor="middle" font-weight="800">CHINA (Canton)</text>
+<rect x="290" y="155" width="180" height="40" rx="6" fill="#edf9f2" stroke="#11734a"/><text x="380" y="180" text-anchor="middle" font-weight="800">WAR + DEBT</text>
+<line x1="330" y1="44" x2="180" y2="88" stroke="#333" marker-end="url(#b18l)"/><text x="220" y="58" font-size="11">silver</text>
+<line x1="430" y1="44" x2="580" y2="88" stroke="#333" marker-end="url(#b18l)"/><text x="520" y="58" font-size="11">silver (for tea)</text>
+<line x1="212" y1="104" x2="546" y2="104" stroke="#9a5b00" stroke-width="2" marker-end="url(#b18l)"/><text x="380" y="98" text-anchor="middle" font-size="11">cotton + opium</text>
+<line x1="546" y1="122" x2="212" y2="122" stroke="#b42318" stroke-width="2" marker-end="url(#b18l)"/><text x="380" y="138" text-anchor="middle" font-size="11">silver back to India</text>
+<line x1="150" y1="132" x2="300" y2="165" stroke="#11734a" marker-end="url(#b18l)"/>
+<line x1="95" y1="88" x2="320" y2="40" stroke="#6a3d9e" stroke-dasharray="5 3" marker-end="url(#b18l)"/><text x="105" y="66" font-size="11" fill="#6a3d9e">after 1810: back to Britain</text>
+</g></svg><div class="cap">Silver moved to, around and from Asia.</div></div>
+<div class="ideas">
+<div class="idea red"><h4>The debate</h4>
+<p><b>Irfan Habib</b>: British silver to India <b>stopped</b> after 1760. <b>Rajat Datta</b>: it went on and rose after 1785. Bowen rebuilds the records and shows <b>Datta was right</b> (with corrections).</p></div>
+<div class="idea"><h4>1760–84: almost none to India</h4>
+<p>After conquering Bengal, the Company used <b>Indian revenue</b> and private fortunes (paid in India for bills on London) instead. Silver even went <b>from India to Canton</b> for tea.</p></div>
+<div class="idea gold"><h4>1785–1820: silver flows again</h4>
+<p>Out of <b>£16.12 m</b>: <b>India £8.50 m</b>, China £7.62 m. Why? <b>Tea</b> (after 1784), <b>raw cotton</b> for Canton, and above all <b>war</b> (Wellesley's wars, Tipu) and <b>debt relief</b> (after the 1817–18 Maratha war).</p>
+<span class="eg">In 1790 China-bound silver was taken off ships at Madras to pay for the war against Tipu Sultan.</span></div>
+<div class="idea purple"><h4>Silver moves around Asia</h4>
+<p>Private traders and officers also carried silver. About <b>£2 m</b> moved from <b>Canton to India</b> in 1792–1809; opium and cotton sales created a "golden current" back to India.</p></div>
+<div class="idea teal"><h4>After 1800–1810: reverse flow</h4>
+<p>The Company, losing money (India trade monopoly ended <b>1813</b>), began shipping bullion <b>back to Britain</b> (about £8 m net in 1811–33). Britain probably became a <b>net importer</b> of Indian silver.</p></div>
+<div class="idea green"><h4>So silver was…</h4>
+<p>…not just money for goods, but a <b>flexible resource</b> for <b>commerce, war, treasury needs and debt</b>.</p></div>
+</div>
+<table class="compact">
+<tr><th>Old assumption</th><th>What the readings show</th></tr>
+<tr><td class="rowh">Trade → conquest</td><td>Entangled and two-way, not a straight line</td></tr>
+<tr><td class="rowh">The Company = one actor</td><td>Officials and private traders had different interests</td></tr>
+<tr><td class="rowh">Britain → Asia</td><td>Flows went in many directions</td></tr>
+<tr><td class="rowh">Silver = goods only</td><td>Silver also paid for war and imperial finance</td></tr>
+</table>
+
+<div class="names"><span><b>Furber</b> tea, country trade</span><span><b>Bowen</b> silver flows</span><span><b>Habib vs Datta</b></span><span><b>Clive</b> Plassey, diwani</span><span><b>Pitt</b> 1784</span></div>
+<div class="dates"><b>1716</b><span>Canton supercargoes</span><b>1757</b><span>Plassey</span><b>1764 / 1765</b><span>Baksar / diwani</span><b>1784</b><span>Commutation Act &amp; India Act</span><b>1813</b><span>Company loses India trade monopoly</span></div>
+
+<div class="answer"><span class="box-title">Write it like this (essay outline, 15 marks)</span>
+<div class="q">Q. How did commerce and finance contribute to the making of British power in Asia?</div>
+<p><b>Intro:</b> British power was not simply "trade then conquest"; it grew from commerce, private enterprise, war, revenue and finance working together (Furber; Bowen).</p>
+<p><b>Commerce:</b> country trade inserted Britain into intra-Asian circuits; private traders and agency houses grew inside and around the Company's monopoly. Tea demand, boosted by the 1784 Commutation Act, made China central, while India supplied opium and cotton.</p>
+<p><b>From trade to territory:</b> Plassey (1757) was a conspiracy with Bengal's bankers as much as a battle; the diwani (1765) gave land revenue, turning the Company into a government (the "Company paradox").</p>
+<p><b>Finance:</b> Bowen shows silver did not stop after 1760: in 1785–1820 more went to India (£8.5 m) than to China, largely to pay for war and debt; silver also moved from Canton to India and, after 1810, back to Britain.</p>
+<p><b>But:</b> the Company as a business declined, and private interests rather than a master plan drove much of the change.</p>
+<p><b>Conclusion:</b> commerce and finance were the engine of British power; empire was a process, and silver its flexible fuel.</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>19</div>
+  <div class="session-title"><h1>Silver, Tea and Opium II: Opium, Empire and the Global Economy</h1>
+  <div class="readings">Carl A. Trocki, <i>Opium, Empire and the Global Political Economy</i> (1999), ch. 5 (via Lecture 19 slides; reading not in folder)</div></div>
+</div>
+
+<div class="oneline"><small>In one line</small><b>Opium</b> was not a side business: grown in <b>British India</b>, sold through <b>Southeast Asian</b> ports and Chinese networks, and consumed in <b>China</b>, it paid for tea and funded colonial states. Trocki: "<b>Without opium there would have been no empire</b>" (a deliberately provocative claim).</div>
+
+<h2>1. The problem and the "solution" <span class="badge b-hi">Must know</span></h2>
+<div class="flow">
+<div class="node n1"><b>Problem</b>Britain wants Chinese tea; China wants few British goods → silver drains</div><div class="arrow">→</div>
+<div class="node n2"><b>Solution</b>Opium: a product China does demand</div><div class="arrow">→</div>
+<div class="node n3"><b>Result</b>India's opium pays for China's tea; silver flows back</div>
+</div>
+<div class="ideas">
+<div class="idea red"><h4>Why study opium?</h4>
+<p>One <b>commodity</b> shows the structure of an <b>empire</b>. It linked production, shipping, taxes, finance and consumption into <b>one system</b> across India, Southeast Asia and China.</p></div>
+<div class="idea"><h4>Trocki's thesis</h4>
+<p>Opium gave <b>revenue, profit and leverage</b>. Empire depended on <b>controlling commodity circuits</b>, not only on conquering land.</p></div>
+</div>
+<figure class="mapfig"><svg viewBox="0 0 784 472" xmlns="http://www.w3.org/2000/svg" class="map" role="img" aria-label="The opium–silver–tea circuit: India → Southeast Asia → China (Trocki, Bowen, Furber)"><rect x="0" y="0" width="784" height="472" class="sea-bg"/><polygon class="land-fill" points="0.0,0.0 0.0,73.6 64.0,76.0 56.0,104.0 50.4,117.6 36.8,128.0 52.0,144.0 56.0,144.0 88.0,196.0 117.6,248.0 123.2,266.4 136.0,265.6 168.0,254.4 193.6,243.2 220.0,228.0 238.4,216.0 254.4,188.0 244.8,178.4 226.4,157.6 212.0,174.4 188.8,171.2 188.0,160.0 177.6,155.2 164.0,140.8 159.2,128.0 166.4,126.4 178.4,133.6 187.2,144.8 212.0,155.2 228.0,151.2 246.4,163.2 268.8,166.4 308.8,164.8 314.4,170.4 324.0,180.0 337.6,187.2 328.0,189.6 337.6,200.8 356.8,197.6 358.4,216.0 363.2,240.0 373.6,264.0 384.0,288.0 396.0,303.2 401.6,296.8 410.4,285.6 415.2,272.0 418.4,248.0 428.0,236.8 434.4,232.0 452.0,216.0 468.0,206.4 472.0,196.0 484.0,194.4 492.0,192.0 500.0,187.2 508.0,188.0 514.4,202.4 529.6,216.0 531.2,240.0 540.0,241.6 556.8,236.0 558.4,256.0 564.8,288.0 562.4,304.0 578.4,320.0 585.6,344.0 603.2,357.6 609.6,356.8 603.2,336.0 594.4,318.4 578.4,307.2 576.0,292.0 569.6,284.0 576.0,260.8 583.2,260.8 594.4,270.4 600.0,280.0 612.8,284.8 616.0,299.2 630.4,284.8 650.4,273.6 649.6,257.6 642.4,240.0 628.8,228.0 620.8,216.0 629.6,203.2 640.0,195.2 654.4,196.0 657.6,206.4 664.0,196.0 684.0,190.4 708.0,184.0 724.0,172.0 732.8,161.6 740.0,148.0 750.4,128.0 744.0,116.0 740.0,96.0 730.4,88.0 740.0,78.4 756.0,69.6 744.0,65.6 728.0,70.4 720.0,60.0 716.8,55.2 732.0,46.4 748.0,41.6 752.0,44.0 772.0,48.0 784.0,51.2 784.0,0.0"/><polygon class="land-fill" points="0.0,117.6 34.4,117.6 36.0,128.0 44.0,148.0 60.0,180.0 73.6,216.0 92.0,244.0 122.4,272.0 185.6,273.6 168.0,320.0 128.0,360.0 104.0,384.0 92.0,416.0 90.4,440.0 100.0,456.0 100.0,472.0 0.0,472.0"/><polygon class="land-fill" points="415.2,289.6 417.6,289.6 427.2,300.0 431.2,312.0 426.4,318.4 416.8,320.0 414.4,308.0"/><polygon class="land-fill" points="538.4,323.2 556.0,326.4 578.4,348.0 604.8,376.0 624.0,393.6 622.4,414.4 612.0,415.2 594.4,400.0 578.4,376.0 565.6,354.4 544.0,337.6"/><polygon class="land-fill" points="617.6,422.4 628.0,416.0 642.4,418.4 659.2,423.2 676.8,423.2 692.0,430.4 691.2,437.6 664.0,433.6 644.0,430.4 627.2,427.2"/><polygon class="land-fill" points="648.0,354.4 660.0,354.4 680.0,342.4 700.0,328.0 713.6,312.0 728.0,326.4 720.0,332.8 716.8,360.0 705.6,380.0 704.0,397.6 690.4,396.0 669.6,392.0 656.8,381.6 648.0,368.0"/><polygon class="land-fill" points="645.6,214.4 660.0,207.2 664.0,211.2 658.4,220.8 648.0,220.0"/><polygon class="land-fill" points="737.6,184.0 748.0,166.4 751.2,171.2 743.2,192.0"/><polygon class="land-fill" points="164.8,472.0 170.4,464.0 178.4,472.0"/><polygon class="land-fill" points="732.0,412.0 739.2,391.2 734.4,368.0 743.2,357.6 760.0,360.8 770.4,356.8 776.0,355.2 761.6,364.0 748.0,364.0 745.6,376.0 758.4,376.0 762.4,375.2 754.4,389.6 755.2,405.6 745.6,404.8 740.0,412.8"/><polygon class="land-fill" points="89.6,413.6 91.2,415.2 92.0,419.2 90.4,420.0"/><text x="256.0" y="256.0" class="sea-name">ARABIAN SEA</text><text x="448.0" y="252.0" class="sea-name">BAY OF BENGAL</text><text x="336.0" y="400.0" class="sea-name">INDIAN OCEAN</text><text x="672.0" y="264.0" class="sea-name">SOUTH CHINA SEA</text><text x="180.0" y="150.4" class="sea-name small">PERSIAN GULF</text><text x="68.0" y="208.0" class="sea-name small">RED SEA</text><polyline points="456.8,163.2 483.2,187.2 492.0,216.0 520.0,264.0 552.0,312.0 578.6,324.7 590.4,352.0 606.8,357.7 624.0,336.0 656.0,288.0 684.0,216.0 686.4,188.8 682.4,183.2" class="route gold"/><polyline points="359.2,216.0 352.0,248.0 368.0,296.0 420.0,325.6 536.0,316.0 572.0,332.0" class="route sea"/><polyline points="682.4,183.2 692.0,224.0 664.0,272.0 644.0,320.0 614.4,350.4 588.0,343.2 556.0,316.8 480.0,288.0 422.4,329.6 372.8,300.8 356.8,240.0" class="route atisa"/><circle cx="456.8" cy="163.2" r="3.2" class="pt"/><text x="451.8" y="158.2" class="pt-label" text-anchor="end">Patna (Bihar opium)</text><circle cx="483.2" cy="187.2" r="3.2" class="pt"/><text x="488.2" y="197.2" class="pt-label" text-anchor="start">Calcutta</text><circle cx="359.2" cy="216.0" r="3.2" class="pt"/><text x="354.2" y="216.0" class="pt-label" text-anchor="end">Bombay</text><circle cx="418.4" cy="263.2" r="3.2" class="pt"/><text x="423.4" y="267.2" class="pt-label" text-anchor="start">Madras</text><circle cx="578.6" cy="324.7" r="3.2" class="pt"/><text x="573.6" y="322.7" class="pt-label" text-anchor="end">Penang</text><circle cx="594.0" cy="350.4" r="3.2" class="pt"/><text x="589.0" y="354.4" class="pt-label" text-anchor="end">Malacca</text><circle cx="606.8" cy="357.7" r="3.2" class="pt"/><text x="611.8" y="365.7" class="pt-label" text-anchor="start">Singapore</text><circle cx="686.4" cy="188.8" r="3.2" class="pt"/><text x="681.4" y="182.8" class="pt-label" text-anchor="end">Lintin</text><circle cx="684.4" cy="190.4" r="3.2" class="pt"/><text x="679.4" y="200.4" class="pt-label" text-anchor="end">Macao</text><circle cx="689.4" cy="189.6" r="3.2" class="pt"/><text x="694.4" y="199.6" class="pt-label" text-anchor="start">Hong Kong</text><circle cx="682.4" cy="183.2" r="3.2" class="pt"/><text x="687.4" y="179.2" class="pt-label" text-anchor="start">Canton (Guangzhou)</text><circle cx="594.1" cy="398.4" r="3.2" class="pt"/><text x="589.1" y="408.4" class="pt-label" text-anchor="end">Benkulen</text><g class="legend"><rect x="282" y="410" width="270" height="62" rx="4"/><line x1="290" y1="420" x2="316" y2="420" class="route gold"/><text x="322" y="424">Bengal opium (auctioned at Calcutta) by clipper</text><line x1="290" y1="436" x2="316" y2="436" class="route sea"/><text x="322" y="440">Bombay raw cotton (and later opium) to Canton</text><line x1="290" y1="452" x2="316" y2="452" class="route atisa"/><text x="322" y="456">Silver back to India ("golden current")</text></g></svg><figcaption>The opium–silver–tea circuit: India → Southeast Asia → China (Trocki, Bowen, Furber). Coastlines simplified; positions approximate.</figcaption></figure>
+
+<h2>2. The chain: India → Southeast Asia → China <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>India: the production zone</h4>
+<p>The EIC turned opium into a <b>regulated tax commodity</b> in <b>Bengal and Bihar</b>: peasants grew poppy on <b>contracts with cash advances</b>; Company <b>factories</b> (Patna) processed and packed it; it was <b>auctioned at Calcutta</b>.</p>
+<span class="eg">The Patna opium factory: a crop turned into a standardised product the state could tax. "Free trade" outside, <b>monopoly</b> inside.</span></div>
+<div class="idea"><h4>Shipping</h4>
+<p>Fast <b>opium clippers</b> (e.g. <i>Red Rover</i>, <i>Water Witch</i>, built at Calcutta) ran Calcutta → Malacca Strait → Singapore → <b>Lintin</b> (a receiving depot) → Canton.</p></div>
+<div class="idea gold"><h4>Southeast Asia: the crucial middle</h4>
+<p>Ports like <b>Singapore</b> were key. Colonial governments sold <b>opium farms</b>: <b>licences</b> giving a monopoly to sell opium. An opium farm is a <b>tax institution, not a farm</b>. The state got steady revenue; the farmer took the risk.</p></div>
+<div class="idea purple"><h4>Chinese kongsi</h4>
+<p>Farms were run by Chinese <b>kongsi</b> (shareholding partnerships) who organised labour, money and sales. Trocki: opium was "the trap" in which kongsi economies were captured by colonial capitalism.</p></div>
+<div class="idea teal"><h4>China: not just "addiction"</h4>
+<p>Demand grew in <b>urban, commercial, social</b> settings and varied by class and place. Chinese consumers had <b>agency</b> too; they were not only passive victims.</p></div>
+<div class="idea green"><h4>Value along unequal links</h4>
+<p>Follow the <b>commodity, not the nation</b>: peasant → factory → Calcutta merchants → ships → Chinese markets. Value was created "across a chain of <b>unequal relationships</b>". The same chain was a <b>money circuit</b> (revenue, liquidity, empire).</p></div>
+</div>
+
+<h2>3. The Opium Wars <span class="badge b-hi">Must know</span></h2>
+<div class="vs">
+<div class="side a"><h4>Qing China</h4>Commissioner <b>Lin Zexu</b> destroyed opium (1839): a statement of <b>sovereignty</b>.</div>
+<div class="mid">1839–42</div>
+<div class="side b"><h4>Britain</h4>Protected merchants by <b>force</b> to win access and good terms.</div>
+</div>
+<div class="ideas">
+<div class="idea red"><h4>Treaty of Nanking, 1842</h4>
+<p><b>Five treaty ports</b> opened; <b>Hong Kong ceded</b>; China paid an <b>indemnity</b>; China's tariffs limited; <b>extraterritoriality</b> (foreigners judged by their own consuls).</p></div>
+<div class="idea"><h4>After</h4>
+<p>Britain said opium was "irrelevant" to the war. The <b>Second Opium War (1857–60)</b> and <b>Treaty of Tianjin</b> <b>legalised</b> opium. Asian traders grew stronger.</p></div>
+</div>
+<div class="box key"><span class="box-title">Key questions and paradox</span>"Was this a war about drugs, or about <b>who had the right to regulate trade</b>?" · <b>Free trade through monopoly</b>: empire preached open markets abroad but ran monopolies at home. "The question is not whether capitalism was free or unfree, but <b>who had the power to define the rules</b>."</div>
+
+<h2>4. What Trocki changes <span class="badge b-hi">Must know</span></h2>
+<div class="vs">
+<div class="side a"><h4>Usual view of empire</h4>Conquering land · military force · Europe vs Asia · national economies · wars and diplomacy.</div>
+<div class="mid">→</div>
+<div class="side b"><h4>Trocki's view</h4><b>Commodity circuits</b> · <b>fiscal extraction</b> · <b>maritime networks</b> · <b>Asian intermediaries</b> · <b>global political economy</b>.</div>
+</div>
+<div class="ideas">
+<div class="idea green"><h4>Strengths</h4>
+<p>Joins economic and imperial history; makes <b>Southeast Asia central</b>; explains why ports and tax institutions mattered. A <b>connected history</b>: follow people, goods and capital across borders.</p></div>
+<div class="idea red"><h4>But: read critically</h4>
+<p><b>Alexander Klimburg (2001)</b> questioned parts of Trocki's <b>evidence</b> (use of EIC records; smuggling and illicit production). Separate an <b>influential interpretation</b> from an <b>uncontested fact</b>.</p></div>
+</div>
+
+<div class="names"><span><b>Trocki</b> opium &amp; empire</span><span><b>Klimburg</b> critic</span><span><b>Lin Zexu</b> 1839</span><span><b>Jardine Matheson</b> clippers</span></div>
+<div class="dates"><b>1839–42</b><span>First Opium War</span><b>1842</b><span>Treaty of Nanking: Hong Kong, 5 ports</span><b>1857–60</b><span>Second Opium War; Tianjin legalises opium</span></div>
+
+<div class="answer"><span class="box-title">Write it like this (essay outline, 15 marks)</span>
+<div class="q">Q. "Without opium there would have been no empire." Discuss with reference to Trocki.</div>
+<p><b>Intro:</b> Trocki's claim is deliberately provocative; it shifts the history of opium from drugs to political economy.</p>
+<p><b>Why opium mattered:</b> Britain's tea problem (little Chinese demand for British goods) was solved by Indian opium, which redirected silver. In Bengal and Bihar the Company ran contracts, factories (Patna) and Calcutta auctions, turning a crop into a fiscal commodity.</p>
+<p><b>Southeast Asia:</b> opium farms (licensed monopolies) in ports like Singapore, run by Chinese kongsi, gave colonial states steady revenue: "the trap" that captured kongsi economies.</p>
+<p><b>Force and rules:</b> the Opium War and Treaty of Nanking (1842) turned commercial power into imperial privilege (Hong Kong, treaty ports, extraterritoriality): free trade outside, monopoly inside.</p>
+<p><b>But:</b> Klimburg questions Trocki's evidence; empire also rested on land revenue (the diwani, S18), law (Roy, S17) and the Indian army (S21); Chinese consumers had agency.</p>
+<p><b>Conclusion:</b> opium was a keystone of empire's finances and networks, though not its only foundation.</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>20</div>
+  <div class="session-title"><h1>Interconnected Port Cities in Colonial Asia</h1>
+  <div class="readings">René Barendse, "Port Cities in the Gulf and the Red Sea During the Long Eighteenth Century (c. 1720–c. 1840)" (2019) · Meera Kosambi &amp; John Brush, "Three Colonial Port Cities in India" (1988) · Lecture 20</div></div>
+</div>
+
+<div class="oneline"><small>In one line</small>Port cities show <b>both</b> sides of colonial Asia: <b>Asian merchant networks</b> that stayed strong until the 1860s (Barendse) and <b>colonial city space</b> built around forts, open grounds and segregated "white" and "black" towns (Kosambi &amp; Brush). Empire <b>reordered</b> older worlds rather than creating everything.</div>
+
+<h2>1. Why port cities matter <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>Nodes, not just cities</h4>
+<p>Ports linked <b>sea routes, inland markets and states</b>; gathered merchants, migrants, soldiers and workers; handled <b>information, credit, storage and prices</b>. Their importance came from <b>connections, not population</b>.</p>
+<span class="eg">Kuwait had only ~5,000 people but became a major hub in the 1750s when a caravan route to Aleppo opened.</span></div>
+<div class="idea"><h4>Two lenses</h4>
+<p><b>Barendse</b>: trade networks, Asian autonomy, continuity (Gulf and Red Sea). <b>Kosambi &amp; Brush</b>: urban <b>morphology</b> (shape and layout) of Madras, Bombay, Calcutta.</p></div>
+</div>
+<figure class="mapfig"><svg viewBox="0 0 784 472" xmlns="http://www.w3.org/2000/svg" class="map" role="img" aria-label="Port cities of the western Indian Ocean (Barendse) and the colonial port cities (Kosambi & Brush)"><rect x="0" y="0" width="784" height="472" class="sea-bg"/><polygon class="land-fill" points="0.0,0.0 0.0,73.6 64.0,76.0 56.0,104.0 50.4,117.6 36.8,128.0 52.0,144.0 56.0,144.0 88.0,196.0 117.6,248.0 123.2,266.4 136.0,265.6 168.0,254.4 193.6,243.2 220.0,228.0 238.4,216.0 254.4,188.0 244.8,178.4 226.4,157.6 212.0,174.4 188.8,171.2 188.0,160.0 177.6,155.2 164.0,140.8 159.2,128.0 166.4,126.4 178.4,133.6 187.2,144.8 212.0,155.2 228.0,151.2 246.4,163.2 268.8,166.4 308.8,164.8 314.4,170.4 324.0,180.0 337.6,187.2 328.0,189.6 337.6,200.8 356.8,197.6 358.4,216.0 363.2,240.0 373.6,264.0 384.0,288.0 396.0,303.2 401.6,296.8 410.4,285.6 415.2,272.0 418.4,248.0 428.0,236.8 434.4,232.0 452.0,216.0 468.0,206.4 472.0,196.0 484.0,194.4 492.0,192.0 500.0,187.2 508.0,188.0 514.4,202.4 529.6,216.0 531.2,240.0 540.0,241.6 556.8,236.0 558.4,256.0 564.8,288.0 562.4,304.0 578.4,320.0 585.6,344.0 603.2,357.6 609.6,356.8 603.2,336.0 594.4,318.4 578.4,307.2 576.0,292.0 569.6,284.0 576.0,260.8 583.2,260.8 594.4,270.4 600.0,280.0 612.8,284.8 616.0,299.2 630.4,284.8 650.4,273.6 649.6,257.6 642.4,240.0 628.8,228.0 620.8,216.0 629.6,203.2 640.0,195.2 654.4,196.0 657.6,206.4 664.0,196.0 684.0,190.4 708.0,184.0 724.0,172.0 732.8,161.6 740.0,148.0 750.4,128.0 744.0,116.0 740.0,96.0 730.4,88.0 740.0,78.4 756.0,69.6 744.0,65.6 728.0,70.4 720.0,60.0 716.8,55.2 732.0,46.4 748.0,41.6 752.0,44.0 772.0,48.0 784.0,51.2 784.0,0.0"/><polygon class="land-fill" points="0.0,117.6 34.4,117.6 36.0,128.0 44.0,148.0 60.0,180.0 73.6,216.0 92.0,244.0 122.4,272.0 185.6,273.6 168.0,320.0 128.0,360.0 104.0,384.0 92.0,416.0 90.4,440.0 100.0,456.0 100.0,472.0 0.0,472.0"/><polygon class="land-fill" points="415.2,289.6 417.6,289.6 427.2,300.0 431.2,312.0 426.4,318.4 416.8,320.0 414.4,308.0"/><polygon class="land-fill" points="538.4,323.2 556.0,326.4 578.4,348.0 604.8,376.0 624.0,393.6 622.4,414.4 612.0,415.2 594.4,400.0 578.4,376.0 565.6,354.4 544.0,337.6"/><polygon class="land-fill" points="617.6,422.4 628.0,416.0 642.4,418.4 659.2,423.2 676.8,423.2 692.0,430.4 691.2,437.6 664.0,433.6 644.0,430.4 627.2,427.2"/><polygon class="land-fill" points="648.0,354.4 660.0,354.4 680.0,342.4 700.0,328.0 713.6,312.0 728.0,326.4 720.0,332.8 716.8,360.0 705.6,380.0 704.0,397.6 690.4,396.0 669.6,392.0 656.8,381.6 648.0,368.0"/><polygon class="land-fill" points="645.6,214.4 660.0,207.2 664.0,211.2 658.4,220.8 648.0,220.0"/><polygon class="land-fill" points="737.6,184.0 748.0,166.4 751.2,171.2 743.2,192.0"/><polygon class="land-fill" points="164.8,472.0 170.4,464.0 178.4,472.0"/><polygon class="land-fill" points="732.0,412.0 739.2,391.2 734.4,368.0 743.2,357.6 760.0,360.8 770.4,356.8 776.0,355.2 761.6,364.0 748.0,364.0 745.6,376.0 758.4,376.0 762.4,375.2 754.4,389.6 755.2,405.6 745.6,404.8 740.0,412.8"/><polygon class="land-fill" points="89.6,413.6 91.2,415.2 92.0,419.2 90.4,420.0"/><text x="256.0" y="256.0" class="sea-name">ARABIAN SEA</text><text x="448.0" y="252.0" class="sea-name">BAY OF BENGAL</text><text x="336.0" y="400.0" class="sea-name">INDIAN OCEAN</text><text x="672.0" y="264.0" class="sea-name">SOUTH CHINA SEA</text><text x="180.0" y="150.4" class="sea-name small">PERSIAN GULF</text><text x="68.0" y="208.0" class="sea-name small">RED SEA</text><polyline points="358.4,198.4 288.0,184.0 236.8,166.4 230.4,155.2 182.7,136.2 158.4,124.0" class="route sea"/><polyline points="359.2,216.0 280.0,256.0 184.0,269.6 136.0,265.6 108.0,240.0 122.0,261.4 105.6,232.0 89.6,196.0" class="route sea"/><polyline points="243.2,179.2 208.0,272.0 144.0,352.0 103.2,386.2 89.6,417.3" class="route south"/><polyline points="136.0,265.6 160.0,320.0 112.0,376.0 89.6,417.3" class="route south"/><circle cx="158.4" cy="124.0" r="3.2" class="pt"/><text x="163.4" y="120.0" class="pt-label" text-anchor="start">Basra</text><circle cx="159.8" cy="133.0" r="3.2" class="pt"/><text x="155.8" y="127.0" class="pt-label" text-anchor="end">Kuwait</text><circle cx="182.7" cy="136.2" r="3.2" class="pt"/><text x="187.7" y="133.2" class="pt-label" text-anchor="start">Bushire</text><circle cx="226.2" cy="150.6" r="3.2" class="pt"/><text x="231.2" y="146.6" class="pt-label" text-anchor="start">Bandar Abbas (Gombroon)</text><circle cx="180.4" cy="158.4" r="3.2" class="pt"/><text x="175.4" y="162.4" class="pt-label" text-anchor="end">Bahrain</text><circle cx="243.2" cy="179.2" r="3.2" class="pt"/><text x="248.2" y="189.2" class="pt-label" text-anchor="start">Muscat</text><circle cx="89.6" cy="196.0" r="3.2" class="pt"/><text x="84.6" y="200.0" class="pt-label" text-anchor="end">Jeddah</text><circle cx="119.6" cy="249.6" r="3.2" class="pt"/><text x="114.6" y="249.6" class="pt-label" text-anchor="end">Hudayda</text><circle cx="122.0" cy="261.4" r="3.2" class="pt"/><text x="117.0" y="267.4" class="pt-label" text-anchor="end">Mocha (al-Mukka)</text><circle cx="136.0" cy="265.6" r="3.2" class="pt"/><text x="131.0" y="278.6" class="pt-label" text-anchor="end">Aden</text><circle cx="103.2" cy="386.2" r="3.2" class="pt"/><text x="108.2" y="390.2" class="pt-label" text-anchor="start">Lamu</text><circle cx="89.6" cy="417.3" r="3.2" class="pt"/><text x="94.6" y="421.3" class="pt-label" text-anchor="start">Zanzibar</text><circle cx="358.4" cy="198.4" r="3.2" class="pt"/><text x="353.4" y="195.4" class="pt-label" text-anchor="end">Surat</text><circle cx="332.8" cy="194.9" r="3.2" class="pt"/><text x="327.8" y="199.9" class="pt-label" text-anchor="end">Porbandar</text><circle cx="359.2" cy="216.0" r="3.2" class="pt pt-eng"/><text x="354.2" y="224.0" class="pt-label" text-anchor="end">Bombay</text><circle cx="418.4" cy="263.2" r="3.2" class="pt pt-eng"/><text x="423.4" y="267.2" class="pt-label" text-anchor="start">Madras</text><circle cx="483.2" cy="187.2" r="3.2" class="pt pt-eng"/><text x="488.2" y="197.2" class="pt-label" text-anchor="start">Calcutta</text><circle cx="414.9" cy="312.6" r="3.2" class="pt"/><text x="409.9" y="320.6" class="pt-label" text-anchor="end">Colombo</text><circle cx="545.3" cy="233.6" r="3.2" class="pt"/><text x="550.3" y="237.6" class="pt-label" text-anchor="start">Rangoon</text><circle cx="578.6" cy="324.7" r="3.2" class="pt"/><text x="583.6" y="320.7" class="pt-label" text-anchor="start">Penang</text><circle cx="606.8" cy="357.7" r="3.2" class="pt"/><text x="611.8" y="353.7" class="pt-label" text-anchor="start">Singapore</text><circle cx="689.4" cy="189.6" r="3.2" class="pt"/><text x="694.4" y="185.6" class="pt-label" text-anchor="start">Hong Kong</text><g class="legend"><rect x="322" y="378" width="270" height="94" rx="4"/><line x1="330" y1="388" x2="356" y2="388" class="route sea"/><text x="362" y="392">Western India ↔ Gulf</text><line x1="330" y1="404" x2="356" y2="404" class="route sea"/><text x="362" y="408">Western India ↔ Red Sea</text><line x1="330" y1="420" x2="356" y2="420" class="route south"/><text x="362" y="424">Gulf / Red Sea ↔ East Africa</text><circle cx="343" cy="452" r="4" class="pt pt-eng"/><text x="362" y="456">Kosambi & Brush’s three port cities</text></g></svg><figcaption>Port cities of the western Indian Ocean (Barendse) and the colonial port cities (Kosambi & Brush). Coastlines simplified; positions approximate.</figcaption></figure>
+
+<h2>2. Barendse: "the last stand of Asian autonomies" <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>His claim</h4>
+<p>In the <b>long 18th century (c. 1720–1840)</b>, Asian trade in the Arabian seas <b>stayed strong or grew</b> (Anthony Reid's phrase "last stand of Asian autonomies"). Europeans mattered but did <b>not erase Asian agency</b>. The big break came <b>later</b>.</p></div>
+<div class="idea"><h4>When did the break come?</h4>
+<p><b>1860s–70s</b>: the cotton boom (American Civil War), <b>steamships</b> (P&amp;O) and the <b>Suez Canal (1869)</b>. After that British firms gained the upper hand and the Gulf became a quiet "British lake".</p></div>
+<div class="idea gold"><h4>Who made trade work?</h4>
+<p><b>Indian</b> merchants (Banias, mostly from <b>Sind</b>; Bohras, Khatris, Marwaris, Parsis), <b>Arab</b> shipowners and sheikhs, Iranian, Armenian, Jewish, Greek go-betweens, plus sailors, brokers and labourers.</p>
+<span class="eg">Indians were the richest group in Mocha (Yemen).</span></div>
+<div class="idea purple"><h4>Finance made trade work</h4>
+<p><b>Bills of exchange</b> (hundis), banking links, <b>insurance</b>, warehouses and <b>legal pluralism</b> (each community its own law) cut costs.</p>
+<span class="eg">By the 1780s a Pune firm could write a bill directly on Istanbul; in the 1500s it needed many stages.</span></div>
+<div class="idea teal"><h4>Why trade boomed</h4>
+<p>More farming and middle-class demand; cheaper transport; <b>China's</b> growing demand; and new <b>American demand for slaves</b> from East Africa (3,000 → 20–30,000 a year).</p></div>
+<div class="idea green"><h4>Small, fragile ports</h4>
+<p>Most ports were small (Aden ~3,000 in 1839), short of food (Muscat's rice came from British Bengal), and hit by epidemics. Some were moving "fairs".</p></div>
+</div>
+<div class="box key"><span class="box-title">The "Anglo-Bania alliance" and a warning</span>
+By 1780 most ships were <b>British-run</b> but often <b>financed by Indian, Armenian and Arab partners</b>. British power and Indian merchants worked together until the 1880s. "Interconnection was not simply cosmopolitan exchange": it also depended on <b>coercion, unequal labour and slavery</b>. Barendse agrees with <b>Sugata Bose</b> that under empire the ocean became <b>more "Indian"</b> (migration, Indian soldiers, rule from India).</div>
+
+<h2>3. Kosambi &amp; Brush: the colonial port-city model <span class="badge b-hi">Must know</span></h2>
+<div class="pic">
+<svg viewBox="0 0 380 280" xmlns="http://www.w3.org/2000/svg" style="max-width:105mm;display:block;margin:0 auto"><g font-family="Inter, sans-serif" font-size="10.5">
+<rect x="0" y="250" width="380" height="30" fill="#dbe8f6"/><text x="190" y="270" text-anchor="middle" font-weight="700" fill="#1f5fae">HARBOUR / WATERFRONT</text>
+<rect x="150" y="195" width="80" height="50" fill="#fde2e2" stroke="#b42318"/><text x="190" y="223" text-anchor="middle" font-weight="800" fill="#b42318">FORT</text>
+<path d="M120,250 L120,170 L260,170 L260,250" fill="none" stroke="#11734a" stroke-dasharray="4 3"/><text x="190" y="185" text-anchor="middle" fill="#11734a">esplanade (empty ground)</text>
+<rect x="150" y="130" width="80" height="34" fill="#eef1f6" stroke="#334"/><text x="190" y="151" text-anchor="middle" font-weight="700">CBD</text>
+<rect x="10" y="100" width="105" height="145" fill="#fff8e8" stroke="#9a5b00"/><text x="62" y="165" text-anchor="middle" font-weight="800" fill="#9a5b00">INDIAN</text><text x="62" y="180" text-anchor="middle" fill="#9a5b00">"Black Town"</text>
+<rect x="265" y="100" width="105" height="145" fill="#f0f5fd" stroke="#1f5fae"/><text x="317" y="165" text-anchor="middle" font-weight="800" fill="#1f5fae">EUROPEAN</text><text x="317" y="180" text-anchor="middle" fill="#1f5fae">"White Town"</text>
+<rect x="120" y="78" width="140" height="44" fill="#f5effc" stroke="#6a3d9e"/><text x="190" y="97" text-anchor="middle" fill="#6a3d9e" font-weight="700">In-between zone</text><text x="190" y="111" text-anchor="middle" fill="#6a3d9e">Parsis, Eurasians</text>
+<rect x="10" y="25" width="150" height="40" fill="#f3f4f6" stroke="#555"/><text x="85" y="49" text-anchor="middle">Mills (industry)</text>
+<rect x="220" y="25" width="150" height="40" fill="#edf9f2" stroke="#11734a"/><text x="295" y="49" text-anchor="middle">Army cantonment</text>
+</g></svg><div class="cap">The shared layout of Madras, Bombay and Calcutta.</div></div>
+<div class="ideas">
+<div class="idea red"><h4>What they share</h4>
+<p>A <b>fort</b> on the waterfront, an open <b>esplanade</b> (so guns could fire), <b>separate</b> European and Indian towns, a <b>central business district (CBD)</b>, and <b>mills</b> and <b>army</b> zones on the edges. Built at <b>empty village sites</b> fully controlled by the EIC.</p></div>
+<div class="idea"><h4>Three phases</h4>
+<p>(1) <b>Fortified factory</b> + white and black towns. (2) <b>Expansion</b>: stronger forts, esplanades, Europeans move to <b>suburbs</b>. (3) <b>CBD + industry</b>: European-style business district, crowded Indian towns, a middle zone, mills and slums.</p></div>
+<div class="idea gold"><h4>Space encoded hierarchy</h4>
+<p>Forts held power; esplanades created "<b>defensive emptiness</b>"; Europeans lived spread out; Indian areas were dense and mixed. The city's map <b>showed who ruled</b>.</p>
+<span class="eg">Bombay's Native Town had ~700 people per acre (1911); Calcutta's elite Chowringhee had under 40.</span></div>
+</div>
+<table class="compact">
+<tr><th>City</th><th>Colonial core</th><th>Indian core</th><th>Special feature</th></tr>
+<tr><td class="rowh">Madras (1639)</td><td>Fort St George</td><td>Black Town → <b>Georgetown</b></td><td>Earliest European <b>suburbs</b>; open beach roadstead</td></tr>
+<tr><td class="rowh">Bombay (1661/68)</td><td>Bombay Fort</td><td><b>Native Town</b> (after the 1803 fire)</td><td><b>Island</b>; railways, docks, <b>cotton mills</b>; Parsis in the Fort</td></tr>
+<tr><td class="rowh">Calcutta (1690s)</td><td>Fort William, the <b>Maidan</b>, <b>Dalhousie Square</b></td><td><b>Burra Bazaar</b></td><td>Grandest imperial core; <b>jute</b> mills at Howrah; largest city</td></tr>
+</table>
+
+<div class="vs">
+<div class="side a"><h4>Barendse explains</h4>Routes and diasporas; Asian resilience; continuity; ports in regional networks.</div>
+<div class="mid">+</div>
+<div class="side b"><h4>Kosambi &amp; Brush explain</h4>Layout and segregation; forts, esplanades, CBDs; how empire used land; the city as a colonial landscape.</div>
+</div>
+<div class="box key"><span class="box-title">Big takeaway</span><b>Networks</b> made ports work · <b>Space</b> made colonial power visible · <b>Labour</b> kept trade going · <b>Empire reordered</b> rather than created everything.</div>
+<p class="skipnote"><b>Skip:</b> population figures of each Gulf port, the Leipzig fair network, census language percentages.</p>
+
+<div class="names"><span><b>Barendse</b> long 18th c.</span><span><b>Kosambi &amp; Brush</b> morphology</span><span><b>Anthony Reid</b> "last stand"</span><span><b>Sugata Bose</b> more "Indian" ocean</span><span><b>Irfan Habib</b> warning</span></div>
+
+<div class="answer"><span class="box-title">Write it like this (short answer, 10 marks)</span>
+<div class="q">Q. Were colonial port cities engines of empire, or sites where empire had to negotiate with older Asian worlds?</div>
+<p>Colonial port cities were both. They displayed and organised imperial power, but they ran on Asian networks that empire had to work with rather than replace.</p>
+<p>As <b>engines of empire</b>, Kosambi and Brush show that Madras, Bombay and Calcutta were built around a fort, an open esplanade and segregated "white" and "black" towns, later adding a European-style business district, mills and cantonments. In Calcutta, Fort William and the Maidan formed a monumental core, while Indians crowded into Burra Bazaar. Space encoded hierarchy.</p>
+<p>As <b>sites of negotiation</b>, Barendse shows that in the Gulf and Red Sea Asian trade stayed strong until the 1860s. British-run ships were often financed by Indian and Armenian partners, Bania merchants were indispensable, and local rulers such as Oman's imams played Europeans off against each other. This "Anglo-Bania alliance" lasted until the 1880s.</p>
+<p>But these networks also rested on slavery and coerced labour, and after steam and Suez British firms gained the upper hand. Port cities were therefore older Asian commercial worlds that empire reorganised in space and power, rather than pure creations of empire.</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>21</div>
+  <div class="session-title"><h1>Modern South Asia, 1858–1946: Colonial State, Mass Nationalism, Imperial Crisis</h1>
+  <div class="readings">Sugata Bose &amp; Ayesha Jalal, <i>Modern South Asia</i>, chapters 10, 13 and 15 (via Lecture 21 slides; book not in folder)</div></div>
+</div>
+
+<div class="oneline"><small>In one line</small>After 1857 the Crown <b>reorganised</b> (but did not end) colonial exploitation; Gandhi turned nationalism from <b>elite petitions into mass politics</b>; and World War II pushed the empire into a <b>cumulative crisis</b>. Independence cannot be reduced to <b>one movement</b>.</div>
+
+<div class="dates"><b>1857 / 1858</b><span>Rebellion / Crown Raj</span><b>1919</b><span>Rowlatt Act, Jallianwala Bagh</span><b>1920–22</b><span>Non-Cooperation → Chauri Chaura</span><b>1929</b><span>Purna Swaraj</span><b>1939–45</b><span>World War II; Bengal famine 1943–44</span><b>1942</b><span>Quit India</span><b>1945–46</b><span>INA trials; RIN mutiny</span></div>
+
+<h2>1. The colonial state (ch. 10) <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>1858: what changed and what didn't</h4>
+<p><b>Changed:</b> Governor-General → <b>Viceroy</b>; a <b>Secretary of State</b> in London; army reorganised; stronger bureaucracy; new Indian <b>collaborators</b>. <b>Same:</b> India as an <b>economic resource</b> and a <b>military resource</b>.</p>
+<span class="eg">"1858 is institutional reorganisation, not an end to colonial exploitation."</span></div>
+<div class="idea"><h4>The army and "martial races"</h4>
+<p>The Indian Army fought for the empire abroad (Egypt, China, Burma…) and kept order at home. Recruitment favoured <b>Sikhs, Gurkhas, Punjabi Muslims, Pathans</b>; Bengalis and Tamils were called "less martial".</p>
+<span class="eg">Recruiting in Punjab brought irrigation investment there: a military label became <b>economic policy</b> and uneven development.</span></div>
+<div class="idea gold"><h4>The "drain of wealth"</h4>
+<p><b>Naoroji and R.C. Dutt</b>: home charges, pensions, interest, profits and remittances took India's investible surplus away. <b>British view:</b> some were fair payments. Better question: <b>through what institutions</b> was surplus moved?</p></div>
+<div class="idea purple"><h4>Export farming: boom and risk</h4>
+<p>Cash crops → export markets → <b>merchant credit</b> → <b>debt</b> → exposed to world prices. The cotton boom of the American Civil War was followed by a crash. Integration ≠ security.</p></div>
+<div class="idea teal"><h4>Railways: modern but unequal</h4>
+<p>They moved troops, British goods and raw materials, and paid <b>guaranteed returns to British investors</b> even when losing money. Ask: who designed, financed and benefited?</p></div>
+<div class="idea green"><h4>Ruling through collaboration</h4>
+<p>Princes, landlords, nominated members; small reforms (<b>1861, 1882, 1892, 1909</b>). Indians were <b>subjects, not citizens</b>. The census classified caste and religion → <b>separate electorates (Morley–Minto, 1909)</b>. Did the state <b>record</b> identities or <b>create</b> them?</p></div>
+</div>
+
+<h2>2. From elite to mass politics (ch. 13) <span class="badge b-hi">Must know</span></h2>
+<div class="vs">
+<div class="side a"><h4>Before Gandhi</h4>Petitions, moderate politics, revolutionary violence (S22): no big concessions.</div>
+<div class="mid">→</div>
+<div class="side b"><h4>Gandhi</h4>Ideas from <b>South Africa</b> and <i>Hind Swaraj</i>; <b>mass mobilisation</b> and disciplined non-cooperation.</div>
+</div>
+<div class="ideas">
+<div class="idea red"><h4>Local struggles → national movement</h4>
+<p><b>Champaran 1917</b> (forced indigo), <b>Kheda 1918</b> (revenue), <b>Ahmedabad 1918</b> (mill workers). Pattern: local grievance → moral claim → mass action → national meaning.</p></div>
+<div class="idea"><h4>1919: the turning point</h4>
+<p><b>Rowlatt Act</b> → protest → <b>Khilafat</b> alliance → <b>Jallianwala Bagh (13 April 1919)</b>, 379 dead officially. Repression deepened nationalism, and showed that mass movements are <b>hard to control</b>.</p></div>
+<div class="idea gold"><h4>Religion and nationalism</h4>
+<p>Gandhi joined Indian nationalism with the Muslim <b>Khilafat</b> cause. Religion could be a <b>language of unity</b> or of <b>majority vs minority</b> politics; Bose &amp; Jalal: it depended on <b>how</b> it was used politically.</p></div>
+<div class="idea purple"><h4>Non-Cooperation (1920–22)</h4>
+<p>Boycotts, <b>khadi and charkha</b>, satyagraha; Congress became a mass party at <b>Nagpur (1920)</b>. But peasants, workers and industrialists wanted different things; Congress avoided anti-landlord struggles.</p>
+<span class="eg"><b>Chauri Chaura (Feb 1922)</b>: 22 policemen killed → Gandhi stopped the movement. Who really controls a mass movement?</span></div>
+</div>
+<p>Then: <b>Swaraj Party</b> enters councils (1923) → labour and student radicalism → <b>Simon Commission</b> (1928) → <b>Purna Swaraj</b> (1929).</p>
+
+<h2>3. War and the crisis of empire (ch. 15) <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>Bengal famine 1943–44</h4>
+<p>War spending (money supply Rs 3 bn → Rs 22 bn) caused <b>inflation</b>. 3.5–3.8 million died. Not simply "not enough food": poor groups <b>lost the ability to buy food</b> (loss of <b>entitlements</b>).</p></div>
+<div class="idea"><h4>1942–46: authority collapses</h4>
+<p><b>Quit India</b> (8 Aug 1942, "Do or die"); <b>Subhas Bose's INA</b> (beaten at Imphal and Kohima; Rani of Jhansi Regiment); <b>INA trials</b> (a Hindu, a Muslim, a Sikh) caused mass protest; the <b>Navy mutiny (1946)</b> showed the armed forces wavering.</p></div>
+</div>
+<div class="flow">
+<div class="node n1">Extraction</div><div class="arrow">→</div><div class="node n2">Nationalist critique</div><div class="arrow">→</div><div class="node n3">Mass mobilisation</div><div class="arrow">→</div><div class="node n4">War crisis + military dissent</div><div class="arrow">→</div><div class="node n5">End of authority</div>
+</div>
+<div class="box key"><span class="box-title">Final message</span>"Mass nationalism created political power without eliminating social difference." Independence came from the <b>cumulative crisis</b> of colonial political, economic and military authority, not one movement alone.</div>
+
+<div class="names"><span><b>Bose &amp; Jalal</b> textbook</span><span><b>Naoroji, Dutt</b> drain</span><span><b>Gandhi</b> mass politics</span><span><b>C.R. Das, Motilal Nehru</b> Swaraj Party</span><span><b>Subhas Bose</b> INA</span></div>
+
+<div class="answer"><span class="box-title">Write it like this (essay outline, 15 marks)</span>
+<div class="q">Q. Was Indian independence produced by one nationalist movement, or by the cumulative crisis of colonial authority?</div>
+<p><b>Intro:</b> Bose and Jalal treat state formation, mass nationalism and wartime crisis as one connected process; independence came from their combination.</p>
+<p><b>A state built on extraction:</b> after 1858 the Crown reorganised rule but kept India as an economic and military resource (the drain debate, railways with guaranteed returns, "martial races"); collaboration and separate electorates (1909) governed subjects, not citizens.</p>
+<p><b>Mass nationalism:</b> Gandhi turned local struggles (Champaran, Kheda, Ahmedabad) into national movements; 1919 (Rowlatt, Jallianwala) was a turning point; Non-Cooperation built a mass Congress; Purna Swaraj (1929) set the goal.</p>
+<p><b>But</b> nationalism had limits: Chauri Chaura showed leaders could not fully control the masses, and religion and class divided the coalition.</p>
+<p><b>War crisis:</b> inflation and the Bengal famine (an entitlement failure), Quit India, the INA trials and the 1946 naval mutiny eroded authority from within.</p>
+<p><b>Conclusion:</b> nationalism was the main force, but independence came from a cumulative crisis of political, economic and military authority.</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>SESSION</small>22</div>
+  <div class="session-title"><h1>Indian Revolutionaries Abroad: Connectivity, Silence and Memory</h1>
+  <div class="readings">Henrik Chetan Aspengren, "Indian Revolutionaries Abroad: Revisiting their Silent Moments" (2014) (via Lecture 22 slides; article not in folder)</div></div>
+</div>
+
+<div class="oneline"><small>In one line</small>Indian revolutionaries abroad (1905–1920) built <b>global networks</b> from London to San Francisco to Kabul, but Aspengren warns that historians who only see <b>connections</b> risk <b>romanticising exile</b>: much of exile was <b>silence, fear and disconnection</b>.</div>
+
+<h2>1. Why go abroad? <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>Four forces</h4>
+<p><b>Push</b>: repression after Swadeshi and the <b>1905 partition of Bengal</b>. <b>Pull</b>: London's student radicalism and free press. <b>Exclusion</b>: racist immigration laws in North America. <b>Opportunity</b>: great-power rivalry, especially <b>Germany</b> in WWI.</p></div>
+<div class="idea"><h4>Europe</h4>
+<p><b>India House</b>, London (Krishnavarma, later <b>Savarkar</b>). <b>Dhingra</b> shot Curzon Wyllie (1909) → crackdown. <b>Bhikaiji Cama</b> raised an Indian flag at Stuttgart (1907). <b>Berlin Committee</b> (1914) worked with Germany.</p></div>
+<div class="idea gold"><h4>North America</h4>
+<p><b>Ghadar Party (1913)</b> of Punjabi migrants and students (Oregon/San Francisco). <b>Komagata Maru (1914)</b> turned away at <b>Vancouver</b>. Failed risings in Punjab (1914–15); Hindu–German Conspiracy trial (1917–18).</p></div>
+<div class="idea purple"><h4>Asia</h4>
+<p><b>Kabul 1915</b>: a Provisional Government of India. <b>Singapore 1915</b>: an Indian regiment mutinied, crushed in days. Later echoes: Rash Behari Bose, Subhas Bose's <b>INA</b>; M.N. Roy in Tashkent and Moscow.</p></div>
+</div>
+
+<h2>2. Aspengren's warning <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>His question and answer</h4>
+<p>What does recent "global" history of exiles <b>leave out</b>? The long periods of <b>silence and disconnection</b>. "By omitting them, one risks <b>romanticising exile</b>."</p></div>
+<div class="idea"><h4>Why historians over-connect</h4>
+<p>We look back with <b>hindsight</b> and "connect the dots". But exile was often <b>painful and insecure</b> (Edward <b>Said</b>). Better words: <b>silence</b>, <b>disconnection</b>.</p>
+<span class="like">looking at someone's highlight reel on social media and forgetting the boring and lonely days in between.</span></div>
+</div>
+
+<h3>Two men in Sweden</h3>
+<table class="compact">
+<tr><th></th><th>Virendranath Chattopadhyaya</th><th>Har Dayal</th></tr>
+<tr><td class="rowh">From</td><td>Hyderabad</td><td>Delhi (brilliant student)</td></tr>
+<tr><td class="rowh">In Britain</td><td>Failed ICS; law student</td><td>Gave up an Oxford scholarship (1907); India House</td></tr>
+<tr><td class="rowh">Then</td><td>Paris, Berlin</td><td>Algiers, San Francisco (helped found <b>Ghadar</b>), Berlin</td></tr>
+</table>
+<p>Both were <b>radicalised in England, not India</b>, and both were funded by <b>Germany</b>. Their big plans (arms, Afghanistan, Constantinople) <b>failed</b>: British spies, poor German–Indian links, infighting, an India not ready.</p>
+
+<div class="ideas">
+<div class="idea gold"><h4>Why Sweden?</h4>
+<p>Germany lost interest as it lost the war; both were barred from British lands; Sweden was <b>neutral</b>; the <b>Stockholm Peace Conference (1917)</b> was planned there.</p></div>
+<div class="idea red"><h4>Chattopadhyaya: silence imposed</h4>
+<p>Arrived <b>12 May 1917</b>, opened a bureau. The conference <b>never happened</b>: "no conference, no audience, no allies". German money dried up, the <b>police told him to avoid politics</b>; he turned to translation and trade; the bureau closed.</p></div>
+<div class="idea"><h4>Har Dayal: a changed mind</h4>
+<p>In Dec 1918 he wrote that he would take his life if made to leave Sweden; the next day he called anti-British propaganda "foolish and useless" and dropped his comrades. Later he backed <b>autonomy within the British Empire</b>, taught in Swedish <b>adult education</b>, and never returned to the movement.</p>
+<span class="eg">Even in 1910 in Algiers he had found "relief in crying" and took up the mandolin on a doctor's advice: these moments "existed, so they matter".</span></div>
+<div class="idea green"><h4>Aspengren's conclusion</h4>
+<p><b>Connectivity is the historian's later construction.</b> At the time things looked bleak and chaotic. Silence could also mean <b>reflection</b> that changed later thinking. We need a <b>humane</b> history of displaced people.</p></div>
+</div>
+
+<h2>3. Impact and lessons <span class="badge b-hi">Must know</span></h2>
+<div class="ideas">
+<div class="idea red"><h4>Impact in India</h4>
+<p>Led to <b>repression</b>: Defence of India Act (1915), Rowlatt Report (1918), <b>Rowlatt Acts (1919)</b>, which triggered Gandhi's first all-India satyagraha. Gave <b>symbols</b> (Dhingra, Kartar Singh Sarabha, later Bhagat Singh). But the plots failed. They <b>shaped the climate more than the outcome</b>.</p></div>
+<div class="idea"><h4>Separate or connected?</h4>
+<p><b>Separate</b>: different causes and rival ideas. <b>Connected</b>: same people, journals, routes; the British saw one conspiracy. <b>Third view</b>: connected but <b>fragile</b>, perhaps linked most by the <b>empire's surveillance</b>.</p></div>
+</div>
+<div class="box key"><span class="box-title">Three things to remember</span>(1) <b>Concepts shape what historians see.</b> (2) <b>Sources are never neutral</b>: even silence reaches us through <b>police and spy files</b>. (3) <b>Writing history is an ethical act.</b></div>
+
+<div class="names"><span><b>Aspengren</b> Uppsala, 2014</span><span><b>Chattopadhyaya</b></span><span><b>Har Dayal</b></span><span><b>Krishnavarma, Savarkar</b> India House</span><span><b>Said</b> on exile</span></div>
+<div class="dates"><b>1905</b><span>Partition of Bengal</span><b>1907</b><span>Cama's flag at Stuttgart</span><b>1909</b><span>Dhingra kills Curzon Wyllie</span><b>1913 / 1914</b><span>Ghadar / Komagata Maru</span><b>1915</b><span>Kabul govt; Singapore mutiny</span><b>1917</b><span>Chattopadhyaya to Stockholm</span><b>1919</b><span>Rowlatt Acts</span></div>
+
+<div class="answer"><span class="box-title">Write it like this (short answer, 10 marks)</span>
+<div class="q">Q. Why does Aspengren argue that focusing only on connectivity "risks romanticising exile"?</div>
+<p>Recent global histories celebrate Indian revolutionaries abroad as builders of worldwide networks. Aspengren argues that this picture is partly the historian's own construction, made with hindsight, and that it hides the long silences, fears and failures of exile.</p>
+<p>His case is two exiles in Sweden. Virendranath Chattopadhyaya arrived in Stockholm in May 1917 for a peace conference that never met; with German money gone and police urging him to stay out of politics, he fell silent and turned to translation and trade. Har Dayal, a founder of the Ghadar Party, wrote desperate letters in 1918, then called revolutionary propaganda "foolish and useless" and turned to adult education. Following Edward Said, exile was restricting and painful, not only creative.</p>
+<p>But the revolutionaries still mattered: their plots provoked repression such as the Rowlatt Acts, which sparked Gandhi's first all-India satyagraha. Most of what we know also comes from surveillance files, so even silence reaches us through the empire's eyes.</p>
+<p>Aspengren therefore asks for a humane history that includes despair as well as connection, a reminder that concepts shape what historians see and that writing history is an ethical act.</p>
+</div>
+</section>
+
+<section class="session">
+<div class="session-head">
+  <div class="session-num"><small>LAST</small>★</div>
+  <div class="session-title"><h1>Night-Before Revision Sheet</h1>
+  <div class="readings">Read this once tonight and once before the exam: one line per session, the names and dates for MCQs, and the questions most likely to come.</div></div>
+</div>
+
+<table>
+<tr><th style="width:7%">S</th><th style="width:44%">The one idea</th><th>Names + one example each</th></tr>
+<tr><td class="rowh">12</td><td>People connected the ocean; South Asia = <b>hinge</b>; same trust 1100 → 1900</td><td><b>Chakravarti</b> (Ben Yiju, Mangalore) · <b>al-Sharida</b> (Qusman, Byculla horses)</td></tr>
+<tr><td class="rowh">13</td><td>Commodities as actors; Europe <b>entered</b> an older system</td><td><b>H.P. Ray</b> (Berenike Z-spun cotton) · <b>Khatun</b> (Harun al-Rashid's perfumes) · Abu-Lughod</td></tr>
+<tr><td class="rowh">14</td><td>Islam <b>made and localised</b>, often under non-Muslim rulers</td><td><b>Wade</b> (Calicut, Quanzhou refugees) · <b>Kooria</b> (Ponnāni ribāṭ) · Lambourn (khutba)</td></tr>
+<tr><td class="rowh">15</td><td>Advanced Asian ships; Europe won by <b>coercion</b>, then <b>competition</b></td><td><b>Burningham</b> (sewn plank, jong 1512) · <b>S. Bhattacharya</b> (Suez 1869, telegraph 1870)</td></tr>
+<tr><td class="rowh">17</td><td>Dependence → leverage; empire through <b>law, rail, knowledge</b>; uneven</td><td><b>Nadri</b> (Virji Vora, Parekhs) · <b>T. Roy</b> (Contract Act 1872, mills)</td></tr>
+<tr><td class="rowh">18</td><td>Commerce + revenue + war + finance; silver moved <b>every way</b></td><td><b>Furber</b> (Plassey, diwani, Commutation Act 1784) · <b>Bowen</b> (India £8.5 m 1785–1820)</td></tr>
+<tr><td class="rowh">19</td><td>"Without opium… no empire"; <b>free trade through monopoly</b></td><td><b>Trocki</b> (opium farms, kongsi, Nanking 1842) · <b>Klimburg</b> (critic)</td></tr>
+<tr><td class="rowh">20</td><td>"Last stand of Asian autonomies" + <b>space encoded hierarchy</b></td><td><b>Barendse</b> (Anglo-Bania alliance) · <b>Kosambi &amp; Brush</b> (fort, esplanade, CBD)</td></tr>
+<tr><td class="rowh">21</td><td>1858 reorganised exploitation; mass politics; <b>cumulative crisis</b></td><td><b>Bose &amp; Jalal</b> (Jallianwala 1919, famine as entitlement failure, INA)</td></tr>
+<tr><td class="rowh">22</td><td>Connectivity is retrospective; <b>silence matters</b></td><td><b>Aspengren</b> (Chattopadhyaya, Har Dayal in Sweden)</td></tr>
+</table>
+
+<div class="ideas">
+<div class="idea red"><h4>Most likely questions (from the professor's slides)</h4>
+<ol class="tight">
+<li>Who connected the ocean: rulers, merchants, mariners or religious communities? (S12)</li>
+<li>Textiles, spices or perfumes: which best explains connectivity? (S13)</li>
+<li>You are the Zamorin in 1498: what alliance would you build? (S14)</li>
+<li>Jong (16th c.) vs sail after 1869: what differs? (S15)</li>
+<li>How did dependence become domination? Does Roy revise or reject deindustrialisation? (S17)</li>
+<li>How did commerce and finance make British power? (S18)</li>
+<li>"Without opium… no empire." Discuss. (S19)</li>
+<li>Port cities: engines of empire or sites of negotiation? (S20)</li>
+<li>One movement or cumulative crisis? (S21)</li>
+<li>Separate events or one phenomenon? Why silence matters. (S22)</li>
+</ol></div>
+<div class="idea green"><h4>MCQ quick-fire</h4>
+<ul class="tight">
+<li>Ben Yiju → <b>Mangalore</b> · Kadaram → <b>1025</b> · Motupalli → <b>Kakatiya</b></li>
+<li>Z-spun → <b>Indian</b> · Belitung → <b>no nails, 60,000 ceramics</b></li>
+<li>Li = 'Ali, Pu = Abu · Rasulids = <b>Yemen</b> · ribāṭ → <b>Ponnāni</b></li>
+<li>al-Sirafi <b>916</b> · Bombay–Suez steamer <b>1830</b> · Wadia from <b>Surat 1736</b></li>
+<li><i>cartaz</i> = Portuguese pass · <i>marfatia</i> = EIC agent</li>
+<li>Plassey <b>1757</b> · Baksar <b>1764</b> · diwani <b>1765</b> · Commutation <b>1784</b></li>
+<li>Opium farm = <b>licence</b> · Nanking <b>1842</b> → Hong Kong</li>
+<li>Bombay fire <b>1803</b> · Dalhousie Square = Calcutta CBD</li>
+<li>Morley–Minto <b>1909</b> · Chauri Chaura <b>1922</b> · Purna Swaraj <b>1929</b></li>
+<li>Ghadar <b>1913</b> · Komagata Maru <b>1914</b> (Vancouver)</li>
+</ul></div>
+</div>
+</section>
+</body></html>

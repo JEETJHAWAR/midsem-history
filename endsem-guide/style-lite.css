@@ -1,0 +1,61 @@
+/* ---------- Exam Essentials (simple edition) ---------- */
+body { font-size: 11pt; line-height: 1.5; }
+h2 { font-size: 14pt; }
+.session-title h1 { font-size: 20pt; }
+
+/* the one-sentence takeaway at the top of each session */
+.oneline { font-family: Inter, sans-serif; font-size: 12.5pt; font-weight: 700; line-height: 1.35;
+  background: var(--ink); color: #fff; border-radius: 6px; padding: 3.5mm 4.5mm; margin: 2mm 0 4mm; break-inside: avoid; }
+.oneline small { display: block; font-size: 7.5pt; letter-spacing: .14em; text-transform: uppercase; opacity: .7; margin-bottom: 1mm; font-weight: 600; }
+
+/* idea cards: keyword -> plain meaning -> example */
+.ideas { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; margin: 2mm 0 3mm; }
+.ideas.one { grid-template-columns: 1fr; }
+.idea { border: 1px solid var(--line); border-top: 4px solid var(--mid); border-radius: 5px; padding: 2.6mm 3.2mm; break-inside: avoid; background: #fff; }
+.idea h4 { margin: 0 0 1mm; font-size: 10.5pt; color: var(--mid); }
+.idea p { margin: 0 0 1.2mm; }
+.idea.red { border-top-color: var(--hi); } .idea.red h4 { color: var(--hi); }
+.idea.green { border-top-color: var(--sum); } .idea.green h4 { color: var(--sum); }
+.idea.gold { border-top-color: var(--gold); } .idea.gold h4 { color: var(--gold); }
+.idea.purple { border-top-color: var(--ex); } .idea.purple h4 { color: var(--ex); }
+.idea.teal { border-top-color: var(--teal); } .idea.teal h4 { color: var(--teal); }
+
+/* example tag */
+.eg { display: block; background: var(--gold-bg); border-radius: 4px; padding: 1.4mm 2.4mm; margin-top: 1.2mm; font-size: 10pt; }
+.eg::before { content: "e.g. "; font-family: Inter, sans-serif; font-weight: 800; color: var(--gold); font-size: 8.5pt; letter-spacing: .04em; }
+.like { display: block; background: var(--teal-bg); border-radius: 4px; padding: 1.4mm 2.4mm; margin-top: 1.2mm; font-size: 10pt; }
+.like::before { content: "Think of it like: "; font-family: Inter, sans-serif; font-weight: 800; color: var(--teal); font-size: 8.5pt; }
+
+/* ready-to-write answer */
+.answer { border: 2px solid var(--ex); border-radius: 6px; padding: 3mm 4mm; margin: 4mm 0; background: #fcfaff; break-inside: avoid; }
+.answer > .box-title { font-family: Inter, sans-serif; font-weight: 800; font-size: 8.8pt; text-transform: uppercase; letter-spacing: .07em; color: var(--ex); display: block; margin-bottom: 1.5mm; }
+.answer .q { font-family: Inter, sans-serif; font-weight: 700; font-size: 10pt; margin-bottom: 1.5mm; color: #2b2142; }
+.answer p { margin-bottom: 1.6mm; }
+
+/* names to drop + dates strip */
+.names { display: flex; flex-wrap: wrap; gap: 1.6mm; margin: 2mm 0 3mm; }
+.names span { font-family: Inter, sans-serif; font-size: 8.6pt; background: #f1f3f7; border: 1px solid var(--line); border-radius: 12px; padding: .8mm 2.6mm; }
+.names span b { color: var(--hi); }
+.dates { display: grid; grid-template-columns: auto 1fr; gap: 1mm 3mm; font-size: 10pt; margin: 2mm 0 3mm; break-inside: avoid; }
+.dates b:nth-child(odd) { font-family: Inter, sans-serif; color: var(--hi); white-space: nowrap; }
+
+/* comparison "vs" boxes */
+.vs { display: grid; grid-template-columns: 1fr auto 1fr; gap: 2.5mm; align-items: stretch; margin: 3mm 0; break-inside: avoid; }
+.vs .side { border-radius: 6px; padding: 2.8mm 3.4mm; }
+.vs .side h4 { margin: 0 0 1mm; font-size: 10.5pt; }
+.vs .a { background: var(--mid-bg); border: 1px solid #c9daf3; } .vs .a h4 { color: var(--mid); }
+.vs .b { background: var(--hi-bg); border: 1px solid #f3cfc9; } .vs .b h4 { color: var(--hi); }
+.vs .mid { align-self: center; font-family: Inter, sans-serif; font-weight: 800; color: var(--muted); font-size: 12pt; }
+
+/* simple picture/diagram frame */
+.pic { border: 1px solid var(--line); border-radius: 6px; padding: 3mm; margin: 3mm 0; background: #fafbfc; break-inside: avoid; }
+.pic .cap { font-family: Inter, sans-serif; font-size: 8pt; color: var(--muted); text-align: center; margin-top: 1.5mm; }
+.pic svg { display: block; width: 100%; height: auto; }
+.pic svg text { font-family: Inter, sans-serif; }
+
+/* skip note */
+.skipnote { font-family: Inter, sans-serif; font-size: 8.4pt; color: var(--muted); border: 1px dashed #c3c8d2; border-radius: 5px; padding: 1.6mm 2.6mm; margin: 2mm 0; }
+.skipnote b { color: #4b5363; }
+
+.tight li { margin: .6mm 0; }
+.mapfig svg { max-height: 120mm; }
